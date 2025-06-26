@@ -1,0 +1,1 @@
+import{e as t,j as e,h as s}from"./main-C2vc3o58.js";const o=()=>{const{isDarkMode:a}=t();return typeof reportDataRaw>"u"?e.jsx("h1",{children:"ReportDatabase not defined"}):e.jsx(s,{name:"ReportDatabase",src:reportDataRaw,theme:a?"railscasts":"bright:inverted",displayDataTypes:!1,collapsed:1,enableClipboard:!1})};export{o as default};

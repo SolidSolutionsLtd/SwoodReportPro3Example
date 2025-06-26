@@ -1,0 +1,1001 @@
+/* SSMClient: Solid Solutions */
+
+@charset "utf-8";
+
+/* 	================
+	Common Variables 
+	================ */
+
+:root {
+	--ThemeColour: #edbc1a;
+	--ReportHeaderColour: #323232;
+	--TableHeaderColour: rgba(0, 0, 0, 0.493);
+	--TableBorderColour: black;
+	--BackgroundColour: black;
+	--font-color: black;
+	/* --FontSize: 20px; */
+	--TableBackgroundColour: white;
+	--TableBackgroundColour2: #d8d8d8;
+	--MenuFontColor: #333333;
+	--CornerRadius: 50px;
+	--HoverRowBackground: #edbc1ade;
+	--TableResultsColor: black;
+	--PanelDetailsImg: 300px;
+
+	/* Dark Theme  */
+	--TableBorderColour: rgb(43, 42, 42);
+	--BackgroundColour: black;
+	--font-color: white;
+	--TableBackgroundColour: rgba(141, 129, 129, 0.829);
+	--TableBackgroundColour2: rgba(121, 110, 110, 0.829);
+	--MenuFontColor: #cccacae5;
+	/* --link-font-color: rgb(8, 8, 112); */
+	--TableResultsColor: gray;
+}
+
+body {
+	color: var(--font-color);
+	background-color: var(--BackgroundColour);
+	/* overflow-x: hidden; */
+	overflow-x: visible;
+	margin: 10px;
+	padding: 0;
+	/* Places Footer at bottom  */
+	min-height: 97.5vh;
+	display: flex;
+	flex-direction: column;
+	/* Animation for theme change  */
+	/* transition: background-color 0.5s ease, color 0.5s ease; */
+}
+
+/*	================ 
+	    Images
+	================ */
+
+.Report_Header_Logo img {
+	height: 35px;
+}
+
+.Report_Header_Company_Logo img {
+	width: 150px;
+}
+
+img.img-Home {
+	height: 515px;
+}
+
+img.ProgramIndicator {
+	height: 20px;
+}
+
+img.DeleteIcon {
+	height: 20px;
+}
+
+img.PDFIcon {
+	height: 20px;
+	cursor: pointer;
+}
+.PDFIcon {
+	cursor: pointer;
+}
+
+img.img-Program {
+	height: 300px;
+}
+img.NestingProgram {
+	height: 300px;
+}
+
+img.PrintIcon {
+	height: 30px;
+	cursor: pointer;
+}
+
+img.img-MainProgramDetails,
+img.img-MainFrameDetails,
+img.img-MainSheetDetails {
+	height: 400px;
+}
+
+img.img-MainPanelDetails {
+	height: 410px;
+}
+
+img.img-Settings {
+	height: 25px;
+	cursor: pointer;
+}
+
+#SettingsButton {
+	margin: 0px;
+}
+
+.img-PanelDetails-Cell {
+	width: var(--PanelDetailsImg);
+	background-color: rgb(20, 20, 20);
+}
+
+.img-PanelDetail {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	height: var(--PanelDetailsImg);
+
+	/* Center grain container  */
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* To center image in detail pages */
+.img-MainDetails-Container {
+	display: flex;
+	justify-content: center;
+}
+
+.DetailedImageTable {
+	border: 2px solid black;
+	border-bottom: none;
+	background: rgb(20, 20, 20);
+}
+
+.LogoutButton {
+	background-color: var(--ReportHeaderColour);
+	color: rgba(240, 240, 240, 0.377);
+	cursor: pointer;
+	border: none;
+	font-size: 15px;
+	padding-left: 20px;
+}
+
+.LoggedUser {
+	/* background-color: var(--ReportHeaderColour); */
+	color: rgba(240, 240, 240, 0.377);
+	/* cursor: pointer; */
+	/* border: none; */
+	font-size: 15px;
+	padding-left: 20px;
+}
+
+.LogoutButton:hover {
+	color: #edbc1a;
+}
+
+/*	================ 
+	    Tables
+	================ */
+
+table {
+	width: 100%;
+	text-align: center;
+}
+
+.ContainerTable {
+	width: 100%;
+	border: 2px solid var(--TableBorderColour); /*Table outline border*/
+	border-collapse: collapse;
+	text-align: center;
+	background-color: var(--TableBackgroundColour);
+}
+
+/* Cell within table */
+.ContainerTable td {
+	border: 2px solid var(--TableBorderColour);
+	padding: 0px;
+}
+
+.NestedTable {
+	border-collapse: collapse;
+	border-style: hidden;
+	background-color: var(--TableBackgroundColour);
+}
+
+.NestedTableContainer {
+	vertical-align: top;
+	border: 5px solid red;
+}
+
+.NestedTable {
+	border-top: none;
+	border-bottom: 1px solid black;
+}
+
+.NestedTable td {
+	border: 1px solid var(--TableBorderColour);
+}
+
+.NestedTable td,
+.NestedTable th {
+	padding: 5px;
+}
+
+.TableHeader {
+	background-color: var(--TableHeaderColour);
+}
+
+.TableTitle {
+	white-space: nowrap;
+}
+
+.TableTitle a {
+	color: var(--font-color);
+}
+
+.TableSectionHeader {
+	border-top: 1px solid black;
+	background-color: rgba(66, 66, 66, 0.219);
+	font-weight: bold;
+}
+
+.TableSectionMenu {
+	font-weight: bold;
+}
+
+.Table,
+.TableTabTitle {
+	border: 2px solid var(--TableBorderColour);
+	border-collapse: collapse;
+	/* border-style: hidden; */
+	background-color: var(--TableBackgroundColour);
+}
+
+.TableTabTitle {
+	border-bottom: 1px solid var(--TableBorderColour);
+}
+
+.Table td {
+	border: 1px solid var(--TableBorderColour);
+}
+
+.Table td,
+.Table th {
+	padding: 2px;
+}
+
+.Table tr:first-child {
+	border: 2px solid var(--TableBorderColour);
+}
+
+.Table tr:nth-child(even) {
+	background-color: var(--TableBackgroundColour2);
+}
+
+.Table tr:nth-child(n + 3):hover {
+	background-color: var(--HoverRowBackground);
+}
+
+.Total {
+	border: 1px solid var(--TableBorderColour);
+	color: var(--ThemeColour);
+}
+
+/*	================ 
+	  Page Header
+	================ */
+
+.Report_Header {
+	color: var(--ThemeColour);
+	font-weight: bold;
+	background-color: var(--ReportHeaderColour);
+	font-family: inherit;
+	font-size: 20px;
+}
+
+table.Report_Header {
+	border-radius: var(--CornerRadius);
+}
+
+.Report_Header td {
+	height: 50px;
+}
+
+.Report_Header {
+	width: 100%;
+	border: none;
+	padding: 0px;
+}
+
+.Report_Header_Current_Menu {
+	font-weight: bold;
+	width: 15%;
+	text-align: left;
+	padding-left: 10px;
+	white-space: nowrap;
+}
+
+.Report_Header_Project_Name {
+	font-weight: bold;
+	font-size: larger;
+	/* width: 70%; */
+	text-align: center;
+	white-space: nowrap;
+}
+
+.Report_Header_Home {
+	text-align: center;
+	width: 35px;
+	height: 30px;
+	padding-left: 15px;
+}
+
+.Report_Header_Home img {
+	height: 30px;
+}
+
+.Report_Header_Labels {
+	text-align: center;
+	width: 35px;
+	height: 30px;
+}
+
+.Report_Header_Labels img {
+	height: 37px;
+}
+
+.Report_Header_Logo {
+	width: 110px;
+	text-align: right;
+	padding-right: 15px;
+}
+
+.Report_Header_Company_Logo {
+	width: 110px;
+	text-align: left;
+	padding-right: 15px;
+}
+
+/*	================ 
+	    Home Page 
+	================ */
+
+.HomeContainerTable {
+	width: 100%;
+	border: 2px solid var(--TableBorderColour); /*Table outline border*/
+	border-collapse: collapse;
+	text-align: center;
+	background-color: white;
+}
+
+/* Cell within table */
+.HomeContainerTable td {
+	border: 2px solid var(--TableBorderColour);
+	padding: 0px;
+}
+
+.HomeNestedTable {
+	border-collapse: collapse;
+	border: 2px solid var(--TableBorderColour);
+	border-top: none;
+	/* border-style: hidden; */
+	background-color: var(--TableBackgroundColour);
+}
+
+.HomeNestedTable td {
+	border: 1px solid var(--TableBorderColour);
+}
+
+.HomeNestedTable td,
+.HomeNestedTable th {
+	padding: 5px;
+}
+
+.HomeNestedTable tr td:first-child {
+	text-align: left;
+	font-weight: bold;
+	vertical-align: top;
+	white-space: nowrap;
+	width: 10%;
+}
+
+.HomeNestedTable tr td:nth-child(2) {
+	text-align: left;
+}
+
+/*	================ 
+	    Messages
+	================ */
+
+@keyframes up-right {
+	0% {
+		transform: scale(1);
+		opacity: 0.25;
+	}
+	50% {
+		transform: scale (1, 5);
+		opacity: 1;
+	}
+	100% {
+		transform: scale(1);
+		opacity: 0.25;
+	}
+}
+
+#WarningCircle {
+	height: 10px;
+	width: 10px;
+	background-color: green; /* Color controlled by Menu  */
+	border-radius: 50%;
+	display: inline-block;
+	vertical-align: auto;
+	margin-left: 3px;
+	margin-bottom: 1px;
+	animation: up-right 1s infinite;
+}
+
+#WarningCircleExcluded {
+	height: 6px;
+	width: 6px;
+	background-color: green; /* Color controlled by Menu  */
+	border-radius: 50%;
+	display: inline-block;
+	vertical-align: auto;
+	background: Orange;
+	margin-left: 2px;
+	/* margin-bottom: 5px; */
+}
+
+.Error {
+	background-color: rgb(184, 0, 0);
+}
+
+.Warning {
+	background-color: orange;
+}
+
+.Message {
+	background-color: green;
+}
+
+.UpdateAvailable {
+	height: 6px;
+	width: 6px;
+	border-radius: 50%;
+	display: inline-block;
+	vertical-align: auto;
+	background: green;
+	margin-left: 2px;
+	vertical-align: super;
+}
+
+.Certificate {
+	position: fixed;
+	top: 40%;
+	left: 50%;
+	/* bring your own prefixes */
+	transform: translate(-50%, -50%);
+	color: rgb(255, 53, 53);
+}
+
+/*	================ 
+	  Toggle Switch 
+	================ */
+
+.modelDisplayContainer {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	color: black;
+}
+
+#ToggleSwitch_1,
+#ToggleSwitch_2 {
+	font-size: 18px;
+}
+
+#ToggleModel {
+	font-size: 0.7em;
+}
+
+table#ToggleSwitch_1,
+table#ToggleSwitch_2,
+table#ToggleModel {
+	width: 125px;
+	white-space: nowrap;
+	padding-left: 20px;
+}
+
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 40px;
+	height: 22px;
+}
+
+.switch input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+.slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+}
+
+.slider:before {
+	position: absolute;
+	content: '';
+	height: 18px;
+	width: 18px;
+	left: 4px;
+	bottom: 2px;
+	background-color: white;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+}
+
+input:checked + .slider {
+	background-color: var(--ThemeColour);
+}
+
+input:focus + .slider {
+	box-shadow: 0 0 1px var(--ThemeColour);
+}
+
+input:checked + .slider:before {
+	-webkit-transform: translateX(14px);
+	-ms-transform: translateX(14px);
+	transform: translateX(14px);
+}
+
+.slider.round {
+	border-radius: 34px;
+}
+
+.slider.round:before {
+	border-radius: 50%;
+}
+
+/*	================ 
+	  	 Tooltip
+	================ */
+.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+}
+
+.tooltip img {
+	width: 20px;
+	cursor: pointer;
+}
+
+.tooltip .tooltiptext {
+	visibility: hidden;
+	min-width: 175px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px;
+	font-size: 14px;
+	font-weight: 300;
+	font-style: italic;
+	text-align: left;
+
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	top: -5px;
+	left: 150%;
+}
+
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+}
+
+/*	================ 
+	  	 Swipe
+	================ */
+
+.Swipe {
+	background: rgb(20, 20, 20);
+	width: 150px;
+	cursor: pointer;
+	color: black;
+}
+
+.Swipe:hover {
+	background: rgba(223, 223, 223, 0.678);
+	cursor: pointer;
+}
+
+/*	================ 
+	  	 Footer
+	================ */
+
+#Footer {
+	margin-top: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--ReportHeaderColour);
+	border-radius: var(--CornerRadius);
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 56px;
+	border-top: 20px;
+}
+
+.Footer-Left {
+	flex-grow: 1;
+}
+
+.Footer-Left img {
+	display: block;
+	width: auto; /* maintain aspect ratio*/
+	margin: auto; /*optional centering of image*/
+}
+
+.Footer-Right {
+	flex-grow: 100;
+	text-align: right;
+	font-size: 15px;
+}
+
+.Footer-MarginTop {
+	height: 10px;
+}
+
+#Footer a {
+	color: rgba(240, 240, 240, 0.377);
+}
+
+/* search box and drop down display */
+#filter-value {
+	background-position: 7px 3px;
+	background-repeat: no-repeat;
+	width: 180px;
+	font-size: 16px;
+	/* padding: 12px 20px 12px 40px;  */
+	padding-left: 35px;
+	border: 1px solid #ddd;
+	/* margin-bottom: 12px;  */
+	height: 30px;
+	border-radius: 4px;
+	margin-left: 5px;
+	/* margin-right: 5px; */
+}
+
+#filter-field {
+	margin-bottom: 5px;
+	height: 34px;
+	width: 110px;
+	border: 1px solid #ddd;
+	font-size: 16px;
+	border-radius: 4px;
+	margin-left: 5px;
+}
+
+#filter-type {
+	height: 34px;
+	width: 60px;
+	border: 1px solid #ddd;
+	height: 34px;
+	font-size: 16px;
+	border-radius: 4px;
+	margin-left: 5px;
+}
+
+#filter-clear {
+	background-color: #4caf50; /* Green */
+	border: none;
+	color: white;
+	/* padding: 12px 60px; */
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	/* margin: 4px 2px; */
+	margin-bottom: 5px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	background-color: white;
+	color: black;
+	/* border: 2px solid #ffffff; */
+	height: 34px;
+	border-radius: 4px;
+	width: 70px;
+}
+
+.TotalResults,
+.TableResults,
+.MainTableResults {
+	color: var(--TableResultsColor);
+	font-size: 17px;
+	font-style: italic;
+	font-weight: normal;
+	text-align: right;
+}
+
+.MainTableResults,
+.TableResults {
+	width: 200px;
+	white-space: nowrap;
+}
+
+.MainTableResults {
+	display: none;
+}
+
+.PrintButton {
+	text-align: right;
+	width: 40px;
+}
+
+th.PrintButton {
+	padding: 00.5px;
+	padding-right: 2.5px;
+}
+
+.PrintButton button {
+	border: none;
+	background: none;
+	cursor: pointer;
+	margin: 0;
+	padding: 0;
+}
+
+.GrainContainer {
+	position: relative;
+	height: var(--PanelDetailsImg);
+	width: var(--PanelDetailsImg);
+}
+
+.GrainContainer > img {
+	position: absolute;
+	top: 50%;
+	right: 50%;
+}
+
+td.CommentsTitle {
+	border-right: none;
+	width: 50px;
+	font-weight: bold;
+	vertical-align: top;
+	text-align: left;
+}
+
+td.CommentsBox {
+	border-left: none;
+	text-align: left;
+	padding-left: 0px;
+}
+
+/*	================ 
+      Summary Chart 
+	================ */
+.SummaryChart {
+	/* padding-top: 0px; */
+	/* padding-bottom: 0px; */
+	position: relative;
+	margin: auto;
+	width: 400px;
+}
+
+/*	================ 
+        Models
+	================ */
+
+#renderCanvas {
+	/* width: 800; */
+	height: 405px;
+	touch-action: none;
+}
+
+/*	================ 
+         Modal
+	================ */
+
+#myProgress {
+	width: 100%;
+	background-color: #ddd;
+	border-radius: 15px;
+}
+
+#myBar {
+	width: 0%;
+	height: 30px;
+	background-color: #edbc1a;
+	border-radius: 15px;
+	border-color: #161819;
+	transition: width 0.5s;
+}
+
+.modalBackground {
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1000;
+	/* backdrop-filter: blur(5px); */
+
+	/* position:absolute; */
+	top: 0;
+	left: 0;
+}
+
+.modalContainer {
+	width: 40%;
+	height: auto;
+	border-radius: 20px;
+	background-color: #161819;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	z-index: 5000;
+}
+
+.modalContainer .body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	text-align: center;
+}
+
+.modalContainer .footer {
+	flex: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.modalNote {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 20px;
+	color: grey;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.loader {
+	border: 3px solid #cf8f18;
+	border-radius: 50%;
+	border-top: 3px solid #ffffff;
+	width: 15px;
+	height: 15px;
+	-webkit-animation: spin 0.3s linear infinite;
+	margin-left: 10px;
+	/* margin: auto; */
+	/* left: 0; */
+	/* right: 0; */
+	/* top: 0px; */
+	/* bottom: 0; */
+	/* position: fixed; */
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+/*	========================= 
+		Tabulator Scroll Bar
+	========================= */
+
+.tabulator-tableholder::-webkit-scrollbar {
+	width: 12px;
+	/* width of the entire scrollbar */
+}
+
+.tabulator-tableholder::-webkit-scrollbar-track {
+	background: #333;
+	/* color of the tracking area */
+}
+
+.tabulator-tableholder::-webkit-scrollbar-thumb {
+	background-color: #666;
+	/* color of the scroll thumb */
+	border-radius: 20px;
+	/* roundness of the scroll thumb */
+	border: 3px solid #333;
+	/* creates padding around scroll thumb */
+}
+
+/* Handle on hover */
+.tabulator-tableholder::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
+/* Beta */
+.betaClass {
+	content: 'β';
+	background-color: rgb(62, 62, 255);
+	color: white;
+	border-radius: 100px;
+	font-style: italic;
+	font-size: 0.75em;
+	vertical-align: super;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-weight: normal;
+}
+
+/* Sheet Details CSS */
+.TablePanelItem:hover {
+	background-color: var(--HoverRowBackground);
+}
+
+.TablePanelItemHighlight {
+	background-color: var(--HoverRowBackground);
+}
+
+/* BoardEstimation */
+
+.stock-text {
+	font-size: 25pt;
+}
+
+.cut-text {
+	font-size: 50pt;
+}
+
+line {
+	stroke-width: 10;
+}
+
+.line-x {
+	stroke-width: 5;
+	stroke: red;
+}
+
+.line-y {
+	stroke-width: 5;
+	stroke: green;
+}
+
+.line-external {
+	stroke-width: 10;
+	stroke: black;
+}
+
+.EstimatedBoard {
+	fill: rgba(255, 222, 73, 0.438);
+	stroke: black;
+	stroke-width: 1px;
+}
+
+.StockSvg {
+	fill: rgb(255, 186, 96);
+	stroke: black;
+	stroke-width: 1px;
+}
+
+.StockSvg:hover {
+	fill: rgb(255, 93, 93);
+	transition: 0.2s;
+}
+
+.HoverPanel {
+	background-color: #edbc1ade;
+}
+
+.StockTableItem:hover {
+	background-color: #edbc1ade;
+}
+
+.StockSvgHover {
+	fill: rgba(255, 93, 93, 0.705);
+	transition: 0.2s;
+}

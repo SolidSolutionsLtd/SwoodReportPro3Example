@@ -1,0 +1,1 @@
+import{j as t,P as e}from"./main-C2vc3o58.js";import{T as r}from"./Table-D878PMKE.js";import{G as i}from"./GridSystem-BwMLBa6H.js";const m=({program:a,settings:s})=>{const o=s.tables.tools;return t.jsxs(e,{variant:"outlined",sx:{padding:2},children:[t.jsx(i,{data:a,gridData:s.layout}),t.jsx(r,{data:a.tools,settings:o.table,header:o.title})]})};export{m as P};

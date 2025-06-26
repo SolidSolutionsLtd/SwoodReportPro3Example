@@ -1,0 +1,143 @@
+/* SSMClient: Solid Solutions */
+
+:root {
+	--FontFamily: Arial, Helvetica, sans-serif;
+	--FontSize: 15px;
+	--Columns: 2;
+	--Rows: 5;
+	--PageHeight: 297mm;
+	--PageWidth: 210mm;
+	--Padding-top: 5mm;
+	--Padding-bottom: 5mm;
+	--Padding-left: 5mm;
+	--Padding-right: 5mm;
+
+	--Label-InternalPadding: 1mm;
+	--Label-VerticalGap: 2.5mm;
+	--Label-HorizontalGap: 2.5mm;
+
+	--ContinuousPrint: false;
+	--LabelHeight: 70mm;
+	--LabelWidth: 100mm;
+	/* Use PageWidth to define label width */
+
+	/* Grain Arrow Settings  */
+	/* Include arrow scale  */
+	/* --xOffset:-8.8; */
+	/* --yOffset: 8.5; */
+	--xOffset: 8.5;
+	--yOffset: 9;
+	--FontScaleFactor: 0.61;
+	--ImageSize: 160px;
+	--QRSize: 98;
+}
+
+html {
+	font-family: var(--FontFamily);
+	font-size: var(--FontSize);
+}
+
+.LabelHeader {
+	/* font-size: 80%; */
+}
+
+.barcode {
+	font-family: 'Code 128 Regular';
+	/* font-size: 5mm; */
+}
+
+table.Label {
+	text-align: center;
+	/* width: 100%; */
+	/* height: 100%; */
+	border-collapse: collapse;
+	/* table-layout: fixed; */
+	width: 100%;
+	/* width: 50mm; */
+	height: 100%;
+	/* height: 25mm; */
+	/* height: auto; */
+	table-layout: fixed;
+}
+
+.Label td {
+	/* border: 1px solid black; */
+	border: 1px solid black;
+	/* height: 100%; */
+	height: 5mm;
+	/* width: 100%; */
+	/* height: fit-content; */
+	text-overflow: clip;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.Label th {
+	border: 1px solid black;
+	text-overflow: clip;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.LabelImage {
+	width: 45mm;
+	/* width: 100%; */
+	/* height: 100%; */
+}
+
+.grid-container {
+	display: grid;
+	width: calc(var(--PageWidth) - var(--Padding-left) - var(--Padding-right));
+	height: calc(var(--PageHeight) - var(--Padding-top) - var(--Padding-bottom));
+	grid-template-columns: repeat(var(--Columns), 1fr);
+	grid-template-rows: repeat(var(--Rows), 1fr);
+	/* width: 210mm;
+	height: 297mm;
+	grid-template-columns: repeat( 2, 1fr);
+	grid-template-rows: repeat(5, 1fr); */
+	background-color: white;
+	padding-top: var(--Padding-top);
+	padding-bottom: var(--Padding-bottom);
+	padding-left: var(--Padding-left);
+	padding-right: var(--Padding-right);
+	grid-gap: var(--Label-HorizontalGap);
+	grid-column-gap: var(--Label-VerticalGap);
+}
+
+.grid-item {
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 1px dashed rgba(128, 128, 128, 0.753);
+	padding: var(--Label-InternalPadding);
+	text-align: center;
+}
+
+.GrainContainer {
+	position: relative;
+}
+
+.GrainContainer > img {
+	position: absolute;
+	top: 50%;
+	right: 50%;
+}
+
+.img-Panel {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	height: var(--ImageSize);
+
+	/* Center grain container  */
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.redFont {
+	color: red;
+}
+
+.qrClass {
+	padding: 5px;
+}
