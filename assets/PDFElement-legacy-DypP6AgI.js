@@ -1,0 +1,1 @@
+System.register(["./main-legacy-Dqqf-TLO.js"],(function(e,n){"use strict";var t,i;return{setters:[function(e){t=e.j,i=e.az}],execute:function(){e("P",(function(e){var n=e.value;return n&&t.jsx(i,{"aria-label":"open pdf",onClick:function(){window.open(n)},children:t.jsx("img",{src:"assets/pdf.svg",alt:"pdf icon",style:{width:24,height:24}})})}))}}}));

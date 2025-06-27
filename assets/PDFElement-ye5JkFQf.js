@@ -1,1 +1,0 @@
-import{j as t,aF as o}from"./main-C2vc3o58.js";const i=({value:s})=>{const n=()=>{window.open(s)};return s&&t.jsx(o,{"aria-label":"open pdf",onClick:n,children:t.jsx("img",{src:"assets/pdf.svg",alt:"pdf icon",style:{width:24,height:24}})})};export{i as P};

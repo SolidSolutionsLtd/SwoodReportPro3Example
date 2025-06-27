@@ -156,3 +156,8 @@ div.tabulator-row {
 	box-shadow: none !important;
 	border: none !important;
 }
+
+.main {
+	margin: 0 !important;
+	padding: 0 !important;
+}

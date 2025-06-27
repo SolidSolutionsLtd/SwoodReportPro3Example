@@ -1,0 +1,1 @@
+import{u as r,a as i,j as t}from"./main-CbjDkmQq.js";import{G as m}from"./GridSystem-BxEmEMX2.js";import"./dataHelper-DZckQQkV.js";import"./BarcodeElement-D47eGF5q.js";import"./PDFElement-DdVQFdFd.js";const j=()=>{const s=r(),a=i(),o=s.project,e=a.pages.home.layout;return t.jsx(t.Fragment,{children:t.jsx(m,{data:o,gridData:e})})};export{j as default};

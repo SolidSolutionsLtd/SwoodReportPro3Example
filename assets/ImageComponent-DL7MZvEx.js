@@ -1,1 +1,0 @@
-import{e as r,j as n,B as a}from"./main-C2vc3o58.js";import{g as i}from"./BarcodeElement-Dxq3lecf.js";const p=({src:e,className:s,sx:o})=>{const t=i(e),{isDarkMode:m}=r();return n.jsx(a,{component:"img",src:t,className:s||"",sx:{filter:m?"invert(0.92)":"invert(0)",...o}})};export{p as I};
