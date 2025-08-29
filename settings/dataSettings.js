@@ -317,38 +317,6 @@ const dataSettings = {
 		{ field: 'name', formatter: 1 },
 		{ field: 'quantity', formatter: 1 },
 	],
-
-	/*	========================================
-					Print Settings
-		======================================== */
-
-	Printtitle: true,
-	PrintCompanyLogo: true,
-
-	PrintList: [
-		{ Page: 'Home' },
-		{ Page: 'Frames' },
-		// { Page: 'Frame Details' },
-		{ Page: 'Panels', Group: 0 },
-		// { Page: 'Panel Details' },
-		// { Page: 'Panel Detailed List' },
-		{ Page: 'Weldments' },
-		{ Page: 'Stocks' },
-		{ Page: 'Beam Saw' },
-		{ Page: 'Edgebands' },
-		{ Page: 'Laminates' },
-		{ Page: 'Programs' },
-		// { Page: 'Program Detailed List' },
-		// { Page: 'Program Details' },
-		{ Page: 'Sheets', Group: 0 },
-		// { Page: 'Sheet Details' },
-		// { Page: 'Sheet Detailed List' },
-		{ Page: 'Cutting Pattern', Group: 0 },
-		{ Page: 'Nested Panels', Group: 0 },
-		{ Page: 'Tool List' },
-		{ Page: 'Hardware' },
-		{ Page: 'Summary' },
-	],
 }
 
 try {
