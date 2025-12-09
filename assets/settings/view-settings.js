@@ -1214,7 +1214,7 @@ const viewSettings = {
 							},
 							{
 								field: 'quantityTrims',
-								prefix: '# Trims',
+                prefix: '# Trims: ',
 								range: '1,4:3,4',
 							},
 							{
@@ -1778,7 +1778,7 @@ const viewSettings = {
 					{
 						field: 'sheet.board.name',
 						title: 'Material',
-						width: 'auto',
+						width: 300,
 					},
 					{
 						field: 'quantity',
@@ -2332,6 +2332,10 @@ const viewSettings = {
 								field: 'time',
 								title: 'Time',
 								width: '20%',
+                formatter: 'number',
+								formatterParams: {
+									precision: 1,
+								},
 							},
 							{
 								field: 'quantity',
