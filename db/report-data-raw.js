@@ -1,31 +1,87 @@
 const reportDataRaw ={
-  "guid": "bb087193-8761-4a89-83ca-a02fdeab368a",
-  "reportGUID": "c7a0d63f-a6e1-46e3-8793-1ae3a9168ce4",
-  "reportVersion": "2025.2.0",
-  "schemaVersion": 1,
+  "guid": "6bf77da4-c1fb-4c2d-bd91-cd81b8acf156",
+  "reportGUID": "452422cf-2b33-453f-ab4f-ea55f6f12999",
+  "reportVersion": "2026.0.1",
+  "schemaVersion": 2,
   "projectName": "SwoodDesign",
-  "projectPath": "C:\\Swood Data Directory\\SWOODDesign\\Frames\\Report Example\\SwoodDesign.sldasm",
-  "reportPath": "C:\\Swood Reports\\2025_12\\SwoodDesign",
+  "projectPath": "C:\\Swood Data Directory\\SWOODDesign\\Frames\\Report Example\\SwoodDesign.SLDASM",
+  "reportPath": "C:\\Swood Reports\\2026_05\\SwoodDesign",
   "variables": [
     {
       "alias": "AutoDrawings",
       "value": "False"
     },
     {
-      "alias": "CUTTINGPATTERN_FULL_RESULT",
-      "value": "[\r\n  {\r\n    \"version\": 1,\r\n    \"stocks\": [\r\n      {\r\n        \"type\": null,\r\n        \"template-stock-id\": 0,\r\n        \"item\": null,\r\n        \"quantity\": 1,\r\n        \"length\": 3.0,\r\n        \"width\": 1.5,\r\n        \"panel-name\": \"\",\r\n        \"cut\": \"H\",\r\n        \"cut-coordinate\": 0.015,\r\n        \"cut-half-thickness\": 0.0025,\r\n        \"left-stock\": {\r\n          \"type\": \"padding\",\r\n          \"item\": null,\r\n          \"quantity\": 1,\r\n          \"length\": 3.0,\r\n          \"width\": 0.015,\r\n          \"panel-name\": \"\",\r\n          \"cut\": null,\r\n          \"cut-coordinate\": 0.0,\r\n          \"cut-half-thickness\": 0.0,\r\n          \"left-stock\": null,\r\n          \"right-stock\": null,\r\n          \"grain-direction\": 0,\r\n          \"Description\": null,\r\n          \"ProcessOn\": null,\r\n          \"ProcessOnTypedObject\": null,\r\n          \"UserDefined\": false,\r\n          \"ForceExposeToEndUser\": true\r\n        },\r\n        \"right-stock\": {\r\n          \"type\": null,\r\n          \"item\": null,\r\n          \"quantity\": 1,\r\n          \"length\": 3.0,\r\n          \"width\": 1.48,\r\n          \"panel-name\": \"\",\r\n          \"cut\": \"H\",\r\n          \"cut-coordinate\": 0.3805,\r\n          \"cut-half-thickness\": 0.0025,\r\n          \"left-stock\": {\r\n            \"type\": null,\r\n            \"item\": null,\r\n            \"quantity\": 1,\r\n            \"length\": 3.0,\r\n            \"width\": 0.3805,\r\n            \"panel-name\": \"\",\r\n            \"cut\": \"V\",\r\n            \"cut-coordinate\": 0.015,\r\n            \"cut-half-thickness\": 0.0025,\r\n            \"left-stock\": {\r\n              \"type\": \"padding\",\r\n              \"item\": null,\r\n              \"quantity\": 1,\r\n              \"length\": 0.015,\r\n              \"width\": 0.3805,\r\n              \"panel-name\": \"\",\r\n              \"cut\": null,\r\n              \"cut-coordinate\": 0.0,\r\n              \"cut-half-thickness\": 0.0,\r\n              \"left-stock\": null,\r\n              \"right-stock\": null,\r\n              \"grain-direction\": 0,\r\n              \"Description\": null,\r\n              \"ProcessOn\": null,\r\n              \"ProcessOnTypedObject\": null,\r\n              \"UserDefined\": false,\r\n              \"ForceExposeToEndUser\": true\r\n            },\r\n            \"right-stock\": {\r\n              \"type\": null,\r\n              \"item\": null,\r\n              \"quantity\": 1,\r\n              \"length\": 2.98,\r\n              \"width\": 0.3805,\r\n              \"panel-name\": \"\",\r\n              \"cut\": \"V\",\r\n              \"cut-coordinate\": 0.946,\r\n              \"cut-half-thickness\": 0.0025,\r\n              \"left-stock\": {\r\n                \"type\": \"item\",\r\n                \"item\": {\r\n                  \"template-item-id\": 2,\r\n                  \"rotation\": null\r\n                },\r\n                \"quantity\": 1,\r\n                \"length\": 0.946,\r\n                \"width\": 0.3805,\r\n                \"panel-name\": \"Front_Drawers Overlay_High Cabinet_SwoodDesign_1_1\",\r\n                \"cut\": null,\r\n                \"cut-coordinate\": 0.0,\r\n                \"cut-half-thickness\": 0.0,\r\n                \"left-stock\": null,\r\n                \"right-stock\": null,\r\n                \"grain-direction\": 1,\r\n                \"Description\": null,\r\n                \"ProcessOn\": null,\r\n                \"ProcessOnTypedObject\": null,\r\n                \"UserDefined\": false,\r\n                \"ForceExposeToEndUser\": true\r\n              },\r\n              \"right-stock\": {\r\n                \"type\": null,\r\n                \"item\": null,\r\n                \"quantity\": 1,\r\n                \"length\": 2.029,\r\n                \"width\": 0.3805,\r\n                \"panel-name\": \"\",\r\n                \"cut\": \"V\",\r\n                \"cut-coordinate\": 0.946,\r\n                \"cut-half-thickness\": 0.0025,\r\n                \"left-stock\": {\r\n                  \"type\": \"item\",\r\n                  \"item\": {\r\n                    \"template-item-id\": 2,\r\n                    \"rotation\": null\r\n                  },\r\n                  \"quantity\": 1,\r\n                  \"length\": 0.946,\r\n                  \"width\": 0.3805,\r\n                  \"panel-name\": \"Front_Drawers Overlay_High Cabinet_SwoodDesign_1_1\",\r\n                  \"cut\": null,\r\n                  \"cut-coordinate\": 0.0,\r\n                  \"cut-half-thickness\": 0.0,\r\n                  \"left-stock\": null,\r\n                  \"right-stock\": null,\r\n                  \"grain-direction\": 1,\r\n                  \"Description\": null,\r\n                  \"ProcessOn\": null,\r\n                  \"ProcessOnTypedObject\": null,\r\n                  \"UserDefined\": false,\r\n                  \"ForceExposeToEndUser\": true\r\n                },\r\n                \"right-stock\": {\r\n                  \"type\": null,\r\n                  \"item\": null,\r\n                  \"quantity\": 1,\r\n                  \"length\": 1.078,\r\n                  \"width\": 0.3805,\r\n                  \"panel-name\": \"\",\r\n                  \"cut\": \"V\",\r\n                  \"cut-coordinate\": 0.946,\r\n                  \"cut-half-thickness\": 0.0025,\r\n                  \"left-stock\": {\r\n                    \"type\": \"item\",\r\n                    \"item\": {\r\n                      \"template-item-id\": 2,\r\n                      \"rotation\": null\r\n                    },\r\n                    \"quantity\": 1,\r\n                    \"length\": 0.946,\r\n                    \"width\": 0.3805,\r\n                    \"panel-name\": \"Front_Drawers Overlay_High Cabinet_SwoodDesign_1_1\",\r\n                    \"cut\": null,\r\n                    \"cut-coordinate\": 0.0,\r\n                    \"cut-half-thickness\": 0.0,\r\n                    \"left-stock\": null,\r\n                    \"right-stock\": null,\r\n                    \"grain-direction\": 1,\r\n                    \"Description\": null,\r\n                    \"ProcessOn\": null,\r\n                    \"ProcessOnTypedObject\": null,\r\n                    \"UserDefined\": false,\r\n                    \"ForceExposeToEndUser\": true\r\n                  },\r\n                  \"right-stock\": {\r\n                    \"type\": \"waste\",\r\n                    \"item\": null,\r\n                    \"quantity\": 1,\r\n                    \"length\": 0.127,\r\n                    \"width\": 0.3805,\r\n                    \"panel-name\": \"\",\r\n                    \"cut\": null,\r\n                    \"cut-coordinate\": 0.0,\r\n                    \"cut-half-thickness\": 0.0,\r\n                    \"left-stock\": null,\r\n                    \"right-stock\": null,\r\n                    \"grain-direction\": 0,\r\n                    \"Description\": null,\r\n                    \"ProcessOn\": null,\r\n                    \"ProcessOnTypedObject\": null,\r\n                    \"UserDefined\": false,\r\n                    \"ForceExposeToEndUser\": true\r\n                  },\r\n                  \"grain-direction\": 0,\r\n                  \"Description\": null,\r\n                  \"ProcessOn\": null,\r\n                  \"ProcessOnTypedObject\": null,\r\n                  \"UserDefined\": false,\r\n                  \"ForceExposeToEndUser\": true\r\n                },\r\n                \"grain-direction\": 0,\r\n                \"Description\": null,\r\n                \"ProcessOn\": null,\r\n                \"ProcessOnTypedObject\": null,\r\n                \"UserDefined\": false,\r\n                \"ForceExposeToEndUser\": true\r\n              },\r\n              \"grain-direction\": 0,\r\n              \"Description\": null,\r\n              \"ProcessOn\": null,\r\n              \"ProcessOnTypedObject\": null,\r\n              \"UserDefined\": false,\r\n              \"ForceExposeToEndUser\": true\r\n            },\r\n            \"grain-direction\": 0,\r\n            \"Description\": null,\r\n            \"ProcessOn\": null,\r\n            \"ProcessOnTypedObject\": null,\r\n            \"UserDefined\": false,\r\n            \"ForceExposeToEndUser\": true\r\n          },\r\n          \"right-stock\": {\r\n            \"type\": null,\r\n            \"item\": null,\r\n            \"quantity\": 1,\r\n            \"length\": 3.0,\r\n            \"width\": 1.0945,\r\n            \"panel-name\": \"\",\r\n            \"cut\": \"V\",\r\n            \"cut-coordinate\": 0.015,\r\n            \"cut-half-thickness\": 0.0025,\r\n            \"left-stock\": {\r\n              \"type\": \"padding\",\r\n              \"item\": null,\r\n              \"quantity\": 1,\r\n              \"length\": 0.015,\r\n              \"width\": 1.0945,\r\n              \"panel-name\": \"\",\r\n              \"cut\": null,\r\n              \"cut-coordinate\": 0.0,\r\n              \"cut-half-thickness\": 0.0,\r\n              \"left-stock\": null,\r\n              \"right-stock\": null,\r\n              \"grain-direction\": 0,\r\n              \"Description\": null,\r\n              \"ProcessOn\": null,\r\n              \"ProcessOnTypedObject\": null,\r\n              \"UserDefined\": false,\r\n              \"ForceExposeToEndUser\": true\r\n            },\r\n            \"right-stock\": {\r\n              \"type\": null,\r\n              \"item\": null,\r\n              \"quantity\": 1,\r\n              \"length\": 2.98,\r\n              \"width\": 1.0945,\r\n              \"panel-name\": \"\",\r\n              \"cut\": \"V\",\r\n              \"cut-coordinate\": 1.1515,\r\n              \"cut-half-thickness\": 0.0025,\r\n              \"left-stock\": {\r\n                \"type\": null,\r\n                \"item\": null,\r\n                \"quantity\": 1,\r\n                \"length\": 1.1515,\r\n                \"width\": 1.0945,\r\n                \"panel-name\": \"\",\r\n                \"cut\": \"H\",\r\n                \"cut-coordinate\": 0.472,\r\n                \"cut-half-thickness\": 0.0025,\r\n                \"left-stock\": {\r\n                  \"type\": \"item\",\r\n                  \"item\": {\r\n                    \"template-item-id\": 4,\r\n                    \"rotation\": null\r\n                  },\r\n                  \"quantity\": 1,\r\n                  \"length\": 1.1515,\r\n                  \"width\": 0.472,\r\n                  \"panel-name\": \"Front_Left Door_Door Overlay_High Cabinet_SwoodDesign_1_1\",\r\n                  \"cut\": null,\r\n                  \"cut-coordinate\": 0.0,\r\n                  \"cut-half-thickness\": 0.0,\r\n                  \"left-stock\": null,\r\n                  \"right-stock\": null,\r\n                  \"grain-direction\": 1,\r\n                  \"Description\": null,\r\n                  \"ProcessOn\": null,\r\n                  \"ProcessOnTypedObject\": null,\r\n                  \"UserDefined\": false,\r\n                  \"ForceExposeToEndUser\": true\r\n                },\r\n                \"right-stock\": {\r\n                  \"type\": null,\r\n                  \"item\": null,\r\n                  \"quantity\": 1,\r\n                  \"length\": 1.1515,\r\n                  \"width\": 0.6175,\r\n                  \"panel-name\": \"\",\r\n                  \"cut\": \"H\",\r\n                  \"cut-coordinate\": 0.472,\r\n                  \"cut-half-thickness\": 0.0025,\r\n                  \"left-stock\": {\r\n                    \"type\": \"item\",\r\n                    \"item\": {\r\n                      \"template-item-id\": 5,\r\n                      \"rotation\": null\r\n                    },\r\n                    \"quantity\": 1,\r\n                    \"length\": 1.1515,\r\n                    \"width\": 0.472,\r\n                    \"panel-name\": \"Front_Right Door_Door Overlay_High Cabinet_SwoodDesign_1_1\",\r\n                    \"cut\": null,\r\n                    \"cut-coordinate\": 0.0,\r\n                    \"cut-half-thickness\": 0.0,\r\n                    \"left-stock\": null,\r\n                    \"right-stock\": null,\r\n                    \"grain-direction\": 1,\r\n                    \"Description\": null,\r\n                    \"ProcessOn\": null,\r\n                    \"ProcessOnTypedObject\": null,\r\n                    \"UserDefined\": false,\r\n                    \"ForceExposeToEndUser\": true\r\n                  },\r\n                  \"right-stock\": {\r\n                    \"type\": null,\r\n                    \"item\": null,\r\n                    \"quantity\": 1,\r\n                    \"length\": 1.1515,\r\n                    \"width\": 0.1405,\r\n                    \"panel-name\": \"\",\r\n                    \"cut\": \"H\",\r\n                    \"cut-coordinate\": 0.1,\r\n                    \"cut-half-thickness\": 0.0025,\r\n                    \"left-stock\": {\r\n                      \"type\": null,\r\n                      \"item\": null,\r\n                      \"quantity\": 1,\r\n                      \"length\": 1.1515,\r\n                      \"width\": 0.1,\r\n                      \"panel-name\": \"\",\r\n                      \"cut\": \"V\",\r\n                      \"cut-coordinate\": 0.95,\r\n                      \"cut-half-thickness\": 0.0025,\r\n                      \"left-stock\": {\r\n                        \"type\": \"item\",\r\n                        \"item\": {\r\n                          \"template-item-id\": 1,\r\n                          \"rotation\": null\r\n                        },\r\n                        \"quantity\": 1,\r\n                        \"length\": 0.95,\r\n                        \"width\": 0.1,\r\n                        \"panel-name\": \"Kickboard_High Cabinet_SwoodDesign_1\",\r\n                        \"cut\": null,\r\n                        \"cut-coordinate\": 0.0,\r\n                        \"cut-half-thickness\": 0.0,\r\n                        \"left-stock\": null,\r\n                        \"right-stock\": null,\r\n                        \"grain-direction\": 1,\r\n                        \"Description\": null,\r\n                        \"ProcessOn\": null,\r\n                        \"ProcessOnTypedObject\": null,\r\n                        \"UserDefined\": false,\r\n                        \"ForceExposeToEndUser\": true\r\n                      },\r\n                      \"right-stock\": {\r\n                        \"type\": \"waste\",\r\n                        \"item\": null,\r\n                        \"quantity\": 1,\r\n                        \"length\": 0.1965,\r\n                        \"width\": 0.1,\r\n                        \"panel-name\": \"\",\r\n                        \"cut\": null,\r\n                        \"cut-coordinate\": 0.0,\r\n                        \"cut-half-thickness\": 0.0,\r\n                        \"left-stock\": null,\r\n                        \"right-stock\": null,\r\n                        \"grain-direction\": 0,\r\n                        \"Description\": null,\r\n                        \"ProcessOn\": null,\r\n                        \"ProcessOnTypedObject\": null,\r\n                        \"UserDefined\": false,\r\n                        \"ForceExposeToEndUser\": true\r\n                      },\r\n                      \"grain-direction\": 0,\r\n                      \"Description\": null,\r\n                      \"ProcessOn\": null,\r\n                      \"ProcessOnTypedObject\": null,\r\n                      \"UserDefined\": false,\r\n                      \"ForceExposeToEndUser\": true\r\n                    },\r\n                    \"right-stock\": {\r\n                      \"type\": \"waste\",\r\n                      \"item\": null,\r\n                      \"quantity\": 1,\r\n                      \"length\": 1.1515,\r\n                      \"width\": 0.0355,\r\n                      \"panel-name\": \"\",\r\n                      \"cut\": null,\r\n                      \"cut-coordinate\": 0.0,\r\n                      \"cut-half-thickness\": 0.0,\r\n                      \"left-stock\": null,\r\n                      \"right-stock\": null,\r\n                      \"grain-direction\": 0,\r\n                      \"Description\": null,\r\n                      \"ProcessOn\": null,\r\n                      \"ProcessOnTypedObject\": null,\r\n                      \"UserDefined\": false,\r\n                      \"ForceExposeToEndUser\": true\r\n                    },\r\n                    \"grain-direction\": 0,\r\n                    \"Description\": null,\r\n                    \"ProcessOn\": null,\r\n                    \"ProcessOnTypedObject\": null,\r\n                    \"UserDefined\": false,\r\n                    \"ForceExposeToEndUser\": true\r\n                  },\r\n                  \"grain-direction\": 0,\r\n                  \"Description\": null,\r\n                  \"ProcessOn\": null,\r\n                  \"ProcessOnTypedObject\": null,\r\n                  \"UserDefined\": false,\r\n                  \"ForceExposeToEndUser\": true\r\n                },\r\n                \"grain-direction\": 0,\r\n                \"Description\": null,\r\n                \"ProcessOn\": null,\r\n                \"ProcessOnTypedObject\": null,\r\n                \"UserDefined\": false,\r\n                \"ForceExposeToEndUser\": true\r\n              },\r\n              \"right-stock\": {\r\n                \"type\": null,\r\n                \"item\": null,\r\n                \"quantity\": 1,\r\n                \"length\": 1.8235,\r\n                \"width\": 1.0945,\r\n                \"panel-name\": \"\",\r\n                \"cut\": \"H\",\r\n                \"cut-coordinate\": 0.593,\r\n                \"cut-half-thickness\": 0.0025,\r\n                \"left-stock\": {\r\n                  \"type\": null,\r\n                  \"item\": null,\r\n                  \"quantity\": 1,\r\n                  \"length\": 1.8235,\r\n                  \"width\": 0.593,\r\n                  \"panel-name\": \"\",\r\n                  \"cut\": \"V\",\r\n                  \"cut-coordinate\": 0.819,\r\n                  \"cut-half-thickness\": 0.0025,\r\n                  \"left-stock\": {\r\n                    \"type\": \"item\",\r\n                    \"item\": {\r\n                      \"template-item-id\": 7,\r\n                      \"rotation\": null\r\n                    },\r\n                    \"quantity\": 1,\r\n                    \"length\": 0.819,\r\n                    \"width\": 0.593,\r\n                    \"panel-name\": \"Front_Right Door_Door Overlay_Doors_SwoodDesign_1_1\",\r\n                    \"cut\": null,\r\n                    \"cut-coordinate\": 0.0,\r\n                    \"cut-half-thickness\": 0.0,\r\n                    \"left-stock\": null,\r\n                    \"right-stock\": null,\r\n                    \"grain-direction\": 1,\r\n                    \"Description\": null,\r\n                    \"ProcessOn\": null,\r\n                    \"ProcessOnTypedObject\": null,\r\n                    \"UserDefined\": false,\r\n                    \"ForceExposeToEndUser\": true\r\n                  },\r\n                  \"right-stock\": {\r\n                    \"type\": null,\r\n                    \"item\": null,\r\n                    \"quantity\": 1,\r\n                    \"length\": 0.9995,\r\n                    \"width\": 0.593,\r\n                    \"panel-name\": \"\",\r\n                    \"cut\": \"V\",\r\n                    \"cut-coordinate\": 0.819,\r\n                    \"cut-half-thickness\": 0.0025,\r\n                    \"left-stock\": {\r\n                      \"type\": \"item\",\r\n                      \"item\": {\r\n                        \"template-item-id\": 8,\r\n                        \"rotation\": null\r\n                      },\r\n                      \"quantity\": 1,\r\n                      \"length\": 0.819,\r\n                      \"width\": 0.593,\r\n                      \"panel-name\": \"Front_Left Door_Door Overlay_Doors_SwoodDesign_1_1\",\r\n                      \"cut\": null,\r\n                      \"cut-coordinate\": 0.0,\r\n                      \"cut-half-thickness\": 0.0,\r\n                      \"left-stock\": null,\r\n                      \"right-stock\": null,\r\n                      \"grain-direction\": 1,\r\n                      \"Description\": null,\r\n                      \"ProcessOn\": null,\r\n                      \"ProcessOnTypedObject\": null,\r\n                      \"UserDefined\": false,\r\n                      \"ForceExposeToEndUser\": true\r\n                    },\r\n                    \"right-stock\": {\r\n                      \"type\": \"waste\",\r\n                      \"item\": null,\r\n                      \"quantity\": 1,\r\n                      \"length\": 0.1755,\r\n                      \"width\": 0.593,\r\n                      \"panel-name\": \"\",\r\n                      \"cut\": null,\r\n                      \"cut-coordinate\": 0.0,\r\n                      \"cut-half-thickness\": 0.0,\r\n                      \"left-stock\": null,\r\n                      \"right-stock\": null,\r\n                      \"grain-direction\": 0,\r\n                      \"Description\": null,\r\n                      \"ProcessOn\": null,\r\n                      \"ProcessOnTypedObject\": null,\r\n                      \"UserDefined\": false,\r\n                      \"ForceExposeToEndUser\": true\r\n                    },\r\n                    \"grain-direction\": 0,\r\n                    \"Description\": null,\r\n                    \"ProcessOn\": null,\r\n                    \"ProcessOnTypedObject\": null,\r\n                    \"UserDefined\": false,\r\n                    \"ForceExposeToEndUser\": true\r\n                  },\r\n                  \"grain-direction\": 0,\r\n                  \"Description\": null,\r\n                  \"ProcessOn\": null,\r\n                  \"ProcessOnTypedObject\": null,\r\n                  \"UserDefined\": false,\r\n                  \"ForceExposeToEndUser\": true\r\n                },\r\n                \"right-stock\": {\r\n                  \"type\": null,\r\n                  \"item\": null,\r\n                  \"quantity\": 1,\r\n                  \"length\": 1.8235,\r\n                  \"width\": 0.4965,\r\n                  \"panel-name\": \"\",\r\n                  \"cut\": \"H\",\r\n                  \"cut-coordinate\": 0.1,\r\n                  \"cut-half-thickness\": 0.0025,\r\n                  \"left-stock\": {\r\n                    \"type\": null,\r\n                    \"item\": null,\r\n                    \"quantity\": 1,\r\n                    \"length\": 1.8235,\r\n                    \"width\": 0.1,\r\n                    \"panel-name\": \"\",\r\n                    \"cut\": \"V\",\r\n                    \"cut-coordinate\": 1.2,\r\n                    \"cut-half-thickness\": 0.0025,\r\n                    \"left-stock\": {\r\n                      \"type\": \"item\",\r\n                      \"item\": {\r\n                        \"template-item-id\": 6,\r\n                        \"rotation\": null\r\n                      },\r\n                      \"quantity\": 1,\r\n                      \"length\": 1.2,\r\n                      \"width\": 0.1,\r\n                      \"panel-name\": \"Kickboard_Doors_SwoodDesign_1\",\r\n                      \"cut\": null,\r\n                      \"cut-coordinate\": 0.0,\r\n                      \"cut-half-thickness\": 0.0,\r\n                      \"left-stock\": null,\r\n                      \"right-stock\": null,\r\n                      \"grain-direction\": 1,\r\n                      \"Description\": null,\r\n                      \"ProcessOn\": null,\r\n                      \"ProcessOnTypedObject\": null,\r\n                      \"UserDefined\": false,\r\n                      \"ForceExposeToEndUser\": true\r\n                    },\r\n                    \"right-stock\": {\r\n                      \"type\": \"waste\",\r\n                      \"item\": null,\r\n                      \"quantity\": 1,\r\n                      \"length\": 0.6185,\r\n                      \"width\": 0.1,\r\n                      \"panel-name\": \"\",\r\n                      \"cut\": null,\r\n                      \"cut-coordinate\": 0.0,\r\n                      \"cut-half-thickness\": 0.0,\r\n                      \"left-stock\": null,\r\n                      \"right-stock\": null,\r\n                      \"grain-direction\": 0,\r\n                      \"Description\": null,\r\n                      \"ProcessOn\": null,\r\n                      \"ProcessOnTypedObject\": null,\r\n                      \"UserDefined\": false,\r\n                      \"ForceExposeToEndUser\": true\r\n                    },\r\n                    \"grain-direction\": 0,\r\n                    \"Description\": null,\r\n                    \"ProcessOn\": null,\r\n                    \"ProcessOnTypedObject\": null,\r\n                    \"UserDefined\": false,\r\n                    \"ForceExposeToEndUser\": true\r\n                  },\r\n                  \"right-stock\": {\r\n                    \"type\": null,\r\n                    \"item\": null,\r\n                    \"quantity\": 1,\r\n                    \"length\": 1.8235,\r\n                    \"width\": 0.3915,\r\n                    \"panel-name\": \"\",\r\n                    \"cut\": \"H\",\r\n                    \"cut-coordinate\": 0.05,\r\n                    \"cut-half-thickness\": 0.0025,\r\n                    \"left-stock\": {\r\n                      \"type\": null,\r\n                      \"item\": null,\r\n                      \"quantity\": 1,\r\n                      \"length\": 1.8235,\r\n                      \"width\": 0.05,\r\n                      \"panel-name\": \"\",\r\n                      \"cut\": \"V\",\r\n                      \"cut-coordinate\": 1.158,\r\n                      \"cut-half-thickness\": 0.0025,\r\n                      \"left-stock\": {\r\n                        \"type\": \"item\",\r\n                        \"item\": {\r\n                          \"template-item-id\": 10,\r\n                          \"rotation\": null\r\n                        },\r\n                        \"quantity\": 1,\r\n                        \"length\": 1.158,\r\n                        \"width\": 0.05,\r\n                        \"panel-name\": \"Front_Doors_SwoodDesign_1\",\r\n                        \"cut\": null,\r\n                        \"cut-coordinate\": 0.0,\r\n                        \"cut-half-thickness\": 0.0,\r\n                        \"left-stock\": null,\r\n                        \"right-stock\": null,\r\n                        \"grain-direction\": 1,\r\n                        \"Description\": null,\r\n                        \"ProcessOn\": null,\r\n                        \"ProcessOnTypedObject\": null,\r\n                        \"UserDefined\": false,\r\n                        \"ForceExposeToEndUser\": true\r\n                      },\r\n                      \"right-stock\": {\r\n                        \"type\": \"waste\",\r\n                        \"item\": null,\r\n                        \"quantity\": 1,\r\n                        \"length\": 0.6605,\r\n                        \"width\": 0.05,\r\n                        \"panel-name\": \"\",\r\n                        \"cut\": null,\r\n                        \"cut-coordinate\": 0.0,\r\n                        \"cut-half-thickness\": 0.0,\r\n                        \"left-stock\": null,\r\n                        \"right-stock\": null,\r\n                        \"grain-direction\": 0,\r\n                        \"Description\": null,\r\n                        \"ProcessOn\": null,\r\n                        \"ProcessOnTypedObject\": null,\r\n                        \"UserDefined\": false,\r\n                        \"ForceExposeToEndUser\": true\r\n                      },\r\n                      \"grain-direction\": 0,\r\n                      \"Description\": null,\r\n                      \"ProcessOn\": null,\r\n                      \"ProcessOnTypedObject\": null,\r\n                      \"UserDefined\": false,\r\n                      \"ForceExposeToEndUser\": true\r\n                    },\r\n                    \"right-stock\": {\r\n                      \"type\": \"waste\",\r\n                      \"item\": null,\r\n                      \"quantity\": 1,\r\n                      \"length\": 1.8235,\r\n                      \"width\": 0.3365,\r\n                      \"panel-name\": \"\",\r\n                      \"cut\": null,\r\n                      \"cut-coordinate\": 0.0,\r\n                      \"cut-half-thickness\": 0.0,\r\n                      \"left-stock\": null,\r\n                      \"right-stock\": null,\r\n                      \"grain-direction\": 0,\r\n                      \"Description\": null,\r\n                      \"ProcessOn\": null,\r\n                      \"ProcessOnTypedObject\": null,\r\n                      \"UserDefined\": false,\r\n                      \"ForceExposeToEndUser\": true\r\n                    },\r\n                    \"grain-direction\": 0,\r\n                    \"Description\": null,\r\n                    \"ProcessOn\": null,\r\n                    \"ProcessOnTypedObject\": null,\r\n                    \"UserDefined\": false,\r\n                    \"ForceExposeToEndUser\": true\r\n                  },\r\n                  \"grain-direction\": 0,\r\n                  \"Description\": null,\r\n                  \"ProcessOn\": null,\r\n                  \"ProcessOnTypedObject\": null,\r\n                  \"UserDefined\": false,\r\n                  \"ForceExposeToEndUser\": true\r\n                },\r\n                \"grain-direction\": 0,\r\n                \"Description\": null,\r\n                \"ProcessOn\": null,\r\n                \"ProcessOnTypedObject\": null,\r\n                \"UserDefined\": false,\r\n                \"ForceExposeToEndUser\": true\r\n              },\r\n              \"grain-direction\": 0,\r\n              \"Description\": null,\r\n              \"ProcessOn\": null,\r\n              \"ProcessOnTypedObject\": null,\r\n              \"UserDefined\": false,\r\n              \"ForceExposeToEndUser\": true\r\n            },\r\n            \"grain-direction\": 0,\r\n            \"Description\": null,\r\n            \"ProcessOn\": null,\r\n            \"ProcessOnTypedObject\": null,\r\n            \"UserDefined\": false,\r\n            \"ForceExposeToEndUser\": true\r\n          },\r\n          \"grain-direction\": 0,\r\n          \"Description\": null,\r\n          \"ProcessOn\": null,\r\n          \"ProcessOnTypedObject\": null,\r\n          \"UserDefined\": false,\r\n          \"ForceExposeToEndUser\": true\r\n        },\r\n        \"grain-direction\": 1,\r\n        \"Description\": null,\r\n        \"ProcessOn\": null,\r\n        \"ProcessOnTypedObject\": null,\r\n        \"UserDefined\": false,\r\n        \"ForceExposeToEndUser\": true\r\n      },\r\n      {\r\n        \"type\": null,\r\n        \"template-stock-id\": 0,\r\n        \"item\": null,\r\n        \"quantity\": 1,\r\n        \"length\": 3.0,\r\n        \"width\": 1.5,\r\n        \"panel-name\": \"\",\r\n        \"cut\": \"V\",\r\n        \"cut-coordinate\": 0.015,\r\n        \"cut-half-thickness\": 0.0025,\r\n        \"left-stock\": {\r\n          \"type\": \"padding\",\r\n          \"item\": null,\r\n          \"quantity\": 1,\r\n          \"length\": 0.015,\r\n          \"width\": 1.5,\r\n          \"panel-name\": \"\",\r\n          \"cut\": null,\r\n          \"cut-coordinate\": 0.0,\r\n          \"cut-half-thickness\": 0.0,\r\n          \"left-stock\": null,\r\n          \"right-stock\": null,\r\n          \"grain-direction\": 0,\r\n          \"Description\": null,\r\n          \"ProcessOn\": null,\r\n          \"ProcessOnTypedObject\": null,\r\n          \"UserDefined\": false,\r\n          \"ForceExposeToEndUser\": true\r\n        },\r\n        \"right-stock\": {\r\n          \"type\": null,\r\n          \"item\": null,\r\n          \"quantity\": 1,\r\n          \"length\": 2.98,\r\n          \"width\": 1.5,\r\n          \"panel-name\": \"\",\r\n          \"cut\": \"V\",\r\n          \"cut-coordinate\": 0.908,\r\n          \"cut-half-thickness\": 0.0025,\r\n          \"left-stock\": {\r\n            \"type\": null,\r\n            \"item\": null,\r\n            \"quantity\": 1,\r\n            \"length\": 0.908,\r\n            \"width\": 1.5,\r\n            \"panel-name\": \"\",\r\n            \"cut\": \"H\",\r\n            \"cut-coordinate\": 0.015,\r\n            \"cut-half-thickness\": 0.0025,\r\n            \"left-stock\": {\r\n              \"type\": \"padding\",\r\n              \"item\": null,\r\n              \"quantity\": 1,\r\n              \"length\": 0.908,\r\n              \"width\": 0.015,\r\n              \"panel-name\": \"\",\r\n              \"cut\": null,\r\n              \"cut-coordinate\": 0.0,\r\n              \"cut-half-thickness\": 0.0,\r\n              \"left-stock\": null,\r\n              \"right-stock\": null,\r\n              \"grain-direction\": 0,\r\n              \"Description\": null,\r\n              \"ProcessOn\": null,\r\n              \"ProcessOnTypedObject\": null,\r\n              \"UserDefined\": false,\r\n              \"ForceExposeToEndUser\": true\r\n            },\r\n            \"right-stock\": {\r\n              \"type\": null,\r\n              \"item\": null,\r\n              \"quantity\": 1,\r\n              \"length\": 0.908,\r\n              \"width\": 1.48,\r\n              \"panel-name\": \"\",\r\n              \"cut\": \"H\",\r\n              \"cut-coordinate\": 0.6,\r\n              \"cut-half-thickness\": 0.0025,\r\n              \"left-stock\": {\r\n                \"type\": \"item\",\r\n                \"item\": {\r\n                  \"template-item-id\": 0,\r\n                  \"rotation\": null\r\n                },\r\n                \"quantity\": 1,\r\n                \"length\": 0.908,\r\n                \"width\": 0.6,\r\n                \"panel-name\": \"Bottom_High Cabinet_SwoodDesign_1\",\r\n                \"cut\": null,\r\n                \"cut-coordinate\": 0.0,\r\n                \"cut-half-thickness\": 0.0,\r\n                \"left-stock\": null,\r\n                \"right-stock\": null,\r\n                \"grain-direction\": 1,\r\n                \"Description\": null,\r\n                \"ProcessOn\": null,\r\n                \"ProcessOnTypedObject\": null,\r\n                \"UserDefined\": false,\r\n                \"ForceExposeToEndUser\": true\r\n              },\r\n              \"right-stock\": {\r\n                \"type\": null,\r\n                \"item\": null,\r\n                \"quantity\": 1,\r\n                \"length\": 0.908,\r\n                \"width\": 0.875,\r\n                \"panel-name\": \"\",\r\n                \"cut\": \"H\",\r\n                \"cut-coordinate\": 0.585,\r\n                \"cut-half-thickness\": 0.0025,\r\n                \"left-stock\": {\r\n                  \"type\": \"item\",\r\n                  \"item\": {\r\n                    \"template-item-id\": 3,\r\n                    \"rotation\": null\r\n                  },\r\n                  \"quantity\": 1,\r\n                  \"length\": 0.908,\r\n                  \"width\": 0.585,\r\n                  \"panel-name\": \"Partition_Partition Horizontal_High Cabinet_SwoodDesign_1_1\",\r\n                  \"cut\": null,\r\n                  \"cut-coordinate\": 0.0,\r\n                  \"cut-half-thickness\": 0.0,\r\n                  \"left-stock\": null,\r\n                  \"right-stock\": null,\r\n                  \"grain-direction\": 1,\r\n                  \"Description\": null,\r\n                  \"ProcessOn\": null,\r\n                  \"ProcessOnTypedObject\": null,\r\n                  \"UserDefined\": false,\r\n                  \"ForceExposeToEndUser\": true\r\n                },\r\n                \"right-stock\": {\r\n                  \"type\": \"waste\",\r\n                  \"item\": null,\r\n                  \"quantity\": 1,\r\n                  \"length\": 0.908,\r\n                  \"width\": 0.285,\r\n                  \"panel-name\": \"\",\r\n                  \"cut\": null,\r\n                  \"cut-coordinate\": 0.0,\r\n                  \"cut-half-thickness\": 0.0,\r\n                  \"left-stock\": null,\r\n                  \"right-stock\": null,\r\n                  \"grain-direction\": 0,\r\n                  \"Description\": null,\r\n                  \"ProcessOn\": null,\r\n                  \"ProcessOnTypedObject\": null,\r\n                  \"UserDefined\": false,\r\n                  \"ForceExposeToEndUser\": true\r\n                },\r\n                \"grain-direction\": 0,\r\n                \"Description\": null,\r\n                \"ProcessOn\": null,\r\n                \"ProcessOnTypedObject\": null,\r\n                \"UserDefined\": false,\r\n                \"ForceExposeToEndUser\": true\r\n              },\r\n              \"grain-direction\": 0,\r\n              \"Description\": null,\r\n              \"ProcessOn\": null,\r\n              \"ProcessOnTypedObject\": null,\r\n              \"UserDefined\": false,\r\n              \"ForceExposeToEndUser\": true\r\n            },\r\n            \"grain-direction\": 0,\r\n            \"Description\": null,\r\n            \"ProcessOn\": null,\r\n            \"ProcessOnTypedObject\": null,\r\n            \"UserDefined\": false,\r\n            \"ForceExposeToEndUser\": true\r\n          },\r\n          \"right-stock\": {\r\n            \"type\": null,\r\n            \"item\": null,\r\n            \"quantity\": 1,\r\n            \"length\": 2.067,\r\n            \"width\": 1.5,\r\n            \"panel-name\": \"\",\r\n            \"cut\": \"H\",\r\n            \"cut-coordinate\": 0.015,\r\n            \"cut-half-thickness\": 0.0025,\r\n            \"left-stock\": {\r\n              \"type\": \"padding\",\r\n              \"item\": null,\r\n              \"quantity\": 1,\r\n              \"length\": 2.067,\r\n              \"width\": 0.015,\r\n              \"panel-name\": \"\",\r\n              \"cut\": null,\r\n              \"cut-coordinate\": 0.0,\r\n              \"cut-half-thickness\": 0.0,\r\n              \"left-stock\": null,\r\n              \"right-stock\": null,\r\n              \"grain-direction\": 0,\r\n              \"Description\": null,\r\n              \"ProcessOn\": null,\r\n              \"ProcessOnTypedObject\": null,\r\n              \"UserDefined\": false,\r\n              \"ForceExposeToEndUser\": true\r\n            },\r\n            \"right-stock\": {\r\n              \"type\": null,\r\n              \"item\": null,\r\n              \"quantity\": 1,\r\n              \"length\": 2.067,\r\n              \"width\": 1.48,\r\n              \"panel-name\": \"\",\r\n              \"cut\": \"H\",\r\n              \"cut-coordinate\": 0.562,\r\n              \"cut-half-thickness\": 0.0025,\r\n              \"left-stock\": {\r\n                \"type\": null,\r\n                \"item\": null,\r\n                \"quantity\": 1,\r\n                \"length\": 2.067,\r\n                \"width\": 0.562,\r\n                \"panel-name\": \"\",\r\n                \"cut\": \"V\",\r\n                \"cut-coordinate\": 1.158,\r\n                \"cut-half-thickness\": 0.0025,\r\n                \"left-stock\": {\r\n                  \"type\": \"item\",\r\n                  \"item\": {\r\n                    \"template-item-id\": 9,\r\n                    \"rotation\": null\r\n                  },\r\n                  \"quantity\": 1,\r\n                  \"length\": 1.158,\r\n                  \"width\": 0.562,\r\n                  \"panel-name\": \"Bottom_Doors_SwoodDesign_1\",\r\n                  \"cut\": null,\r\n                  \"cut-coordinate\": 0.0,\r\n                  \"cut-half-thickness\": 0.0,\r\n                  \"left-stock\": null,\r\n                  \"right-stock\": null,\r\n                  \"grain-direction\": 1,\r\n                  \"Description\": null,\r\n                  \"ProcessOn\": null,\r\n                  \"ProcessOnTypedObject\": null,\r\n                  \"UserDefined\": false,\r\n                  \"ForceExposeToEndUser\": true\r\n                },\r\n                \"right-stock\": {\r\n                  \"type\": \"waste\",\r\n                  \"item\": null,\r\n                  \"quantity\": 1,\r\n                  \"length\": 0.904,\r\n                  \"width\": 0.562,\r\n                  \"panel-name\": \"\",\r\n                  \"cut\": null,\r\n                  \"cut-coordinate\": 0.0,\r\n                  \"cut-half-thickness\": 0.0,\r\n                  \"left-stock\": null,\r\n                  \"right-stock\": null,\r\n                  \"grain-direction\": 0,\r\n                  \"Description\": null,\r\n                  \"ProcessOn\": null,\r\n                  \"ProcessOnTypedObject\": null,\r\n                  \"UserDefined\": false,\r\n                  \"ForceExposeToEndUser\": true\r\n                },\r\n                \"grain-direction\": 0,\r\n                \"Description\": null,\r\n                \"ProcessOn\": null,\r\n                \"ProcessOnTypedObject\": null,\r\n                \"UserDefined\": false,\r\n                \"ForceExposeToEndUser\": true\r\n              },\r\n              \"right-stock\": {\r\n                \"type\": \"waste\",\r\n                \"item\": null,\r\n                \"quantity\": 1,\r\n                \"length\": 2.067,\r\n                \"width\": 0.913,\r\n                \"panel-name\": \"\",\r\n                \"cut\": null,\r\n                \"cut-coordinate\": 0.0,\r\n                \"cut-half-thickness\": 0.0,\r\n                \"left-stock\": null,\r\n                \"right-stock\": null,\r\n                \"grain-direction\": 0,\r\n                \"Description\": null,\r\n                \"ProcessOn\": null,\r\n                \"ProcessOnTypedObject\": null,\r\n                \"UserDefined\": false,\r\n                \"ForceExposeToEndUser\": true\r\n              },\r\n              \"grain-direction\": 0,\r\n              \"Description\": null,\r\n              \"ProcessOn\": null,\r\n              \"ProcessOnTypedObject\": null,\r\n              \"UserDefined\": false,\r\n              \"ForceExposeToEndUser\": true\r\n            },\r\n            \"grain-direction\": 0,\r\n            \"Description\": null,\r\n            \"ProcessOn\": null,\r\n            \"ProcessOnTypedObject\": null,\r\n            \"UserDefined\": false,\r\n            \"ForceExposeToEndUser\": true\r\n          },\r\n          \"grain-direction\": 0,\r\n          \"Description\": null,\r\n          \"ProcessOn\": null,\r\n          \"ProcessOnTypedObject\": null,\r\n          \"UserDefined\": false,\r\n          \"ForceExposeToEndUser\": true\r\n        },\r\n        \"grain-direction\": 1,\r\n        \"Description\": null,\r\n        \"ProcessOn\": null,\r\n        \"ProcessOnTypedObject\": null,\r\n        \"UserDefined\": false,\r\n        \"ForceExposeToEndUser\": true\r\n      }\r\n    ],\r\n    \"material\": \"Beech 19mm\",\r\n    \"name\": \"Beech Board 19mm\",\r\n    \"db-board-id\": 5,\r\n    \"thickness\": 0.019,\r\n    \"Description\": null,\r\n    \"ProcessOn\": null,\r\n    \"ProcessOnTypedObject\": null,\r\n    \"UserDefined\": false,\r\n    \"ForceExposeToEndUser\": true\r\n  },\r\n  {\r\n    \"version\": 1,\r\n    \"stocks\": [\r\n      {\r\n        \"type\": null,\r\n        \"template-stock-id\": 1,\r\n        \"item\": null,\r\n        \"quantity\": 1,\r\n        \"length\": 3.0,\r\n        \"width\": 2.0,\r\n        \"panel-name\": \"\",\r\n        \"cut\": \"V\",\r\n        \"cut-coordinate\": 0.015,\r\n        \"cut-half-thickness\": 0.0025,\r\n        \"left-stock\": {\r\n          \"type\": \"padding\",\r\n          \"item\": null,\r\n          \"quantity\": 1,\r\n          \"length\": 0.015,\r\n          \"width\": 2.0,\r\n          \"panel-name\": \"\",\r\n          \"cut\": null,\r\n          \"cut-coordinate\": 0.0,\r\n          \"cut-half-thickness\": 0.0,\r\n          \"left-stock\": null,\r\n          \"right-stock\": null,\r\n          \"grain-direction\": 0,\r\n          \"Description\": null,\r\n          \"ProcessOn\": null,\r\n          \"ProcessOnTypedObject\": null,\r\n          \"UserDefined\": false,\r\n          \"ForceExposeToEndUser\": true\r\n        },\r\n        \"right-stock\": {\r\n          \"type\": null,\r\n          \"item\": null,\r\n          \"quantity\": 1,\r\n          \"length\": 2.98,\r\n          \"width\": 2.0,\r\n          \"panel-name\": \"\",\r\n          \"cut\": \"V\",\r\n          \"cut-coordinate\": 0.6,\r\n          \"cut-half-thickness\": 0.0025,\r\n          \"left-stock\": {\r\n            \"type\": null,\r\n            \"item\": null,\r\n            \"quantity\": 1,\r\n            \"length\": 0.6,\r\n            \"width\": 2.0,\r\n            \"panel-name\": \"\",\r\n            \"cut\": \"H\",\r\n            \"cut-coordinate\": 0.015,\r\n            \"cut-half-thickness\": 0.0025,\r\n            \"left-stock\": {\r\n              \"type\": \"padding\",\r\n              \"item\": null,\r\n              \"quantity\": 1,\r\n              \"length\": 0.6,\r\n              \"width\": 0.015,\r\n              \"panel-name\": \"\",\r\n              \"cut\": null,\r\n              \"cut-coordinate\": 0.0,\r\n              \"cut-half-thickness\": 0.0,\r\n              \"left-stock\": null,\r\n              \"right-stock\": null,\r\n              \"grain-direction\": 0,\r\n              \"Description\": null,\r\n              \"ProcessOn\": null,\r\n              \"ProcessOnTypedObject\": null,\r\n              \"UserDefined\": false,\r\n              \"ForceExposeToEndUser\": true\r\n            },\r\n            \"right-stock\": {\r\n              \"type\": null,\r\n              \"item\": null,\r\n              \"quantity\": 1,\r\n              \"length\": 0.6,\r\n              \"width\": 1.98,\r\n              \"panel-name\": \"\",\r\n              \"cut\": \"H\",\r\n              \"cut-coordinate\": 0.95,\r\n              \"cut-half-thickness\": 0.0025,\r\n              \"left-stock\": {\r\n                \"type\": \"item\",\r\n                \"item\": {\r\n                  \"template-item-id\": 14,\r\n                  \"rotation\": \"HWT\"\r\n                },\r\n                \"quantity\": 1,\r\n                \"length\": 0.6,\r\n                \"width\": 0.95,\r\n                \"panel-name\": \"Left_Doors_SwoodDesign_1\",\r\n                \"cut\": null,\r\n                \"cut-coordinate\": 0.0,\r\n                \"cut-half-thickness\": 0.0,\r\n                \"left-stock\": null,\r\n                \"right-stock\": null,\r\n                \"grain-direction\": 0,\r\n                \"Description\": null,\r\n                \"ProcessOn\": null,\r\n                \"ProcessOnTypedObject\": null,\r\n                \"UserDefined\": false,\r\n                \"ForceExposeToEndUser\": true\r\n              },\r\n              \"right-stock\": {\r\n                \"type\": null,\r\n                \"item\": null,\r\n                \"quantity\": 1,\r\n                \"length\": 0.6,\r\n                \"width\": 1.025,\r\n                \"panel-name\": \"\",\r\n                \"cut\": \"H\",\r\n                \"cut-coordinate\": 0.95,\r\n                \"cut-half-thickness\": 0.0025,\r\n                \"left-stock\": {\r\n                  \"type\": \"item\",\r\n                  \"item\": {\r\n                    \"template-item-id\": 17,\r\n                    \"rotation\": \"HWT\"\r\n                  },\r\n                  \"quantity\": 1,\r\n                  \"length\": 0.6,\r\n                  \"width\": 0.95,\r\n                  \"panel-name\": \"Right_Doors_SwoodDesign_1\",\r\n                  \"cut\": null,\r\n                  \"cut-coordinate\": 0.0,\r\n                  \"cut-half-thickness\": 0.0,\r\n                  \"left-stock\": null,\r\n                  \"right-stock\": null,\r\n                  \"grain-direction\": 0,\r\n                  \"Description\": null,\r\n                  \"ProcessOn\": null,\r\n                  \"ProcessOnTypedObject\": null,\r\n                  \"UserDefined\": false,\r\n                  \"ForceExposeToEndUser\": true\r\n                },\r\n                \"right-stock\": {\r\n                  \"type\": \"waste\",\r\n                  \"item\": null,\r\n                  \"quantity\": 1,\r\n                  \"length\": 0.6,\r\n                  \"width\": 0.07,\r\n                  \"panel-name\": \"\",\r\n                  \"cut\": null,\r\n                  \"cut-coordinate\": 0.0,\r\n                  \"cut-half-thickness\": 0.0,\r\n                  \"left-stock\": null,\r\n                  \"right-stock\": null,\r\n                  \"grain-direction\": 0,\r\n                  \"Description\": null,\r\n                  \"ProcessOn\": null,\r\n                  \"ProcessOnTypedObject\": null,\r\n                  \"UserDefined\": false,\r\n                  \"ForceExposeToEndUser\": true\r\n                },\r\n                \"grain-direction\": 0,\r\n                \"Description\": null,\r\n                \"ProcessOn\": null,\r\n                \"ProcessOnTypedObject\": null,\r\n                \"UserDefined\": false,\r\n                \"ForceExposeToEndUser\": true\r\n              },\r\n              \"grain-direction\": 0,\r\n              \"Description\": null,\r\n              \"ProcessOn\": null,\r\n              \"ProcessOnTypedObject\": null,\r\n              \"UserDefined\": false,\r\n              \"ForceExposeToEndUser\": true\r\n            },\r\n            \"grain-direction\": 0,\r\n            \"Description\": null,\r\n            \"ProcessOn\": null,\r\n            \"ProcessOnTypedObject\": null,\r\n            \"UserDefined\": false,\r\n            \"ForceExposeToEndUser\": true\r\n          },\r\n          \"right-stock\": {\r\n            \"type\": null,\r\n            \"item\": null,\r\n            \"quantity\": 1,\r\n            \"length\": 2.375,\r\n            \"width\": 2.0,\r\n            \"panel-name\": \"\",\r\n            \"cut\": \"H\",\r\n            \"cut-coordinate\": 0.015,\r\n            \"cut-half-thickness\": 0.0025,\r\n            \"left-stock\": {\r\n              \"type\": \"padding\",\r\n              \"item\": null,\r\n              \"quantity\": 1,\r\n              \"length\": 2.375,\r\n              \"width\": 0.015,\r\n              \"panel-name\": \"\",\r\n              \"cut\": null,\r\n              \"cut-coordinate\": 0.0,\r\n              \"cut-half-thickness\": 0.0,\r\n              \"left-stock\": null,\r\n              \"right-stock\": null,\r\n              \"grain-direction\": 0,\r\n              \"Description\": null,\r\n              \"ProcessOn\": null,\r\n              \"ProcessOnTypedObject\": null,\r\n              \"UserDefined\": false,\r\n              \"ForceExposeToEndUser\": true\r\n            },\r\n            \"right-stock\": {\r\n              \"type\": null,\r\n              \"item\": null,\r\n              \"quantity\": 1,\r\n              \"length\": 2.375,\r\n              \"width\": 1.98,\r\n              \"panel-name\": \"\",\r\n              \"cut\": \"H\",\r\n              \"cut-coordinate\": 0.1,\r\n              \"cut-half-thickness\": 0.0025,\r\n              \"left-stock\": {\r\n                \"type\": null,\r\n                \"item\": null,\r\n                \"quantity\": 1,\r\n                \"length\": 2.375,\r\n                \"width\": 0.1,\r\n                \"panel-name\": \"\",\r\n                \"cut\": \"V\",\r\n                \"cut-coordinate\": 1.158,\r\n                \"cut-half-thickness\": 0.0025,\r\n                \"left-stock\": {\r\n                  \"type\": \"item\",\r\n                  \"item\": {\r\n                    \"template-item-id\": 15,\r\n                    \"rotation\": null\r\n                  },\r\n                  \"quantity\": 1,\r\n                  \"length\": 1.158,\r\n                  \"width\": 0.1,\r\n                  \"panel-name\": \"Back Support_Doors_SwoodDesign_1\",\r\n                  \"cut\": null,\r\n                  \"cut-coordinate\": 0.0,\r\n                  \"cut-half-thickness\": 0.0,\r\n                  \"left-stock\": null,\r\n                  \"right-stock\": null,\r\n                  \"grain-direction\": 0,\r\n                  \"Description\": null,\r\n                  \"ProcessOn\": null,\r\n                  \"ProcessOnTypedObject\": null,\r\n                  \"UserDefined\": false,\r\n                  \"ForceExposeToEndUser\": true\r\n                },\r\n                \"right-stock\": {\r\n                  \"type\": null,\r\n                  \"item\": null,\r\n                  \"quantity\": 1,\r\n                  \"length\": 1.212,\r\n                  \"width\": 0.1,\r\n                  \"panel-name\": \"\",\r\n                  \"cut\": \"V\",\r\n                  \"cut-coordinate\": 1.158,\r\n                  \"cut-half-thickness\": 0.0025,\r\n                  \"left-stock\": {\r\n                    \"type\": \"item\",\r\n                    \"item\": {\r\n                      \"template-item-id\": 16,\r\n                      \"rotation\": null\r\n                    },\r\n                    \"quantity\": 1,\r\n                    \"length\": 1.158,\r\n                    \"width\": 0.1,\r\n                    \"panel-name\": \"Front Support_Doors_SwoodDesign_1\",\r\n                    \"cut\": null,\r\n                    \"cut-coordinate\": 0.0,\r\n                    \"cut-half-thickness\": 0.0,\r\n                    \"left-stock\": null,\r\n                    \"right-stock\": null,\r\n                    \"grain-direction\": 0,\r\n                    \"Description\": null,\r\n                    \"ProcessOn\": null,\r\n                    \"ProcessOnTypedObject\": null,\r\n                    \"UserDefined\": false,\r\n                    \"ForceExposeToEndUser\": true\r\n                  },\r\n                  \"right-stock\": {\r\n                    \"type\": \"waste\",\r\n                    \"item\": null,\r\n                    \"quantity\": 1,\r\n                    \"length\": 0.049,\r\n                    \"width\": 0.1,\r\n                    \"panel-name\": \"\",\r\n                    \"cut\": null,\r\n                    \"cut-coordinate\": 0.0,\r\n                    \"cut-half-thickness\": 0.0,\r\n                    \"left-stock\": null,\r\n                    \"right-stock\": null,\r\n                    \"grain-direction\": 0,\r\n                    \"Description\": null,\r\n                    \"ProcessOn\": null,\r\n                    \"ProcessOnTypedObject\": null,\r\n                    \"UserDefined\": false,\r\n                    \"ForceExposeToEndUser\": true\r\n                  },\r\n                  \"grain-direction\": 0,\r\n                  \"Description\": null,\r\n                  \"ProcessOn\": null,\r\n                  \"ProcessOnTypedObject\": null,\r\n                  \"UserDefined\": false,\r\n                  \"ForceExposeToEndUser\": true\r\n                },\r\n                \"grain-direction\": 0,\r\n                \"Description\": null,\r\n                \"ProcessOn\": null,\r\n                \"ProcessOnTypedObject\": null,\r\n                \"UserDefined\": false,\r\n                \"ForceExposeToEndUser\": true\r\n              },\r\n              \"right-stock\": {\r\n                \"type\": null,\r\n                \"item\": null,\r\n                \"quantity\": 1,\r\n                \"length\": 2.375,\r\n                \"width\": 1.875,\r\n                \"panel-name\": \"\",\r\n                \"cut\": \"H\",\r\n                \"cut-coordinate\": 0.908,\r\n                \"cut-half-thickness\": 0.0025,\r\n                \"left-stock\": {\r\n                  \"type\": null,\r\n                  \"item\": null,\r\n                  \"quantity\": 1,\r\n                  \"length\": 2.375,\r\n                  \"width\": 0.908,\r\n                  \"panel-name\": \"\",\r\n                  \"cut\": \"V\",\r\n                  \"cut-coordinate\": 0.6,\r\n                  \"cut-half-thickness\": 0.0025,\r\n                  \"left-stock\": {\r\n                    \"type\": \"item\",\r\n                    \"item\": {\r\n                      \"template-item-id\": 11,\r\n                      \"rotation\": \"HWT\"\r\n                    },\r\n                    \"quantity\": 1,\r\n                    \"length\": 0.6,\r\n                    \"width\": 0.908,\r\n                    \"panel-name\": \"Front Support_High Cabinet_SwoodDesign_1\",\r\n                    \"cut\": null,\r\n                    \"cut-coordinate\": 0.0,\r\n                    \"cut-half-thickness\": 0.0,\r\n                    \"left-stock\": null,\r\n                    \"right-stock\": null,\r\n                    \"grain-direction\": 0,\r\n                    \"Description\": null,\r\n                    \"ProcessOn\": null,\r\n                    \"ProcessOnTypedObject\": null,\r\n                    \"UserDefined\": false,\r\n                    \"ForceExposeToEndUser\": true\r\n                  },\r\n                  \"right-stock\": {\r\n                    \"type\": \"waste\",\r\n                    \"item\": null,\r\n                    \"quantity\": 1,\r\n                    \"length\": 1.77,\r\n                    \"width\": 0.908,\r\n                    \"panel-name\": \"\",\r\n                    \"cut\": null,\r\n                    \"cut-coordinate\": 0.0,\r\n                    \"cut-half-thickness\": 0.0,\r\n                    \"left-stock\": null,\r\n                    \"right-stock\": null,\r\n                    \"grain-direction\": 0,\r\n                    \"Description\": null,\r\n                    \"ProcessOn\": null,\r\n                    \"ProcessOnTypedObject\": null,\r\n                    \"UserDefined\": false,\r\n                    \"ForceExposeToEndUser\": true\r\n                  },\r\n                  \"grain-direction\": 0,\r\n                  \"Description\": null,\r\n                  \"ProcessOn\": null,\r\n                  \"ProcessOnTypedObject\": null,\r\n                  \"UserDefined\": false,\r\n                  \"ForceExposeToEndUser\": true\r\n                },\r\n                \"right-stock\": {\r\n                  \"type\": \"waste\",\r\n                  \"item\": null,\r\n                  \"quantity\": 1,\r\n                  \"length\": 2.375,\r\n                  \"width\": 0.962,\r\n                  \"panel-name\": \"\",\r\n                  \"cut\": null,\r\n                  \"cut-coordinate\": 0.0,\r\n                  \"cut-half-thickness\": 0.0,\r\n                  \"left-stock\": null,\r\n                  \"right-stock\": null,\r\n                  \"grain-direction\": 0,\r\n                  \"Description\": null,\r\n                  \"ProcessOn\": null,\r\n                  \"ProcessOnTypedObject\": null,\r\n                  \"UserDefined\": false,\r\n                  \"ForceExposeToEndUser\": true\r\n                },\r\n                \"grain-direction\": 0,\r\n                \"Description\": null,\r\n                \"ProcessOn\": null,\r\n                \"ProcessOnTypedObject\": null,\r\n                \"UserDefined\": false,\r\n                \"ForceExposeToEndUser\": true\r\n              },\r\n              \"grain-direction\": 0,\r\n              \"Description\": null,\r\n              \"ProcessOn\": null,\r\n              \"ProcessOnTypedObject\": null,\r\n              \"UserDefined\": false,\r\n              \"ForceExposeToEndUser\": true\r\n            },\r\n            \"grain-direction\": 0,\r\n            \"Description\": null,\r\n            \"ProcessOn\": null,\r\n            \"ProcessOnTypedObject\": null,\r\n            \"UserDefined\": false,\r\n            \"ForceExposeToEndUser\": true\r\n          },\r\n          \"grain-direction\": 0,\r\n          \"Description\": null,\r\n          \"ProcessOn\": null,\r\n          \"ProcessOnTypedObject\": null,\r\n          \"UserDefined\": false,\r\n          \"ForceExposeToEndUser\": true\r\n        },\r\n        \"grain-direction\": 0,\r\n        \"Description\": null,\r\n        \"ProcessOn\": null,\r\n        \"ProcessOnTypedObject\": null,\r\n        \"UserDefined\": false,\r\n        \"ForceExposeToEndUser\": true\r\n      },\r\n      {\r\n        \"type\": null,\r\n        \"template-stock-id\": 1,\r\n        \"item\": null,\r\n        \"quantity\": 1,\r\n        \"length\": 3.0,\r\n        \"width\": 2.0,\r\n        \"panel-name\": \"\",\r\n        \"cut\": \"V\",\r\n        \"cut-coordinate\": 0.015,\r\n        \"cut-half-thickness\": 0.0025,\r\n        \"left-stock\": {\r\n          \"type\": \"padding\",\r\n          \"item\": null,\r\n          \"quantity\": 1,\r\n          \"length\": 0.015,\r\n          \"width\": 2.0,\r\n          \"panel-name\": \"\",\r\n          \"cut\": null,\r\n          \"cut-coordinate\": 0.0,\r\n          \"cut-half-thickness\": 0.0,\r\n          \"left-stock\": null,\r\n          \"right-stock\": null,\r\n          \"grain-direction\": 0,\r\n          \"Description\": null,\r\n          \"ProcessOn\": null,\r\n          \"ProcessOnTypedObject\": null,\r\n          \"UserDefined\": false,\r\n          \"ForceExposeToEndUser\": true\r\n        },\r\n        \"right-stock\": {\r\n          \"type\": null,\r\n          \"item\": null,\r\n          \"quantity\": 1,\r\n          \"length\": 2.98,\r\n          \"width\": 2.0,\r\n          \"panel-name\": \"\",\r\n          \"cut\": \"V\",\r\n          \"cut-coordinate\": 2.4,\r\n          \"cut-half-thickness\": 0.0025,\r\n          \"left-stock\": {\r\n            \"type\": null,\r\n            \"item\": null,\r\n            \"quantity\": 1,\r\n            \"length\": 2.4,\r\n            \"width\": 2.0,\r\n            \"panel-name\": \"\",\r\n            \"cut\": \"H\",\r\n            \"cut-coordinate\": 0.015,\r\n            \"cut-half-thickness\": 0.0025,\r\n            \"left-stock\": {\r\n              \"type\": \"padding\",\r\n              \"item\": null,\r\n              \"quantity\": 1,\r\n              \"length\": 2.4,\r\n              \"width\": 0.015,\r\n              \"panel-name\": \"\",\r\n              \"cut\": null,\r\n              \"cut-coordinate\": 0.0,\r\n              \"cut-half-thickness\": 0.0,\r\n              \"left-stock\": null,\r\n              \"right-stock\": null,\r\n              \"grain-direction\": 0,\r\n              \"Description\": null,\r\n              \"ProcessOn\": null,\r\n              \"ProcessOnTypedObject\": null,\r\n              \"UserDefined\": false,\r\n              \"ForceExposeToEndUser\": true\r\n            },\r\n            \"right-stock\": {\r\n              \"type\": null,\r\n              \"item\": null,\r\n              \"quantity\": 1,\r\n              \"length\": 2.4,\r\n              \"width\": 1.98,\r\n              \"panel-name\": \"\",\r\n              \"cut\": \"H\",\r\n              \"cut-coordinate\": 0.6,\r\n              \"cut-half-thickness\": 0.0025,\r\n              \"left-stock\": {\r\n                \"type\": \"item\",\r\n                \"item\": {\r\n                  \"template-item-id\": 12,\r\n                  \"rotation\": null\r\n                },\r\n                \"quantity\": 1,\r\n                \"length\": 2.4,\r\n                \"width\": 0.6,\r\n                \"panel-name\": \"Right_High Cabinet_SwoodDesign_1\",\r\n                \"cut\": null,\r\n                \"cut-coordinate\": 0.0,\r\n                \"cut-half-thickness\": 0.0,\r\n                \"left-stock\": null,\r\n                \"right-stock\": null,\r\n                \"grain-direction\": 0,\r\n                \"Description\": null,\r\n                \"ProcessOn\": null,\r\n                \"ProcessOnTypedObject\": null,\r\n                \"UserDefined\": false,\r\n                \"ForceExposeToEndUser\": true\r\n              },\r\n              \"right-stock\": {\r\n                \"type\": null,\r\n                \"item\": null,\r\n                \"quantity\": 1,\r\n                \"length\": 2.4,\r\n                \"width\": 1.375,\r\n                \"panel-name\": \"\",\r\n                \"cut\": \"H\",\r\n                \"cut-coordinate\": 0.6,\r\n                \"cut-half-thickness\": 0.0025,\r\n                \"left-stock\": {\r\n                  \"type\": \"item\",\r\n                  \"item\": {\r\n                    \"template-item-id\": 13,\r\n                    \"rotation\": null\r\n                  },\r\n                  \"quantity\": 1,\r\n                  \"length\": 2.4,\r\n                  \"width\": 0.6,\r\n                  \"panel-name\": \"Left_High Cabinet_SwoodDesign_1\",\r\n                  \"cut\": null,\r\n                  \"cut-coordinate\": 0.0,\r\n                  \"cut-half-thickness\": 0.0,\r\n                  \"left-stock\": null,\r\n                  \"right-stock\": null,\r\n                  \"grain-direction\": 0,\r\n                  \"Description\": null,\r\n                  \"ProcessOn\": null,\r\n                  \"ProcessOnTypedObject\": null,\r\n                  \"UserDefined\": false,\r\n                  \"ForceExposeToEndUser\": true\r\n                },\r\n                \"right-stock\": {\r\n                  \"type\": \"waste\",\r\n                  \"item\": null,\r\n                  \"quantity\": 1,\r\n                  \"length\": 2.4,\r\n                  \"width\": 0.77,\r\n                  \"panel-name\": \"\",\r\n                  \"cut\": null,\r\n                  \"cut-coordinate\": 0.0,\r\n                  \"cut-half-thickness\": 0.0,\r\n                  \"left-stock\": null,\r\n                  \"right-stock\": null,\r\n                  \"grain-direction\": 0,\r\n                  \"Description\": null,\r\n                  \"ProcessOn\": null,\r\n                  \"ProcessOnTypedObject\": null,\r\n                  \"UserDefined\": false,\r\n                  \"ForceExposeToEndUser\": true\r\n                },\r\n                \"grain-direction\": 0,\r\n                \"Description\": null,\r\n                \"ProcessOn\": null,\r\n                \"ProcessOnTypedObject\": null,\r\n                \"UserDefined\": false,\r\n                \"ForceExposeToEndUser\": true\r\n              },\r\n              \"grain-direction\": 0,\r\n              \"Description\": null,\r\n              \"ProcessOn\": null,\r\n              \"ProcessOnTypedObject\": null,\r\n              \"UserDefined\": false,\r\n              \"ForceExposeToEndUser\": true\r\n            },\r\n            \"grain-direction\": 0,\r\n            \"Description\": null,\r\n            \"ProcessOn\": null,\r\n            \"ProcessOnTypedObject\": null,\r\n            \"UserDefined\": false,\r\n            \"ForceExposeToEndUser\": true\r\n          },\r\n          \"right-stock\": {\r\n            \"type\": \"waste\",\r\n            \"item\": null,\r\n            \"quantity\": 1,\r\n            \"length\": 0.575,\r\n            \"width\": 2.0,\r\n            \"panel-name\": \"\",\r\n            \"cut\": null,\r\n            \"cut-coordinate\": 0.0,\r\n            \"cut-half-thickness\": 0.0,\r\n            \"left-stock\": null,\r\n            \"right-stock\": null,\r\n            \"grain-direction\": 0,\r\n            \"Description\": null,\r\n            \"ProcessOn\": null,\r\n            \"ProcessOnTypedObject\": null,\r\n            \"UserDefined\": false,\r\n            \"ForceExposeToEndUser\": true\r\n          },\r\n          \"grain-direction\": 0,\r\n          \"Description\": null,\r\n          \"ProcessOn\": null,\r\n          \"ProcessOnTypedObject\": null,\r\n          \"UserDefined\": false,\r\n          \"ForceExposeToEndUser\": true\r\n        },\r\n        \"grain-direction\": 0,\r\n        \"Description\": null,\r\n        \"ProcessOn\": null,\r\n        \"ProcessOnTypedObject\": null,\r\n        \"UserDefined\": false,\r\n        \"ForceExposeToEndUser\": true\r\n      }\r\n    ],\r\n    \"material\": \"MDF 19mm\",\r\n    \"name\": \"MDF Board 19mm\",\r\n    \"db-board-id\": 48,\r\n    \"thickness\": 0.019,\r\n    \"Description\": null,\r\n    \"ProcessOn\": null,\r\n    \"ProcessOnTypedObject\": null,\r\n    \"UserDefined\": false,\r\n    \"ForceExposeToEndUser\": true\r\n  },\r\n  {\r\n    \"version\": 1,\r\n    \"stocks\": [\r\n      {\r\n        \"type\": null,\r\n        \"template-stock-id\": 2,\r\n        \"item\": null,\r\n        \"quantity\": 1,\r\n        \"length\": 3.0,\r\n        \"width\": 1.5,\r\n        \"panel-name\": \"\",\r\n        \"cut\": \"H\",\r\n        \"cut-coordinate\": 0.015,\r\n        \"cut-half-thickness\": 0.0025,\r\n        \"left-stock\": {\r\n          \"type\": \"padding\",\r\n          \"item\": null,\r\n          \"quantity\": 1,\r\n          \"length\": 3.0,\r\n          \"width\": 0.015,\r\n          \"panel-name\": \"\",\r\n          \"cut\": null,\r\n          \"cut-coordinate\": 0.0,\r\n          \"cut-half-thickness\": 0.0,\r\n          \"left-stock\": null,\r\n          \"right-stock\": null,\r\n          \"grain-direction\": 0,\r\n          \"Description\": null,\r\n          \"ProcessOn\": null,\r\n          \"ProcessOnTypedObject\": null,\r\n          \"UserDefined\": false,\r\n          \"ForceExposeToEndUser\": true\r\n        },\r\n        \"right-stock\": {\r\n          \"type\": null,\r\n          \"item\": null,\r\n          \"quantity\": 1,\r\n          \"length\": 3.0,\r\n          \"width\": 1.48,\r\n          \"panel-name\": \"\",\r\n          \"cut\": \"H\",\r\n          \"cut-coordinate\": 0.918,\r\n          \"cut-half-thickness\": 0.0025,\r\n          \"left-stock\": {\r\n            \"type\": null,\r\n            \"item\": null,\r\n            \"quantity\": 1,\r\n            \"length\": 3.0,\r\n            \"width\": 0.918,\r\n            \"panel-name\": \"\",\r\n            \"cut\": \"V\",\r\n            \"cut-coordinate\": 0.015,\r\n            \"cut-half-thickness\": 0.0025,\r\n            \"left-stock\": {\r\n              \"type\": \"padding\",\r\n              \"item\": null,\r\n              \"quantity\": 1,\r\n              \"length\": 0.015,\r\n              \"width\": 0.918,\r\n              \"panel-name\": \"\",\r\n              \"cut\": null,\r\n              \"cut-coordinate\": 0.0,\r\n              \"cut-half-thickness\": 0.0,\r\n              \"left-stock\": null,\r\n              \"right-stock\": null,\r\n              \"grain-direction\": 0,\r\n              \"Description\": null,\r\n              \"ProcessOn\": null,\r\n              \"ProcessOnTypedObject\": null,\r\n              \"UserDefined\": false,\r\n              \"ForceExposeToEndUser\": true\r\n            },\r\n            \"right-stock\": {\r\n              \"type\": null,\r\n              \"item\": null,\r\n              \"quantity\": 1,\r\n              \"length\": 2.98,\r\n              \"width\": 0.918,\r\n              \"panel-name\": \"\",\r\n              \"cut\": \"V\",\r\n              \"cut-coordinate\": 2.27,\r\n              \"cut-half-thickness\": 0.0025,\r\n              \"left-stock\": {\r\n                \"type\": \"item\",\r\n                \"item\": {\r\n                  \"template-item-id\": 18,\r\n                  \"rotation\": \"HWT\"\r\n                },\r\n                \"quantity\": 1,\r\n                \"length\": 2.27,\r\n                \"width\": 0.918,\r\n                \"panel-name\": \"BACK_Back_High Cabinet_SwoodDesign_1_1\",\r\n                \"cut\": null,\r\n                \"cut-coordinate\": 0.0,\r\n                \"cut-half-thickness\": 0.0,\r\n                \"left-stock\": null,\r\n                \"right-stock\": null,\r\n                \"grain-direction\": 0,\r\n                \"Description\": null,\r\n                \"ProcessOn\": null,\r\n                \"ProcessOnTypedObject\": null,\r\n                \"UserDefined\": false,\r\n                \"ForceExposeToEndUser\": true\r\n              },\r\n              \"right-stock\": {\r\n                \"type\": \"waste\",\r\n                \"item\": null,\r\n                \"quantity\": 1,\r\n                \"length\": 0.705,\r\n                \"width\": 0.918,\r\n                \"panel-name\": \"\",\r\n                \"cut\": null,\r\n                \"cut-coordinate\": 0.0,\r\n                \"cut-half-thickness\": 0.0,\r\n                \"left-stock\": null,\r\n                \"right-stock\": null,\r\n                \"grain-direction\": 0,\r\n                \"Description\": null,\r\n                \"ProcessOn\": null,\r\n                \"ProcessOnTypedObject\": null,\r\n                \"UserDefined\": false,\r\n                \"ForceExposeToEndUser\": true\r\n              },\r\n              \"grain-direction\": 0,\r\n              \"Description\": null,\r\n              \"ProcessOn\": null,\r\n              \"ProcessOnTypedObject\": null,\r\n              \"UserDefined\": false,\r\n              \"ForceExposeToEndUser\": true\r\n            },\r\n            \"grain-direction\": 0,\r\n            \"Description\": null,\r\n            \"ProcessOn\": null,\r\n            \"ProcessOnTypedObject\": null,\r\n            \"UserDefined\": false,\r\n            \"ForceExposeToEndUser\": true\r\n          },\r\n          \"right-stock\": {\r\n            \"type\": \"waste\",\r\n            \"item\": null,\r\n            \"quantity\": 1,\r\n            \"length\": 3.0,\r\n            \"width\": 0.557,\r\n            \"panel-name\": \"\",\r\n            \"cut\": null,\r\n            \"cut-coordinate\": 0.0,\r\n            \"cut-half-thickness\": 0.0,\r\n            \"left-stock\": null,\r\n            \"right-stock\": null,\r\n            \"grain-direction\": 0,\r\n            \"Description\": null,\r\n            \"ProcessOn\": null,\r\n            \"ProcessOnTypedObject\": null,\r\n            \"UserDefined\": false,\r\n            \"ForceExposeToEndUser\": true\r\n          },\r\n          \"grain-direction\": 0,\r\n          \"Description\": null,\r\n          \"ProcessOn\": null,\r\n          \"ProcessOnTypedObject\": null,\r\n          \"UserDefined\": false,\r\n          \"ForceExposeToEndUser\": true\r\n        },\r\n        \"grain-direction\": 0,\r\n        \"Description\": null,\r\n        \"ProcessOn\": null,\r\n        \"ProcessOnTypedObject\": null,\r\n        \"UserDefined\": false,\r\n        \"ForceExposeToEndUser\": true\r\n      },\r\n      {\r\n        \"type\": null,\r\n        \"template-stock-id\": 2,\r\n        \"item\": null,\r\n        \"quantity\": 1,\r\n        \"length\": 3.0,\r\n        \"width\": 1.5,\r\n        \"panel-name\": \"\",\r\n        \"cut\": \"H\",\r\n        \"cut-coordinate\": 0.015,\r\n        \"cut-half-thickness\": 0.0025,\r\n        \"left-stock\": {\r\n          \"type\": \"padding\",\r\n          \"item\": null,\r\n          \"quantity\": 1,\r\n          \"length\": 3.0,\r\n          \"width\": 0.015,\r\n          \"panel-name\": \"\",\r\n          \"cut\": null,\r\n          \"cut-coordinate\": 0.0,\r\n          \"cut-half-thickness\": 0.0,\r\n          \"left-stock\": null,\r\n          \"right-stock\": null,\r\n          \"grain-direction\": 0,\r\n          \"Description\": null,\r\n          \"ProcessOn\": null,\r\n          \"ProcessOnTypedObject\": null,\r\n          \"UserDefined\": false,\r\n          \"ForceExposeToEndUser\": true\r\n        },\r\n        \"right-stock\": {\r\n          \"type\": null,\r\n          \"item\": null,\r\n          \"quantity\": 1,\r\n          \"length\": 3.0,\r\n          \"width\": 1.48,\r\n          \"panel-name\": \"\",\r\n          \"cut\": \"H\",\r\n          \"cut-coordinate\": 0.931,\r\n          \"cut-half-thickness\": 0.0025,\r\n          \"left-stock\": {\r\n            \"type\": null,\r\n            \"item\": null,\r\n            \"quantity\": 1,\r\n            \"length\": 3.0,\r\n            \"width\": 0.931,\r\n            \"panel-name\": \"\",\r\n            \"cut\": \"V\",\r\n            \"cut-coordinate\": 0.015,\r\n            \"cut-half-thickness\": 0.0025,\r\n            \"left-stock\": {\r\n              \"type\": \"padding\",\r\n              \"item\": null,\r\n              \"quantity\": 1,\r\n              \"length\": 0.015,\r\n              \"width\": 0.931,\r\n              \"panel-name\": \"\",\r\n              \"cut\": null,\r\n              \"cut-coordinate\": 0.0,\r\n              \"cut-half-thickness\": 0.0,\r\n              \"left-stock\": null,\r\n              \"right-stock\": null,\r\n              \"grain-direction\": 0,\r\n              \"Description\": null,\r\n              \"ProcessOn\": null,\r\n              \"ProcessOnTypedObject\": null,\r\n              \"UserDefined\": false,\r\n              \"ForceExposeToEndUser\": true\r\n            },\r\n            \"right-stock\": {\r\n              \"type\": null,\r\n              \"item\": null,\r\n              \"quantity\": 1,\r\n              \"length\": 2.98,\r\n              \"width\": 0.931,\r\n              \"panel-name\": \"\",\r\n              \"cut\": \"V\",\r\n              \"cut-coordinate\": 1.158,\r\n              \"cut-half-thickness\": 0.0025,\r\n              \"left-stock\": {\r\n                \"type\": \"item\",\r\n                \"item\": {\r\n                  \"template-item-id\": 19,\r\n                  \"rotation\": \"HWT\"\r\n                },\r\n                \"quantity\": 1,\r\n                \"length\": 1.158,\r\n                \"width\": 0.931,\r\n                \"panel-name\": \"Back_Doors_SwoodDesign_1\",\r\n                \"cut\": null,\r\n                \"cut-coordinate\": 0.0,\r\n                \"cut-half-thickness\": 0.0,\r\n                \"left-stock\": null,\r\n                \"right-stock\": null,\r\n                \"grain-direction\": 0,\r\n                \"Description\": null,\r\n                \"ProcessOn\": null,\r\n                \"ProcessOnTypedObject\": null,\r\n                \"UserDefined\": false,\r\n                \"ForceExposeToEndUser\": true\r\n              },\r\n              \"right-stock\": {\r\n                \"type\": \"waste\",\r\n                \"item\": null,\r\n                \"quantity\": 1,\r\n                \"length\": 1.817,\r\n                \"width\": 0.931,\r\n                \"panel-name\": \"\",\r\n                \"cut\": null,\r\n                \"cut-coordinate\": 0.0,\r\n                \"cut-half-thickness\": 0.0,\r\n                \"left-stock\": null,\r\n                \"right-stock\": null,\r\n                \"grain-direction\": 0,\r\n                \"Description\": null,\r\n                \"ProcessOn\": null,\r\n                \"ProcessOnTypedObject\": null,\r\n                \"UserDefined\": false,\r\n                \"ForceExposeToEndUser\": true\r\n              },\r\n              \"grain-direction\": 0,\r\n              \"Description\": null,\r\n              \"ProcessOn\": null,\r\n              \"ProcessOnTypedObject\": null,\r\n              \"UserDefined\": false,\r\n              \"ForceExposeToEndUser\": true\r\n            },\r\n            \"grain-direction\": 0,\r\n            \"Description\": null,\r\n            \"ProcessOn\": null,\r\n            \"ProcessOnTypedObject\": null,\r\n            \"UserDefined\": false,\r\n            \"ForceExposeToEndUser\": true\r\n          },\r\n          \"right-stock\": {\r\n            \"type\": \"waste\",\r\n            \"item\": null,\r\n            \"quantity\": 1,\r\n            \"length\": 3.0,\r\n            \"width\": 0.544,\r\n            \"panel-name\": \"\",\r\n            \"cut\": null,\r\n            \"cut-coordinate\": 0.0,\r\n            \"cut-half-thickness\": 0.0,\r\n            \"left-stock\": null,\r\n            \"right-stock\": null,\r\n            \"grain-direction\": 0,\r\n            \"Description\": null,\r\n            \"ProcessOn\": null,\r\n            \"ProcessOnTypedObject\": null,\r\n            \"UserDefined\": false,\r\n            \"ForceExposeToEndUser\": true\r\n          },\r\n          \"grain-direction\": 0,\r\n          \"Description\": null,\r\n          \"ProcessOn\": null,\r\n          \"ProcessOnTypedObject\": null,\r\n          \"UserDefined\": false,\r\n          \"ForceExposeToEndUser\": true\r\n        },\r\n        \"grain-direction\": 0,\r\n        \"Description\": null,\r\n        \"ProcessOn\": null,\r\n        \"ProcessOnTypedObject\": null,\r\n        \"UserDefined\": false,\r\n        \"ForceExposeToEndUser\": true\r\n      }\r\n    ],\r\n    \"material\": \"MDF 5mm\",\r\n    \"name\": \"MDF 5mm\",\r\n    \"db-board-id\": 36,\r\n    \"thickness\": 0.005,\r\n    \"Description\": null,\r\n    \"ProcessOn\": null,\r\n    \"ProcessOnTypedObject\": null,\r\n    \"UserDefined\": false,\r\n    \"ForceExposeToEndUser\": true\r\n  },\r\n  {\r\n    \"version\": 1,\r\n    \"stocks\": [\r\n      {\r\n        \"type\": null,\r\n        \"template-stock-id\": 3,\r\n        \"item\": null,\r\n        \"quantity\": 1,\r\n        \"length\": 2.44,\r\n        \"width\": 1.22,\r\n        \"panel-name\": \"\",\r\n        \"cut\": \"V\",\r\n        \"cut-coordinate\": 0.015,\r\n        \"cut-half-thickness\": 0.0025,\r\n        \"left-stock\": {\r\n          \"type\": \"padding\",\r\n          \"item\": null,\r\n          \"quantity\": 1,\r\n          \"length\": 0.015,\r\n          \"width\": 1.22,\r\n          \"panel-name\": \"\",\r\n          \"cut\": null,\r\n          \"cut-coordinate\": 0.0,\r\n          \"cut-half-thickness\": 0.0,\r\n          \"left-stock\": null,\r\n          \"right-stock\": null,\r\n          \"grain-direction\": 0,\r\n          \"Description\": null,\r\n          \"ProcessOn\": null,\r\n          \"ProcessOnTypedObject\": null,\r\n          \"UserDefined\": false,\r\n          \"ForceExposeToEndUser\": true\r\n        },\r\n        \"right-stock\": {\r\n          \"type\": null,\r\n          \"item\": null,\r\n          \"quantity\": 1,\r\n          \"length\": 2.42,\r\n          \"width\": 1.22,\r\n          \"panel-name\": \"\",\r\n          \"cut\": \"V\",\r\n          \"cut-coordinate\": 0.3255,\r\n          \"cut-half-thickness\": 0.0025,\r\n          \"left-stock\": {\r\n            \"type\": null,\r\n            \"item\": null,\r\n            \"quantity\": 1,\r\n            \"length\": 0.3255,\r\n            \"width\": 1.22,\r\n            \"panel-name\": \"\",\r\n            \"cut\": \"H\",\r\n            \"cut-coordinate\": 0.015,\r\n            \"cut-half-thickness\": 0.0025,\r\n            \"left-stock\": {\r\n              \"type\": \"padding\",\r\n              \"item\": null,\r\n              \"quantity\": 1,\r\n              \"length\": 0.3255,\r\n              \"width\": 0.015,\r\n              \"panel-name\": \"\",\r\n              \"cut\": null,\r\n              \"cut-coordinate\": 0.0,\r\n              \"cut-half-thickness\": 0.0,\r\n              \"left-stock\": null,\r\n              \"right-stock\": null,\r\n              \"grain-direction\": 0,\r\n              \"Description\": null,\r\n              \"ProcessOn\": null,\r\n              \"ProcessOnTypedObject\": null,\r\n              \"UserDefined\": false,\r\n              \"ForceExposeToEndUser\": true\r\n            },\r\n            \"right-stock\": {\r\n              \"type\": null,\r\n              \"item\": null,\r\n              \"quantity\": 1,\r\n              \"length\": 0.3255,\r\n              \"width\": 1.2,\r\n              \"panel-name\": \"\",\r\n              \"cut\": \"H\",\r\n              \"cut-coordinate\": 0.565,\r\n              \"cut-half-thickness\": 0.0025,\r\n              \"left-stock\": {\r\n                \"type\": \"item\",\r\n                \"item\": {\r\n                  \"template-item-id\": 22,\r\n                  \"rotation\": \"HWT\"\r\n                },\r\n                \"quantity\": 1,\r\n                \"length\": 0.3255,\r\n                \"width\": 0.565,\r\n                \"panel-name\": \"Left_Drawers Overlay_High Cabinet_SwoodDesign_1_1\",\r\n                \"cut\": null,\r\n                \"cut-coordinate\": 0.0,\r\n                \"cut-half-thickness\": 0.0,\r\n                \"left-stock\": null,\r\n                \"right-stock\": null,\r\n                \"grain-direction\": 1,\r\n                \"Description\": null,\r\n                \"ProcessOn\": null,\r\n                \"ProcessOnTypedObject\": null,\r\n                \"UserDefined\": false,\r\n                \"ForceExposeToEndUser\": true\r\n              },\r\n              \"right-stock\": {\r\n                \"type\": null,\r\n                \"item\": null,\r\n                \"quantity\": 1,\r\n                \"length\": 0.3255,\r\n                \"width\": 0.63,\r\n                \"panel-name\": \"\",\r\n                \"cut\": \"H\",\r\n                \"cut-coordinate\": 0.565,\r\n                \"cut-half-thickness\": 0.0025,\r\n                \"left-stock\": {\r\n                  \"type\": \"item\",\r\n                  \"item\": {\r\n                    \"template-item-id\": 22,\r\n                    \"rotation\": \"HWT\"\r\n                  },\r\n                  \"quantity\": 1,\r\n                  \"length\": 0.3255,\r\n                  \"width\": 0.565,\r\n                  \"panel-name\": \"Left_Drawers Overlay_High Cabinet_SwoodDesign_1_1\",\r\n                  \"cut\": null,\r\n                  \"cut-coordinate\": 0.0,\r\n                  \"cut-half-thickness\": 0.0,\r\n                  \"left-stock\": null,\r\n                  \"right-stock\": null,\r\n                  \"grain-direction\": 1,\r\n                  \"Description\": null,\r\n                  \"ProcessOn\": null,\r\n                  \"ProcessOnTypedObject\": null,\r\n                  \"UserDefined\": false,\r\n                  \"ForceExposeToEndUser\": true\r\n                },\r\n                \"right-stock\": {\r\n                  \"type\": \"waste\",\r\n                  \"item\": null,\r\n                  \"quantity\": 1,\r\n                  \"length\": 0.3255,\r\n                  \"width\": 0.06,\r\n                  \"panel-name\": \"\",\r\n                  \"cut\": null,\r\n                  \"cut-coordinate\": 0.0,\r\n                  \"cut-half-thickness\": 0.0,\r\n                  \"left-stock\": null,\r\n                  \"right-stock\": null,\r\n                  \"grain-direction\": 0,\r\n                  \"Description\": null,\r\n                  \"ProcessOn\": null,\r\n                  \"ProcessOnTypedObject\": null,\r\n                  \"UserDefined\": false,\r\n                  \"ForceExposeToEndUser\": true\r\n                },\r\n                \"grain-direction\": 0,\r\n                \"Description\": null,\r\n                \"ProcessOn\": null,\r\n                \"ProcessOnTypedObject\": null,\r\n                \"UserDefined\": false,\r\n                \"ForceExposeToEndUser\": true\r\n              },\r\n              \"grain-direction\": 0,\r\n              \"Description\": null,\r\n              \"ProcessOn\": null,\r\n              \"ProcessOnTypedObject\": null,\r\n              \"UserDefined\": false,\r\n              \"ForceExposeToEndUser\": true\r\n            },\r\n            \"grain-direction\": 0,\r\n            \"Description\": null,\r\n            \"ProcessOn\": null,\r\n            \"ProcessOnTypedObject\": null,\r\n            \"UserDefined\": false,\r\n            \"ForceExposeToEndUser\": true\r\n          },\r\n          \"right-stock\": {\r\n            \"type\": null,\r\n            \"item\": null,\r\n            \"quantity\": 1,\r\n            \"length\": 2.0895,\r\n            \"width\": 1.22,\r\n            \"panel-name\": \"\",\r\n            \"cut\": \"V\",\r\n            \"cut-coordinate\": 0.3255,\r\n            \"cut-half-thickness\": 0.0025,\r\n            \"left-stock\": {\r\n              \"type\": null,\r\n              \"item\": null,\r\n              \"quantity\": 1,\r\n              \"length\": 0.3255,\r\n              \"width\": 1.22,\r\n              \"panel-name\": \"\",\r\n              \"cut\": \"H\",\r\n              \"cut-coordinate\": 0.015,\r\n              \"cut-half-thickness\": 0.0025,\r\n              \"left-stock\": {\r\n                \"type\": \"padding\",\r\n                \"item\": null,\r\n                \"quantity\": 1,\r\n                \"length\": 0.3255,\r\n                \"width\": 0.015,\r\n                \"panel-name\": \"\",\r\n                \"cut\": null,\r\n                \"cut-coordinate\": 0.0,\r\n                \"cut-half-thickness\": 0.0,\r\n                \"left-stock\": null,\r\n                \"right-stock\": null,\r\n                \"grain-direction\": 0,\r\n                \"Description\": null,\r\n                \"ProcessOn\": null,\r\n                \"ProcessOnTypedObject\": null,\r\n                \"UserDefined\": false,\r\n                \"ForceExposeToEndUser\": true\r\n              },\r\n              \"right-stock\": {\r\n                \"type\": null,\r\n                \"item\": null,\r\n                \"quantity\": 1,\r\n                \"length\": 0.3255,\r\n                \"width\": 1.2,\r\n                \"panel-name\": \"\",\r\n                \"cut\": \"H\",\r\n                \"cut-coordinate\": 0.565,\r\n                \"cut-half-thickness\": 0.0025,\r\n                \"left-stock\": {\r\n                  \"type\": \"item\",\r\n                  \"item\": {\r\n                    \"template-item-id\": 22,\r\n                    \"rotation\": \"HWT\"\r\n                  },\r\n                  \"quantity\": 1,\r\n                  \"length\": 0.3255,\r\n                  \"width\": 0.565,\r\n                  \"panel-name\": \"Left_Drawers Overlay_High Cabinet_SwoodDesign_1_1\",\r\n                  \"cut\": null,\r\n                  \"cut-coordinate\": 0.0,\r\n                  \"cut-half-thickness\": 0.0,\r\n                  \"left-stock\": null,\r\n                  \"right-stock\": null,\r\n                  \"grain-direction\": 1,\r\n                  \"Description\": null,\r\n                  \"ProcessOn\": null,\r\n                  \"ProcessOnTypedObject\": null,\r\n                  \"UserDefined\": false,\r\n                  \"ForceExposeToEndUser\": true\r\n                },\r\n                \"right-stock\": {\r\n                  \"type\": null,\r\n                  \"item\": null,\r\n                  \"quantity\": 1,\r\n                  \"length\": 0.3255,\r\n                  \"width\": 0.63,\r\n                  \"panel-name\": \"\",\r\n                  \"cut\": \"H\",\r\n                  \"cut-coordinate\": 0.565,\r\n                  \"cut-half-thickness\": 0.0025,\r\n                  \"left-stock\": {\r\n                    \"type\": \"item\",\r\n                    \"item\": {\r\n                      \"template-item-id\": 23,\r\n                      \"rotation\": \"HWT\"\r\n                    },\r\n                    \"quantity\": 1,\r\n                    \"length\": 0.3255,\r\n                    \"width\": 0.565,\r\n                    \"panel-name\": \"Right_Drawers Overlay_High Cabinet_SwoodDesign_1_1\",\r\n                    \"cut\": null,\r\n                    \"cut-coordinate\": 0.0,\r\n                    \"cut-half-thickness\": 0.0,\r\n                    \"left-stock\": null,\r\n                    \"right-stock\": null,\r\n                    \"grain-direction\": 1,\r\n                    \"Description\": null,\r\n                    \"ProcessOn\": null,\r\n                    \"ProcessOnTypedObject\": null,\r\n                    \"UserDefined\": false,\r\n                    \"ForceExposeToEndUser\": true\r\n                  },\r\n                  \"right-stock\": {\r\n                    \"type\": \"waste\",\r\n                    \"item\": null,\r\n                    \"quantity\": 1,\r\n                    \"length\": 0.3255,\r\n                    \"width\": 0.06,\r\n                    \"panel-name\": \"\",\r\n                    \"cut\": null,\r\n                    \"cut-coordinate\": 0.0,\r\n                    \"cut-half-thickness\": 0.0,\r\n                    \"left-stock\": null,\r\n                    \"right-stock\": null,\r\n                    \"grain-direction\": 0,\r\n                    \"Description\": null,\r\n                    \"ProcessOn\": null,\r\n                    \"ProcessOnTypedObject\": null,\r\n                    \"UserDefined\": false,\r\n                    \"ForceExposeToEndUser\": true\r\n                  },\r\n                  \"grain-direction\": 0,\r\n                  \"Description\": null,\r\n                  \"ProcessOn\": null,\r\n                  \"ProcessOnTypedObject\": null,\r\n                  \"UserDefined\": false,\r\n                  \"ForceExposeToEndUser\": true\r\n                },\r\n                \"grain-direction\": 0,\r\n                \"Description\": null,\r\n                \"ProcessOn\": null,\r\n                \"ProcessOnTypedObject\": null,\r\n                \"UserDefined\": false,\r\n                \"ForceExposeToEndUser\": true\r\n              },\r\n              \"grain-direction\": 0,\r\n              \"Description\": null,\r\n              \"ProcessOn\": null,\r\n              \"ProcessOnTypedObject\": null,\r\n              \"UserDefined\": false,\r\n              \"ForceExposeToEndUser\": true\r\n            },\r\n            \"right-stock\": {\r\n              \"type\": null,\r\n              \"item\": null,\r\n              \"quantity\": 1,\r\n              \"length\": 1.759,\r\n              \"width\": 1.22,\r\n              \"panel-name\": \"\",\r\n              \"cut\": \"V\",\r\n              \"cut-coordinate\": 0.3255,\r\n              \"cut-half-thickness\": 0.0025,\r\n              \"left-stock\": {\r\n                \"type\": null,\r\n                \"item\": null,\r\n                \"quantity\": 1,\r\n                \"length\": 0.3255,\r\n                \"width\": 1.22,\r\n                \"panel-name\": \"\",\r\n                \"cut\": \"H\",\r\n                \"cut-coordinate\": 0.015,\r\n                \"cut-half-thickness\": 0.0025,\r\n                \"left-stock\": {\r\n                  \"type\": \"padding\",\r\n                  \"item\": null,\r\n                  \"quantity\": 1,\r\n                  \"length\": 0.3255,\r\n                  \"width\": 0.015,\r\n                  \"panel-name\": \"\",\r\n                  \"cut\": null,\r\n                  \"cut-coordinate\": 0.0,\r\n                  \"cut-half-thickness\": 0.0,\r\n                  \"left-stock\": null,\r\n                  \"right-stock\": null,\r\n                  \"grain-direction\": 0,\r\n                  \"Description\": null,\r\n                  \"ProcessOn\": null,\r\n                  \"ProcessOnTypedObject\": null,\r\n                  \"UserDefined\": false,\r\n                  \"ForceExposeToEndUser\": true\r\n                },\r\n                \"right-stock\": {\r\n                  \"type\": null,\r\n                  \"item\": null,\r\n                  \"quantity\": 1,\r\n                  \"length\": 0.3255,\r\n                  \"width\": 1.2,\r\n                  \"panel-name\": \"\",\r\n                  \"cut\": \"H\",\r\n                  \"cut-coordinate\": 0.565,\r\n                  \"cut-half-thickness\": 0.0025,\r\n                  \"left-stock\": {\r\n                    \"type\": \"item\",\r\n                    \"item\": {\r\n                      \"template-item-id\": 23,\r\n                      \"rotation\": \"HWT\"\r\n                    },\r\n                    \"quantity\": 1,\r\n                    \"length\": 0.3255,\r\n                    \"width\": 0.565,\r\n                    \"panel-name\": \"Right_Drawers Overlay_High Cabinet_SwoodDesign_1_1\",\r\n                    \"cut\": null,\r\n                    \"cut-coordinate\": 0.0,\r\n                    \"cut-half-thickness\": 0.0,\r\n                    \"left-stock\": null,\r\n                    \"right-stock\": null,\r\n                    \"grain-direction\": 1,\r\n                    \"Description\": null,\r\n                    \"ProcessOn\": null,\r\n                    \"ProcessOnTypedObject\": null,\r\n                    \"UserDefined\": false,\r\n                    \"ForceExposeToEndUser\": true\r\n                  },\r\n                  \"right-stock\": {\r\n                    \"type\": null,\r\n                    \"item\": null,\r\n                    \"quantity\": 1,\r\n                    \"length\": 0.3255,\r\n                    \"width\": 0.63,\r\n                    \"panel-name\": \"\",\r\n                    \"cut\": \"H\",\r\n                    \"cut-coordinate\": 0.565,\r\n                    \"cut-half-thickness\": 0.0025,\r\n                    \"left-stock\": {\r\n                      \"type\": \"item\",\r\n                      \"item\": {\r\n                        \"template-item-id\": 23,\r\n                        \"rotation\": \"HWT\"\r\n                      },\r\n                      \"quantity\": 1,\r\n                      \"length\": 0.3255,\r\n                      \"width\": 0.565,\r\n                      \"panel-name\": \"Right_Drawers Overlay_High Cabinet_SwoodDesign_1_1\",\r\n                      \"cut\": null,\r\n                      \"cut-coordinate\": 0.0,\r\n                      \"cut-half-thickness\": 0.0,\r\n                      \"left-stock\": null,\r\n                      \"right-stock\": null,\r\n                      \"grain-direction\": 1,\r\n                      \"Description\": null,\r\n                      \"ProcessOn\": null,\r\n                      \"ProcessOnTypedObject\": null,\r\n                      \"UserDefined\": false,\r\n                      \"ForceExposeToEndUser\": true\r\n                    },\r\n                    \"right-stock\": {\r\n                      \"type\": \"waste\",\r\n                      \"item\": null,\r\n                      \"quantity\": 1,\r\n                      \"length\": 0.3255,\r\n                      \"width\": 0.06,\r\n                      \"panel-name\": \"\",\r\n                      \"cut\": null,\r\n                      \"cut-coordinate\": 0.0,\r\n                      \"cut-half-thickness\": 0.0,\r\n                      \"left-stock\": null,\r\n                      \"right-stock\": null,\r\n                      \"grain-direction\": 0,\r\n                      \"Description\": null,\r\n                      \"ProcessOn\": null,\r\n                      \"ProcessOnTypedObject\": null,\r\n                      \"UserDefined\": false,\r\n                      \"ForceExposeToEndUser\": true\r\n                    },\r\n                    \"grain-direction\": 0,\r\n                    \"Description\": null,\r\n                    \"ProcessOn\": null,\r\n                    \"ProcessOnTypedObject\": null,\r\n                    \"UserDefined\": false,\r\n                    \"ForceExposeToEndUser\": true\r\n                  },\r\n                  \"grain-direction\": 0,\r\n                  \"Description\": null,\r\n                  \"ProcessOn\": null,\r\n                  \"ProcessOnTypedObject\": null,\r\n                  \"UserDefined\": false,\r\n                  \"ForceExposeToEndUser\": true\r\n                },\r\n                \"grain-direction\": 0,\r\n                \"Description\": null,\r\n                \"ProcessOn\": null,\r\n                \"ProcessOnTypedObject\": null,\r\n                \"UserDefined\": false,\r\n                \"ForceExposeToEndUser\": true\r\n              },\r\n              \"right-stock\": {\r\n                \"type\": null,\r\n                \"item\": null,\r\n                \"quantity\": 1,\r\n                \"length\": 1.4285,\r\n                \"width\": 1.22,\r\n                \"panel-name\": \"\",\r\n                \"cut\": \"H\",\r\n                \"cut-coordinate\": 0.015,\r\n                \"cut-half-thickness\": 0.0025,\r\n                \"left-stock\": {\r\n                  \"type\": \"padding\",\r\n                  \"item\": null,\r\n                  \"quantity\": 1,\r\n                  \"length\": 1.4285,\r\n                  \"width\": 0.015,\r\n                  \"panel-name\": \"\",\r\n                  \"cut\": null,\r\n                  \"cut-coordinate\": 0.0,\r\n                  \"cut-half-thickness\": 0.0,\r\n                  \"left-stock\": null,\r\n                  \"right-stock\": null,\r\n                  \"grain-direction\": 0,\r\n                  \"Description\": null,\r\n                  \"ProcessOn\": null,\r\n                  \"ProcessOnTypedObject\": null,\r\n                  \"UserDefined\": false,\r\n                  \"ForceExposeToEndUser\": true\r\n                },\r\n                \"right-stock\": {\r\n                  \"type\": null,\r\n                  \"item\": null,\r\n                  \"quantity\": 1,\r\n                  \"length\": 1.4285,\r\n                  \"width\": 1.2,\r\n                  \"panel-name\": \"\",\r\n                  \"cut\": \"H\",\r\n                  \"cut-coordinate\": 0.8506,\r\n                  \"cut-half-thickness\": 0.0025,\r\n                  \"left-stock\": {\r\n                    \"type\": null,\r\n                    \"item\": null,\r\n                    \"quantity\": 1,\r\n                    \"length\": 1.4285,\r\n                    \"width\": 0.8506,\r\n                    \"panel-name\": \"\",\r\n                    \"cut\": \"V\",\r\n                    \"cut-coordinate\": 0.3255,\r\n                    \"cut-half-thickness\": 0.0025,\r\n                    \"left-stock\": {\r\n                      \"type\": \"item\",\r\n                      \"item\": {\r\n                        \"template-item-id\": 20,\r\n                        \"rotation\": \"HWT\"\r\n                      },\r\n                      \"quantity\": 1,\r\n                      \"length\": 0.3255,\r\n                      \"width\": 0.8506,\r\n                      \"panel-name\": \"Back_Drawers Overlay_High Cabinet_SwoodDesign_1_1\",\r\n                      \"cut\": null,\r\n                      \"cut-coordinate\": 0.0,\r\n                      \"cut-half-thickness\": 0.0,\r\n                      \"left-stock\": null,\r\n                      \"right-stock\": null,\r\n                      \"grain-direction\": 1,\r\n                      \"Description\": null,\r\n                      \"ProcessOn\": null,\r\n                      \"ProcessOnTypedObject\": null,\r\n                      \"UserDefined\": false,\r\n                      \"ForceExposeToEndUser\": true\r\n                    },\r\n                    \"right-stock\": {\r\n                      \"type\": null,\r\n                      \"item\": null,\r\n                      \"quantity\": 1,\r\n                      \"length\": 1.098,\r\n                      \"width\": 0.8506,\r\n                      \"panel-name\": \"\",\r\n                      \"cut\": \"V\",\r\n                      \"cut-coordinate\": 0.3255,\r\n                      \"cut-half-thickness\": 0.0025,\r\n                      \"left-stock\": {\r\n                        \"type\": \"item\",\r\n                        \"item\": {\r\n                          \"template-item-id\": 20,\r\n                          \"rotation\": \"HWT\"\r\n                        },\r\n                        \"quantity\": 1,\r\n                        \"length\": 0.3255,\r\n                        \"width\": 0.8506,\r\n                        \"panel-name\": \"Back_Drawers Overlay_High Cabinet_SwoodDesign_1_1\",\r\n                        \"cut\": null,\r\n                        \"cut-coordinate\": 0.0,\r\n                        \"cut-half-thickness\": 0.0,\r\n                        \"left-stock\": null,\r\n                        \"right-stock\": null,\r\n                        \"grain-direction\": 1,\r\n                        \"Description\": null,\r\n                        \"ProcessOn\": null,\r\n                        \"ProcessOnTypedObject\": null,\r\n                        \"UserDefined\": false,\r\n                        \"ForceExposeToEndUser\": true\r\n                      },\r\n                      \"right-stock\": {\r\n                        \"type\": null,\r\n                        \"item\": null,\r\n                        \"quantity\": 1,\r\n                        \"length\": 0.7675,\r\n                        \"width\": 0.8506,\r\n                        \"panel-name\": \"\",\r\n                        \"cut\": \"V\",\r\n                        \"cut-coordinate\": 0.544,\r\n                        \"cut-half-thickness\": 0.0025,\r\n                        \"left-stock\": {\r\n                          \"type\": \"item\",\r\n                          \"item\": {\r\n                            \"template-item-id\": 21,\r\n                            \"rotation\": \"HWT\"\r\n                          },\r\n                          \"quantity\": 1,\r\n                          \"length\": 0.544,\r\n                          \"width\": 0.8506,\r\n                          \"panel-name\": \"Bottom_Drawers Overlay_High Cabinet_SwoodDesign_1_1\",\r\n                          \"cut\": null,\r\n                          \"cut-coordinate\": 0.0,\r\n                          \"cut-half-thickness\": 0.0,\r\n                          \"left-stock\": null,\r\n                          \"right-stock\": null,\r\n                          \"grain-direction\": 1,\r\n                          \"Description\": null,\r\n                          \"ProcessOn\": null,\r\n                          \"ProcessOnTypedObject\": null,\r\n                          \"UserDefined\": false,\r\n                          \"ForceExposeToEndUser\": true\r\n                        },\r\n                        \"right-stock\": {\r\n                          \"type\": \"waste\",\r\n                          \"item\": null,\r\n                          \"quantity\": 1,\r\n                          \"length\": 0.2185,\r\n                          \"width\": 0.8506,\r\n                          \"panel-name\": \"\",\r\n                          \"cut\": null,\r\n                          \"cut-coordinate\": 0.0,\r\n                          \"cut-half-thickness\": 0.0,\r\n                          \"left-stock\": null,\r\n                          \"right-stock\": null,\r\n                          \"grain-direction\": 0,\r\n                          \"Description\": null,\r\n                          \"ProcessOn\": null,\r\n                          \"ProcessOnTypedObject\": null,\r\n                          \"UserDefined\": false,\r\n                          \"ForceExposeToEndUser\": true\r\n                        },\r\n                        \"grain-direction\": 0,\r\n                        \"Description\": null,\r\n                        \"ProcessOn\": null,\r\n                        \"ProcessOnTypedObject\": null,\r\n                        \"UserDefined\": false,\r\n                        \"ForceExposeToEndUser\": true\r\n                      },\r\n                      \"grain-direction\": 0,\r\n                      \"Description\": null,\r\n                      \"ProcessOn\": null,\r\n                      \"ProcessOnTypedObject\": null,\r\n                      \"UserDefined\": false,\r\n                      \"ForceExposeToEndUser\": true\r\n                    },\r\n                    \"grain-direction\": 0,\r\n                    \"Description\": null,\r\n                    \"ProcessOn\": null,\r\n                    \"ProcessOnTypedObject\": null,\r\n                    \"UserDefined\": false,\r\n                    \"ForceExposeToEndUser\": true\r\n                  },\r\n                  \"right-stock\": {\r\n                    \"type\": \"waste\",\r\n                    \"item\": null,\r\n                    \"quantity\": 1,\r\n                    \"length\": 1.4285,\r\n                    \"width\": 0.3444,\r\n                    \"panel-name\": \"\",\r\n                    \"cut\": null,\r\n                    \"cut-coordinate\": 0.0,\r\n                    \"cut-half-thickness\": 0.0,\r\n                    \"left-stock\": null,\r\n                    \"right-stock\": null,\r\n                    \"grain-direction\": 0,\r\n                    \"Description\": null,\r\n                    \"ProcessOn\": null,\r\n                    \"ProcessOnTypedObject\": null,\r\n                    \"UserDefined\": false,\r\n                    \"ForceExposeToEndUser\": true\r\n                  },\r\n                  \"grain-direction\": 0,\r\n                  \"Description\": null,\r\n                  \"ProcessOn\": null,\r\n                  \"ProcessOnTypedObject\": null,\r\n                  \"UserDefined\": false,\r\n                  \"ForceExposeToEndUser\": true\r\n                },\r\n                \"grain-direction\": 0,\r\n                \"Description\": null,\r\n                \"ProcessOn\": null,\r\n                \"ProcessOnTypedObject\": null,\r\n                \"UserDefined\": false,\r\n                \"ForceExposeToEndUser\": true\r\n              },\r\n              \"grain-direction\": 0,\r\n              \"Description\": null,\r\n              \"ProcessOn\": null,\r\n              \"ProcessOnTypedObject\": null,\r\n              \"UserDefined\": false,\r\n              \"ForceExposeToEndUser\": true\r\n            },\r\n            \"grain-direction\": 0,\r\n            \"Description\": null,\r\n            \"ProcessOn\": null,\r\n            \"ProcessOnTypedObject\": null,\r\n            \"UserDefined\": false,\r\n            \"ForceExposeToEndUser\": true\r\n          },\r\n          \"grain-direction\": 0,\r\n          \"Description\": null,\r\n          \"ProcessOn\": null,\r\n          \"ProcessOnTypedObject\": null,\r\n          \"UserDefined\": false,\r\n          \"ForceExposeToEndUser\": true\r\n        },\r\n        \"grain-direction\": 2,\r\n        \"Description\": null,\r\n        \"ProcessOn\": null,\r\n        \"ProcessOnTypedObject\": null,\r\n        \"UserDefined\": false,\r\n        \"ForceExposeToEndUser\": true\r\n      },\r\n      {\r\n        \"type\": null,\r\n        \"template-stock-id\": 3,\r\n        \"item\": null,\r\n        \"quantity\": 1,\r\n        \"length\": 2.44,\r\n        \"width\": 1.22,\r\n        \"panel-name\": \"\",\r\n        \"cut\": \"H\",\r\n        \"cut-coordinate\": 0.015,\r\n        \"cut-half-thickness\": 0.0025,\r\n        \"left-stock\": {\r\n          \"type\": \"padding\",\r\n          \"item\": null,\r\n          \"quantity\": 1,\r\n          \"length\": 2.44,\r\n          \"width\": 0.015,\r\n          \"panel-name\": \"\",\r\n          \"cut\": null,\r\n          \"cut-coordinate\": 0.0,\r\n          \"cut-half-thickness\": 0.0,\r\n          \"left-stock\": null,\r\n          \"right-stock\": null,\r\n          \"grain-direction\": 0,\r\n          \"Description\": null,\r\n          \"ProcessOn\": null,\r\n          \"ProcessOnTypedObject\": null,\r\n          \"UserDefined\": false,\r\n          \"ForceExposeToEndUser\": true\r\n        },\r\n        \"right-stock\": {\r\n          \"type\": null,\r\n          \"item\": null,\r\n          \"quantity\": 1,\r\n          \"length\": 2.44,\r\n          \"width\": 1.2,\r\n          \"panel-name\": \"\",\r\n          \"cut\": \"H\",\r\n          \"cut-coordinate\": 0.8506,\r\n          \"cut-half-thickness\": 0.0025,\r\n          \"left-stock\": {\r\n            \"type\": null,\r\n            \"item\": null,\r\n            \"quantity\": 1,\r\n            \"length\": 2.44,\r\n            \"width\": 0.8506,\r\n            \"panel-name\": \"\",\r\n            \"cut\": \"V\",\r\n            \"cut-coordinate\": 0.015,\r\n            \"cut-half-thickness\": 0.0025,\r\n            \"left-stock\": {\r\n              \"type\": \"padding\",\r\n              \"item\": null,\r\n              \"quantity\": 1,\r\n              \"length\": 0.015,\r\n              \"width\": 0.8506,\r\n              \"panel-name\": \"\",\r\n              \"cut\": null,\r\n              \"cut-coordinate\": 0.0,\r\n              \"cut-half-thickness\": 0.0,\r\n              \"left-stock\": null,\r\n              \"right-stock\": null,\r\n              \"grain-direction\": 0,\r\n              \"Description\": null,\r\n              \"ProcessOn\": null,\r\n              \"ProcessOnTypedObject\": null,\r\n              \"UserDefined\": false,\r\n              \"ForceExposeToEndUser\": true\r\n            },\r\n            \"right-stock\": {\r\n              \"type\": null,\r\n              \"item\": null,\r\n              \"quantity\": 1,\r\n              \"length\": 2.42,\r\n              \"width\": 0.8506,\r\n              \"panel-name\": \"\",\r\n              \"cut\": \"V\",\r\n              \"cut-coordinate\": 0.3255,\r\n              \"cut-half-thickness\": 0.0025,\r\n              \"left-stock\": {\r\n                \"type\": \"item\",\r\n                \"item\": {\r\n                  \"template-item-id\": 20,\r\n                  \"rotation\": \"HWT\"\r\n                },\r\n                \"quantity\": 1,\r\n                \"length\": 0.3255,\r\n                \"width\": 0.8506,\r\n                \"panel-name\": \"Back_Drawers Overlay_High Cabinet_SwoodDesign_1_1\",\r\n                \"cut\": null,\r\n                \"cut-coordinate\": 0.0,\r\n                \"cut-half-thickness\": 0.0,\r\n                \"left-stock\": null,\r\n                \"right-stock\": null,\r\n                \"grain-direction\": 1,\r\n                \"Description\": null,\r\n                \"ProcessOn\": null,\r\n                \"ProcessOnTypedObject\": null,\r\n                \"UserDefined\": false,\r\n                \"ForceExposeToEndUser\": true\r\n              },\r\n              \"right-stock\": {\r\n                \"type\": null,\r\n                \"item\": null,\r\n                \"quantity\": 1,\r\n                \"length\": 2.0895,\r\n                \"width\": 0.8506,\r\n                \"panel-name\": \"\",\r\n                \"cut\": \"V\",\r\n                \"cut-coordinate\": 0.544,\r\n                \"cut-half-thickness\": 0.0025,\r\n                \"left-stock\": {\r\n                  \"type\": \"item\",\r\n                  \"item\": {\r\n                    \"template-item-id\": 21,\r\n                    \"rotation\": \"HWT\"\r\n                  },\r\n                  \"quantity\": 1,\r\n                  \"length\": 0.544,\r\n                  \"width\": 0.8506,\r\n                  \"panel-name\": \"Bottom_Drawers Overlay_High Cabinet_SwoodDesign_1_1\",\r\n                  \"cut\": null,\r\n                  \"cut-coordinate\": 0.0,\r\n                  \"cut-half-thickness\": 0.0,\r\n                  \"left-stock\": null,\r\n                  \"right-stock\": null,\r\n                  \"grain-direction\": 1,\r\n                  \"Description\": null,\r\n                  \"ProcessOn\": null,\r\n                  \"ProcessOnTypedObject\": null,\r\n                  \"UserDefined\": false,\r\n                  \"ForceExposeToEndUser\": true\r\n                },\r\n                \"right-stock\": {\r\n                  \"type\": null,\r\n                  \"item\": null,\r\n                  \"quantity\": 1,\r\n                  \"length\": 1.5405,\r\n                  \"width\": 0.8506,\r\n                  \"panel-name\": \"\",\r\n                  \"cut\": \"V\",\r\n                  \"cut-coordinate\": 0.544,\r\n                  \"cut-half-thickness\": 0.0025,\r\n                  \"left-stock\": {\r\n                    \"type\": \"item\",\r\n                    \"item\": {\r\n                      \"template-item-id\": 21,\r\n                      \"rotation\": \"HWT\"\r\n                    },\r\n                    \"quantity\": 1,\r\n                    \"length\": 0.544,\r\n                    \"width\": 0.8506,\r\n                    \"panel-name\": \"Bottom_Drawers Overlay_High Cabinet_SwoodDesign_1_1\",\r\n                    \"cut\": null,\r\n                    \"cut-coordinate\": 0.0,\r\n                    \"cut-half-thickness\": 0.0,\r\n                    \"left-stock\": null,\r\n                    \"right-stock\": null,\r\n                    \"grain-direction\": 1,\r\n                    \"Description\": null,\r\n                    \"ProcessOn\": null,\r\n                    \"ProcessOnTypedObject\": null,\r\n                    \"UserDefined\": false,\r\n                    \"ForceExposeToEndUser\": true\r\n                  },\r\n                  \"right-stock\": {\r\n                    \"type\": \"waste\",\r\n                    \"item\": null,\r\n                    \"quantity\": 1,\r\n                    \"length\": 0.9915,\r\n                    \"width\": 0.8506,\r\n                    \"panel-name\": \"\",\r\n                    \"cut\": null,\r\n                    \"cut-coordinate\": 0.0,\r\n                    \"cut-half-thickness\": 0.0,\r\n                    \"left-stock\": null,\r\n                    \"right-stock\": null,\r\n                    \"grain-direction\": 0,\r\n                    \"Description\": null,\r\n                    \"ProcessOn\": null,\r\n                    \"ProcessOnTypedObject\": null,\r\n                    \"UserDefined\": false,\r\n                    \"ForceExposeToEndUser\": true\r\n                  },\r\n                  \"grain-direction\": 0,\r\n                  \"Description\": null,\r\n                  \"ProcessOn\": null,\r\n                  \"ProcessOnTypedObject\": null,\r\n                  \"UserDefined\": false,\r\n                  \"ForceExposeToEndUser\": true\r\n                },\r\n                \"grain-direction\": 0,\r\n                \"Description\": null,\r\n                \"ProcessOn\": null,\r\n                \"ProcessOnTypedObject\": null,\r\n                \"UserDefined\": false,\r\n                \"ForceExposeToEndUser\": true\r\n              },\r\n              \"grain-direction\": 0,\r\n              \"Description\": null,\r\n              \"ProcessOn\": null,\r\n              \"ProcessOnTypedObject\": null,\r\n              \"UserDefined\": false,\r\n              \"ForceExposeToEndUser\": true\r\n            },\r\n            \"grain-direction\": 0,\r\n            \"Description\": null,\r\n            \"ProcessOn\": null,\r\n            \"ProcessOnTypedObject\": null,\r\n            \"UserDefined\": false,\r\n            \"ForceExposeToEndUser\": true\r\n          },\r\n          \"right-stock\": {\r\n            \"type\": \"waste\",\r\n            \"item\": null,\r\n            \"quantity\": 1,\r\n            \"length\": 2.44,\r\n            \"width\": 0.3444,\r\n            \"panel-name\": \"\",\r\n            \"cut\": null,\r\n            \"cut-coordinate\": 0.0,\r\n            \"cut-half-thickness\": 0.0,\r\n            \"left-stock\": null,\r\n            \"right-stock\": null,\r\n            \"grain-direction\": 0,\r\n            \"Description\": null,\r\n            \"ProcessOn\": null,\r\n            \"ProcessOnTypedObject\": null,\r\n            \"UserDefined\": false,\r\n            \"ForceExposeToEndUser\": true\r\n          },\r\n          \"grain-direction\": 0,\r\n          \"Description\": null,\r\n          \"ProcessOn\": null,\r\n          \"ProcessOnTypedObject\": null,\r\n          \"UserDefined\": false,\r\n          \"ForceExposeToEndUser\": true\r\n        },\r\n        \"grain-direction\": 2,\r\n        \"Description\": null,\r\n        \"ProcessOn\": null,\r\n        \"ProcessOnTypedObject\": null,\r\n        \"UserDefined\": false,\r\n        \"ForceExposeToEndUser\": true\r\n      }\r\n    ],\r\n    \"material\": \"Beech 16mm\",\r\n    \"name\": \"Beech16\",\r\n    \"db-board-id\": 16,\r\n    \"thickness\": 0.016,\r\n    \"Description\": null,\r\n    \"ProcessOn\": null,\r\n    \"ProcessOnTypedObject\": null,\r\n    \"UserDefined\": false,\r\n    \"ForceExposeToEndUser\": true\r\n  }\r\n]"
+      "alias": "CuttingPatternPlus",
+      "value": "False"
+    },
+    {
+      "alias": "CuttingPatternPlus_paddingBottom",
+      "value": "20"
+    },
+    {
+      "alias": "CuttingPatternPlus_paddingLeft",
+      "value": "20"
+    },
+    {
+      "alias": "CuttingPatternPlus_paddingRight",
+      "value": "20"
+    },
+    {
+      "alias": "CuttingPatternPlus_paddingTop",
+      "value": "20"
+    },
+    {
+      "alias": "CuttingPatternPlus_sawHorizontal",
+      "value": "5"
+    },
+    {
+      "alias": "CuttingPatternPlus_sawVertical",
+      "value": "5"
+    },
+    {
+      "alias": "DAY",
+      "value": "18"
     },
     {
       "alias": "DXFPanels",
       "value": "False"
     },
     {
-      "alias": "isCompleted",
+      "alias": "DXFSheets",
       "value": "False"
     },
     {
+      "alias": "eDrawingsFrames",
+      "value": "True"
+    },
+    {
+      "alias": "eDrawingsHardware",
+      "value": "True"
+    },
+    {
+      "alias": "eDrawingsPanels",
+      "value": "True"
+    },
+    {
+      "alias": "eDrawingsProject",
+      "value": "True"
+    },
+    {
+      "alias": "eDrawingsSheets",
+      "value": "True"
+    },
+    {
+      "alias": "eDrawingsSubFrames",
+      "value": "True"
+    },
+    {
+      "alias": "MODULE_PROGRAMOFFCUTS_ISACTIVE",
+      "value": "True"
+    },
+    {
       "alias": "MONTH",
-      "value": "12"
+      "value": "05"
     },
     {
       "alias": "NESTING_OFFCUTS_AREA_RATIO",
@@ -73,7 +129,7 @@ const reportDataRaw ={
     },
     {
       "alias": "REPORT_VERSION",
-      "value": "2025.2.0"
+      "value": "2026.0.1"
     },
     {
       "alias": "REPORTCFGDIR",
@@ -93,19 +149,15 @@ const reportDataRaw ={
     },
     {
       "alias": "REPORTPATH",
-      "value": "C:\\Swood Reports\\2025_12\\SwoodDesign"
+      "value": "C:\\Swood Reports\\2026_05\\SwoodDesign"
     },
     {
       "alias": "ReportVersion",
-      "value": "3.0.0-beta.1"
+      "value": "3.0.0-beta.11"
     },
     {
       "alias": "SimpleReport",
       "value": "False"
-    },
-    {
-      "alias": "status",
-      "value": "pending"
     },
     {
       "alias": "SummaryAuthor",
@@ -117,7 +169,7 @@ const reportDataRaw ={
     },
     {
       "alias": "SummaryCreatedDate",
-      "value": "14/07/2023 17:20:02"
+      "value": "14/07/2023 18:20:02"
     },
     {
       "alias": "SummaryKeywords",
@@ -129,7 +181,7 @@ const reportDataRaw ={
     },
     {
       "alias": "SummarySavedDate",
-      "value": "24/11/2025 09:54:53"
+      "value": "18/05/2026 20:33:00"
     },
     {
       "alias": "SummarySubject",
@@ -144,15 +196,31 @@ const reportDataRaw ={
       "value": "C:\\Swood Data Directory\\"
     },
     {
+      "alias": "SwoodManager",
+      "value": "False"
+    },
+    {
+      "alias": "SwoodManagerHost",
+      "value": "localhost"
+    },
+    {
+      "alias": "SwoodManagerPort",
+      "value": "5000"
+    },
+    {
+      "alias": "SwoodManagerReportsDirectory",
+      "value": "C:\\Swood Reports"
+    },
+    {
       "alias": "YEAR",
-      "value": "2025"
+      "value": "2026"
     }
   ],
   "serialNumbers": {
     "name": "REPORT_SERIALNUMBERS",
     "variables": []
   },
-  "createdDate": "2025-12-09T13:55:21.804256+00:00",
+  "createdDate": "2026-05-18T20:34:28.9601883+01:00",
   "createdBy": "AzureAD\\RomelCumare",
   "variableDefinitions": {
     "report": [
@@ -166,14 +234,88 @@ const reportDataRaw ={
         "type": "S"
       },
       {
+        "alias": "CuttingPatternPlus",
+        "type": "B",
+        "desc": "Enable CuttingPatternPlus"
+      },
+      {
+        "alias": "CuttingPatternPlus_paddingBottom",
+        "type": "D",
+        "desc": "Bottom padding"
+      },
+      {
+        "alias": "CuttingPatternPlus_paddingLeft",
+        "type": "D",
+        "desc": "Left padding"
+      },
+      {
+        "alias": "CuttingPatternPlus_paddingRight",
+        "type": "D",
+        "desc": "Right padding"
+      },
+      {
+        "alias": "CuttingPatternPlus_paddingTop",
+        "type": "D",
+        "desc": "Top padding"
+      },
+      {
+        "alias": "CuttingPatternPlus_sawHorizontal",
+        "type": "D",
+        "desc": "Saw horizontal thickness "
+      },
+      {
+        "alias": "CuttingPatternPlus_sawVertical",
+        "type": "D",
+        "desc": "Saw vertical thickness "
+      },
+      {
+        "alias": "DAY",
+        "type": "S",
+        "desc": ""
+      },
+      {
         "alias": "DXFPanels",
         "type": "B",
         "desc": ""
       },
       {
-        "alias": "isCompleted",
+        "alias": "DXFSheets",
         "type": "B",
         "desc": ""
+      },
+      {
+        "alias": "eDrawingsFrames",
+        "type": "B",
+        "desc": ""
+      },
+      {
+        "alias": "eDrawingsHardware",
+        "type": "B",
+        "desc": ""
+      },
+      {
+        "alias": "eDrawingsPanels",
+        "type": "B",
+        "desc": ""
+      },
+      {
+        "alias": "eDrawingsProject",
+        "type": "B",
+        "desc": ""
+      },
+      {
+        "alias": "eDrawingsSheets",
+        "type": "B",
+        "desc": ""
+      },
+      {
+        "alias": "eDrawingsSubFrames",
+        "type": "B",
+        "desc": ""
+      },
+      {
+        "alias": "MODULE_PROGRAMOFFCUTS_ISACTIVE",
+        "type": "B"
       },
       {
         "alias": "MONTH",
@@ -263,11 +405,6 @@ const reportDataRaw ={
         "desc": ""
       },
       {
-        "alias": "status",
-        "type": "S",
-        "desc": ""
-      },
-      {
         "alias": "SummaryAuthor",
         "type": "S",
         "desc": ""
@@ -313,22 +450,32 @@ const reportDataRaw ={
         "desc": ""
       },
       {
+        "alias": "SwoodManager",
+        "type": "B",
+        "desc": ""
+      },
+      {
+        "alias": "SwoodManagerHost",
+        "type": "S",
+        "desc": ""
+      },
+      {
+        "alias": "SwoodManagerPort",
+        "type": "I",
+        "desc": ""
+      },
+      {
+        "alias": "SwoodManagerReportsDirectory",
+        "type": "S",
+        "desc": ""
+      },
+      {
         "alias": "YEAR",
         "type": "S",
         "desc": ""
       }
     ],
     "panels": [
-      {
-        "alias": "isCompleted",
-        "type": "B",
-        "desc": ""
-      },
-      {
-        "alias": "isDamaged",
-        "type": "B",
-        "desc": ""
-      },
       {
         "alias": "PAN_ANGLEINPART",
         "type": "A"
@@ -752,6 +899,11 @@ const reportDataRaw ={
         "desc": ""
       },
       {
+        "alias": "MASS",
+        "type": "R",
+        "desc": ""
+      },
+      {
         "alias": "NAME",
         "type": "S"
       },
@@ -855,6 +1007,10 @@ const reportDataRaw ={
       {
         "alias": "BAND_WIDTH",
         "type": "R"
+      },
+      {
+        "alias": "EBMAT_ALPHA_IDX",
+        "type": "S"
       },
       {
         "alias": "EBMAT_C",
@@ -969,16 +1125,28 @@ const reportDataRaw ={
         "type": "S"
       },
       {
-        "alias": "DRAWING_LAYER",
-        "type": "S"
-      },
-      {
         "alias": "EXCLUDE",
         "type": "B"
       },
       {
         "alias": "EXCLUDEID",
         "type": "B"
+      },
+      {
+        "alias": "LINEAR_PATTERN_CUTTER_THICKNESS",
+        "type": "R"
+      },
+      {
+        "alias": "LINEAR_PATTERN_LENGTH",
+        "type": "R"
+      },
+      {
+        "alias": "LINEAR_PATTERN_PADDING_LEFT",
+        "type": "R"
+      },
+      {
+        "alias": "LINEAR_PATTERN_PADDING_RIGHT",
+        "type": "R"
       },
       {
         "alias": "MAT_COSTTYPE",
@@ -1043,14 +1211,6 @@ const reportDataRaw ={
       {
         "alias": "MAT_WITHGRAIN",
         "type": "B"
-      },
-      {
-        "alias": "MATERIAL_TYPE",
-        "type": "S"
-      },
-      {
-        "alias": "MYCUSTOMPROP",
-        "type": "S"
       },
       {
         "alias": "PAINT",
@@ -1144,19 +1304,19 @@ const reportDataRaw ={
       },
       {
         "alias": "PROG_NSHEETSURFACE",
-        "type": "S"
+        "type": "AR"
       },
       {
         "alias": "PROG_NSHEETSURFACEUSEDBYPARTS",
-        "type": "S"
+        "type": "AR"
       },
       {
         "alias": "PROG_NSHEETSURFACEUSEDBYSCRAPS",
-        "type": "S"
+        "type": "AR"
       },
       {
         "alias": "PROG_NSHEETWASTEAREA",
-        "type": "S"
+        "type": "AR"
       },
       {
         "alias": "PROG_OFFCUTCOUNT",
@@ -1164,7 +1324,7 @@ const reportDataRaw ={
       },
       {
         "alias": "PROG_OFFCUTS_AREA",
-        "type": "S"
+        "type": "AR"
       },
       {
         "alias": "PROG_OP0ZXPANELZ",
@@ -1287,12 +1447,40 @@ const reportDataRaw ={
       {
         "alias": "PROGPART_NESTING_PARENT",
         "type": "S"
+      },
+      {
+        "alias": "PROGPART_NPARENTCOLOR",
+        "type": "S"
+      },
+      {
+        "alias": "PROGPART_NPARENTCONFIG",
+        "type": "S"
+      },
+      {
+        "alias": "PROGPART_NPARENTINDEX",
+        "type": "I"
+      },
+      {
+        "alias": "PROGPART_NPARENTNAME",
+        "type": "S"
+      },
+      {
+        "alias": "PROGPART_NPARENTPATH",
+        "type": "S"
       }
     ],
     "boards": [
       {
         "alias": "MYBOARDPROP",
         "type": "S"
+      },
+      {
+        "alias": "NBOARD_BOT_GRAIN_ANGLE",
+        "type": "A"
+      },
+      {
+        "alias": "NBOARD_CAN_FLIP_TOP_BOT",
+        "type": "B"
       },
       {
         "alias": "NBOARD_COST",
@@ -1339,12 +1527,20 @@ const reportDataRaw ={
         "type": "D"
       },
       {
+        "alias": "NBOARD_TOP_GRAIN_ANGLE",
+        "type": "A"
+      },
+      {
         "alias": "NBOARD_TYPE",
         "type": "I"
       },
       {
         "alias": "NBOARD_W",
         "type": "D"
+      },
+      {
+        "alias": "TESTING",
+        "type": "S"
       }
     ],
     "tools": [
@@ -1463,6 +1659,310 @@ const reportDataRaw ={
       {
         "alias": "TOOL_USED",
         "type": "B"
+      }
+    ],
+    "shapeVariables": [
+      {
+        "alias": "EBSHAPE_D",
+        "type": "S"
+      },
+      {
+        "alias": "EBSHAPE_ID",
+        "type": "I"
+      },
+      {
+        "alias": "EBSHAPE_N",
+        "type": "S"
+      }
+    ],
+    "endShapeVariables": [
+      {
+        "alias": "EBENDSHAPE_D",
+        "type": "S"
+      },
+      {
+        "alias": "EBENDSHAPE_ID",
+        "type": "I"
+      },
+      {
+        "alias": "EBENDSHAPE_N",
+        "type": "S"
+      },
+      {
+        "alias": "EBENDSHAPE_ROUNDED",
+        "type": "B"
+      }
+    ],
+    "additionalShapeVariables": [
+      {
+        "alias": "EBADDSHAPE_D",
+        "type": "S"
+      },
+      {
+        "alias": "EBADDSHAPE_ID",
+        "type": "I"
+      },
+      {
+        "alias": "EBADDSHAPE_N",
+        "type": "S"
+      }
+    ],
+    "bottomMaterialVariables": [
+      {
+        "alias": "BEAM_SAW",
+        "type": "B"
+      },
+      {
+        "alias": "BOARD_LENGTH",
+        "type": "R"
+      },
+      {
+        "alias": "BOARD_WIDTH",
+        "type": "R"
+      },
+      {
+        "alias": "CATEGORY",
+        "type": "S"
+      },
+      {
+        "alias": "EXCLUDE",
+        "type": "B"
+      },
+      {
+        "alias": "EXCLUDEID",
+        "type": "B"
+      },
+      {
+        "alias": "LINEAR_PATTERN_CUTTER_THICKNESS",
+        "type": "R"
+      },
+      {
+        "alias": "LINEAR_PATTERN_LENGTH",
+        "type": "R"
+      },
+      {
+        "alias": "LINEAR_PATTERN_PADDING_LEFT",
+        "type": "R"
+      },
+      {
+        "alias": "LINEAR_PATTERN_PADDING_RIGHT",
+        "type": "R"
+      },
+      {
+        "alias": "MAT_COSTTYPE",
+        "type": "I"
+      },
+      {
+        "alias": "MAT_CUTREF",
+        "type": "S"
+      },
+      {
+        "alias": "MAT_DENSITY",
+        "type": "R"
+      },
+      {
+        "alias": "MAT_DESC",
+        "type": "S"
+      },
+      {
+        "alias": "MAT_ISFORSAW",
+        "type": "B"
+      },
+      {
+        "alias": "MAT_LAYERSCOUNT",
+        "type": "R"
+      },
+      {
+        "alias": "MAT_MACHININGCOSTFACTOR",
+        "type": "R"
+      },
+      {
+        "alias": "MAT_NAME",
+        "type": "S"
+      },
+      {
+        "alias": "MAT_STOCKS_AREA",
+        "type": "R"
+      },
+      {
+        "alias": "MAT_STOCKS_COUNT",
+        "type": "I"
+      },
+      {
+        "alias": "MAT_STOCKS_LENGTH",
+        "type": "D"
+      },
+      {
+        "alias": "MAT_STOCKS_VOLUME",
+        "type": "R"
+      },
+      {
+        "alias": "MAT_T",
+        "type": "D"
+      },
+      {
+        "alias": "MAT_TYPE",
+        "type": "I"
+      },
+      {
+        "alias": "MAT_UCOST",
+        "type": "R"
+      },
+      {
+        "alias": "MAT_WITHGRAIN",
+        "type": "B"
+      },
+      {
+        "alias": "PAINT",
+        "type": "B"
+      },
+      {
+        "alias": "WELDMENT",
+        "type": "B"
+      }
+    ],
+    "topMaterialVariables": [
+      {
+        "alias": "BEAM_SAW",
+        "type": "B"
+      },
+      {
+        "alias": "BOARD_LENGTH",
+        "type": "R"
+      },
+      {
+        "alias": "BOARD_WIDTH",
+        "type": "R"
+      },
+      {
+        "alias": "CATEGORY",
+        "type": "S"
+      },
+      {
+        "alias": "EXCLUDE",
+        "type": "B"
+      },
+      {
+        "alias": "EXCLUDEID",
+        "type": "B"
+      },
+      {
+        "alias": "LINEAR_PATTERN_CUTTER_THICKNESS",
+        "type": "R"
+      },
+      {
+        "alias": "LINEAR_PATTERN_LENGTH",
+        "type": "R"
+      },
+      {
+        "alias": "LINEAR_PATTERN_PADDING_LEFT",
+        "type": "R"
+      },
+      {
+        "alias": "LINEAR_PATTERN_PADDING_RIGHT",
+        "type": "R"
+      },
+      {
+        "alias": "MAT_COSTTYPE",
+        "type": "I"
+      },
+      {
+        "alias": "MAT_CUTREF",
+        "type": "S"
+      },
+      {
+        "alias": "MAT_DENSITY",
+        "type": "R"
+      },
+      {
+        "alias": "MAT_DESC",
+        "type": "S"
+      },
+      {
+        "alias": "MAT_ISFORSAW",
+        "type": "B"
+      },
+      {
+        "alias": "MAT_LAYERSCOUNT",
+        "type": "R"
+      },
+      {
+        "alias": "MAT_MACHININGCOSTFACTOR",
+        "type": "R"
+      },
+      {
+        "alias": "MAT_NAME",
+        "type": "S"
+      },
+      {
+        "alias": "MAT_STOCKS_AREA",
+        "type": "R"
+      },
+      {
+        "alias": "MAT_STOCKS_COUNT",
+        "type": "I"
+      },
+      {
+        "alias": "MAT_STOCKS_LENGTH",
+        "type": "D"
+      },
+      {
+        "alias": "MAT_STOCKS_VOLUME",
+        "type": "R"
+      },
+      {
+        "alias": "MAT_T",
+        "type": "D"
+      },
+      {
+        "alias": "MAT_TYPE",
+        "type": "I"
+      },
+      {
+        "alias": "MAT_UCOST",
+        "type": "R"
+      },
+      {
+        "alias": "MAT_WITHGRAIN",
+        "type": "B"
+      },
+      {
+        "alias": "PAINT",
+        "type": "B"
+      },
+      {
+        "alias": "WELDMENT",
+        "type": "B"
+      }
+    ],
+    "multiBodyStockVariables": [
+      {
+        "alias": "MBST_BODYL",
+        "type": "D"
+      },
+      {
+        "alias": "MBST_BODYT",
+        "type": "D"
+      },
+      {
+        "alias": "MBST_BODYW",
+        "type": "D"
+      },
+      {
+        "alias": "MBST_EXT_B",
+        "type": "D"
+      },
+      {
+        "alias": "MBST_EXT_F",
+        "type": "D"
+      },
+      {
+        "alias": "MBST_EXT_L",
+        "type": "D"
+      },
+      {
+        "alias": "MBST_EXT_R",
+        "type": "D"
       }
     ],
     "spindles": [
@@ -1594,28 +2094,18 @@ const reportDataRaw ={
   },
   "panels": [
     {
-      "ID": "1aef8687-3984-49ea-a2a5-e7b32d9c8ab1",
-      "name": "Bottom_High Cabinet_SwoodDesign_1",
+      "ID": "cf82a206-3c76-4167-a885-21c2392bfdcb",
+      "name": "Kickboard_Doors_SwoodDesign_1",
       "programs": [
-        "Bottom_High Cabinet_SwoodDesign_1_Milling_1_Default"
+        "Machine not Configured - Kickboard_Doors_SwoodDesign_1 - Milling"
       ],
       "stocks": [
-        "1aef8687-3984-49ea-a2a5-e7b32d9c8ab1.CORE"
+        "cf82a206-3c76-4167-a885-21c2392bfdcb.CORE"
       ],
       "processZones": [],
-      "edgebands": [
-        "1aef8687-3984-49ea-a2a5-e7b32d9c8ab1.Edge Band1"
-      ],
+      "edgebands": [],
       "messages": [],
       "variables": [
-        {
-          "alias": "isCompleted",
-          "value": "False"
-        },
-        {
-          "alias": "isDamaged",
-          "value": "False"
-        },
         {
           "alias": "PAN_ANGLEINPART",
           "value": "0"
@@ -1626,11 +2116,11 @@ const reportDataRaw ={
         },
         {
           "alias": "PAN_EBC_FR",
-          "value": "1"
+          "value": "0"
         },
         {
           "alias": "PAN_EBC_LF",
-          "value": "2"
+          "value": "0"
         },
         {
           "alias": "PAN_EBC_RB",
@@ -1638,11 +2128,11 @@ const reportDataRaw ={
         },
         {
           "alias": "PAN_EBCOUNT",
-          "value": "1"
+          "value": "0"
         },
         {
           "alias": "PAN_EBHOMAGDIAGRAM",
-          "value": "000:::"
+          "value": ":::"
         },
         {
           "alias": "PAN_GRAINANGLEINPART",
@@ -1658,19 +2148,19 @@ const reportDataRaw ={
         },
         {
           "alias": "PAN_L",
-          "value": "908"
+          "value": "1200"
         },
         {
           "alias": "PAN_LWEB",
-          "value": "908"
+          "value": "1200"
         },
         {
           "alias": "PAN_LWOEB",
-          "value": "908"
+          "value": "1200"
         },
         {
           "alias": "PAN_STL",
-          "value": "908"
+          "value": "1200"
         },
         {
           "alias": "PAN_STT",
@@ -1678,7 +2168,7 @@ const reportDataRaw ={
         },
         {
           "alias": "PAN_STW",
-          "value": "600.000000000003"
+          "value": "100"
         },
         {
           "alias": "PAN_T",
@@ -1694,15 +2184,15 @@ const reportDataRaw ={
         },
         {
           "alias": "PAN_W",
-          "value": "600"
+          "value": "100"
         },
         {
           "alias": "PAN_WWEB",
-          "value": "600.000000000003"
+          "value": "100"
         },
         {
           "alias": "PAN_WWOEB",
-          "value": "599.000000000003"
+          "value": "100"
         }
       ],
       "serialNumbers": {
@@ -1726,7 +2216,7 @@ const reportDataRaw ={
           "type": "EDRAWINGS_PANEL",
           "docType": "TEMPLATE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/edrawings/panels/Bottom_High Cabinet_SwoodDesign_1.html",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/edrawings/panels/Kickboard_Doors_SwoodDesign_1_Default.html",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -1737,7 +2227,7 @@ const reportDataRaw ={
           "type": "IMG_PANEL",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/panels/panel-Bottom_High Cabinet_SwoodDesign_1_panel-01.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/panels/panel-Kickboard_Doors_SwoodDesign_1_Default.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -1748,33 +2238,365 @@ const reportDataRaw ={
           "type": "PDF_PANEL",
           "docType": "DRAWING2PDF",
           "processingStatus": 0,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/pdfs/panels/Bottom_High Cabinet_SwoodDesign_1.pdf",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/pdfs/panels/Kickboard_Doors_SwoodDesign_1_Default.pdf",
           "hidden": true,
           "storageType": 0,
           "exists": false,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "STEP_PANEL",
+          "type": "STEP_PANEL",
+          "docType": "STEP",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/steps/panels/Kickboard_Doors_SwoodDesign_1_Default.step",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
           "objType": "PANEL"
         }
       ]
     },
     {
-      "ID": "1c408da5-d940-477e-a904-8fd539fd4a86",
-      "name": "Kickboard_High Cabinet_SwoodDesign_1",
-      "programs": [],
+      "ID": "a24f7410-4ce6-48b8-a506-63da2959b6f7",
+      "name": "Back_Doors_SwoodDesign_1",
+      "programs": [
+        "Back_Doors_SwoodDesign_1_Milling_1_Default"
+      ],
       "stocks": [
-        "1c408da5-d940-477e-a904-8fd539fd4a86.CORE"
+        "a24f7410-4ce6-48b8-a506-63da2959b6f7.CORE"
       ],
       "processZones": [],
       "edgebands": [],
       "messages": [],
       "variables": [
         {
-          "alias": "isCompleted",
+          "alias": "PAN_ANGLEINPART",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBC_BL",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBC_FR",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBC_LF",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBC_RB",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBCOUNT",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBHOMAGDIAGRAM",
+          "value": ":::"
+        },
+        {
+          "alias": "PAN_GRAINANGLEINPART",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_GRAINISVERTICAL",
           "value": "False"
         },
         {
-          "alias": "isDamaged",
+          "alias": "PAN_ISSS",
+          "value": "True"
+        },
+        {
+          "alias": "PAN_L",
+          "value": "931"
+        },
+        {
+          "alias": "PAN_LWEB",
+          "value": "931"
+        },
+        {
+          "alias": "PAN_LWOEB",
+          "value": "931"
+        },
+        {
+          "alias": "PAN_STL",
+          "value": "931"
+        },
+        {
+          "alias": "PAN_STT",
+          "value": "5"
+        },
+        {
+          "alias": "PAN_STW",
+          "value": "1158"
+        },
+        {
+          "alias": "PAN_T",
+          "value": "5"
+        },
+        {
+          "alias": "PAN_TWL",
+          "value": "5"
+        },
+        {
+          "alias": "PAN_TWOL",
+          "value": "5"
+        },
+        {
+          "alias": "PAN_W",
+          "value": "1158"
+        },
+        {
+          "alias": "PAN_WWEB",
+          "value": "1158"
+        },
+        {
+          "alias": "PAN_WWOEB",
+          "value": "1158"
+        }
+      ],
+      "serialNumbers": {
+        "name": "PANEL_SERIALNUMBERS",
+        "variables": [
+          {
+            "alias": "NUM_PANEL",
+            "type": "S",
+            "value": "panel-02"
+          },
+          {
+            "alias": "NUM_PANEL_EXT",
+            "type": "S",
+            "value": ""
+          }
+        ]
+      },
+      "documents": [
+        {
+          "documentName": "EDRAWINGS_PANEL",
+          "type": "EDRAWINGS_PANEL",
+          "docType": "TEMPLATE",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/edrawings/panels/Back_Doors_SwoodDesign_1_Default.html",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "IMG_PANEL",
+          "type": "IMG_PANEL",
+          "docType": "IMAGE",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/panels/panel-Back_Doors_SwoodDesign_1_Default.jpg",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "PDF_PANEL",
+          "type": "PDF_PANEL",
+          "docType": "DRAWING2PDF",
+          "processingStatus": 0,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/pdfs/panels/Back_Doors_SwoodDesign_1_Default.pdf",
+          "hidden": true,
+          "storageType": 0,
+          "exists": false,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "STEP_PANEL",
+          "type": "STEP_PANEL",
+          "docType": "STEP",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/steps/panels/Back_Doors_SwoodDesign_1_Default.step",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        }
+      ]
+    },
+    {
+      "ID": "91083e91-419e-400e-af7d-275827b68958",
+      "name": "Back Support_Doors_SwoodDesign_1",
+      "programs": [],
+      "stocks": [
+        "91083e91-419e-400e-af7d-275827b68958.CORE"
+      ],
+      "processZones": [],
+      "edgebands": [],
+      "messages": [],
+      "variables": [
+        {
+          "alias": "PAN_ANGLEINPART",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBC_BL",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBC_FR",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBC_LF",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBC_RB",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBCOUNT",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBHOMAGDIAGRAM",
+          "value": ":::"
+        },
+        {
+          "alias": "PAN_GRAINANGLEINPART",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_GRAINISVERTICAL",
           "value": "False"
         },
+        {
+          "alias": "PAN_ISSS",
+          "value": "True"
+        },
+        {
+          "alias": "PAN_L",
+          "value": "1158"
+        },
+        {
+          "alias": "PAN_LWEB",
+          "value": "1158"
+        },
+        {
+          "alias": "PAN_LWOEB",
+          "value": "1158"
+        },
+        {
+          "alias": "PAN_STL",
+          "value": "1158"
+        },
+        {
+          "alias": "PAN_STT",
+          "value": "19"
+        },
+        {
+          "alias": "PAN_STW",
+          "value": "100"
+        },
+        {
+          "alias": "PAN_T",
+          "value": "19"
+        },
+        {
+          "alias": "PAN_TWL",
+          "value": "19"
+        },
+        {
+          "alias": "PAN_TWOL",
+          "value": "19"
+        },
+        {
+          "alias": "PAN_W",
+          "value": "100"
+        },
+        {
+          "alias": "PAN_WWEB",
+          "value": "100"
+        },
+        {
+          "alias": "PAN_WWOEB",
+          "value": "100"
+        }
+      ],
+      "serialNumbers": {
+        "name": "PANEL_SERIALNUMBERS",
+        "variables": [
+          {
+            "alias": "NUM_PANEL",
+            "type": "S",
+            "value": "panel-03"
+          },
+          {
+            "alias": "NUM_PANEL_EXT",
+            "type": "S",
+            "value": ""
+          }
+        ]
+      },
+      "documents": [
+        {
+          "documentName": "EDRAWINGS_PANEL",
+          "type": "EDRAWINGS_PANEL",
+          "docType": "TEMPLATE",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/edrawings/panels/Back Support_Doors_SwoodDesign_1_Default.html",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "IMG_PANEL",
+          "type": "IMG_PANEL",
+          "docType": "IMAGE",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/panels/panel-Back Support_Doors_SwoodDesign_1_Default.jpg",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "PDF_PANEL",
+          "type": "PDF_PANEL",
+          "docType": "DRAWING2PDF",
+          "processingStatus": 0,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/pdfs/panels/Back Support_Doors_SwoodDesign_1_Default.pdf",
+          "hidden": true,
+          "storageType": 0,
+          "exists": false,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "STEP_PANEL",
+          "type": "STEP_PANEL",
+          "docType": "STEP",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/steps/panels/Back Support_Doors_SwoodDesign_1_Default.step",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        }
+      ]
+    },
+    {
+      "ID": "7cfeb824-7803-44d7-be93-2884a33075d8",
+      "name": "Right_Doors_SwoodDesign_1",
+      "programs": [
+        "Machine not Configured - Right_Doors_SwoodDesign_1 - Milling"
+      ],
+      "stocks": [
+        "7cfeb824-7803-44d7-be93-2884a33075d8.BOTTOM",
+        "7cfeb824-7803-44d7-be93-2884a33075d8.CORE"
+      ],
+      "processZones": [],
+      "edgebands": [],
+      "messages": [],
+      "variables": [
         {
           "alias": "PAN_ANGLEINPART",
           "value": "0"
@@ -1821,351 +2643,23 @@ const reportDataRaw ={
         },
         {
           "alias": "PAN_LWEB",
-          "value": "950.000000000001"
+          "value": "950"
         },
         {
           "alias": "PAN_LWOEB",
-          "value": "950.000000000001"
+          "value": "950"
         },
         {
           "alias": "PAN_STL",
-          "value": "950.000000000001"
+          "value": "950"
         },
         {
           "alias": "PAN_STT",
-          "value": "19"
-        },
-        {
-          "alias": "PAN_STW",
-          "value": "100"
-        },
-        {
-          "alias": "PAN_T",
-          "value": "19"
-        },
-        {
-          "alias": "PAN_TWL",
-          "value": "19"
-        },
-        {
-          "alias": "PAN_TWOL",
-          "value": "19"
-        },
-        {
-          "alias": "PAN_W",
-          "value": "100"
-        },
-        {
-          "alias": "PAN_WWEB",
-          "value": "100"
-        },
-        {
-          "alias": "PAN_WWOEB",
-          "value": "100"
-        }
-      ],
-      "serialNumbers": {
-        "name": "PANEL_SERIALNUMBERS",
-        "variables": [
-          {
-            "alias": "NUM_PANEL",
-            "type": "S",
-            "value": "panel-02"
-          },
-          {
-            "alias": "NUM_PANEL_EXT",
-            "type": "S",
-            "value": ""
-          }
-        ]
-      },
-      "documents": [
-        {
-          "documentName": "EDRAWINGS_PANEL",
-          "type": "EDRAWINGS_PANEL",
-          "docType": "TEMPLATE",
-          "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/edrawings/panels/Kickboard_High Cabinet_SwoodDesign_1.html",
-          "hidden": true,
-          "storageType": 0,
-          "exists": true,
-          "objType": "PANEL"
-        },
-        {
-          "documentName": "IMG_PANEL",
-          "type": "IMG_PANEL",
-          "docType": "IMAGE",
-          "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/panels/panel-Kickboard_High Cabinet_SwoodDesign_1_panel-02.jpg",
-          "hidden": true,
-          "storageType": 0,
-          "exists": true,
-          "objType": "PANEL"
-        },
-        {
-          "documentName": "PDF_PANEL",
-          "type": "PDF_PANEL",
-          "docType": "DRAWING2PDF",
-          "processingStatus": 0,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/pdfs/panels/Kickboard_High Cabinet_SwoodDesign_1.pdf",
-          "hidden": true,
-          "storageType": 0,
-          "exists": false,
-          "objType": "PANEL"
-        }
-      ]
-    },
-    {
-      "ID": "729f06e4-e139-49fc-82ba-38b79cb6cd7a",
-      "name": "Front Support_High Cabinet_SwoodDesign_1",
-      "programs": [
-        "Front Support_High Cabinet_SwoodDesign_1_Milling_1_Default"
-      ],
-      "stocks": [
-        "729f06e4-e139-49fc-82ba-38b79cb6cd7a.BOTTOM",
-        "729f06e4-e139-49fc-82ba-38b79cb6cd7a.CORE"
-      ],
-      "processZones": [],
-      "edgebands": [
-        "729f06e4-e139-49fc-82ba-38b79cb6cd7a.Edgeband1"
-      ],
-      "messages": [],
-      "variables": [
-        {
-          "alias": "isCompleted",
-          "value": "False"
-        },
-        {
-          "alias": "isDamaged",
-          "value": "False"
-        },
-        {
-          "alias": "PAN_ANGLEINPART",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBC_BL",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBC_FR",
-          "value": "1"
-        },
-        {
-          "alias": "PAN_EBC_LF",
-          "value": "2"
-        },
-        {
-          "alias": "PAN_EBC_RB",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBCOUNT",
-          "value": "1"
-        },
-        {
-          "alias": "PAN_EBHOMAGDIAGRAM",
-          "value": "000:::"
-        },
-        {
-          "alias": "PAN_GRAINANGLEINPART",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_GRAINISVERTICAL",
-          "value": "False"
-        },
-        {
-          "alias": "PAN_ISSS",
-          "value": "True"
-        },
-        {
-          "alias": "PAN_L",
-          "value": "908"
-        },
-        {
-          "alias": "PAN_LWEB",
-          "value": "908"
-        },
-        {
-          "alias": "PAN_LWOEB",
-          "value": "908"
-        },
-        {
-          "alias": "PAN_STL",
-          "value": "908"
-        },
-        {
-          "alias": "PAN_STT",
-          "value": "20.9999999999999"
-        },
-        {
-          "alias": "PAN_STW",
-          "value": "600.000000000003"
-        },
-        {
-          "alias": "PAN_T",
           "value": "21"
         },
         {
-          "alias": "PAN_TWL",
-          "value": "20.9999999999999"
-        },
-        {
-          "alias": "PAN_TWOL",
-          "value": "18.9999999999999"
-        },
-        {
-          "alias": "PAN_W",
+          "alias": "PAN_STW",
           "value": "600"
-        },
-        {
-          "alias": "PAN_WWEB",
-          "value": "600.000000000003"
-        },
-        {
-          "alias": "PAN_WWOEB",
-          "value": "599.000000000003"
-        }
-      ],
-      "serialNumbers": {
-        "name": "PANEL_SERIALNUMBERS",
-        "variables": [
-          {
-            "alias": "NUM_PANEL",
-            "type": "S",
-            "value": "panel-03"
-          },
-          {
-            "alias": "NUM_PANEL_EXT",
-            "type": "S",
-            "value": ""
-          }
-        ]
-      },
-      "documents": [
-        {
-          "documentName": "EDRAWINGS_PANEL",
-          "type": "EDRAWINGS_PANEL",
-          "docType": "TEMPLATE",
-          "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/edrawings/panels/Front Support_High Cabinet_SwoodDesign_1.html",
-          "hidden": true,
-          "storageType": 0,
-          "exists": true,
-          "objType": "PANEL"
-        },
-        {
-          "documentName": "IMG_PANEL",
-          "type": "IMG_PANEL",
-          "docType": "IMAGE",
-          "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/panels/panel-Front Support_High Cabinet_SwoodDesign_1_panel-03.jpg",
-          "hidden": true,
-          "storageType": 0,
-          "exists": true,
-          "objType": "PANEL"
-        },
-        {
-          "documentName": "PDF_PANEL",
-          "type": "PDF_PANEL",
-          "docType": "DRAWING2PDF",
-          "processingStatus": 0,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/pdfs/panels/Front Support_High Cabinet_SwoodDesign_1.pdf",
-          "hidden": true,
-          "storageType": 0,
-          "exists": false,
-          "objType": "PANEL"
-        }
-      ]
-    },
-    {
-      "ID": "5e735bfd-0cab-4555-84d8-cfb332e69c8f",
-      "name": "Right_High Cabinet_SwoodDesign_1",
-      "programs": [
-        "Right_High Cabinet_SwoodDesign_1_Milling_1_Default"
-      ],
-      "stocks": [
-        "5e735bfd-0cab-4555-84d8-cfb332e69c8f.BOTTOM",
-        "5e735bfd-0cab-4555-84d8-cfb332e69c8f.CORE"
-      ],
-      "processZones": [],
-      "edgebands": [
-        "5e735bfd-0cab-4555-84d8-cfb332e69c8f.Edgeband1"
-      ],
-      "messages": [],
-      "variables": [
-        {
-          "alias": "isCompleted",
-          "value": "False"
-        },
-        {
-          "alias": "isDamaged",
-          "value": "False"
-        },
-        {
-          "alias": "PAN_ANGLEINPART",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBC_BL",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBC_FR",
-          "value": "1"
-        },
-        {
-          "alias": "PAN_EBC_LF",
-          "value": "2"
-        },
-        {
-          "alias": "PAN_EBC_RB",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBCOUNT",
-          "value": "1"
-        },
-        {
-          "alias": "PAN_EBHOMAGDIAGRAM",
-          "value": "000:::"
-        },
-        {
-          "alias": "PAN_GRAINANGLEINPART",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_GRAINISVERTICAL",
-          "value": "False"
-        },
-        {
-          "alias": "PAN_ISSS",
-          "value": "True"
-        },
-        {
-          "alias": "PAN_L",
-          "value": "2400"
-        },
-        {
-          "alias": "PAN_LWEB",
-          "value": "2400"
-        },
-        {
-          "alias": "PAN_LWOEB",
-          "value": "2400"
-        },
-        {
-          "alias": "PAN_STL",
-          "value": "2400"
-        },
-        {
-          "alias": "PAN_STT",
-          "value": "21"
-        },
-        {
-          "alias": "PAN_STW",
-          "value": "600.000000000003"
         },
         {
           "alias": "PAN_T",
@@ -2185,11 +2679,11 @@ const reportDataRaw ={
         },
         {
           "alias": "PAN_WWEB",
-          "value": "600.000000000003"
+          "value": "600"
         },
         {
           "alias": "PAN_WWOEB",
-          "value": "599.000000000003"
+          "value": "600"
         }
       ],
       "serialNumbers": {
@@ -2213,7 +2707,7 @@ const reportDataRaw ={
           "type": "EDRAWINGS_PANEL",
           "docType": "TEMPLATE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/edrawings/panels/Right_High Cabinet_SwoodDesign_1.html",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/edrawings/panels/Right_Doors_SwoodDesign_1_Default.html",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -2224,7 +2718,7 @@ const reportDataRaw ={
           "type": "IMG_PANEL",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/panels/panel-Right_High Cabinet_SwoodDesign_1_panel-04.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/panels/panel-Right_Doors_SwoodDesign_1_Default.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -2235,7 +2729,18 @@ const reportDataRaw ={
           "type": "PDF_PANEL",
           "docType": "DRAWING2PDF",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/pdfs/panels/Right_High Cabinet_SwoodDesign_1.pdf",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/pdfs/panels/Right_Doors_SwoodDesign_1_Default.pdf",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "STEP_PANEL",
+          "type": "STEP_PANEL",
+          "docType": "STEP",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/steps/panels/Right_Doors_SwoodDesign_1_Default.step",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -2244,29 +2749,1006 @@ const reportDataRaw ={
       ]
     },
     {
-      "ID": "89b367ac-2751-4f12-8a5b-db4112a6ff28",
+      "ID": "2d3dd35e-ff5c-41d4-a4a4-bd81849ccdb0",
+      "name": "Left_Doors_SwoodDesign_1",
+      "programs": [
+        "Left_Doors_SwoodDesign_1_Milling_1_Default"
+      ],
+      "stocks": [
+        "2d3dd35e-ff5c-41d4-a4a4-bd81849ccdb0.BOTTOM",
+        "2d3dd35e-ff5c-41d4-a4a4-bd81849ccdb0.CORE"
+      ],
+      "processZones": [],
+      "edgebands": [],
+      "messages": [],
+      "variables": [
+        {
+          "alias": "PAN_ANGLEINPART",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBC_BL",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBC_FR",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBC_LF",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBC_RB",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBCOUNT",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBHOMAGDIAGRAM",
+          "value": ":::"
+        },
+        {
+          "alias": "PAN_GRAINANGLEINPART",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_GRAINISVERTICAL",
+          "value": "False"
+        },
+        {
+          "alias": "PAN_ISSS",
+          "value": "True"
+        },
+        {
+          "alias": "PAN_L",
+          "value": "950"
+        },
+        {
+          "alias": "PAN_LWEB",
+          "value": "950"
+        },
+        {
+          "alias": "PAN_LWOEB",
+          "value": "950"
+        },
+        {
+          "alias": "PAN_STL",
+          "value": "950"
+        },
+        {
+          "alias": "PAN_STT",
+          "value": "21"
+        },
+        {
+          "alias": "PAN_STW",
+          "value": "600"
+        },
+        {
+          "alias": "PAN_T",
+          "value": "21"
+        },
+        {
+          "alias": "PAN_TWL",
+          "value": "21"
+        },
+        {
+          "alias": "PAN_TWOL",
+          "value": "19"
+        },
+        {
+          "alias": "PAN_W",
+          "value": "600"
+        },
+        {
+          "alias": "PAN_WWEB",
+          "value": "600"
+        },
+        {
+          "alias": "PAN_WWOEB",
+          "value": "600"
+        }
+      ],
+      "serialNumbers": {
+        "name": "PANEL_SERIALNUMBERS",
+        "variables": [
+          {
+            "alias": "NUM_PANEL",
+            "type": "S",
+            "value": "panel-05"
+          },
+          {
+            "alias": "NUM_PANEL_EXT",
+            "type": "S",
+            "value": ""
+          }
+        ]
+      },
+      "documents": [
+        {
+          "documentName": "EDRAWINGS_PANEL",
+          "type": "EDRAWINGS_PANEL",
+          "docType": "TEMPLATE",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/edrawings/panels/Left_Doors_SwoodDesign_1_Default.html",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "IMG_PANEL",
+          "type": "IMG_PANEL",
+          "docType": "IMAGE",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/panels/panel-Left_Doors_SwoodDesign_1_Default.jpg",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "PDF_PANEL",
+          "type": "PDF_PANEL",
+          "docType": "DRAWING2PDF",
+          "processingStatus": 0,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/pdfs/panels/Left_Doors_SwoodDesign_1_Default.pdf",
+          "hidden": true,
+          "storageType": 0,
+          "exists": false,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "STEP_PANEL",
+          "type": "STEP_PANEL",
+          "docType": "STEP",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/steps/panels/Left_Doors_SwoodDesign_1_Default.step",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        }
+      ]
+    },
+    {
+      "ID": "c6f835b1-d9cc-4c5e-a75d-9fafc566081d",
+      "name": "Bottom_Doors_SwoodDesign_1",
+      "programs": [],
+      "stocks": [
+        "c6f835b1-d9cc-4c5e-a75d-9fafc566081d.CORE"
+      ],
+      "processZones": [],
+      "edgebands": [],
+      "messages": [],
+      "variables": [
+        {
+          "alias": "PAN_ANGLEINPART",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBC_BL",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBC_FR",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBC_LF",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBC_RB",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBCOUNT",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBHOMAGDIAGRAM",
+          "value": ":::"
+        },
+        {
+          "alias": "PAN_GRAINANGLEINPART",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_GRAINISVERTICAL",
+          "value": "False"
+        },
+        {
+          "alias": "PAN_ISSS",
+          "value": "True"
+        },
+        {
+          "alias": "PAN_L",
+          "value": "1158"
+        },
+        {
+          "alias": "PAN_LWEB",
+          "value": "1158"
+        },
+        {
+          "alias": "PAN_LWOEB",
+          "value": "1158"
+        },
+        {
+          "alias": "PAN_STL",
+          "value": "1158"
+        },
+        {
+          "alias": "PAN_STT",
+          "value": "19"
+        },
+        {
+          "alias": "PAN_STW",
+          "value": "562"
+        },
+        {
+          "alias": "PAN_T",
+          "value": "19"
+        },
+        {
+          "alias": "PAN_TWL",
+          "value": "19"
+        },
+        {
+          "alias": "PAN_TWOL",
+          "value": "19"
+        },
+        {
+          "alias": "PAN_W",
+          "value": "562"
+        },
+        {
+          "alias": "PAN_WWEB",
+          "value": "562"
+        },
+        {
+          "alias": "PAN_WWOEB",
+          "value": "562"
+        }
+      ],
+      "serialNumbers": {
+        "name": "PANEL_SERIALNUMBERS",
+        "variables": [
+          {
+            "alias": "NUM_PANEL",
+            "type": "S",
+            "value": "panel-06"
+          },
+          {
+            "alias": "NUM_PANEL_EXT",
+            "type": "S",
+            "value": ""
+          }
+        ]
+      },
+      "documents": [
+        {
+          "documentName": "EDRAWINGS_PANEL",
+          "type": "EDRAWINGS_PANEL",
+          "docType": "TEMPLATE",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/edrawings/panels/Bottom_Doors_SwoodDesign_1_Default.html",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "IMG_PANEL",
+          "type": "IMG_PANEL",
+          "docType": "IMAGE",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/panels/panel-Bottom_Doors_SwoodDesign_1_Default.jpg",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "PDF_PANEL",
+          "type": "PDF_PANEL",
+          "docType": "DRAWING2PDF",
+          "processingStatus": 0,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/pdfs/panels/Bottom_Doors_SwoodDesign_1_Default.pdf",
+          "hidden": true,
+          "storageType": 0,
+          "exists": false,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "STEP_PANEL",
+          "type": "STEP_PANEL",
+          "docType": "STEP",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/steps/panels/Bottom_Doors_SwoodDesign_1_Default.step",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        }
+      ]
+    },
+    {
+      "ID": "043b4845-8ca5-41b2-bb28-7c444264f198",
+      "name": "Front Support_Doors_SwoodDesign_1",
+      "programs": [],
+      "stocks": [
+        "043b4845-8ca5-41b2-bb28-7c444264f198.CORE"
+      ],
+      "processZones": [],
+      "edgebands": [],
+      "messages": [],
+      "variables": [
+        {
+          "alias": "PAN_ANGLEINPART",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBC_BL",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBC_FR",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBC_LF",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBC_RB",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBCOUNT",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBHOMAGDIAGRAM",
+          "value": ":::"
+        },
+        {
+          "alias": "PAN_GRAINANGLEINPART",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_GRAINISVERTICAL",
+          "value": "False"
+        },
+        {
+          "alias": "PAN_ISSS",
+          "value": "True"
+        },
+        {
+          "alias": "PAN_L",
+          "value": "1158"
+        },
+        {
+          "alias": "PAN_LWEB",
+          "value": "1158"
+        },
+        {
+          "alias": "PAN_LWOEB",
+          "value": "1158"
+        },
+        {
+          "alias": "PAN_STL",
+          "value": "1158"
+        },
+        {
+          "alias": "PAN_STT",
+          "value": "19"
+        },
+        {
+          "alias": "PAN_STW",
+          "value": "100"
+        },
+        {
+          "alias": "PAN_T",
+          "value": "19"
+        },
+        {
+          "alias": "PAN_TWL",
+          "value": "19"
+        },
+        {
+          "alias": "PAN_TWOL",
+          "value": "19"
+        },
+        {
+          "alias": "PAN_W",
+          "value": "100"
+        },
+        {
+          "alias": "PAN_WWEB",
+          "value": "100"
+        },
+        {
+          "alias": "PAN_WWOEB",
+          "value": "100"
+        }
+      ],
+      "serialNumbers": {
+        "name": "PANEL_SERIALNUMBERS",
+        "variables": [
+          {
+            "alias": "NUM_PANEL",
+            "type": "S",
+            "value": "panel-07"
+          },
+          {
+            "alias": "NUM_PANEL_EXT",
+            "type": "S",
+            "value": ""
+          }
+        ]
+      },
+      "documents": [
+        {
+          "documentName": "EDRAWINGS_PANEL",
+          "type": "EDRAWINGS_PANEL",
+          "docType": "TEMPLATE",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/edrawings/panels/Front Support_Doors_SwoodDesign_1_Default.html",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "IMG_PANEL",
+          "type": "IMG_PANEL",
+          "docType": "IMAGE",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/panels/panel-Front Support_Doors_SwoodDesign_1_Default.jpg",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "PDF_PANEL",
+          "type": "PDF_PANEL",
+          "docType": "DRAWING2PDF",
+          "processingStatus": 0,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/pdfs/panels/Front Support_Doors_SwoodDesign_1_Default.pdf",
+          "hidden": true,
+          "storageType": 0,
+          "exists": false,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "STEP_PANEL",
+          "type": "STEP_PANEL",
+          "docType": "STEP",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/steps/panels/Front Support_Doors_SwoodDesign_1_Default.step",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        }
+      ]
+    },
+    {
+      "ID": "dd1a1d0f-6789-400d-92d2-1ad05147db3a",
+      "name": "Front_Doors_SwoodDesign_1",
+      "programs": [],
+      "stocks": [
+        "dd1a1d0f-6789-400d-92d2-1ad05147db3a.CORE"
+      ],
+      "processZones": [],
+      "edgebands": [],
+      "messages": [],
+      "variables": [
+        {
+          "alias": "PAN_ANGLEINPART",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBC_BL",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBC_FR",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBC_LF",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBC_RB",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBCOUNT",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBHOMAGDIAGRAM",
+          "value": ":::"
+        },
+        {
+          "alias": "PAN_GRAINANGLEINPART",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_GRAINISVERTICAL",
+          "value": "False"
+        },
+        {
+          "alias": "PAN_ISSS",
+          "value": "True"
+        },
+        {
+          "alias": "PAN_L",
+          "value": "1158"
+        },
+        {
+          "alias": "PAN_LWEB",
+          "value": "1158"
+        },
+        {
+          "alias": "PAN_LWOEB",
+          "value": "1158"
+        },
+        {
+          "alias": "PAN_STL",
+          "value": "1158"
+        },
+        {
+          "alias": "PAN_STT",
+          "value": "19"
+        },
+        {
+          "alias": "PAN_STW",
+          "value": "50"
+        },
+        {
+          "alias": "PAN_T",
+          "value": "19"
+        },
+        {
+          "alias": "PAN_TWL",
+          "value": "19"
+        },
+        {
+          "alias": "PAN_TWOL",
+          "value": "19"
+        },
+        {
+          "alias": "PAN_W",
+          "value": "50"
+        },
+        {
+          "alias": "PAN_WWEB",
+          "value": "50"
+        },
+        {
+          "alias": "PAN_WWOEB",
+          "value": "50"
+        }
+      ],
+      "serialNumbers": {
+        "name": "PANEL_SERIALNUMBERS",
+        "variables": [
+          {
+            "alias": "NUM_PANEL",
+            "type": "S",
+            "value": "panel-08"
+          },
+          {
+            "alias": "NUM_PANEL_EXT",
+            "type": "S",
+            "value": ""
+          }
+        ]
+      },
+      "documents": [
+        {
+          "documentName": "EDRAWINGS_PANEL",
+          "type": "EDRAWINGS_PANEL",
+          "docType": "TEMPLATE",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/edrawings/panels/Front_Doors_SwoodDesign_1_Default.html",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "IMG_PANEL",
+          "type": "IMG_PANEL",
+          "docType": "IMAGE",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/panels/panel-Front_Doors_SwoodDesign_1_Default.jpg",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "PDF_PANEL",
+          "type": "PDF_PANEL",
+          "docType": "DRAWING2PDF",
+          "processingStatus": 0,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/pdfs/panels/Front_Doors_SwoodDesign_1_Default.pdf",
+          "hidden": true,
+          "storageType": 0,
+          "exists": false,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "STEP_PANEL",
+          "type": "STEP_PANEL",
+          "docType": "STEP",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/steps/panels/Front_Doors_SwoodDesign_1_Default.step",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        }
+      ]
+    },
+    {
+      "ID": "9d44626b-a462-4782-a8f1-3865fd91071a",
+      "name": "Front_Right Door_Door Overlay_Doors_SwoodDesign_1_1",
+      "programs": [],
+      "stocks": [
+        "9d44626b-a462-4782-a8f1-3865fd91071a.CORE"
+      ],
+      "processZones": [],
+      "edgebands": [
+        "9d44626b-a462-4782-a8f1-3865fd91071a.Edgeband1",
+        "9d44626b-a462-4782-a8f1-3865fd91071a.Edgeband2",
+        "9d44626b-a462-4782-a8f1-3865fd91071a.Edgeband3",
+        "9d44626b-a462-4782-a8f1-3865fd91071a.Edgeband4"
+      ],
+      "messages": [],
+      "variables": [
+        {
+          "alias": "PAN_ANGLEINPART",
+          "value": "1.571"
+        },
+        {
+          "alias": "PAN_EBC_BL",
+          "value": "4"
+        },
+        {
+          "alias": "PAN_EBC_FR",
+          "value": "4"
+        },
+        {
+          "alias": "PAN_EBC_LF",
+          "value": "3"
+        },
+        {
+          "alias": "PAN_EBC_RB",
+          "value": "3"
+        },
+        {
+          "alias": "PAN_EBCOUNT",
+          "value": "4"
+        },
+        {
+          "alias": "PAN_EBHOMAGDIAGRAM",
+          "value": "000:000:011:011"
+        },
+        {
+          "alias": "PAN_GRAINANGLEINPART",
+          "value": "1.571"
+        },
+        {
+          "alias": "PAN_GRAINISVERTICAL",
+          "value": "False"
+        },
+        {
+          "alias": "PAN_ISSS",
+          "value": "True"
+        },
+        {
+          "alias": "PAN_L",
+          "value": "1190"
+        },
+        {
+          "alias": "PAN_LWEB",
+          "value": "819"
+        },
+        {
+          "alias": "PAN_LWOEB",
+          "value": "817"
+        },
+        {
+          "alias": "PAN_STL",
+          "value": "819"
+        },
+        {
+          "alias": "PAN_STT",
+          "value": "19"
+        },
+        {
+          "alias": "PAN_STW",
+          "value": "593"
+        },
+        {
+          "alias": "PAN_T",
+          "value": "19"
+        },
+        {
+          "alias": "PAN_TWL",
+          "value": "19"
+        },
+        {
+          "alias": "PAN_TWOL",
+          "value": "19"
+        },
+        {
+          "alias": "PAN_W",
+          "value": "819"
+        },
+        {
+          "alias": "PAN_WWEB",
+          "value": "593"
+        },
+        {
+          "alias": "PAN_WWOEB",
+          "value": "591"
+        }
+      ],
+      "serialNumbers": {
+        "name": "PANEL_SERIALNUMBERS",
+        "variables": [
+          {
+            "alias": "NUM_PANEL",
+            "type": "S",
+            "value": "panel-09"
+          },
+          {
+            "alias": "NUM_PANEL_EXT",
+            "type": "S",
+            "value": ""
+          }
+        ]
+      },
+      "documents": [
+        {
+          "documentName": "EDRAWINGS_PANEL",
+          "type": "EDRAWINGS_PANEL",
+          "docType": "TEMPLATE",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/edrawings/panels/Front_Right Door_Door Overlay_Doors_SwoodDesign_1_1_Default.html",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "IMG_PANEL",
+          "type": "IMG_PANEL",
+          "docType": "IMAGE",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/panels/panel-Front_Right Door_Door Overlay_Doors_SwoodDesign_1_1_Default.jpg",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "PDF_PANEL",
+          "type": "PDF_PANEL",
+          "docType": "DRAWING2PDF",
+          "processingStatus": 0,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/pdfs/panels/Front_Right Door_Door Overlay_Doors_SwoodDesign_1_1_Default.pdf",
+          "hidden": true,
+          "storageType": 0,
+          "exists": false,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "STEP_PANEL",
+          "type": "STEP_PANEL",
+          "docType": "STEP",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/steps/panels/Front_Right Door_Door Overlay_Doors_SwoodDesign_1_1_Default.step",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        }
+      ]
+    },
+    {
+      "ID": "2707b1b7-5162-4684-983f-e7ff1d06109a",
+      "name": "Front_Left Door_Door Overlay_Doors_SwoodDesign_1_1",
+      "programs": [],
+      "stocks": [
+        "2707b1b7-5162-4684-983f-e7ff1d06109a.CORE"
+      ],
+      "processZones": [],
+      "edgebands": [
+        "2707b1b7-5162-4684-983f-e7ff1d06109a.Edgeband1",
+        "2707b1b7-5162-4684-983f-e7ff1d06109a.Edgeband2",
+        "2707b1b7-5162-4684-983f-e7ff1d06109a.Edgeband3",
+        "2707b1b7-5162-4684-983f-e7ff1d06109a.Edgeband4"
+      ],
+      "messages": [],
+      "variables": [
+        {
+          "alias": "PAN_ANGLEINPART",
+          "value": "1.571"
+        },
+        {
+          "alias": "PAN_EBC_BL",
+          "value": "4"
+        },
+        {
+          "alias": "PAN_EBC_FR",
+          "value": "4"
+        },
+        {
+          "alias": "PAN_EBC_LF",
+          "value": "3"
+        },
+        {
+          "alias": "PAN_EBC_RB",
+          "value": "3"
+        },
+        {
+          "alias": "PAN_EBCOUNT",
+          "value": "4"
+        },
+        {
+          "alias": "PAN_EBHOMAGDIAGRAM",
+          "value": "000:000:011:011"
+        },
+        {
+          "alias": "PAN_GRAINANGLEINPART",
+          "value": "1.571"
+        },
+        {
+          "alias": "PAN_GRAINISVERTICAL",
+          "value": "False"
+        },
+        {
+          "alias": "PAN_ISSS",
+          "value": "True"
+        },
+        {
+          "alias": "PAN_L",
+          "value": "1190"
+        },
+        {
+          "alias": "PAN_LWEB",
+          "value": "819"
+        },
+        {
+          "alias": "PAN_LWOEB",
+          "value": "817"
+        },
+        {
+          "alias": "PAN_STL",
+          "value": "819"
+        },
+        {
+          "alias": "PAN_STT",
+          "value": "19"
+        },
+        {
+          "alias": "PAN_STW",
+          "value": "593"
+        },
+        {
+          "alias": "PAN_T",
+          "value": "19"
+        },
+        {
+          "alias": "PAN_TWL",
+          "value": "19"
+        },
+        {
+          "alias": "PAN_TWOL",
+          "value": "19"
+        },
+        {
+          "alias": "PAN_W",
+          "value": "819"
+        },
+        {
+          "alias": "PAN_WWEB",
+          "value": "593"
+        },
+        {
+          "alias": "PAN_WWOEB",
+          "value": "591"
+        }
+      ],
+      "serialNumbers": {
+        "name": "PANEL_SERIALNUMBERS",
+        "variables": [
+          {
+            "alias": "NUM_PANEL",
+            "type": "S",
+            "value": "panel-10"
+          },
+          {
+            "alias": "NUM_PANEL_EXT",
+            "type": "S",
+            "value": ""
+          }
+        ]
+      },
+      "documents": [
+        {
+          "documentName": "EDRAWINGS_PANEL",
+          "type": "EDRAWINGS_PANEL",
+          "docType": "TEMPLATE",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/edrawings/panels/Front_Left Door_Door Overlay_Doors_SwoodDesign_1_1_Default.html",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "IMG_PANEL",
+          "type": "IMG_PANEL",
+          "docType": "IMAGE",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/panels/panel-Front_Left Door_Door Overlay_Doors_SwoodDesign_1_1_Default.jpg",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "PDF_PANEL",
+          "type": "PDF_PANEL",
+          "docType": "DRAWING2PDF",
+          "processingStatus": 0,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/pdfs/panels/Front_Left Door_Door Overlay_Doors_SwoodDesign_1_1_Default.pdf",
+          "hidden": true,
+          "storageType": 0,
+          "exists": false,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "STEP_PANEL",
+          "type": "STEP_PANEL",
+          "docType": "STEP",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/steps/panels/Front_Left Door_Door Overlay_Doors_SwoodDesign_1_1_Default.step",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        }
+      ]
+    },
+    {
+      "ID": "1f215b66-dcc9-4563-b1d7-2857f9ed2e04",
       "name": "Left_High Cabinet_SwoodDesign_1",
       "programs": [
         "Left_High Cabinet_SwoodDesign_1_Milling_1_Default"
       ],
       "stocks": [
-        "89b367ac-2751-4f12-8a5b-db4112a6ff28.BOTTOM",
-        "89b367ac-2751-4f12-8a5b-db4112a6ff28.CORE"
+        "1f215b66-dcc9-4563-b1d7-2857f9ed2e04.BOTTOM",
+        "1f215b66-dcc9-4563-b1d7-2857f9ed2e04.CORE"
       ],
       "processZones": [],
       "edgebands": [
-        "89b367ac-2751-4f12-8a5b-db4112a6ff28.Edge Band1"
+        "1f215b66-dcc9-4563-b1d7-2857f9ed2e04.Edge Band1"
       ],
       "messages": [],
       "variables": [
-        {
-          "alias": "isCompleted",
-          "value": "False"
-        },
-        {
-          "alias": "isDamaged",
-          "value": "False"
-        },
         {
           "alias": "PAN_ANGLEINPART",
           "value": "0"
@@ -2325,7 +3807,7 @@ const reportDataRaw ={
         },
         {
           "alias": "PAN_STT",
-          "value": "21.0000000000003"
+          "value": "21"
         },
         {
           "alias": "PAN_STW",
@@ -2337,11 +3819,11 @@ const reportDataRaw ={
         },
         {
           "alias": "PAN_TWL",
-          "value": "21.0000000000003"
+          "value": "21"
         },
         {
           "alias": "PAN_TWOL",
-          "value": "19.0000000000003"
+          "value": "19"
         },
         {
           "alias": "PAN_W",
@@ -2362,7 +3844,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PANEL",
             "type": "S",
-            "value": "panel-05"
+            "value": "panel-11"
           },
           {
             "alias": "NUM_PANEL_EXT",
@@ -2377,7 +3859,7 @@ const reportDataRaw ={
           "type": "EDRAWINGS_PANEL",
           "docType": "TEMPLATE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/edrawings/panels/Left_High Cabinet_SwoodDesign_1.html",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/edrawings/panels/Left_High Cabinet_SwoodDesign_1_Default.html",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -2388,7 +3870,7 @@ const reportDataRaw ={
           "type": "IMG_PANEL",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/panels/panel-Left_High Cabinet_SwoodDesign_1_panel-05.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/panels/panel-Left_High Cabinet_SwoodDesign_1_Default.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -2399,33 +3881,866 @@ const reportDataRaw ={
           "type": "PDF_PANEL",
           "docType": "DRAWING2PDF",
           "processingStatus": 0,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/pdfs/panels/Left_High Cabinet_SwoodDesign_1.pdf",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/pdfs/panels/Left_High Cabinet_SwoodDesign_1_Default.pdf",
           "hidden": true,
           "storageType": 0,
           "exists": false,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "STEP_PANEL",
+          "type": "STEP_PANEL",
+          "docType": "STEP",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/steps/panels/Left_High Cabinet_SwoodDesign_1_Default.step",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
           "objType": "PANEL"
         }
       ]
     },
     {
-      "ID": "e76f4f8a-43cc-412b-97e5-322c8134fd6b",
+      "ID": "bd2641ba-5ad6-496d-bd81-7a4e98a42b54",
+      "name": "Kickboard_High Cabinet_SwoodDesign_1",
+      "programs": [],
+      "stocks": [
+        "bd2641ba-5ad6-496d-bd81-7a4e98a42b54.CORE"
+      ],
+      "processZones": [],
+      "edgebands": [],
+      "messages": [],
+      "variables": [
+        {
+          "alias": "PAN_ANGLEINPART",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBC_BL",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBC_FR",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBC_LF",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBC_RB",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBCOUNT",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBHOMAGDIAGRAM",
+          "value": ":::"
+        },
+        {
+          "alias": "PAN_GRAINANGLEINPART",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_GRAINISVERTICAL",
+          "value": "False"
+        },
+        {
+          "alias": "PAN_ISSS",
+          "value": "True"
+        },
+        {
+          "alias": "PAN_L",
+          "value": "950"
+        },
+        {
+          "alias": "PAN_LWEB",
+          "value": "950"
+        },
+        {
+          "alias": "PAN_LWOEB",
+          "value": "950"
+        },
+        {
+          "alias": "PAN_STL",
+          "value": "950"
+        },
+        {
+          "alias": "PAN_STT",
+          "value": "19"
+        },
+        {
+          "alias": "PAN_STW",
+          "value": "100"
+        },
+        {
+          "alias": "PAN_T",
+          "value": "19"
+        },
+        {
+          "alias": "PAN_TWL",
+          "value": "19"
+        },
+        {
+          "alias": "PAN_TWOL",
+          "value": "19"
+        },
+        {
+          "alias": "PAN_W",
+          "value": "100"
+        },
+        {
+          "alias": "PAN_WWEB",
+          "value": "100"
+        },
+        {
+          "alias": "PAN_WWOEB",
+          "value": "100"
+        }
+      ],
+      "serialNumbers": {
+        "name": "PANEL_SERIALNUMBERS",
+        "variables": [
+          {
+            "alias": "NUM_PANEL",
+            "type": "S",
+            "value": "panel-12"
+          },
+          {
+            "alias": "NUM_PANEL_EXT",
+            "type": "S",
+            "value": ""
+          }
+        ]
+      },
+      "documents": [
+        {
+          "documentName": "EDRAWINGS_PANEL",
+          "type": "EDRAWINGS_PANEL",
+          "docType": "TEMPLATE",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/edrawings/panels/Kickboard_High Cabinet_SwoodDesign_1_Default.html",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "IMG_PANEL",
+          "type": "IMG_PANEL",
+          "docType": "IMAGE",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/panels/panel-Kickboard_High Cabinet_SwoodDesign_1_Default.jpg",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "PDF_PANEL",
+          "type": "PDF_PANEL",
+          "docType": "DRAWING2PDF",
+          "processingStatus": 0,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/pdfs/panels/Kickboard_High Cabinet_SwoodDesign_1_Default.pdf",
+          "hidden": true,
+          "storageType": 0,
+          "exists": false,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "STEP_PANEL",
+          "type": "STEP_PANEL",
+          "docType": "STEP",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/steps/panels/Kickboard_High Cabinet_SwoodDesign_1_Default.step",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        }
+      ]
+    },
+    {
+      "ID": "f09aac8d-c25b-4912-9c5f-ece0d341472f",
+      "name": "Right_High Cabinet_SwoodDesign_1",
+      "programs": [
+        "Right_High Cabinet_SwoodDesign_1_Milling_1_Default"
+      ],
+      "stocks": [
+        "f09aac8d-c25b-4912-9c5f-ece0d341472f.BOTTOM",
+        "f09aac8d-c25b-4912-9c5f-ece0d341472f.CORE"
+      ],
+      "processZones": [],
+      "edgebands": [
+        "f09aac8d-c25b-4912-9c5f-ece0d341472f.Edgeband1"
+      ],
+      "messages": [],
+      "variables": [
+        {
+          "alias": "PAN_ANGLEINPART",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBC_BL",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBC_FR",
+          "value": "1"
+        },
+        {
+          "alias": "PAN_EBC_LF",
+          "value": "2"
+        },
+        {
+          "alias": "PAN_EBC_RB",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBCOUNT",
+          "value": "1"
+        },
+        {
+          "alias": "PAN_EBHOMAGDIAGRAM",
+          "value": "000:::"
+        },
+        {
+          "alias": "PAN_GRAINANGLEINPART",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_GRAINISVERTICAL",
+          "value": "False"
+        },
+        {
+          "alias": "PAN_ISSS",
+          "value": "True"
+        },
+        {
+          "alias": "PAN_L",
+          "value": "2400"
+        },
+        {
+          "alias": "PAN_LWEB",
+          "value": "2400"
+        },
+        {
+          "alias": "PAN_LWOEB",
+          "value": "2400"
+        },
+        {
+          "alias": "PAN_STL",
+          "value": "2400"
+        },
+        {
+          "alias": "PAN_STT",
+          "value": "21"
+        },
+        {
+          "alias": "PAN_STW",
+          "value": "600"
+        },
+        {
+          "alias": "PAN_T",
+          "value": "21"
+        },
+        {
+          "alias": "PAN_TWL",
+          "value": "21"
+        },
+        {
+          "alias": "PAN_TWOL",
+          "value": "19"
+        },
+        {
+          "alias": "PAN_W",
+          "value": "600"
+        },
+        {
+          "alias": "PAN_WWEB",
+          "value": "600"
+        },
+        {
+          "alias": "PAN_WWOEB",
+          "value": "599"
+        }
+      ],
+      "serialNumbers": {
+        "name": "PANEL_SERIALNUMBERS",
+        "variables": [
+          {
+            "alias": "NUM_PANEL",
+            "type": "S",
+            "value": "panel-13"
+          },
+          {
+            "alias": "NUM_PANEL_EXT",
+            "type": "S",
+            "value": ""
+          }
+        ]
+      },
+      "documents": [
+        {
+          "documentName": "EDRAWINGS_PANEL",
+          "type": "EDRAWINGS_PANEL",
+          "docType": "TEMPLATE",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/edrawings/panels/Right_High Cabinet_SwoodDesign_1_Default.html",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "IMG_PANEL",
+          "type": "IMG_PANEL",
+          "docType": "IMAGE",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/panels/panel-Right_High Cabinet_SwoodDesign_1_Default.jpg",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "PDF_PANEL",
+          "type": "PDF_PANEL",
+          "docType": "DRAWING2PDF",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/pdfs/panels/Right_High Cabinet_SwoodDesign_1_Default.pdf",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "STEP_PANEL",
+          "type": "STEP_PANEL",
+          "docType": "STEP",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/steps/panels/Right_High Cabinet_SwoodDesign_1_Default.step",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        }
+      ]
+    },
+    {
+      "ID": "ad96f3f9-b34c-415d-ba50-6663d7af8b21",
+      "name": "Front Support_High Cabinet_SwoodDesign_1",
+      "programs": [
+        "Front Support_High Cabinet_SwoodDesign_1_Milling_1_Default"
+      ],
+      "stocks": [
+        "ad96f3f9-b34c-415d-ba50-6663d7af8b21.BOTTOM",
+        "ad96f3f9-b34c-415d-ba50-6663d7af8b21.CORE"
+      ],
+      "processZones": [],
+      "edgebands": [
+        "ad96f3f9-b34c-415d-ba50-6663d7af8b21.Edgeband1"
+      ],
+      "messages": [],
+      "variables": [
+        {
+          "alias": "PAN_ANGLEINPART",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBC_BL",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBC_FR",
+          "value": "1"
+        },
+        {
+          "alias": "PAN_EBC_LF",
+          "value": "2"
+        },
+        {
+          "alias": "PAN_EBC_RB",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBCOUNT",
+          "value": "1"
+        },
+        {
+          "alias": "PAN_EBHOMAGDIAGRAM",
+          "value": "000:::"
+        },
+        {
+          "alias": "PAN_GRAINANGLEINPART",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_GRAINISVERTICAL",
+          "value": "False"
+        },
+        {
+          "alias": "PAN_ISSS",
+          "value": "True"
+        },
+        {
+          "alias": "PAN_L",
+          "value": "908"
+        },
+        {
+          "alias": "PAN_LWEB",
+          "value": "908"
+        },
+        {
+          "alias": "PAN_LWOEB",
+          "value": "908"
+        },
+        {
+          "alias": "PAN_STL",
+          "value": "908"
+        },
+        {
+          "alias": "PAN_STT",
+          "value": "21"
+        },
+        {
+          "alias": "PAN_STW",
+          "value": "600"
+        },
+        {
+          "alias": "PAN_T",
+          "value": "21"
+        },
+        {
+          "alias": "PAN_TWL",
+          "value": "21"
+        },
+        {
+          "alias": "PAN_TWOL",
+          "value": "19"
+        },
+        {
+          "alias": "PAN_W",
+          "value": "600"
+        },
+        {
+          "alias": "PAN_WWEB",
+          "value": "600"
+        },
+        {
+          "alias": "PAN_WWOEB",
+          "value": "599"
+        }
+      ],
+      "serialNumbers": {
+        "name": "PANEL_SERIALNUMBERS",
+        "variables": [
+          {
+            "alias": "NUM_PANEL",
+            "type": "S",
+            "value": "panel-14"
+          },
+          {
+            "alias": "NUM_PANEL_EXT",
+            "type": "S",
+            "value": ""
+          }
+        ]
+      },
+      "documents": [
+        {
+          "documentName": "EDRAWINGS_PANEL",
+          "type": "EDRAWINGS_PANEL",
+          "docType": "TEMPLATE",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/edrawings/panels/Front Support_High Cabinet_SwoodDesign_1_Default.html",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "IMG_PANEL",
+          "type": "IMG_PANEL",
+          "docType": "IMAGE",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/panels/panel-Front Support_High Cabinet_SwoodDesign_1_Default.jpg",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "PDF_PANEL",
+          "type": "PDF_PANEL",
+          "docType": "DRAWING2PDF",
+          "processingStatus": 0,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/pdfs/panels/Front Support_High Cabinet_SwoodDesign_1_Default.pdf",
+          "hidden": true,
+          "storageType": 0,
+          "exists": false,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "STEP_PANEL",
+          "type": "STEP_PANEL",
+          "docType": "STEP",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/steps/panels/Front Support_High Cabinet_SwoodDesign_1_Default.step",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        }
+      ]
+    },
+    {
+      "ID": "e1886458-2a0d-4505-9dab-ecaa2bff10ae",
+      "name": "Bottom_High Cabinet_SwoodDesign_1",
+      "programs": [
+        "Bottom_High Cabinet_SwoodDesign_1_Milling_1_Default"
+      ],
+      "stocks": [
+        "e1886458-2a0d-4505-9dab-ecaa2bff10ae.CORE"
+      ],
+      "processZones": [],
+      "edgebands": [
+        "e1886458-2a0d-4505-9dab-ecaa2bff10ae.Edge Band1"
+      ],
+      "messages": [],
+      "variables": [
+        {
+          "alias": "PAN_ANGLEINPART",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBC_BL",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBC_FR",
+          "value": "1"
+        },
+        {
+          "alias": "PAN_EBC_LF",
+          "value": "2"
+        },
+        {
+          "alias": "PAN_EBC_RB",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBCOUNT",
+          "value": "1"
+        },
+        {
+          "alias": "PAN_EBHOMAGDIAGRAM",
+          "value": "000:::"
+        },
+        {
+          "alias": "PAN_GRAINANGLEINPART",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_GRAINISVERTICAL",
+          "value": "False"
+        },
+        {
+          "alias": "PAN_ISSS",
+          "value": "True"
+        },
+        {
+          "alias": "PAN_L",
+          "value": "908"
+        },
+        {
+          "alias": "PAN_LWEB",
+          "value": "908"
+        },
+        {
+          "alias": "PAN_LWOEB",
+          "value": "908"
+        },
+        {
+          "alias": "PAN_STL",
+          "value": "908"
+        },
+        {
+          "alias": "PAN_STT",
+          "value": "19"
+        },
+        {
+          "alias": "PAN_STW",
+          "value": "600"
+        },
+        {
+          "alias": "PAN_T",
+          "value": "19"
+        },
+        {
+          "alias": "PAN_TWL",
+          "value": "19"
+        },
+        {
+          "alias": "PAN_TWOL",
+          "value": "19"
+        },
+        {
+          "alias": "PAN_W",
+          "value": "600"
+        },
+        {
+          "alias": "PAN_WWEB",
+          "value": "600"
+        },
+        {
+          "alias": "PAN_WWOEB",
+          "value": "599"
+        }
+      ],
+      "serialNumbers": {
+        "name": "PANEL_SERIALNUMBERS",
+        "variables": [
+          {
+            "alias": "NUM_PANEL",
+            "type": "S",
+            "value": "panel-15"
+          },
+          {
+            "alias": "NUM_PANEL_EXT",
+            "type": "S",
+            "value": ""
+          }
+        ]
+      },
+      "documents": [
+        {
+          "documentName": "EDRAWINGS_PANEL",
+          "type": "EDRAWINGS_PANEL",
+          "docType": "TEMPLATE",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/edrawings/panels/Bottom_High Cabinet_SwoodDesign_1_Default.html",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "IMG_PANEL",
+          "type": "IMG_PANEL",
+          "docType": "IMAGE",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/panels/panel-Bottom_High Cabinet_SwoodDesign_1_Default.jpg",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "PDF_PANEL",
+          "type": "PDF_PANEL",
+          "docType": "DRAWING2PDF",
+          "processingStatus": 0,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/pdfs/panels/Bottom_High Cabinet_SwoodDesign_1_Default.pdf",
+          "hidden": true,
+          "storageType": 0,
+          "exists": false,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "STEP_PANEL",
+          "type": "STEP_PANEL",
+          "docType": "STEP",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/steps/panels/Bottom_High Cabinet_SwoodDesign_1_Default.step",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        }
+      ]
+    },
+    {
+      "ID": "34890a23-4986-4933-91a8-a2b2b9b8a618",
+      "name": "Shelve_Removable Shelves_High Cabinet_SwoodDesign_1_1",
+      "programs": [
+        "Shelve_Removable Shelves_High Cabinet_SwoodDesign_1_1_Milling_1_Default"
+      ],
+      "stocks": [
+        "34890a23-4986-4933-91a8-a2b2b9b8a618.TOP",
+        "34890a23-4986-4933-91a8-a2b2b9b8a618.BOTTOM",
+        "34890a23-4986-4933-91a8-a2b2b9b8a618.CORE"
+      ],
+      "processZones": [],
+      "edgebands": [
+        "34890a23-4986-4933-91a8-a2b2b9b8a618.Edgeband1"
+      ],
+      "messages": [],
+      "variables": [
+        {
+          "alias": "PAN_ANGLEINPART",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBC_BL",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBC_FR",
+          "value": "1"
+        },
+        {
+          "alias": "PAN_EBC_LF",
+          "value": "2"
+        },
+        {
+          "alias": "PAN_EBC_RB",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBCOUNT",
+          "value": "1"
+        },
+        {
+          "alias": "PAN_EBHOMAGDIAGRAM",
+          "value": "000:::"
+        },
+        {
+          "alias": "PAN_GRAINANGLEINPART",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_GRAINISVERTICAL",
+          "value": "False"
+        },
+        {
+          "alias": "PAN_ISSS",
+          "value": "True"
+        },
+        {
+          "alias": "PAN_L",
+          "value": "904"
+        },
+        {
+          "alias": "PAN_LWEB",
+          "value": "904"
+        },
+        {
+          "alias": "PAN_LWOEB",
+          "value": "904"
+        },
+        {
+          "alias": "PAN_STL",
+          "value": "904"
+        },
+        {
+          "alias": "PAN_STT",
+          "value": "20"
+        },
+        {
+          "alias": "PAN_STW",
+          "value": "555"
+        },
+        {
+          "alias": "PAN_T",
+          "value": "20"
+        },
+        {
+          "alias": "PAN_TWL",
+          "value": "20"
+        },
+        {
+          "alias": "PAN_TWOL",
+          "value": "16"
+        },
+        {
+          "alias": "PAN_W",
+          "value": "555"
+        },
+        {
+          "alias": "PAN_WWEB",
+          "value": "555"
+        },
+        {
+          "alias": "PAN_WWOEB",
+          "value": "554"
+        }
+      ],
+      "serialNumbers": {
+        "name": "PANEL_SERIALNUMBERS",
+        "variables": [
+          {
+            "alias": "NUM_PANEL",
+            "type": "S",
+            "value": "panel-16"
+          },
+          {
+            "alias": "NUM_PANEL_EXT",
+            "type": "S",
+            "value": ""
+          }
+        ]
+      },
+      "documents": [
+        {
+          "documentName": "EDRAWINGS_PANEL",
+          "type": "EDRAWINGS_PANEL",
+          "docType": "TEMPLATE",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/edrawings/panels/Shelve_Removable Shelves_High Cabinet_SwoodDesign_1_1_Default.html",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "IMG_PANEL",
+          "type": "IMG_PANEL",
+          "docType": "IMAGE",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/panels/panel-Shelve_Removable Shelves_High Cabinet_SwoodDesign_1_1_Default.jpg",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "PDF_PANEL",
+          "type": "PDF_PANEL",
+          "docType": "DRAWING2PDF",
+          "processingStatus": 0,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/pdfs/panels/Shelve_Removable Shelves_High Cabinet_SwoodDesign_1_1_Default.pdf",
+          "hidden": true,
+          "storageType": 0,
+          "exists": false,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "STEP_PANEL",
+          "type": "STEP_PANEL",
+          "docType": "STEP",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/steps/panels/Shelve_Removable Shelves_High Cabinet_SwoodDesign_1_1_Default.step",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        }
+      ]
+    },
+    {
+      "ID": "2e9e5c9f-adea-4b35-a98f-6d5d5d3f6cf3",
       "name": "BACK_Back_High Cabinet_SwoodDesign_1_1",
       "programs": [],
       "stocks": [
-        "e76f4f8a-43cc-412b-97e5-322c8134fd6b.CORE"
+        "2e9e5c9f-adea-4b35-a98f-6d5d5d3f6cf3.CORE"
       ],
       "processZones": [],
       "edgebands": [],
       "messages": [],
       "variables": [
-        {
-          "alias": "isCompleted",
-          "value": "False"
-        },
-        {
-          "alias": "isDamaged",
-          "value": "False"
-        },
         {
           "alias": "PAN_ANGLEINPART",
           "value": "0"
@@ -2521,7 +4836,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PANEL",
             "type": "S",
-            "value": "panel-06"
+            "value": "panel-17"
           },
           {
             "alias": "NUM_PANEL_EXT",
@@ -2536,7 +4851,7 @@ const reportDataRaw ={
           "type": "EDRAWINGS_PANEL",
           "docType": "TEMPLATE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/edrawings/panels/BACK_Back_High Cabinet_SwoodDesign_1_1.html",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/edrawings/panels/BACK_Back_High Cabinet_SwoodDesign_1_1_Défaut.html",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -2547,7 +4862,7 @@ const reportDataRaw ={
           "type": "IMG_PANEL",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/panels/panel-BACK_Back_High Cabinet_SwoodDesign_1_1_panel-06.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/panels/panel-BACK_Back_High Cabinet_SwoodDesign_1_1_Défaut.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -2558,196 +4873,38 @@ const reportDataRaw ={
           "type": "PDF_PANEL",
           "docType": "DRAWING2PDF",
           "processingStatus": 0,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/pdfs/panels/BACK_Back_High Cabinet_SwoodDesign_1_1.pdf",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/pdfs/panels/BACK_Back_High Cabinet_SwoodDesign_1_1_Défaut.pdf",
           "hidden": true,
           "storageType": 0,
           "exists": false,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "STEP_PANEL",
+          "type": "STEP_PANEL",
+          "docType": "STEP",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/steps/panels/BACK_Back_High Cabinet_SwoodDesign_1_1_Défaut.step",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
           "objType": "PANEL"
         }
       ]
     },
     {
-      "ID": "5da29f5d-c913-4adf-a991-02b7e2a5709a",
-      "name": "Back_Drawers Overlay_High Cabinet_SwoodDesign_1_1",
-      "programs": [
-        "Back_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default"
-      ],
-      "stocks": [
-        "5da29f5d-c913-4adf-a991-02b7e2a5709a.CORE"
-      ],
-      "processZones": [],
-      "edgebands": [],
-      "messages": [],
-      "variables": [
-        {
-          "alias": "isCompleted",
-          "value": "False"
-        },
-        {
-          "alias": "isDamaged",
-          "value": "False"
-        },
-        {
-          "alias": "PAN_ANGLEINPART",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBC_BL",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBC_FR",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBC_LF",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBC_RB",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBCOUNT",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBHOMAGDIAGRAM",
-          "value": ":::"
-        },
-        {
-          "alias": "PAN_GRAINANGLEINPART",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_GRAINISVERTICAL",
-          "value": "False"
-        },
-        {
-          "alias": "PAN_ISSS",
-          "value": "True"
-        },
-        {
-          "alias": "PAN_L",
-          "value": "850.6"
-        },
-        {
-          "alias": "PAN_LWEB",
-          "value": "850.6"
-        },
-        {
-          "alias": "PAN_LWOEB",
-          "value": "850.6"
-        },
-        {
-          "alias": "PAN_STL",
-          "value": "850.6"
-        },
-        {
-          "alias": "PAN_STT",
-          "value": "16"
-        },
-        {
-          "alias": "PAN_STW",
-          "value": "325.5"
-        },
-        {
-          "alias": "PAN_T",
-          "value": "16"
-        },
-        {
-          "alias": "PAN_TWL",
-          "value": "16"
-        },
-        {
-          "alias": "PAN_TWOL",
-          "value": "16"
-        },
-        {
-          "alias": "PAN_W",
-          "value": "325.5"
-        },
-        {
-          "alias": "PAN_WWEB",
-          "value": "325.5"
-        },
-        {
-          "alias": "PAN_WWOEB",
-          "value": "325.5"
-        }
-      ],
-      "serialNumbers": {
-        "name": "PANEL_SERIALNUMBERS",
-        "variables": [
-          {
-            "alias": "NUM_PANEL",
-            "type": "S",
-            "value": "panel-07"
-          },
-          {
-            "alias": "NUM_PANEL_EXT",
-            "type": "S",
-            "value": ""
-          }
-        ]
-      },
-      "documents": [
-        {
-          "documentName": "EDRAWINGS_PANEL",
-          "type": "EDRAWINGS_PANEL",
-          "docType": "TEMPLATE",
-          "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/edrawings/panels/Back_Drawers Overlay_High Cabinet_SwoodDesign_1_1.html",
-          "hidden": true,
-          "storageType": 0,
-          "exists": true,
-          "objType": "PANEL"
-        },
-        {
-          "documentName": "IMG_PANEL",
-          "type": "IMG_PANEL",
-          "docType": "IMAGE",
-          "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/panels/panel-Back_Drawers Overlay_High Cabinet_SwoodDesign_1_1_panel-07.jpg",
-          "hidden": true,
-          "storageType": 0,
-          "exists": true,
-          "objType": "PANEL"
-        },
-        {
-          "documentName": "PDF_PANEL",
-          "type": "PDF_PANEL",
-          "docType": "DRAWING2PDF",
-          "processingStatus": 0,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/pdfs/panels/Back_Drawers Overlay_High Cabinet_SwoodDesign_1_1.pdf",
-          "hidden": true,
-          "storageType": 0,
-          "exists": false,
-          "objType": "PANEL"
-        }
-      ]
-    },
-    {
-      "ID": "a7aacb53-b186-4b2e-888b-a0602b1e7c3d",
+      "ID": "8caa3f39-bcbf-4d3f-adbf-5c9f1f4eba75",
       "name": "Bottom_Drawers Overlay_High Cabinet_SwoodDesign_1_1",
       "programs": [
         "Bottom_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default"
       ],
       "stocks": [
-        "a7aacb53-b186-4b2e-888b-a0602b1e7c3d.CORE"
+        "8caa3f39-bcbf-4d3f-adbf-5c9f1f4eba75.CORE"
       ],
       "processZones": [],
       "edgebands": [],
       "messages": [],
       "variables": [
-        {
-          "alias": "isCompleted",
-          "value": "False"
-        },
-        {
-          "alias": "isDamaged",
-          "value": "False"
-        },
         {
           "alias": "PAN_ANGLEINPART",
           "value": "0"
@@ -2810,7 +4967,7 @@ const reportDataRaw ={
         },
         {
           "alias": "PAN_STW",
-          "value": "544.000000000005"
+          "value": "544"
         },
         {
           "alias": "PAN_T",
@@ -2830,11 +4987,11 @@ const reportDataRaw ={
         },
         {
           "alias": "PAN_WWEB",
-          "value": "544.000000000005"
+          "value": "544"
         },
         {
           "alias": "PAN_WWOEB",
-          "value": "544.000000000005"
+          "value": "544"
         }
       ],
       "serialNumbers": {
@@ -2843,7 +5000,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PANEL",
             "type": "S",
-            "value": "panel-08"
+            "value": "panel-18"
           },
           {
             "alias": "NUM_PANEL_EXT",
@@ -2858,7 +5015,7 @@ const reportDataRaw ={
           "type": "EDRAWINGS_PANEL",
           "docType": "TEMPLATE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/edrawings/panels/Bottom_Drawers Overlay_High Cabinet_SwoodDesign_1_1.html",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/edrawings/panels/Bottom_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Default.html",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -2869,7 +5026,7 @@ const reportDataRaw ={
           "type": "IMG_PANEL",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/panels/panel-Bottom_Drawers Overlay_High Cabinet_SwoodDesign_1_1_panel-08.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/panels/panel-Bottom_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Default.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -2880,199 +5037,41 @@ const reportDataRaw ={
           "type": "PDF_PANEL",
           "docType": "DRAWING2PDF",
           "processingStatus": 0,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/pdfs/panels/Bottom_Drawers Overlay_High Cabinet_SwoodDesign_1_1.pdf",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/pdfs/panels/Bottom_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Default.pdf",
           "hidden": true,
           "storageType": 0,
           "exists": false,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "STEP_PANEL",
+          "type": "STEP_PANEL",
+          "docType": "STEP",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/steps/panels/Bottom_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Default.step",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
           "objType": "PANEL"
         }
       ]
     },
     {
-      "ID": "1358051f-b7f8-4991-b110-2c5e6ec8b60e",
-      "name": "Left_Drawers Overlay_High Cabinet_SwoodDesign_1_1",
-      "programs": [
-        "Left_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default"
-      ],
-      "stocks": [
-        "1358051f-b7f8-4991-b110-2c5e6ec8b60e.CORE"
-      ],
-      "processZones": [],
-      "edgebands": [],
-      "messages": [],
-      "variables": [
-        {
-          "alias": "isCompleted",
-          "value": "False"
-        },
-        {
-          "alias": "isDamaged",
-          "value": "False"
-        },
-        {
-          "alias": "PAN_ANGLEINPART",
-          "value": "1.5707963267949"
-        },
-        {
-          "alias": "PAN_EBC_BL",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBC_FR",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBC_LF",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBC_RB",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBCOUNT",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBHOMAGDIAGRAM",
-          "value": ":::"
-        },
-        {
-          "alias": "PAN_GRAINANGLEINPART",
-          "value": "1.5707963267949"
-        },
-        {
-          "alias": "PAN_GRAINISVERTICAL",
-          "value": "False"
-        },
-        {
-          "alias": "PAN_ISSS",
-          "value": "True"
-        },
-        {
-          "alias": "PAN_L",
-          "value": "325.5"
-        },
-        {
-          "alias": "PAN_LWEB",
-          "value": "565"
-        },
-        {
-          "alias": "PAN_LWOEB",
-          "value": "565"
-        },
-        {
-          "alias": "PAN_STL",
-          "value": "565"
-        },
-        {
-          "alias": "PAN_STT",
-          "value": "16"
-        },
-        {
-          "alias": "PAN_STW",
-          "value": "325.5"
-        },
-        {
-          "alias": "PAN_T",
-          "value": "16"
-        },
-        {
-          "alias": "PAN_TWL",
-          "value": "16"
-        },
-        {
-          "alias": "PAN_TWOL",
-          "value": "16"
-        },
-        {
-          "alias": "PAN_W",
-          "value": "565"
-        },
-        {
-          "alias": "PAN_WWEB",
-          "value": "325.5"
-        },
-        {
-          "alias": "PAN_WWOEB",
-          "value": "325.5"
-        }
-      ],
-      "serialNumbers": {
-        "name": "PANEL_SERIALNUMBERS",
-        "variables": [
-          {
-            "alias": "NUM_PANEL",
-            "type": "S",
-            "value": "panel-09"
-          },
-          {
-            "alias": "NUM_PANEL_EXT",
-            "type": "S",
-            "value": ""
-          }
-        ]
-      },
-      "documents": [
-        {
-          "documentName": "EDRAWINGS_PANEL",
-          "type": "EDRAWINGS_PANEL",
-          "docType": "TEMPLATE",
-          "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/edrawings/panels/Left_Drawers Overlay_High Cabinet_SwoodDesign_1_1.html",
-          "hidden": true,
-          "storageType": 0,
-          "exists": true,
-          "objType": "PANEL"
-        },
-        {
-          "documentName": "IMG_PANEL",
-          "type": "IMG_PANEL",
-          "docType": "IMAGE",
-          "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/panels/panel-Left_Drawers Overlay_High Cabinet_SwoodDesign_1_1_panel-09.jpg",
-          "hidden": true,
-          "storageType": 0,
-          "exists": true,
-          "objType": "PANEL"
-        },
-        {
-          "documentName": "PDF_PANEL",
-          "type": "PDF_PANEL",
-          "docType": "DRAWING2PDF",
-          "processingStatus": 0,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/pdfs/panels/Left_Drawers Overlay_High Cabinet_SwoodDesign_1_1.pdf",
-          "hidden": true,
-          "storageType": 0,
-          "exists": false,
-          "objType": "PANEL"
-        }
-      ]
-    },
-    {
-      "ID": "e85628e9-f94d-4d10-95d9-389442270130",
+      "ID": "62ee4540-2c99-43c5-bf28-80d81a96cc58",
       "name": "Right_Drawers Overlay_High Cabinet_SwoodDesign_1_1",
       "programs": [
         "Right_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default"
       ],
       "stocks": [
-        "e85628e9-f94d-4d10-95d9-389442270130.CORE"
+        "62ee4540-2c99-43c5-bf28-80d81a96cc58.CORE"
       ],
       "processZones": [],
       "edgebands": [],
       "messages": [],
       "variables": [
         {
-          "alias": "isCompleted",
-          "value": "False"
-        },
-        {
-          "alias": "isDamaged",
-          "value": "False"
-        },
-        {
           "alias": "PAN_ANGLEINPART",
-          "value": "1.5707963267949"
+          "value": "1.571"
         },
         {
           "alias": "PAN_EBC_BL",
@@ -3100,7 +5099,7 @@ const reportDataRaw ={
         },
         {
           "alias": "PAN_GRAINANGLEINPART",
-          "value": "1.5707963267949"
+          "value": "1.571"
         },
         {
           "alias": "PAN_GRAINISVERTICAL",
@@ -3165,7 +5164,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PANEL",
             "type": "S",
-            "value": "panel-10"
+            "value": "panel-19"
           },
           {
             "alias": "NUM_PANEL_EXT",
@@ -3180,7 +5179,7 @@ const reportDataRaw ={
           "type": "EDRAWINGS_PANEL",
           "docType": "TEMPLATE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/edrawings/panels/Right_Drawers Overlay_High Cabinet_SwoodDesign_1_1.html",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/edrawings/panels/Right_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Default.html",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -3191,7 +5190,7 @@ const reportDataRaw ={
           "type": "IMG_PANEL",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/panels/panel-Right_Drawers Overlay_High Cabinet_SwoodDesign_1_1_panel-10.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/panels/panel-Right_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Default.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -3202,40 +5201,43 @@ const reportDataRaw ={
           "type": "PDF_PANEL",
           "docType": "DRAWING2PDF",
           "processingStatus": 0,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/pdfs/panels/Right_Drawers Overlay_High Cabinet_SwoodDesign_1_1.pdf",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/pdfs/panels/Right_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Default.pdf",
           "hidden": true,
           "storageType": 0,
           "exists": false,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "STEP_PANEL",
+          "type": "STEP_PANEL",
+          "docType": "STEP",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/steps/panels/Right_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Default.step",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
           "objType": "PANEL"
         }
       ]
     },
     {
-      "ID": "5a6666ed-b2ac-4b40-bfec-2b68d16899f8",
+      "ID": "69491234-2b0a-4f8a-985e-4953b6692bb2",
       "name": "Front_Drawers Overlay_High Cabinet_SwoodDesign_1_1",
       "programs": [
         "Front_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default"
       ],
       "stocks": [
-        "5a6666ed-b2ac-4b40-bfec-2b68d16899f8.CORE"
+        "69491234-2b0a-4f8a-985e-4953b6692bb2.CORE"
       ],
       "processZones": [],
       "edgebands": [
-        "5a6666ed-b2ac-4b40-bfec-2b68d16899f8.Edgeband1",
-        "5a6666ed-b2ac-4b40-bfec-2b68d16899f8.Edgeband2",
-        "5a6666ed-b2ac-4b40-bfec-2b68d16899f8.Edgeband3",
-        "5a6666ed-b2ac-4b40-bfec-2b68d16899f8.Edgeband4"
+        "69491234-2b0a-4f8a-985e-4953b6692bb2.Edgeband1",
+        "69491234-2b0a-4f8a-985e-4953b6692bb2.Edgeband2",
+        "69491234-2b0a-4f8a-985e-4953b6692bb2.Edgeband3",
+        "69491234-2b0a-4f8a-985e-4953b6692bb2.Edgeband4"
       ],
       "messages": [],
       "variables": [
-        {
-          "alias": "isCompleted",
-          "value": "False"
-        },
-        {
-          "alias": "isDamaged",
-          "value": "False"
-        },
         {
           "alias": "PAN_ANGLEINPART",
           "value": "0"
@@ -3294,7 +5296,7 @@ const reportDataRaw ={
         },
         {
           "alias": "PAN_STT",
-          "value": "18.9999999999999"
+          "value": "19"
         },
         {
           "alias": "PAN_STW",
@@ -3306,11 +5308,11 @@ const reportDataRaw ={
         },
         {
           "alias": "PAN_TWL",
-          "value": "18.9999999999999"
+          "value": "19"
         },
         {
           "alias": "PAN_TWOL",
-          "value": "18.9999999999999"
+          "value": "19"
         },
         {
           "alias": "PAN_W",
@@ -3331,7 +5333,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PANEL",
             "type": "S",
-            "value": "panel-11"
+            "value": "panel-20"
           },
           {
             "alias": "NUM_PANEL_EXT",
@@ -3346,7 +5348,7 @@ const reportDataRaw ={
           "type": "EDRAWINGS_PANEL",
           "docType": "TEMPLATE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/edrawings/panels/Front_Drawers Overlay_High Cabinet_SwoodDesign_1_1.html",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/edrawings/panels/Front_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Default.html",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -3357,7 +5359,7 @@ const reportDataRaw ={
           "type": "IMG_PANEL",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/panels/panel-Front_Drawers Overlay_High Cabinet_SwoodDesign_1_1_panel-11.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/panels/panel-Front_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Default.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -3368,35 +5370,366 @@ const reportDataRaw ={
           "type": "PDF_PANEL",
           "docType": "DRAWING2PDF",
           "processingStatus": 0,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/pdfs/panels/Front_Drawers Overlay_High Cabinet_SwoodDesign_1_1.pdf",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/pdfs/panels/Front_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Default.pdf",
           "hidden": true,
           "storageType": 0,
           "exists": false,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "STEP_PANEL",
+          "type": "STEP_PANEL",
+          "docType": "STEP",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/steps/panels/Front_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Default.step",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
           "objType": "PANEL"
         }
       ]
     },
     {
-      "ID": "6253ca19-90e6-4f82-9d1f-00e79ca96087",
-      "name": "Partition_Partition Horizontal_High Cabinet_SwoodDesign_1_1",
+      "ID": "3148c2a7-9eb2-48da-90b8-598617059e18",
+      "name": "Left_Drawers Overlay_High Cabinet_SwoodDesign_1_1",
       "programs": [
-        "Partition_Partition Horizontal_High Cabinet_SwoodDesign_1_1_Milling_1_Default"
+        "Left_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default"
       ],
       "stocks": [
-        "6253ca19-90e6-4f82-9d1f-00e79ca96087.CORE"
+        "3148c2a7-9eb2-48da-90b8-598617059e18.CORE"
       ],
       "processZones": [],
       "edgebands": [],
       "messages": [],
       "variables": [
         {
-          "alias": "isCompleted",
+          "alias": "PAN_ANGLEINPART",
+          "value": "1.571"
+        },
+        {
+          "alias": "PAN_EBC_BL",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBC_FR",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBC_LF",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBC_RB",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBCOUNT",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBHOMAGDIAGRAM",
+          "value": ":::"
+        },
+        {
+          "alias": "PAN_GRAINANGLEINPART",
+          "value": "1.571"
+        },
+        {
+          "alias": "PAN_GRAINISVERTICAL",
           "value": "False"
         },
         {
-          "alias": "isDamaged",
+          "alias": "PAN_ISSS",
+          "value": "True"
+        },
+        {
+          "alias": "PAN_L",
+          "value": "325.5"
+        },
+        {
+          "alias": "PAN_LWEB",
+          "value": "565"
+        },
+        {
+          "alias": "PAN_LWOEB",
+          "value": "565"
+        },
+        {
+          "alias": "PAN_STL",
+          "value": "565"
+        },
+        {
+          "alias": "PAN_STT",
+          "value": "16"
+        },
+        {
+          "alias": "PAN_STW",
+          "value": "325.5"
+        },
+        {
+          "alias": "PAN_T",
+          "value": "16"
+        },
+        {
+          "alias": "PAN_TWL",
+          "value": "16"
+        },
+        {
+          "alias": "PAN_TWOL",
+          "value": "16"
+        },
+        {
+          "alias": "PAN_W",
+          "value": "565"
+        },
+        {
+          "alias": "PAN_WWEB",
+          "value": "325.5"
+        },
+        {
+          "alias": "PAN_WWOEB",
+          "value": "325.5"
+        }
+      ],
+      "serialNumbers": {
+        "name": "PANEL_SERIALNUMBERS",
+        "variables": [
+          {
+            "alias": "NUM_PANEL",
+            "type": "S",
+            "value": "panel-21"
+          },
+          {
+            "alias": "NUM_PANEL_EXT",
+            "type": "S",
+            "value": ""
+          }
+        ]
+      },
+      "documents": [
+        {
+          "documentName": "EDRAWINGS_PANEL",
+          "type": "EDRAWINGS_PANEL",
+          "docType": "TEMPLATE",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/edrawings/panels/Left_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Default.html",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "IMG_PANEL",
+          "type": "IMG_PANEL",
+          "docType": "IMAGE",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/panels/panel-Left_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Default.jpg",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "PDF_PANEL",
+          "type": "PDF_PANEL",
+          "docType": "DRAWING2PDF",
+          "processingStatus": 0,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/pdfs/panels/Left_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Default.pdf",
+          "hidden": true,
+          "storageType": 0,
+          "exists": false,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "STEP_PANEL",
+          "type": "STEP_PANEL",
+          "docType": "STEP",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/steps/panels/Left_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Default.step",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        }
+      ]
+    },
+    {
+      "ID": "c8b64987-4a91-4a30-b29f-a7c0e76a2ee1",
+      "name": "Back_Drawers Overlay_High Cabinet_SwoodDesign_1_1",
+      "programs": [
+        "Back_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default"
+      ],
+      "stocks": [
+        "c8b64987-4a91-4a30-b29f-a7c0e76a2ee1.CORE"
+      ],
+      "processZones": [],
+      "edgebands": [],
+      "messages": [],
+      "variables": [
+        {
+          "alias": "PAN_ANGLEINPART",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBC_BL",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBC_FR",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBC_LF",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBC_RB",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBCOUNT",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_EBHOMAGDIAGRAM",
+          "value": ":::"
+        },
+        {
+          "alias": "PAN_GRAINANGLEINPART",
+          "value": "0"
+        },
+        {
+          "alias": "PAN_GRAINISVERTICAL",
           "value": "False"
         },
+        {
+          "alias": "PAN_ISSS",
+          "value": "True"
+        },
+        {
+          "alias": "PAN_L",
+          "value": "850.6"
+        },
+        {
+          "alias": "PAN_LWEB",
+          "value": "850.6"
+        },
+        {
+          "alias": "PAN_LWOEB",
+          "value": "850.6"
+        },
+        {
+          "alias": "PAN_STL",
+          "value": "850.6"
+        },
+        {
+          "alias": "PAN_STT",
+          "value": "16"
+        },
+        {
+          "alias": "PAN_STW",
+          "value": "325.5"
+        },
+        {
+          "alias": "PAN_T",
+          "value": "16"
+        },
+        {
+          "alias": "PAN_TWL",
+          "value": "16"
+        },
+        {
+          "alias": "PAN_TWOL",
+          "value": "16"
+        },
+        {
+          "alias": "PAN_W",
+          "value": "325.5"
+        },
+        {
+          "alias": "PAN_WWEB",
+          "value": "325.5"
+        },
+        {
+          "alias": "PAN_WWOEB",
+          "value": "325.5"
+        }
+      ],
+      "serialNumbers": {
+        "name": "PANEL_SERIALNUMBERS",
+        "variables": [
+          {
+            "alias": "NUM_PANEL",
+            "type": "S",
+            "value": "panel-22"
+          },
+          {
+            "alias": "NUM_PANEL_EXT",
+            "type": "S",
+            "value": ""
+          }
+        ]
+      },
+      "documents": [
+        {
+          "documentName": "EDRAWINGS_PANEL",
+          "type": "EDRAWINGS_PANEL",
+          "docType": "TEMPLATE",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/edrawings/panels/Back_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Default.html",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "IMG_PANEL",
+          "type": "IMG_PANEL",
+          "docType": "IMAGE",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/panels/panel-Back_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Default.jpg",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "PDF_PANEL",
+          "type": "PDF_PANEL",
+          "docType": "DRAWING2PDF",
+          "processingStatus": 0,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/pdfs/panels/Back_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Default.pdf",
+          "hidden": true,
+          "storageType": 0,
+          "exists": false,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "STEP_PANEL",
+          "type": "STEP_PANEL",
+          "docType": "STEP",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/steps/panels/Back_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Default.step",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "PANEL"
+        }
+      ]
+    },
+    {
+      "ID": "c3b08b68-a681-4599-837a-67986a87a9b8",
+      "name": "Partition_Partition Horizontal_High Cabinet_SwoodDesign_1_1",
+      "programs": [
+        "Partition_Partition Horizontal_High Cabinet_SwoodDesign_1_1_Milling_1_Default"
+      ],
+      "stocks": [
+        "c3b08b68-a681-4599-837a-67986a87a9b8.CORE"
+      ],
+      "processZones": [],
+      "edgebands": [],
+      "messages": [],
+      "variables": [
         {
           "alias": "PAN_ANGLEINPART",
           "value": "0"
@@ -3455,11 +5788,11 @@ const reportDataRaw ={
         },
         {
           "alias": "PAN_STT",
-          "value": "19.0000000000001"
+          "value": "19"
         },
         {
           "alias": "PAN_STW",
-          "value": "585.000000000004"
+          "value": "585"
         },
         {
           "alias": "PAN_T",
@@ -3467,11 +5800,11 @@ const reportDataRaw ={
         },
         {
           "alias": "PAN_TWL",
-          "value": "19.0000000000001"
+          "value": "19"
         },
         {
           "alias": "PAN_TWOL",
-          "value": "19.0000000000001"
+          "value": "19"
         },
         {
           "alias": "PAN_W",
@@ -3479,11 +5812,11 @@ const reportDataRaw ={
         },
         {
           "alias": "PAN_WWEB",
-          "value": "585.000000000004"
+          "value": "585"
         },
         {
           "alias": "PAN_WWOEB",
-          "value": "585.000000000004"
+          "value": "585"
         }
       ],
       "serialNumbers": {
@@ -3492,7 +5825,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PANEL",
             "type": "S",
-            "value": "panel-12"
+            "value": "panel-23"
           },
           {
             "alias": "NUM_PANEL_EXT",
@@ -3507,7 +5840,7 @@ const reportDataRaw ={
           "type": "EDRAWINGS_PANEL",
           "docType": "TEMPLATE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/edrawings/panels/Partition_Partition Horizontal_High Cabinet_SwoodDesign_1_1.html",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/edrawings/panels/Partition_Partition Horizontal_High Cabinet_SwoodDesign_1_1_Default.html",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -3518,7 +5851,7 @@ const reportDataRaw ={
           "type": "IMG_PANEL",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/panels/panel-Partition_Partition Horizontal_High Cabinet_SwoodDesign_1_1_panel-12.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/panels/panel-Partition_Partition Horizontal_High Cabinet_SwoodDesign_1_1_Default.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -3529,43 +5862,46 @@ const reportDataRaw ={
           "type": "PDF_PANEL",
           "docType": "DRAWING2PDF",
           "processingStatus": 0,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/pdfs/panels/Partition_Partition Horizontal_High Cabinet_SwoodDesign_1_1.pdf",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/pdfs/panels/Partition_Partition Horizontal_High Cabinet_SwoodDesign_1_1_Default.pdf",
           "hidden": true,
           "storageType": 0,
           "exists": false,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "STEP_PANEL",
+          "type": "STEP_PANEL",
+          "docType": "STEP",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/steps/panels/Partition_Partition Horizontal_High Cabinet_SwoodDesign_1_1_Default.step",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
           "objType": "PANEL"
         }
       ]
     },
     {
-      "ID": "17477517-cf35-4b28-a0ac-ac8efaabd845",
+      "ID": "c6225d67-cf52-430b-b38f-fa642ae35793",
       "name": "Front_Left Door_Door Overlay_High Cabinet_SwoodDesign_1_1",
       "programs": [
         "Front_Left Door_Door Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default"
       ],
       "stocks": [
-        "17477517-cf35-4b28-a0ac-ac8efaabd845.CORE"
+        "c6225d67-cf52-430b-b38f-fa642ae35793.CORE"
       ],
       "processZones": [],
       "edgebands": [
-        "17477517-cf35-4b28-a0ac-ac8efaabd845.Edgeband1",
-        "17477517-cf35-4b28-a0ac-ac8efaabd845.Edgeband2",
-        "17477517-cf35-4b28-a0ac-ac8efaabd845.Edgeband3",
-        "17477517-cf35-4b28-a0ac-ac8efaabd845.Edgeband4"
+        "c6225d67-cf52-430b-b38f-fa642ae35793.Edgeband1",
+        "c6225d67-cf52-430b-b38f-fa642ae35793.Edgeband2",
+        "c6225d67-cf52-430b-b38f-fa642ae35793.Edgeband3",
+        "c6225d67-cf52-430b-b38f-fa642ae35793.Edgeband4"
       ],
       "messages": [],
       "variables": [
         {
-          "alias": "isCompleted",
-          "value": "False"
-        },
-        {
-          "alias": "isDamaged",
-          "value": "False"
-        },
-        {
           "alias": "PAN_ANGLEINPART",
-          "value": "1.5707963267949"
+          "value": "1.571"
         },
         {
           "alias": "PAN_EBC_BL",
@@ -3593,332 +5929,7 @@ const reportDataRaw ={
         },
         {
           "alias": "PAN_GRAINANGLEINPART",
-          "value": "1.5707963267949"
-        },
-        {
-          "alias": "PAN_GRAINISVERTICAL",
-          "value": "False"
-        },
-        {
-          "alias": "PAN_ISSS",
-          "value": "True"
-        },
-        {
-          "alias": "PAN_L",
-          "value": "946"
-        },
-        {
-          "alias": "PAN_LWEB",
-          "value": "1151.50000000001"
-        },
-        {
-          "alias": "PAN_LWOEB",
-          "value": "1149.50000000001"
-        },
-        {
-          "alias": "PAN_STL",
-          "value": "1151.50000000001"
-        },
-        {
-          "alias": "PAN_STT",
-          "value": "19.0000000000061"
-        },
-        {
-          "alias": "PAN_STW",
-          "value": "472.000000000003"
-        },
-        {
-          "alias": "PAN_T",
-          "value": "19"
-        },
-        {
-          "alias": "PAN_TWL",
-          "value": "19.0000000000061"
-        },
-        {
-          "alias": "PAN_TWOL",
-          "value": "19.0000000000061"
-        },
-        {
-          "alias": "PAN_W",
-          "value": "1151.5"
-        },
-        {
-          "alias": "PAN_WWEB",
-          "value": "472.000000000003"
-        },
-        {
-          "alias": "PAN_WWOEB",
-          "value": "470.000000000003"
-        }
-      ],
-      "serialNumbers": {
-        "name": "PANEL_SERIALNUMBERS",
-        "variables": [
-          {
-            "alias": "NUM_PANEL",
-            "type": "S",
-            "value": "panel-13"
-          },
-          {
-            "alias": "NUM_PANEL_EXT",
-            "type": "S",
-            "value": ""
-          }
-        ]
-      },
-      "documents": [
-        {
-          "documentName": "EDRAWINGS_PANEL",
-          "type": "EDRAWINGS_PANEL",
-          "docType": "TEMPLATE",
-          "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/edrawings/panels/Front_Left Door_Door Overlay_High Cabinet_SwoodDesign_1_1.html",
-          "hidden": true,
-          "storageType": 0,
-          "exists": true,
-          "objType": "PANEL"
-        },
-        {
-          "documentName": "IMG_PANEL",
-          "type": "IMG_PANEL",
-          "docType": "IMAGE",
-          "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/panels/panel-Front_Left Door_Door Overlay_High Cabinet_SwoodDesign_1_1_panel-13.jpg",
-          "hidden": true,
-          "storageType": 0,
-          "exists": true,
-          "objType": "PANEL"
-        },
-        {
-          "documentName": "PDF_PANEL",
-          "type": "PDF_PANEL",
-          "docType": "DRAWING2PDF",
-          "processingStatus": 0,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/pdfs/panels/Front_Left Door_Door Overlay_High Cabinet_SwoodDesign_1_1.pdf",
-          "hidden": true,
-          "storageType": 0,
-          "exists": false,
-          "objType": "PANEL"
-        }
-      ]
-    },
-    {
-      "ID": "a2b16b36-e478-46c3-8a29-6f011ca36f3d",
-      "name": "Left Glass_Door Overlay_High Cabinet_SwoodDesign_1_1",
-      "programs": [],
-      "stocks": [
-        "a2b16b36-e478-46c3-8a29-6f011ca36f3d.CORE"
-      ],
-      "processZones": [],
-      "edgebands": [],
-      "messages": [],
-      "variables": [
-        {
-          "alias": "isCompleted",
-          "value": "False"
-        },
-        {
-          "alias": "isDamaged",
-          "value": "False"
-        },
-        {
-          "alias": "PAN_ANGLEINPART",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBC_BL",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBC_FR",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBC_LF",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBC_RB",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBCOUNT",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBHOMAGDIAGRAM",
-          "value": ":::"
-        },
-        {
-          "alias": "PAN_GRAINANGLEINPART",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_GRAINISVERTICAL",
-          "value": "False"
-        },
-        {
-          "alias": "PAN_ISSS",
-          "value": "False"
-        },
-        {
-          "alias": "PAN_L",
-          "value": "1001.5"
-        },
-        {
-          "alias": "PAN_LWEB",
-          "value": "322"
-        },
-        {
-          "alias": "PAN_LWOEB",
-          "value": "322"
-        },
-        {
-          "alias": "PAN_STL",
-          "value": "322"
-        },
-        {
-          "alias": "PAN_STT",
-          "value": "7.00000000000001"
-        },
-        {
-          "alias": "PAN_STW",
-          "value": "1001.5"
-        },
-        {
-          "alias": "PAN_T",
-          "value": "7"
-        },
-        {
-          "alias": "PAN_TWL",
-          "value": "7.00000000000001"
-        },
-        {
-          "alias": "PAN_TWOL",
-          "value": "7.00000000000001"
-        },
-        {
-          "alias": "PAN_W",
-          "value": "NaN"
-        },
-        {
-          "alias": "PAN_WWEB",
-          "value": "1001.5"
-        },
-        {
-          "alias": "PAN_WWOEB",
-          "value": "1001.5"
-        }
-      ],
-      "serialNumbers": {
-        "name": "PANEL_SERIALNUMBERS",
-        "variables": [
-          {
-            "alias": "NUM_PANEL",
-            "type": "S",
-            "value": "panel-14"
-          },
-          {
-            "alias": "NUM_PANEL_EXT",
-            "type": "S",
-            "value": ""
-          }
-        ]
-      },
-      "documents": [
-        {
-          "documentName": "EDRAWINGS_PANEL",
-          "type": "EDRAWINGS_PANEL",
-          "docType": "TEMPLATE",
-          "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/edrawings/panels/Left Glass_Door Overlay_High Cabinet_SwoodDesign_1_1.html",
-          "hidden": true,
-          "storageType": 0,
-          "exists": true,
-          "objType": "PANEL"
-        },
-        {
-          "documentName": "IMG_PANEL",
-          "type": "IMG_PANEL",
-          "docType": "IMAGE",
-          "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/panels/panel-Left Glass_Door Overlay_High Cabinet_SwoodDesign_1_1_panel-14.jpg",
-          "hidden": true,
-          "storageType": 0,
-          "exists": true,
-          "objType": "PANEL"
-        },
-        {
-          "documentName": "PDF_PANEL",
-          "type": "PDF_PANEL",
-          "docType": "DRAWING2PDF",
-          "processingStatus": 0,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/pdfs/panels/Left Glass_Door Overlay_High Cabinet_SwoodDesign_1_1.pdf",
-          "hidden": true,
-          "storageType": 0,
-          "exists": false,
-          "objType": "PANEL"
-        }
-      ]
-    },
-    {
-      "ID": "67d5e6db-94a1-420f-afd9-653e935f0eaa",
-      "name": "Front_Right Door_Door Overlay_High Cabinet_SwoodDesign_1_1",
-      "programs": [
-        "Front_Right Door_Door Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default"
-      ],
-      "stocks": [
-        "67d5e6db-94a1-420f-afd9-653e935f0eaa.CORE"
-      ],
-      "processZones": [],
-      "edgebands": [
-        "67d5e6db-94a1-420f-afd9-653e935f0eaa.Edgeband1",
-        "67d5e6db-94a1-420f-afd9-653e935f0eaa.Edgeband2",
-        "67d5e6db-94a1-420f-afd9-653e935f0eaa.Edgeband3",
-        "67d5e6db-94a1-420f-afd9-653e935f0eaa.Edgeband4"
-      ],
-      "messages": [],
-      "variables": [
-        {
-          "alias": "isCompleted",
-          "value": "False"
-        },
-        {
-          "alias": "isDamaged",
-          "value": "False"
-        },
-        {
-          "alias": "PAN_ANGLEINPART",
-          "value": "1.5707963267949"
-        },
-        {
-          "alias": "PAN_EBC_BL",
-          "value": "3"
-        },
-        {
-          "alias": "PAN_EBC_FR",
-          "value": "4"
-        },
-        {
-          "alias": "PAN_EBC_LF",
-          "value": "3"
-        },
-        {
-          "alias": "PAN_EBC_RB",
-          "value": "3"
-        },
-        {
-          "alias": "PAN_EBCOUNT",
-          "value": "4"
-        },
-        {
-          "alias": "PAN_EBHOMAGDIAGRAM",
-          "value": "000:001:001:011"
-        },
-        {
-          "alias": "PAN_GRAINANGLEINPART",
-          "value": "1.5707963267949"
+          "value": "1.571"
         },
         {
           "alias": "PAN_GRAINISVERTICAL",
@@ -3946,11 +5957,11 @@ const reportDataRaw ={
         },
         {
           "alias": "PAN_STT",
-          "value": "19.0000000000063"
+          "value": "19"
         },
         {
           "alias": "PAN_STW",
-          "value": "472.000000000027"
+          "value": "472"
         },
         {
           "alias": "PAN_T",
@@ -3958,11 +5969,11 @@ const reportDataRaw ={
         },
         {
           "alias": "PAN_TWL",
-          "value": "19.0000000000063"
+          "value": "19"
         },
         {
           "alias": "PAN_TWOL",
-          "value": "19.0000000000063"
+          "value": "19"
         },
         {
           "alias": "PAN_W",
@@ -3970,1465 +5981,11 @@ const reportDataRaw ={
         },
         {
           "alias": "PAN_WWEB",
-          "value": "472.000000000027"
+          "value": "472"
         },
         {
           "alias": "PAN_WWOEB",
-          "value": "470.000000000027"
-        }
-      ],
-      "serialNumbers": {
-        "name": "PANEL_SERIALNUMBERS",
-        "variables": [
-          {
-            "alias": "NUM_PANEL",
-            "type": "S",
-            "value": "panel-15"
-          },
-          {
-            "alias": "NUM_PANEL_EXT",
-            "type": "S",
-            "value": ""
-          }
-        ]
-      },
-      "documents": [
-        {
-          "documentName": "EDRAWINGS_PANEL",
-          "type": "EDRAWINGS_PANEL",
-          "docType": "TEMPLATE",
-          "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/edrawings/panels/Front_Right Door_Door Overlay_High Cabinet_SwoodDesign_1_1.html",
-          "hidden": true,
-          "storageType": 0,
-          "exists": true,
-          "objType": "PANEL"
-        },
-        {
-          "documentName": "IMG_PANEL",
-          "type": "IMG_PANEL",
-          "docType": "IMAGE",
-          "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/panels/panel-Front_Right Door_Door Overlay_High Cabinet_SwoodDesign_1_1_panel-15.jpg",
-          "hidden": true,
-          "storageType": 0,
-          "exists": true,
-          "objType": "PANEL"
-        },
-        {
-          "documentName": "PDF_PANEL",
-          "type": "PDF_PANEL",
-          "docType": "DRAWING2PDF",
-          "processingStatus": 0,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/pdfs/panels/Front_Right Door_Door Overlay_High Cabinet_SwoodDesign_1_1.pdf",
-          "hidden": true,
-          "storageType": 0,
-          "exists": false,
-          "objType": "PANEL"
-        }
-      ]
-    },
-    {
-      "ID": "8c76ed32-84c8-4a78-81a6-28c3cd031010",
-      "name": "Right Glass_Door Overlay_High Cabinet_SwoodDesign_1_1",
-      "programs": [],
-      "stocks": [
-        "8c76ed32-84c8-4a78-81a6-28c3cd031010.CORE"
-      ],
-      "processZones": [],
-      "edgebands": [],
-      "messages": [],
-      "variables": [
-        {
-          "alias": "isCompleted",
-          "value": "False"
-        },
-        {
-          "alias": "isDamaged",
-          "value": "False"
-        },
-        {
-          "alias": "PAN_ANGLEINPART",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBC_BL",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBC_FR",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBC_LF",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBC_RB",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBCOUNT",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBHOMAGDIAGRAM",
-          "value": ":::"
-        },
-        {
-          "alias": "PAN_GRAINANGLEINPART",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_GRAINISVERTICAL",
-          "value": "False"
-        },
-        {
-          "alias": "PAN_ISSS",
-          "value": "False"
-        },
-        {
-          "alias": "PAN_L",
-          "value": "1001.5"
-        },
-        {
-          "alias": "PAN_LWEB",
-          "value": "321.999999999999"
-        },
-        {
-          "alias": "PAN_LWOEB",
-          "value": "321.999999999999"
-        },
-        {
-          "alias": "PAN_STL",
-          "value": "321.999999999999"
-        },
-        {
-          "alias": "PAN_STT",
-          "value": "7.00000000000003"
-        },
-        {
-          "alias": "PAN_STW",
-          "value": "1001.5"
-        },
-        {
-          "alias": "PAN_T",
-          "value": "7"
-        },
-        {
-          "alias": "PAN_TWL",
-          "value": "7.00000000000003"
-        },
-        {
-          "alias": "PAN_TWOL",
-          "value": "7.00000000000003"
-        },
-        {
-          "alias": "PAN_W",
-          "value": "NaN"
-        },
-        {
-          "alias": "PAN_WWEB",
-          "value": "1001.5"
-        },
-        {
-          "alias": "PAN_WWOEB",
-          "value": "1001.5"
-        }
-      ],
-      "serialNumbers": {
-        "name": "PANEL_SERIALNUMBERS",
-        "variables": [
-          {
-            "alias": "NUM_PANEL",
-            "type": "S",
-            "value": "panel-16"
-          },
-          {
-            "alias": "NUM_PANEL_EXT",
-            "type": "S",
-            "value": ""
-          }
-        ]
-      },
-      "documents": [
-        {
-          "documentName": "EDRAWINGS_PANEL",
-          "type": "EDRAWINGS_PANEL",
-          "docType": "TEMPLATE",
-          "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/edrawings/panels/Right Glass_Door Overlay_High Cabinet_SwoodDesign_1_1.html",
-          "hidden": true,
-          "storageType": 0,
-          "exists": true,
-          "objType": "PANEL"
-        },
-        {
-          "documentName": "IMG_PANEL",
-          "type": "IMG_PANEL",
-          "docType": "IMAGE",
-          "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/panels/panel-Right Glass_Door Overlay_High Cabinet_SwoodDesign_1_1_panel-16.jpg",
-          "hidden": true,
-          "storageType": 0,
-          "exists": true,
-          "objType": "PANEL"
-        },
-        {
-          "documentName": "PDF_PANEL",
-          "type": "PDF_PANEL",
-          "docType": "DRAWING2PDF",
-          "processingStatus": 0,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/pdfs/panels/Right Glass_Door Overlay_High Cabinet_SwoodDesign_1_1.pdf",
-          "hidden": true,
-          "storageType": 0,
-          "exists": false,
-          "objType": "PANEL"
-        }
-      ]
-    },
-    {
-      "ID": "134a9f10-6dd6-4cce-b445-4c99260daecd",
-      "name": "Shelve_Removable Shelves_High Cabinet_SwoodDesign_1_1",
-      "programs": [
-        "Shelve_Removable Shelves_High Cabinet_SwoodDesign_1_1_Milling_1_Default"
-      ],
-      "stocks": [
-        "134a9f10-6dd6-4cce-b445-4c99260daecd.TOP",
-        "134a9f10-6dd6-4cce-b445-4c99260daecd.BOTTOM",
-        "134a9f10-6dd6-4cce-b445-4c99260daecd.CORE"
-      ],
-      "processZones": [],
-      "edgebands": [
-        "134a9f10-6dd6-4cce-b445-4c99260daecd.Edgeband1"
-      ],
-      "messages": [],
-      "variables": [
-        {
-          "alias": "isCompleted",
-          "value": "False"
-        },
-        {
-          "alias": "isDamaged",
-          "value": "False"
-        },
-        {
-          "alias": "PAN_ANGLEINPART",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBC_BL",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBC_FR",
-          "value": "1"
-        },
-        {
-          "alias": "PAN_EBC_LF",
-          "value": "2"
-        },
-        {
-          "alias": "PAN_EBC_RB",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBCOUNT",
-          "value": "1"
-        },
-        {
-          "alias": "PAN_EBHOMAGDIAGRAM",
-          "value": "000:::"
-        },
-        {
-          "alias": "PAN_GRAINANGLEINPART",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_GRAINISVERTICAL",
-          "value": "False"
-        },
-        {
-          "alias": "PAN_ISSS",
-          "value": "True"
-        },
-        {
-          "alias": "PAN_L",
-          "value": "904"
-        },
-        {
-          "alias": "PAN_LWEB",
-          "value": "904"
-        },
-        {
-          "alias": "PAN_LWOEB",
-          "value": "904"
-        },
-        {
-          "alias": "PAN_STL",
-          "value": "904"
-        },
-        {
-          "alias": "PAN_STT",
-          "value": "19.9999999999998"
-        },
-        {
-          "alias": "PAN_STW",
-          "value": "555.000000000004"
-        },
-        {
-          "alias": "PAN_T",
-          "value": "20"
-        },
-        {
-          "alias": "PAN_TWL",
-          "value": "19.9999999999998"
-        },
-        {
-          "alias": "PAN_TWOL",
-          "value": "15.9999999999998"
-        },
-        {
-          "alias": "PAN_W",
-          "value": "555"
-        },
-        {
-          "alias": "PAN_WWEB",
-          "value": "555.000000000004"
-        },
-        {
-          "alias": "PAN_WWOEB",
-          "value": "554.000000000004"
-        }
-      ],
-      "serialNumbers": {
-        "name": "PANEL_SERIALNUMBERS",
-        "variables": [
-          {
-            "alias": "NUM_PANEL",
-            "type": "S",
-            "value": "panel-17"
-          },
-          {
-            "alias": "NUM_PANEL_EXT",
-            "type": "S",
-            "value": ""
-          }
-        ]
-      },
-      "documents": [
-        {
-          "documentName": "EDRAWINGS_PANEL",
-          "type": "EDRAWINGS_PANEL",
-          "docType": "TEMPLATE",
-          "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/edrawings/panels/Shelve_Removable Shelves_High Cabinet_SwoodDesign_1_1.html",
-          "hidden": true,
-          "storageType": 0,
-          "exists": true,
-          "objType": "PANEL"
-        },
-        {
-          "documentName": "IMG_PANEL",
-          "type": "IMG_PANEL",
-          "docType": "IMAGE",
-          "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/panels/panel-Shelve_Removable Shelves_High Cabinet_SwoodDesign_1_1_panel-17.jpg",
-          "hidden": true,
-          "storageType": 0,
-          "exists": true,
-          "objType": "PANEL"
-        },
-        {
-          "documentName": "PDF_PANEL",
-          "type": "PDF_PANEL",
-          "docType": "DRAWING2PDF",
-          "processingStatus": 0,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/pdfs/panels/Shelve_Removable Shelves_High Cabinet_SwoodDesign_1_1.pdf",
-          "hidden": true,
-          "storageType": 0,
-          "exists": false,
-          "objType": "PANEL"
-        }
-      ]
-    },
-    {
-      "ID": "5dd15c9d-6353-4653-a4ec-a2587ffede00",
-      "name": "Kickboard_Doors_SwoodDesign_1",
-      "programs": [
-        "Machine not Configured - Kickboard_Doors_SwoodDesign_1 - Milling"
-      ],
-      "stocks": [
-        "5dd15c9d-6353-4653-a4ec-a2587ffede00.CORE"
-      ],
-      "processZones": [],
-      "edgebands": [],
-      "messages": [],
-      "variables": [
-        {
-          "alias": "isCompleted",
-          "value": "False"
-        },
-        {
-          "alias": "isDamaged",
-          "value": "False"
-        },
-        {
-          "alias": "PAN_ANGLEINPART",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBC_BL",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBC_FR",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBC_LF",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBC_RB",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBCOUNT",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBHOMAGDIAGRAM",
-          "value": ":::"
-        },
-        {
-          "alias": "PAN_GRAINANGLEINPART",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_GRAINISVERTICAL",
-          "value": "False"
-        },
-        {
-          "alias": "PAN_ISSS",
-          "value": "True"
-        },
-        {
-          "alias": "PAN_L",
-          "value": "1200"
-        },
-        {
-          "alias": "PAN_LWEB",
-          "value": "1200"
-        },
-        {
-          "alias": "PAN_LWOEB",
-          "value": "1200"
-        },
-        {
-          "alias": "PAN_STL",
-          "value": "1200"
-        },
-        {
-          "alias": "PAN_STT",
-          "value": "19"
-        },
-        {
-          "alias": "PAN_STW",
-          "value": "100"
-        },
-        {
-          "alias": "PAN_T",
-          "value": "19"
-        },
-        {
-          "alias": "PAN_TWL",
-          "value": "19"
-        },
-        {
-          "alias": "PAN_TWOL",
-          "value": "19"
-        },
-        {
-          "alias": "PAN_W",
-          "value": "100"
-        },
-        {
-          "alias": "PAN_WWEB",
-          "value": "100"
-        },
-        {
-          "alias": "PAN_WWOEB",
-          "value": "100"
-        }
-      ],
-      "serialNumbers": {
-        "name": "PANEL_SERIALNUMBERS",
-        "variables": [
-          {
-            "alias": "NUM_PANEL",
-            "type": "S",
-            "value": "panel-18"
-          },
-          {
-            "alias": "NUM_PANEL_EXT",
-            "type": "S",
-            "value": ""
-          }
-        ]
-      },
-      "documents": [
-        {
-          "documentName": "EDRAWINGS_PANEL",
-          "type": "EDRAWINGS_PANEL",
-          "docType": "TEMPLATE",
-          "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/edrawings/panels/Kickboard_Doors_SwoodDesign_1.html",
-          "hidden": true,
-          "storageType": 0,
-          "exists": true,
-          "objType": "PANEL"
-        },
-        {
-          "documentName": "IMG_PANEL",
-          "type": "IMG_PANEL",
-          "docType": "IMAGE",
-          "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/panels/panel-Kickboard_Doors_SwoodDesign_1_panel-18.jpg",
-          "hidden": true,
-          "storageType": 0,
-          "exists": true,
-          "objType": "PANEL"
-        },
-        {
-          "documentName": "PDF_PANEL",
-          "type": "PDF_PANEL",
-          "docType": "DRAWING2PDF",
-          "processingStatus": 0,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/pdfs/panels/Kickboard_Doors_SwoodDesign_1.pdf",
-          "hidden": true,
-          "storageType": 0,
-          "exists": false,
-          "objType": "PANEL"
-        }
-      ]
-    },
-    {
-      "ID": "820695a0-72ba-409b-a7ee-9b7998852039",
-      "name": "Left_Doors_SwoodDesign_1",
-      "programs": [
-        "Left_Doors_SwoodDesign_1_Milling_1_Default"
-      ],
-      "stocks": [
-        "820695a0-72ba-409b-a7ee-9b7998852039.BOTTOM",
-        "820695a0-72ba-409b-a7ee-9b7998852039.CORE"
-      ],
-      "processZones": [],
-      "edgebands": [],
-      "messages": [],
-      "variables": [
-        {
-          "alias": "isCompleted",
-          "value": "False"
-        },
-        {
-          "alias": "isDamaged",
-          "value": "False"
-        },
-        {
-          "alias": "PAN_ANGLEINPART",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBC_BL",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBC_FR",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBC_LF",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBC_RB",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBCOUNT",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBHOMAGDIAGRAM",
-          "value": ":::"
-        },
-        {
-          "alias": "PAN_GRAINANGLEINPART",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_GRAINISVERTICAL",
-          "value": "False"
-        },
-        {
-          "alias": "PAN_ISSS",
-          "value": "True"
-        },
-        {
-          "alias": "PAN_L",
-          "value": "950"
-        },
-        {
-          "alias": "PAN_LWEB",
-          "value": "950"
-        },
-        {
-          "alias": "PAN_LWOEB",
-          "value": "950"
-        },
-        {
-          "alias": "PAN_STL",
-          "value": "950"
-        },
-        {
-          "alias": "PAN_STT",
-          "value": "20.9999999999999"
-        },
-        {
-          "alias": "PAN_STW",
-          "value": "600"
-        },
-        {
-          "alias": "PAN_T",
-          "value": "21"
-        },
-        {
-          "alias": "PAN_TWL",
-          "value": "20.9999999999999"
-        },
-        {
-          "alias": "PAN_TWOL",
-          "value": "18.9999999999999"
-        },
-        {
-          "alias": "PAN_W",
-          "value": "600"
-        },
-        {
-          "alias": "PAN_WWEB",
-          "value": "600"
-        },
-        {
-          "alias": "PAN_WWOEB",
-          "value": "600"
-        }
-      ],
-      "serialNumbers": {
-        "name": "PANEL_SERIALNUMBERS",
-        "variables": [
-          {
-            "alias": "NUM_PANEL",
-            "type": "S",
-            "value": "panel-19"
-          },
-          {
-            "alias": "NUM_PANEL_EXT",
-            "type": "S",
-            "value": ""
-          }
-        ]
-      },
-      "documents": [
-        {
-          "documentName": "EDRAWINGS_PANEL",
-          "type": "EDRAWINGS_PANEL",
-          "docType": "TEMPLATE",
-          "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/edrawings/panels/Left_Doors_SwoodDesign_1.html",
-          "hidden": true,
-          "storageType": 0,
-          "exists": true,
-          "objType": "PANEL"
-        },
-        {
-          "documentName": "IMG_PANEL",
-          "type": "IMG_PANEL",
-          "docType": "IMAGE",
-          "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/panels/panel-Left_Doors_SwoodDesign_1_panel-19.jpg",
-          "hidden": true,
-          "storageType": 0,
-          "exists": true,
-          "objType": "PANEL"
-        },
-        {
-          "documentName": "PDF_PANEL",
-          "type": "PDF_PANEL",
-          "docType": "DRAWING2PDF",
-          "processingStatus": 0,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/pdfs/panels/Left_Doors_SwoodDesign_1.pdf",
-          "hidden": true,
-          "storageType": 0,
-          "exists": false,
-          "objType": "PANEL"
-        }
-      ]
-    },
-    {
-      "ID": "8d8bda2e-e0c7-40a9-a927-f768273c14a3",
-      "name": "Back Support_Doors_SwoodDesign_1",
-      "programs": [],
-      "stocks": [
-        "8d8bda2e-e0c7-40a9-a927-f768273c14a3.CORE"
-      ],
-      "processZones": [],
-      "edgebands": [],
-      "messages": [],
-      "variables": [
-        {
-          "alias": "isCompleted",
-          "value": "False"
-        },
-        {
-          "alias": "isDamaged",
-          "value": "False"
-        },
-        {
-          "alias": "PAN_ANGLEINPART",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBC_BL",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBC_FR",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBC_LF",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBC_RB",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBCOUNT",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBHOMAGDIAGRAM",
-          "value": ":::"
-        },
-        {
-          "alias": "PAN_GRAINANGLEINPART",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_GRAINISVERTICAL",
-          "value": "False"
-        },
-        {
-          "alias": "PAN_ISSS",
-          "value": "True"
-        },
-        {
-          "alias": "PAN_L",
-          "value": "1158"
-        },
-        {
-          "alias": "PAN_LWEB",
-          "value": "1158"
-        },
-        {
-          "alias": "PAN_LWOEB",
-          "value": "1158"
-        },
-        {
-          "alias": "PAN_STL",
-          "value": "1158"
-        },
-        {
-          "alias": "PAN_STT",
-          "value": "19"
-        },
-        {
-          "alias": "PAN_STW",
-          "value": "100"
-        },
-        {
-          "alias": "PAN_T",
-          "value": "19"
-        },
-        {
-          "alias": "PAN_TWL",
-          "value": "19"
-        },
-        {
-          "alias": "PAN_TWOL",
-          "value": "19"
-        },
-        {
-          "alias": "PAN_W",
-          "value": "100"
-        },
-        {
-          "alias": "PAN_WWEB",
-          "value": "100"
-        },
-        {
-          "alias": "PAN_WWOEB",
-          "value": "100"
-        }
-      ],
-      "serialNumbers": {
-        "name": "PANEL_SERIALNUMBERS",
-        "variables": [
-          {
-            "alias": "NUM_PANEL",
-            "type": "S",
-            "value": "panel-20"
-          },
-          {
-            "alias": "NUM_PANEL_EXT",
-            "type": "S",
-            "value": ""
-          }
-        ]
-      },
-      "documents": [
-        {
-          "documentName": "EDRAWINGS_PANEL",
-          "type": "EDRAWINGS_PANEL",
-          "docType": "TEMPLATE",
-          "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/edrawings/panels/Back Support_Doors_SwoodDesign_1.html",
-          "hidden": true,
-          "storageType": 0,
-          "exists": true,
-          "objType": "PANEL"
-        },
-        {
-          "documentName": "IMG_PANEL",
-          "type": "IMG_PANEL",
-          "docType": "IMAGE",
-          "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/panels/panel-Back Support_Doors_SwoodDesign_1_panel-20.jpg",
-          "hidden": true,
-          "storageType": 0,
-          "exists": true,
-          "objType": "PANEL"
-        },
-        {
-          "documentName": "PDF_PANEL",
-          "type": "PDF_PANEL",
-          "docType": "DRAWING2PDF",
-          "processingStatus": 0,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/pdfs/panels/Back Support_Doors_SwoodDesign_1.pdf",
-          "hidden": true,
-          "storageType": 0,
-          "exists": false,
-          "objType": "PANEL"
-        }
-      ]
-    },
-    {
-      "ID": "f2be11ed-4b24-4dcb-b38d-58084a37c7b6",
-      "name": "Front_Right Door_Door Overlay_Doors_SwoodDesign_1_1",
-      "programs": [],
-      "stocks": [
-        "f2be11ed-4b24-4dcb-b38d-58084a37c7b6.CORE"
-      ],
-      "processZones": [],
-      "edgebands": [
-        "f2be11ed-4b24-4dcb-b38d-58084a37c7b6.Edgeband1",
-        "f2be11ed-4b24-4dcb-b38d-58084a37c7b6.Edgeband2",
-        "f2be11ed-4b24-4dcb-b38d-58084a37c7b6.Edgeband3",
-        "f2be11ed-4b24-4dcb-b38d-58084a37c7b6.Edgeband4"
-      ],
-      "messages": [],
-      "variables": [
-        {
-          "alias": "isCompleted",
-          "value": "False"
-        },
-        {
-          "alias": "isDamaged",
-          "value": "False"
-        },
-        {
-          "alias": "PAN_ANGLEINPART",
-          "value": "1.5707963267949"
-        },
-        {
-          "alias": "PAN_EBC_BL",
-          "value": "4"
-        },
-        {
-          "alias": "PAN_EBC_FR",
-          "value": "4"
-        },
-        {
-          "alias": "PAN_EBC_LF",
-          "value": "3"
-        },
-        {
-          "alias": "PAN_EBC_RB",
-          "value": "3"
-        },
-        {
-          "alias": "PAN_EBCOUNT",
-          "value": "4"
-        },
-        {
-          "alias": "PAN_EBHOMAGDIAGRAM",
-          "value": "000:000:011:011"
-        },
-        {
-          "alias": "PAN_GRAINANGLEINPART",
-          "value": "1.5707963267949"
-        },
-        {
-          "alias": "PAN_GRAINISVERTICAL",
-          "value": "False"
-        },
-        {
-          "alias": "PAN_ISSS",
-          "value": "True"
-        },
-        {
-          "alias": "PAN_L",
-          "value": "1190"
-        },
-        {
-          "alias": "PAN_LWEB",
-          "value": "819"
-        },
-        {
-          "alias": "PAN_LWOEB",
-          "value": "817"
-        },
-        {
-          "alias": "PAN_STL",
-          "value": "819"
-        },
-        {
-          "alias": "PAN_STT",
-          "value": "19.0000000000001"
-        },
-        {
-          "alias": "PAN_STW",
-          "value": "593"
-        },
-        {
-          "alias": "PAN_T",
-          "value": "19"
-        },
-        {
-          "alias": "PAN_TWL",
-          "value": "19.0000000000001"
-        },
-        {
-          "alias": "PAN_TWOL",
-          "value": "19.0000000000001"
-        },
-        {
-          "alias": "PAN_W",
-          "value": "819"
-        },
-        {
-          "alias": "PAN_WWEB",
-          "value": "593"
-        },
-        {
-          "alias": "PAN_WWOEB",
-          "value": "591"
-        }
-      ],
-      "serialNumbers": {
-        "name": "PANEL_SERIALNUMBERS",
-        "variables": [
-          {
-            "alias": "NUM_PANEL",
-            "type": "S",
-            "value": "panel-21"
-          },
-          {
-            "alias": "NUM_PANEL_EXT",
-            "type": "S",
-            "value": ""
-          }
-        ]
-      },
-      "documents": [
-        {
-          "documentName": "EDRAWINGS_PANEL",
-          "type": "EDRAWINGS_PANEL",
-          "docType": "TEMPLATE",
-          "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/edrawings/panels/Front_Right Door_Door Overlay_Doors_SwoodDesign_1_1.html",
-          "hidden": true,
-          "storageType": 0,
-          "exists": true,
-          "objType": "PANEL"
-        },
-        {
-          "documentName": "IMG_PANEL",
-          "type": "IMG_PANEL",
-          "docType": "IMAGE",
-          "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/panels/panel-Front_Right Door_Door Overlay_Doors_SwoodDesign_1_1_panel-21.jpg",
-          "hidden": true,
-          "storageType": 0,
-          "exists": true,
-          "objType": "PANEL"
-        },
-        {
-          "documentName": "PDF_PANEL",
-          "type": "PDF_PANEL",
-          "docType": "DRAWING2PDF",
-          "processingStatus": 0,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/pdfs/panels/Front_Right Door_Door Overlay_Doors_SwoodDesign_1_1.pdf",
-          "hidden": true,
-          "storageType": 0,
-          "exists": false,
-          "objType": "PANEL"
-        }
-      ]
-    },
-    {
-      "ID": "6c203907-647e-4372-8bd6-a10e7ec5536c",
-      "name": "Front_Left Door_Door Overlay_Doors_SwoodDesign_1_1",
-      "programs": [],
-      "stocks": [
-        "6c203907-647e-4372-8bd6-a10e7ec5536c.CORE"
-      ],
-      "processZones": [],
-      "edgebands": [
-        "6c203907-647e-4372-8bd6-a10e7ec5536c.Edgeband1",
-        "6c203907-647e-4372-8bd6-a10e7ec5536c.Edgeband2",
-        "6c203907-647e-4372-8bd6-a10e7ec5536c.Edgeband3",
-        "6c203907-647e-4372-8bd6-a10e7ec5536c.Edgeband4"
-      ],
-      "messages": [],
-      "variables": [
-        {
-          "alias": "isCompleted",
-          "value": "False"
-        },
-        {
-          "alias": "isDamaged",
-          "value": "False"
-        },
-        {
-          "alias": "PAN_ANGLEINPART",
-          "value": "1.5707963267949"
-        },
-        {
-          "alias": "PAN_EBC_BL",
-          "value": "4"
-        },
-        {
-          "alias": "PAN_EBC_FR",
-          "value": "4"
-        },
-        {
-          "alias": "PAN_EBC_LF",
-          "value": "3"
-        },
-        {
-          "alias": "PAN_EBC_RB",
-          "value": "3"
-        },
-        {
-          "alias": "PAN_EBCOUNT",
-          "value": "4"
-        },
-        {
-          "alias": "PAN_EBHOMAGDIAGRAM",
-          "value": "000:000:011:011"
-        },
-        {
-          "alias": "PAN_GRAINANGLEINPART",
-          "value": "1.5707963267949"
-        },
-        {
-          "alias": "PAN_GRAINISVERTICAL",
-          "value": "False"
-        },
-        {
-          "alias": "PAN_ISSS",
-          "value": "True"
-        },
-        {
-          "alias": "PAN_L",
-          "value": "1190"
-        },
-        {
-          "alias": "PAN_LWEB",
-          "value": "819"
-        },
-        {
-          "alias": "PAN_LWOEB",
-          "value": "817"
-        },
-        {
-          "alias": "PAN_STL",
-          "value": "819"
-        },
-        {
-          "alias": "PAN_STT",
-          "value": "19.0000000000015"
-        },
-        {
-          "alias": "PAN_STW",
-          "value": "593"
-        },
-        {
-          "alias": "PAN_T",
-          "value": "19"
-        },
-        {
-          "alias": "PAN_TWL",
-          "value": "19.0000000000015"
-        },
-        {
-          "alias": "PAN_TWOL",
-          "value": "19.0000000000015"
-        },
-        {
-          "alias": "PAN_W",
-          "value": "819"
-        },
-        {
-          "alias": "PAN_WWEB",
-          "value": "593"
-        },
-        {
-          "alias": "PAN_WWOEB",
-          "value": "591"
-        }
-      ],
-      "serialNumbers": {
-        "name": "PANEL_SERIALNUMBERS",
-        "variables": [
-          {
-            "alias": "NUM_PANEL",
-            "type": "S",
-            "value": "panel-22"
-          },
-          {
-            "alias": "NUM_PANEL_EXT",
-            "type": "S",
-            "value": ""
-          }
-        ]
-      },
-      "documents": [
-        {
-          "documentName": "EDRAWINGS_PANEL",
-          "type": "EDRAWINGS_PANEL",
-          "docType": "TEMPLATE",
-          "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/edrawings/panels/Front_Left Door_Door Overlay_Doors_SwoodDesign_1_1.html",
-          "hidden": true,
-          "storageType": 0,
-          "exists": true,
-          "objType": "PANEL"
-        },
-        {
-          "documentName": "IMG_PANEL",
-          "type": "IMG_PANEL",
-          "docType": "IMAGE",
-          "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/panels/panel-Front_Left Door_Door Overlay_Doors_SwoodDesign_1_1_panel-22.jpg",
-          "hidden": true,
-          "storageType": 0,
-          "exists": true,
-          "objType": "PANEL"
-        },
-        {
-          "documentName": "PDF_PANEL",
-          "type": "PDF_PANEL",
-          "docType": "DRAWING2PDF",
-          "processingStatus": 0,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/pdfs/panels/Front_Left Door_Door Overlay_Doors_SwoodDesign_1_1.pdf",
-          "hidden": true,
-          "storageType": 0,
-          "exists": false,
-          "objType": "PANEL"
-        }
-      ]
-    },
-    {
-      "ID": "3d5ad5ba-7875-4083-9b4c-8c67226f140f",
-      "name": "Back_Doors_SwoodDesign_1",
-      "programs": [
-        "Back_Doors_SwoodDesign_1_Milling_1_Default"
-      ],
-      "stocks": [
-        "3d5ad5ba-7875-4083-9b4c-8c67226f140f.CORE"
-      ],
-      "processZones": [],
-      "edgebands": [],
-      "messages": [],
-      "variables": [
-        {
-          "alias": "isCompleted",
-          "value": "False"
-        },
-        {
-          "alias": "isDamaged",
-          "value": "False"
-        },
-        {
-          "alias": "PAN_ANGLEINPART",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBC_BL",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBC_FR",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBC_LF",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBC_RB",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBCOUNT",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBHOMAGDIAGRAM",
-          "value": ":::"
-        },
-        {
-          "alias": "PAN_GRAINANGLEINPART",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_GRAINISVERTICAL",
-          "value": "False"
-        },
-        {
-          "alias": "PAN_ISSS",
-          "value": "True"
-        },
-        {
-          "alias": "PAN_L",
-          "value": "931"
-        },
-        {
-          "alias": "PAN_LWEB",
-          "value": "930.999999999987"
-        },
-        {
-          "alias": "PAN_LWOEB",
-          "value": "930.999999999987"
-        },
-        {
-          "alias": "PAN_STL",
-          "value": "930.999999999987"
-        },
-        {
-          "alias": "PAN_STT",
-          "value": "4.9999999999999"
-        },
-        {
-          "alias": "PAN_STW",
-          "value": "1158"
-        },
-        {
-          "alias": "PAN_T",
-          "value": "5"
-        },
-        {
-          "alias": "PAN_TWL",
-          "value": "4.9999999999999"
-        },
-        {
-          "alias": "PAN_TWOL",
-          "value": "4.9999999999999"
-        },
-        {
-          "alias": "PAN_W",
-          "value": "1158"
-        },
-        {
-          "alias": "PAN_WWEB",
-          "value": "1158"
-        },
-        {
-          "alias": "PAN_WWOEB",
-          "value": "1158"
-        }
-      ],
-      "serialNumbers": {
-        "name": "PANEL_SERIALNUMBERS",
-        "variables": [
-          {
-            "alias": "NUM_PANEL",
-            "type": "S",
-            "value": "panel-23"
-          },
-          {
-            "alias": "NUM_PANEL_EXT",
-            "type": "S",
-            "value": ""
-          }
-        ]
-      },
-      "documents": [
-        {
-          "documentName": "EDRAWINGS_PANEL",
-          "type": "EDRAWINGS_PANEL",
-          "docType": "TEMPLATE",
-          "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/edrawings/panels/Back_Doors_SwoodDesign_1.html",
-          "hidden": true,
-          "storageType": 0,
-          "exists": true,
-          "objType": "PANEL"
-        },
-        {
-          "documentName": "IMG_PANEL",
-          "type": "IMG_PANEL",
-          "docType": "IMAGE",
-          "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/panels/panel-Back_Doors_SwoodDesign_1_panel-23.jpg",
-          "hidden": true,
-          "storageType": 0,
-          "exists": true,
-          "objType": "PANEL"
-        },
-        {
-          "documentName": "PDF_PANEL",
-          "type": "PDF_PANEL",
-          "docType": "DRAWING2PDF",
-          "processingStatus": 0,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/pdfs/panels/Back_Doors_SwoodDesign_1.pdf",
-          "hidden": true,
-          "storageType": 0,
-          "exists": false,
-          "objType": "PANEL"
-        }
-      ]
-    },
-    {
-      "ID": "b11c1e3d-8a2c-4440-a5cf-14c0aeb2c5f1",
-      "name": "Front Support_Doors_SwoodDesign_1",
-      "programs": [],
-      "stocks": [
-        "b11c1e3d-8a2c-4440-a5cf-14c0aeb2c5f1.CORE"
-      ],
-      "processZones": [],
-      "edgebands": [],
-      "messages": [],
-      "variables": [
-        {
-          "alias": "isCompleted",
-          "value": "False"
-        },
-        {
-          "alias": "isDamaged",
-          "value": "False"
-        },
-        {
-          "alias": "PAN_ANGLEINPART",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBC_BL",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBC_FR",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBC_LF",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBC_RB",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBCOUNT",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_EBHOMAGDIAGRAM",
-          "value": ":::"
-        },
-        {
-          "alias": "PAN_GRAINANGLEINPART",
-          "value": "0"
-        },
-        {
-          "alias": "PAN_GRAINISVERTICAL",
-          "value": "False"
-        },
-        {
-          "alias": "PAN_ISSS",
-          "value": "True"
-        },
-        {
-          "alias": "PAN_L",
-          "value": "1158"
-        },
-        {
-          "alias": "PAN_LWEB",
-          "value": "1158"
-        },
-        {
-          "alias": "PAN_LWOEB",
-          "value": "1158"
-        },
-        {
-          "alias": "PAN_STL",
-          "value": "1158"
-        },
-        {
-          "alias": "PAN_STT",
-          "value": "19"
-        },
-        {
-          "alias": "PAN_STW",
-          "value": "100"
-        },
-        {
-          "alias": "PAN_T",
-          "value": "19"
-        },
-        {
-          "alias": "PAN_TWL",
-          "value": "19"
-        },
-        {
-          "alias": "PAN_TWOL",
-          "value": "19"
-        },
-        {
-          "alias": "PAN_W",
-          "value": "100"
-        },
-        {
-          "alias": "PAN_WWEB",
-          "value": "100"
-        },
-        {
-          "alias": "PAN_WWOEB",
-          "value": "100"
+          "value": "470"
         }
       ],
       "serialNumbers": {
@@ -5452,7 +6009,7 @@ const reportDataRaw ={
           "type": "EDRAWINGS_PANEL",
           "docType": "TEMPLATE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/edrawings/panels/Front Support_Doors_SwoodDesign_1.html",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/edrawings/panels/Front_Left Door_Door Overlay_High Cabinet_SwoodDesign_1_1_Default.html",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -5463,7 +6020,7 @@ const reportDataRaw ={
           "type": "IMG_PANEL",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/panels/panel-Front Support_Doors_SwoodDesign_1_panel-24.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/panels/panel-Front_Left Door_Door Overlay_High Cabinet_SwoodDesign_1_1_Default.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -5474,64 +6031,74 @@ const reportDataRaw ={
           "type": "PDF_PANEL",
           "docType": "DRAWING2PDF",
           "processingStatus": 0,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/pdfs/panels/Front Support_Doors_SwoodDesign_1.pdf",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/pdfs/panels/Front_Left Door_Door Overlay_High Cabinet_SwoodDesign_1_1_Default.pdf",
           "hidden": true,
           "storageType": 0,
           "exists": false,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "STEP_PANEL",
+          "type": "STEP_PANEL",
+          "docType": "STEP",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/steps/panels/Front_Left Door_Door Overlay_High Cabinet_SwoodDesign_1_1_Default.step",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
           "objType": "PANEL"
         }
       ]
     },
     {
-      "ID": "bb37d6cf-cb5c-4315-85c0-f4f46200a472",
-      "name": "Bottom_Doors_SwoodDesign_1",
-      "programs": [],
+      "ID": "3baffa6a-4172-4b3d-8511-f80fa866db20",
+      "name": "Front_Right Door_Door Overlay_High Cabinet_SwoodDesign_1_1",
+      "programs": [
+        "Front_Right Door_Door Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default"
+      ],
       "stocks": [
-        "bb37d6cf-cb5c-4315-85c0-f4f46200a472.CORE"
+        "3baffa6a-4172-4b3d-8511-f80fa866db20.CORE"
       ],
       "processZones": [],
-      "edgebands": [],
+      "edgebands": [
+        "3baffa6a-4172-4b3d-8511-f80fa866db20.Edgeband1",
+        "3baffa6a-4172-4b3d-8511-f80fa866db20.Edgeband2",
+        "3baffa6a-4172-4b3d-8511-f80fa866db20.Edgeband3",
+        "3baffa6a-4172-4b3d-8511-f80fa866db20.Edgeband4"
+      ],
       "messages": [],
       "variables": [
         {
-          "alias": "isCompleted",
-          "value": "False"
-        },
-        {
-          "alias": "isDamaged",
-          "value": "False"
-        },
-        {
           "alias": "PAN_ANGLEINPART",
-          "value": "0"
+          "value": "1.571"
         },
         {
           "alias": "PAN_EBC_BL",
-          "value": "0"
+          "value": "3"
         },
         {
           "alias": "PAN_EBC_FR",
-          "value": "0"
+          "value": "4"
         },
         {
           "alias": "PAN_EBC_LF",
-          "value": "0"
+          "value": "3"
         },
         {
           "alias": "PAN_EBC_RB",
-          "value": "0"
+          "value": "3"
         },
         {
           "alias": "PAN_EBCOUNT",
-          "value": "0"
+          "value": "4"
         },
         {
           "alias": "PAN_EBHOMAGDIAGRAM",
-          "value": ":::"
+          "value": "000:001:001:011"
         },
         {
           "alias": "PAN_GRAINANGLEINPART",
-          "value": "0"
+          "value": "1.571"
         },
         {
           "alias": "PAN_GRAINISVERTICAL",
@@ -5543,19 +6110,19 @@ const reportDataRaw ={
         },
         {
           "alias": "PAN_L",
-          "value": "1158"
+          "value": "946"
         },
         {
           "alias": "PAN_LWEB",
-          "value": "1158"
+          "value": "1151.5"
         },
         {
           "alias": "PAN_LWOEB",
-          "value": "1158"
+          "value": "1149.5"
         },
         {
           "alias": "PAN_STL",
-          "value": "1158"
+          "value": "1151.5"
         },
         {
           "alias": "PAN_STT",
@@ -5563,7 +6130,7 @@ const reportDataRaw ={
         },
         {
           "alias": "PAN_STW",
-          "value": "562"
+          "value": "472"
         },
         {
           "alias": "PAN_T",
@@ -5579,15 +6146,15 @@ const reportDataRaw ={
         },
         {
           "alias": "PAN_W",
-          "value": "562"
+          "value": "1151.5"
         },
         {
           "alias": "PAN_WWEB",
-          "value": "562"
+          "value": "472"
         },
         {
           "alias": "PAN_WWOEB",
-          "value": "562"
+          "value": "470"
         }
       ],
       "serialNumbers": {
@@ -5611,7 +6178,7 @@ const reportDataRaw ={
           "type": "EDRAWINGS_PANEL",
           "docType": "TEMPLATE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/edrawings/panels/Bottom_Doors_SwoodDesign_1.html",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/edrawings/panels/Front_Right Door_Door Overlay_High Cabinet_SwoodDesign_1_1_Default.html",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -5622,7 +6189,7 @@ const reportDataRaw ={
           "type": "IMG_PANEL",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/panels/panel-Bottom_Doors_SwoodDesign_1_panel-25.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/panels/panel-Front_Right Door_Door Overlay_High Cabinet_SwoodDesign_1_1_Default.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -5633,36 +6200,36 @@ const reportDataRaw ={
           "type": "PDF_PANEL",
           "docType": "DRAWING2PDF",
           "processingStatus": 0,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/pdfs/panels/Bottom_Doors_SwoodDesign_1.pdf",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/pdfs/panels/Front_Right Door_Door Overlay_High Cabinet_SwoodDesign_1_1_Default.pdf",
           "hidden": true,
           "storageType": 0,
           "exists": false,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "STEP_PANEL",
+          "type": "STEP_PANEL",
+          "docType": "STEP",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/steps/panels/Front_Right Door_Door Overlay_High Cabinet_SwoodDesign_1_1_Default.step",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
           "objType": "PANEL"
         }
       ]
     },
     {
-      "ID": "23fa568a-6c4b-4d34-8658-81769b4c6305",
-      "name": "Right_Doors_SwoodDesign_1",
-      "programs": [
-        "Machine not Configured - Right_Doors_SwoodDesign_1 - Milling"
-      ],
+      "ID": "ea9204d6-9e7f-41fc-8ac2-f1dbb29cbb5b",
+      "name": "Left Glass_Door Overlay_High Cabinet_SwoodDesign_1_1",
+      "programs": [],
       "stocks": [
-        "23fa568a-6c4b-4d34-8658-81769b4c6305.BOTTOM",
-        "23fa568a-6c4b-4d34-8658-81769b4c6305.CORE"
+        "ea9204d6-9e7f-41fc-8ac2-f1dbb29cbb5b.CORE"
       ],
       "processZones": [],
       "edgebands": [],
       "messages": [],
       "variables": [
-        {
-          "alias": "isCompleted",
-          "value": "False"
-        },
-        {
-          "alias": "isDamaged",
-          "value": "False"
-        },
         {
           "alias": "PAN_ANGLEINPART",
           "value": "0"
@@ -5701,55 +6268,55 @@ const reportDataRaw ={
         },
         {
           "alias": "PAN_ISSS",
-          "value": "True"
+          "value": "False"
         },
         {
           "alias": "PAN_L",
-          "value": "950"
+          "value": "1001.5"
         },
         {
           "alias": "PAN_LWEB",
-          "value": "950"
+          "value": "322"
         },
         {
           "alias": "PAN_LWOEB",
-          "value": "950"
+          "value": "322"
         },
         {
           "alias": "PAN_STL",
-          "value": "950"
+          "value": "322"
         },
         {
           "alias": "PAN_STT",
-          "value": "20.9999999999999"
+          "value": "7"
         },
         {
           "alias": "PAN_STW",
-          "value": "600"
+          "value": "1001.5"
         },
         {
           "alias": "PAN_T",
-          "value": "21"
+          "value": "7"
         },
         {
           "alias": "PAN_TWL",
-          "value": "20.9999999999999"
+          "value": "7"
         },
         {
           "alias": "PAN_TWOL",
-          "value": "18.9999999999999"
+          "value": "7"
         },
         {
           "alias": "PAN_W",
-          "value": "600"
+          "value": "322"
         },
         {
           "alias": "PAN_WWEB",
-          "value": "600"
+          "value": "1001.5"
         },
         {
           "alias": "PAN_WWOEB",
-          "value": "600"
+          "value": "1001.5"
         }
       ],
       "serialNumbers": {
@@ -5773,7 +6340,7 @@ const reportDataRaw ={
           "type": "EDRAWINGS_PANEL",
           "docType": "TEMPLATE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/edrawings/panels/Right_Doors_SwoodDesign_1.html",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/edrawings/panels/Left Glass_Door Overlay_High Cabinet_SwoodDesign_1_1_Default.html",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -5784,7 +6351,7 @@ const reportDataRaw ={
           "type": "IMG_PANEL",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/panels/panel-Right_Doors_SwoodDesign_1_panel-26.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/panels/panel-Left Glass_Door Overlay_High Cabinet_SwoodDesign_1_1_Default.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -5794,8 +6361,19 @@ const reportDataRaw ={
           "documentName": "PDF_PANEL",
           "type": "PDF_PANEL",
           "docType": "DRAWING2PDF",
+          "processingStatus": 0,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/pdfs/panels/Left Glass_Door Overlay_High Cabinet_SwoodDesign_1_1_Default.pdf",
+          "hidden": true,
+          "storageType": 0,
+          "exists": false,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "STEP_PANEL",
+          "type": "STEP_PANEL",
+          "docType": "STEP",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/pdfs/panels/Right_Doors_SwoodDesign_1.pdf",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/steps/panels/Left Glass_Door Overlay_High Cabinet_SwoodDesign_1_1_Default.step",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -5804,24 +6382,16 @@ const reportDataRaw ={
       ]
     },
     {
-      "ID": "937e155e-5ad0-4469-8936-6a996af61b4a",
-      "name": "Front_Doors_SwoodDesign_1",
+      "ID": "1f9597c9-a2ee-42ec-95c7-c43a20c7e012",
+      "name": "Right Glass_Door Overlay_High Cabinet_SwoodDesign_1_1",
       "programs": [],
       "stocks": [
-        "937e155e-5ad0-4469-8936-6a996af61b4a.CORE"
+        "1f9597c9-a2ee-42ec-95c7-c43a20c7e012.CORE"
       ],
       "processZones": [],
       "edgebands": [],
       "messages": [],
       "variables": [
-        {
-          "alias": "isCompleted",
-          "value": "False"
-        },
-        {
-          "alias": "isDamaged",
-          "value": "False"
-        },
         {
           "alias": "PAN_ANGLEINPART",
           "value": "0"
@@ -5860,55 +6430,55 @@ const reportDataRaw ={
         },
         {
           "alias": "PAN_ISSS",
-          "value": "True"
+          "value": "False"
         },
         {
           "alias": "PAN_L",
-          "value": "1158"
+          "value": "1001.5"
         },
         {
           "alias": "PAN_LWEB",
-          "value": "1158"
+          "value": "322"
         },
         {
           "alias": "PAN_LWOEB",
-          "value": "1158"
+          "value": "322"
         },
         {
           "alias": "PAN_STL",
-          "value": "1158"
+          "value": "322"
         },
         {
           "alias": "PAN_STT",
-          "value": "19"
+          "value": "7"
         },
         {
           "alias": "PAN_STW",
-          "value": "50"
+          "value": "1001.5"
         },
         {
           "alias": "PAN_T",
-          "value": "19"
+          "value": "7"
         },
         {
           "alias": "PAN_TWL",
-          "value": "19"
+          "value": "7"
         },
         {
           "alias": "PAN_TWOL",
-          "value": "19"
+          "value": "7"
         },
         {
           "alias": "PAN_W",
-          "value": "50"
+          "value": "322"
         },
         {
           "alias": "PAN_WWEB",
-          "value": "50"
+          "value": "1001.5"
         },
         {
           "alias": "PAN_WWOEB",
-          "value": "50"
+          "value": "1001.5"
         }
       ],
       "serialNumbers": {
@@ -5932,7 +6502,7 @@ const reportDataRaw ={
           "type": "EDRAWINGS_PANEL",
           "docType": "TEMPLATE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/edrawings/panels/Front_Doors_SwoodDesign_1.html",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/edrawings/panels/Right Glass_Door Overlay_High Cabinet_SwoodDesign_1_1_Default.html",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -5943,7 +6513,7 @@ const reportDataRaw ={
           "type": "IMG_PANEL",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/panels/panel-Front_Doors_SwoodDesign_1_panel-27.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/panels/panel-Right Glass_Door Overlay_High Cabinet_SwoodDesign_1_1_Default.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -5954,35 +6524,41 @@ const reportDataRaw ={
           "type": "PDF_PANEL",
           "docType": "DRAWING2PDF",
           "processingStatus": 0,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/pdfs/panels/Front_Doors_SwoodDesign_1.pdf",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/pdfs/panels/Right Glass_Door Overlay_High Cabinet_SwoodDesign_1_1_Default.pdf",
           "hidden": true,
           "storageType": 0,
           "exists": false,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "STEP_PANEL",
+          "type": "STEP_PANEL",
+          "docType": "STEP",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/steps/panels/Right Glass_Door Overlay_High Cabinet_SwoodDesign_1_1_Default.step",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
           "objType": "PANEL"
         }
       ]
     },
     {
-      "ID": "ddc31756-e1cc-4ad0-982f-c872dad9b680",
+      "ID": "445e1306-8db1-4e82-a3b3-4e1b6c847bba",
       "name": "CounterTop_SwoodDesign",
       "programs": [],
       "stocks": [
-        "ddc31756-e1cc-4ad0-982f-c872dad9b680.CORE"
+        "445e1306-8db1-4e82-a3b3-4e1b6c847bba.CORE",
+        "445e1306-8db1-4e82-a3b3-4e1b6c847bba.LAYER1",
+        "445e1306-8db1-4e82-a3b3-4e1b6c847bba.LAYER2",
+        "445e1306-8db1-4e82-a3b3-4e1b6c847bba.LAYER3"
       ],
       "processZones": [
-        "ddc31756-e1cc-4ad0-982f-c872dad9b680.Top"
+        "445e1306-8db1-4e82-a3b3-4e1b6c847bba.Top"
       ],
       "edgebands": [],
       "messages": [],
       "variables": [
-        {
-          "alias": "isCompleted",
-          "value": "False"
-        },
-        {
-          "alias": "isDamaged",
-          "value": "False"
-        },
         {
           "alias": "PAN_ANGLEINPART",
           "value": "0"
@@ -6041,7 +6617,7 @@ const reportDataRaw ={
         },
         {
           "alias": "PAN_STT",
-          "value": "25.9999999999999"
+          "value": "34"
         },
         {
           "alias": "PAN_STW",
@@ -6049,15 +6625,15 @@ const reportDataRaw ={
         },
         {
           "alias": "PAN_T",
-          "value": "26"
+          "value": "34"
         },
         {
           "alias": "PAN_TWL",
-          "value": "25.9999999999999"
+          "value": "34"
         },
         {
           "alias": "PAN_TWOL",
-          "value": "25.9999999999999"
+          "value": "34"
         },
         {
           "alias": "PAN_W",
@@ -6093,7 +6669,7 @@ const reportDataRaw ={
           "type": "EDRAWINGS_PANEL",
           "docType": "TEMPLATE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/edrawings/panels/CounterTop_SwoodDesign.html",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/edrawings/panels/CounterTop_SwoodDesign_Default.html",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -6104,7 +6680,7 @@ const reportDataRaw ={
           "type": "IMG_PANEL",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/panels/panel-CounterTop_SwoodDesign_panel-28.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/panels/panel-CounterTop_SwoodDesign_Default.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -6115,10 +6691,21 @@ const reportDataRaw ={
           "type": "PDF_PANEL",
           "docType": "DRAWING2PDF",
           "processingStatus": 0,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/pdfs/panels/CounterTop_SwoodDesign.pdf",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/pdfs/panels/CounterTop_SwoodDesign_Default.pdf",
           "hidden": true,
           "storageType": 0,
           "exists": false,
+          "objType": "PANEL"
+        },
+        {
+          "documentName": "STEP_PANEL",
+          "type": "STEP_PANEL",
+          "docType": "STEP",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/steps/panels/CounterTop_SwoodDesign_Default.step",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
           "objType": "PANEL"
         }
       ]
@@ -6163,8 +6750,8 @@ const reportDataRaw ={
   ],
   "processZones": [
     {
-      "ID": "ddc31756-e1cc-4ad0-982f-c872dad9b680.Top",
-      "panel": "ddc31756-e1cc-4ad0-982f-c872dad9b680",
+      "ID": "445e1306-8db1-4e82-a3b3-4e1b6c847bba.Top",
+      "panel": "445e1306-8db1-4e82-a3b3-4e1b6c847bba",
       "panelProcess": "Sanding",
       "variables": [
         {
@@ -6194,9 +6781,9 @@ const reportDataRaw ={
   ],
   "stocks": [
     {
-      "ID": "ddc31756-e1cc-4ad0-982f-c872dad9b680.CORE",
-      "part": "ddc31756-e1cc-4ad0-982f-c872dad9b680",
-      "material": "Oak 26mm",
+      "ID": "445e1306-8db1-4e82-a3b3-4e1b6c847bba.CORE",
+      "part": "445e1306-8db1-4e82-a3b3-4e1b6c847bba",
+      "material": "Compound Top",
       "messages": [],
       "variables": [
         {
@@ -6205,11 +6792,11 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_COST",
-          "value": "17.9139999999999"
+          "value": "0.0292825"
         },
         {
           "alias": "ST_CPID",
-          "value": "-1"
+          "value": "27"
         },
         {
           "alias": "ST_DESC",
@@ -6241,7 +6828,7 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_T",
-          "value": "25.9999999999999"
+          "value": "34"
         },
         {
           "alias": "ST_W",
@@ -6252,11 +6839,198 @@ const reportDataRaw ={
         "name": "STOCK_SERIALNUMBERS",
         "variables": []
       },
-      "documents": null
+      "documents": null,
+      "multiBodyStockVariables": null
     },
     {
-      "ID": "8d8bda2e-e0c7-40a9-a927-f768273c14a3.CORE",
-      "part": "8d8bda2e-e0c7-40a9-a927-f768273c14a3",
+      "ID": "445e1306-8db1-4e82-a3b3-4e1b6c847bba.LAYER1",
+      "part": "445e1306-8db1-4e82-a3b3-4e1b6c847bba",
+      "material": "Oak 2mm",
+      "messages": [],
+      "variables": [
+        {
+          "alias": "ST_ANGLEINPANEL",
+          "value": "0"
+        },
+        {
+          "alias": "ST_COST",
+          "value": "0.3445"
+        },
+        {
+          "alias": "ST_CPID",
+          "value": "-1"
+        },
+        {
+          "alias": "ST_DESC",
+          "value": "LAYER1"
+        },
+        {
+          "alias": "ST_DFIL",
+          "value": "0"
+        },
+        {
+          "alias": "ST_EBCOUNT",
+          "value": "0"
+        },
+        {
+          "alias": "ST_GRAINISVERTICAL",
+          "value": "False"
+        },
+        {
+          "alias": "ST_ISCURVED",
+          "value": "False"
+        },
+        {
+          "alias": "ST_L",
+          "value": "2650"
+        },
+        {
+          "alias": "ST_N",
+          "value": "LAYER1"
+        },
+        {
+          "alias": "ST_T",
+          "value": "2"
+        },
+        {
+          "alias": "ST_W",
+          "value": "650"
+        }
+      ],
+      "serialNumbers": {
+        "name": "STOCK_SERIALNUMBERS",
+        "variables": []
+      },
+      "documents": null,
+      "multiBodyStockVariables": null
+    },
+    {
+      "ID": "445e1306-8db1-4e82-a3b3-4e1b6c847bba.LAYER2",
+      "part": "445e1306-8db1-4e82-a3b3-4e1b6c847bba",
+      "material": "MDF 16mm",
+      "messages": [],
+      "variables": [
+        {
+          "alias": "ST_ANGLEINPANEL",
+          "value": "0"
+        },
+        {
+          "alias": "ST_COST",
+          "value": "1.9292"
+        },
+        {
+          "alias": "ST_CPID",
+          "value": "21"
+        },
+        {
+          "alias": "ST_DESC",
+          "value": "LAYER2"
+        },
+        {
+          "alias": "ST_DFIL",
+          "value": "0"
+        },
+        {
+          "alias": "ST_EBCOUNT",
+          "value": "0"
+        },
+        {
+          "alias": "ST_GRAINISVERTICAL",
+          "value": "False"
+        },
+        {
+          "alias": "ST_ISCURVED",
+          "value": "False"
+        },
+        {
+          "alias": "ST_L",
+          "value": "2650"
+        },
+        {
+          "alias": "ST_N",
+          "value": "LAYER2"
+        },
+        {
+          "alias": "ST_T",
+          "value": "16"
+        },
+        {
+          "alias": "ST_W",
+          "value": "650"
+        }
+      ],
+      "serialNumbers": {
+        "name": "STOCK_SERIALNUMBERS",
+        "variables": []
+      },
+      "documents": null,
+      "multiBodyStockVariables": null
+    },
+    {
+      "ID": "445e1306-8db1-4e82-a3b3-4e1b6c847bba.LAYER3",
+      "part": "445e1306-8db1-4e82-a3b3-4e1b6c847bba",
+      "material": "MDF 16mm",
+      "messages": [],
+      "variables": [
+        {
+          "alias": "ST_ANGLEINPANEL",
+          "value": "0"
+        },
+        {
+          "alias": "ST_COST",
+          "value": "1.9292"
+        },
+        {
+          "alias": "ST_CPID",
+          "value": "22"
+        },
+        {
+          "alias": "ST_DESC",
+          "value": "LAYER3"
+        },
+        {
+          "alias": "ST_DFIL",
+          "value": "0"
+        },
+        {
+          "alias": "ST_EBCOUNT",
+          "value": "0"
+        },
+        {
+          "alias": "ST_GRAINISVERTICAL",
+          "value": "False"
+        },
+        {
+          "alias": "ST_ISCURVED",
+          "value": "False"
+        },
+        {
+          "alias": "ST_L",
+          "value": "2650"
+        },
+        {
+          "alias": "ST_N",
+          "value": "LAYER3"
+        },
+        {
+          "alias": "ST_T",
+          "value": "16"
+        },
+        {
+          "alias": "ST_W",
+          "value": "650"
+        }
+      ],
+      "serialNumbers": {
+        "name": "STOCK_SERIALNUMBERS",
+        "variables": []
+      },
+      "documents": null,
+      "multiBodyStockVariables": null
+    },
+    {
+      "ID": "91083e91-419e-400e-af7d-275827b68958.CORE",
+      "part": "91083e91-419e-400e-af7d-275827b68958",
       "material": "MDF 19mm",
       "messages": [],
       "variables": [
@@ -6270,7 +7044,7 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_CPID",
-          "value": "15"
+          "value": "13"
         },
         {
           "alias": "ST_DESC",
@@ -6313,11 +7087,12 @@ const reportDataRaw ={
         "name": "STOCK_SERIALNUMBERS",
         "variables": []
       },
-      "documents": null
+      "documents": null,
+      "multiBodyStockVariables": null
     },
     {
-      "ID": "3d5ad5ba-7875-4083-9b4c-8c67226f140f.CORE",
-      "part": "3d5ad5ba-7875-4083-9b4c-8c67226f140f",
+      "ID": "a24f7410-4ce6-48b8-a506-63da2959b6f7.CORE",
+      "part": "a24f7410-4ce6-48b8-a506-63da2959b6f7",
       "material": "MDF 5mm",
       "messages": [],
       "variables": [
@@ -6327,11 +7102,11 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_COST",
-          "value": "0.377334299999988"
+          "value": "0.3773343"
         },
         {
           "alias": "ST_CPID",
-          "value": "19"
+          "value": "11"
         },
         {
           "alias": "ST_DESC",
@@ -6355,7 +7130,7 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_L",
-          "value": "930.999999999987"
+          "value": "931"
         },
         {
           "alias": "ST_N",
@@ -6363,7 +7138,7 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_T",
-          "value": "4.9999999999999"
+          "value": "5"
         },
         {
           "alias": "ST_W",
@@ -6374,11 +7149,12 @@ const reportDataRaw ={
         "name": "STOCK_SERIALNUMBERS",
         "variables": []
       },
-      "documents": null
+      "documents": null,
+      "multiBodyStockVariables": null
     },
     {
-      "ID": "bb37d6cf-cb5c-4315-85c0-f4f46200a472.CORE",
-      "part": "bb37d6cf-cb5c-4315-85c0-f4f46200a472",
+      "ID": "c6f835b1-d9cc-4c5e-a75d-9fafc566081d.CORE",
+      "part": "c6f835b1-d9cc-4c5e-a75d-9fafc566081d",
       "material": "Beech 19mm",
       "messages": [],
       "variables": [
@@ -6392,7 +7168,7 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_CPID",
-          "value": "9"
+          "value": "1"
         },
         {
           "alias": "ST_DESC",
@@ -6435,11 +7211,12 @@ const reportDataRaw ={
         "name": "STOCK_SERIALNUMBERS",
         "variables": []
       },
-      "documents": null
+      "documents": null,
+      "multiBodyStockVariables": null
     },
     {
-      "ID": "b11c1e3d-8a2c-4440-a5cf-14c0aeb2c5f1.CORE",
-      "part": "b11c1e3d-8a2c-4440-a5cf-14c0aeb2c5f1",
+      "ID": "043b4845-8ca5-41b2-bb28-7c444264f198.CORE",
+      "part": "043b4845-8ca5-41b2-bb28-7c444264f198",
       "material": "MDF 19mm",
       "messages": [],
       "variables": [
@@ -6496,11 +7273,12 @@ const reportDataRaw ={
         "name": "STOCK_SERIALNUMBERS",
         "variables": []
       },
-      "documents": null
+      "documents": null,
+      "multiBodyStockVariables": null
     },
     {
-      "ID": "937e155e-5ad0-4469-8936-6a996af61b4a.CORE",
-      "part": "937e155e-5ad0-4469-8936-6a996af61b4a",
+      "ID": "dd1a1d0f-6789-400d-92d2-1ad05147db3a.CORE",
+      "part": "dd1a1d0f-6789-400d-92d2-1ad05147db3a",
       "material": "Beech 19mm",
       "messages": [],
       "variables": [
@@ -6510,11 +7288,11 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_COST",
-          "value": "0.330030000000001"
+          "value": "0.33003"
         },
         {
           "alias": "ST_CPID",
-          "value": "10"
+          "value": "2"
         },
         {
           "alias": "ST_DESC",
@@ -6557,11 +7335,12 @@ const reportDataRaw ={
         "name": "STOCK_SERIALNUMBERS",
         "variables": []
       },
-      "documents": null
+      "documents": null,
+      "multiBodyStockVariables": null
     },
     {
-      "ID": "6c203907-647e-4372-8bd6-a10e7ec5536c.CORE",
-      "part": "6c203907-647e-4372-8bd6-a10e7ec5536c",
+      "ID": "2707b1b7-5162-4684-983f-e7ff1d06109a.CORE",
+      "part": "2707b1b7-5162-4684-983f-e7ff1d06109a",
       "material": "Beech 19mm",
       "messages": [],
       "variables": [
@@ -6571,11 +7350,11 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_COST",
-          "value": "2.76830190000021"
+          "value": "2.7683019"
         },
         {
           "alias": "ST_CPID",
-          "value": "8"
+          "value": "4"
         },
         {
           "alias": "ST_DESC",
@@ -6607,7 +7386,7 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_T",
-          "value": "19.0000000000015"
+          "value": "19"
         },
         {
           "alias": "ST_W",
@@ -6618,11 +7397,12 @@ const reportDataRaw ={
         "name": "STOCK_SERIALNUMBERS",
         "variables": []
       },
-      "documents": null
+      "documents": null,
+      "multiBodyStockVariables": null
     },
     {
-      "ID": "f2be11ed-4b24-4dcb-b38d-58084a37c7b6.CORE",
-      "part": "f2be11ed-4b24-4dcb-b38d-58084a37c7b6",
+      "ID": "9d44626b-a462-4782-a8f1-3865fd91071a.CORE",
+      "part": "9d44626b-a462-4782-a8f1-3865fd91071a",
       "material": "Beech 19mm",
       "messages": [],
       "variables": [
@@ -6632,11 +7412,11 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_COST",
-          "value": "2.76830190000002"
+          "value": "2.7683019"
         },
         {
           "alias": "ST_CPID",
-          "value": "7"
+          "value": "3"
         },
         {
           "alias": "ST_DESC",
@@ -6668,7 +7448,7 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_T",
-          "value": "19.0000000000001"
+          "value": "19"
         },
         {
           "alias": "ST_W",
@@ -6679,11 +7459,12 @@ const reportDataRaw ={
         "name": "STOCK_SERIALNUMBERS",
         "variables": []
       },
-      "documents": null
+      "documents": null,
+      "multiBodyStockVariables": null
     },
     {
-      "ID": "5dd15c9d-6353-4653-a4ec-a2587ffede00.CORE",
-      "part": "5dd15c9d-6353-4653-a4ec-a2587ffede00",
+      "ID": "cf82a206-3c76-4167-a885-21c2392bfdcb.CORE",
+      "part": "cf82a206-3c76-4167-a885-21c2392bfdcb",
       "material": "Beech 19mm",
       "messages": [],
       "variables": [
@@ -6697,7 +7478,7 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_CPID",
-          "value": "6"
+          "value": "0"
         },
         {
           "alias": "ST_DESC",
@@ -6740,11 +7521,12 @@ const reportDataRaw ={
         "name": "STOCK_SERIALNUMBERS",
         "variables": []
       },
-      "documents": null
+      "documents": null,
+      "multiBodyStockVariables": null
     },
     {
-      "ID": "820695a0-72ba-409b-a7ee-9b7998852039.BOTTOM",
-      "part": "820695a0-72ba-409b-a7ee-9b7998852039",
+      "ID": "2d3dd35e-ff5c-41d4-a4a4-bd81849ccdb0.BOTTOM",
+      "part": "2d3dd35e-ff5c-41d4-a4a4-bd81849ccdb0",
       "material": "Beech 1mm",
       "messages": [],
       "variables": [
@@ -6801,11 +7583,12 @@ const reportDataRaw ={
         "name": "STOCK_SERIALNUMBERS",
         "variables": []
       },
-      "documents": null
+      "documents": null,
+      "multiBodyStockVariables": null
     },
     {
-      "ID": "820695a0-72ba-409b-a7ee-9b7998852039.CORE",
-      "part": "820695a0-72ba-409b-a7ee-9b7998852039",
+      "ID": "2d3dd35e-ff5c-41d4-a4a4-bd81849ccdb0.CORE",
+      "part": "2d3dd35e-ff5c-41d4-a4a4-bd81849ccdb0",
       "material": "MDF 19mm",
       "messages": [],
       "variables": [
@@ -6815,7 +7598,131 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_COST",
-          "value": "0.758099999999996"
+          "value": "0.7581"
+        },
+        {
+          "alias": "ST_CPID",
+          "value": "15"
+        },
+        {
+          "alias": "ST_DESC",
+          "value": "CORE"
+        },
+        {
+          "alias": "ST_DFIL",
+          "value": "0"
+        },
+        {
+          "alias": "ST_EBCOUNT",
+          "value": "0"
+        },
+        {
+          "alias": "ST_GRAINISVERTICAL",
+          "value": "False"
+        },
+        {
+          "alias": "ST_ISCURVED",
+          "value": "False"
+        },
+        {
+          "alias": "ST_L",
+          "value": "950"
+        },
+        {
+          "alias": "ST_N",
+          "value": "CORE"
+        },
+        {
+          "alias": "ST_T",
+          "value": "19"
+        },
+        {
+          "alias": "ST_W",
+          "value": "600"
+        }
+      ],
+      "serialNumbers": {
+        "name": "STOCK_SERIALNUMBERS",
+        "variables": []
+      },
+      "documents": null,
+      "multiBodyStockVariables": null
+    },
+    {
+      "ID": "7cfeb824-7803-44d7-be93-2884a33075d8.BOTTOM",
+      "part": "7cfeb824-7803-44d7-be93-2884a33075d8",
+      "material": "Beech 1mm",
+      "messages": [],
+      "variables": [
+        {
+          "alias": "ST_ANGLEINPANEL",
+          "value": "0"
+        },
+        {
+          "alias": "ST_COST",
+          "value": "0.1083"
+        },
+        {
+          "alias": "ST_CPID",
+          "value": "-1"
+        },
+        {
+          "alias": "ST_DESC",
+          "value": "BOTTOM"
+        },
+        {
+          "alias": "ST_DFIL",
+          "value": "0"
+        },
+        {
+          "alias": "ST_EBCOUNT",
+          "value": "0"
+        },
+        {
+          "alias": "ST_GRAINISVERTICAL",
+          "value": "False"
+        },
+        {
+          "alias": "ST_ISCURVED",
+          "value": "False"
+        },
+        {
+          "alias": "ST_L",
+          "value": "950"
+        },
+        {
+          "alias": "ST_N",
+          "value": "BOTTOM"
+        },
+        {
+          "alias": "ST_T",
+          "value": "2"
+        },
+        {
+          "alias": "ST_W",
+          "value": "600"
+        }
+      ],
+      "serialNumbers": {
+        "name": "STOCK_SERIALNUMBERS",
+        "variables": []
+      },
+      "documents": null,
+      "multiBodyStockVariables": null
+    },
+    {
+      "ID": "7cfeb824-7803-44d7-be93-2884a33075d8.CORE",
+      "part": "7cfeb824-7803-44d7-be93-2884a33075d8",
+      "material": "MDF 19mm",
+      "messages": [],
+      "variables": [
+        {
+          "alias": "ST_ANGLEINPANEL",
+          "value": "0"
+        },
+        {
+          "alias": "ST_COST",
+          "value": "0.7581"
         },
         {
           "alias": "ST_CPID",
@@ -6851,7 +7758,7 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_T",
-          "value": "18.9999999999999"
+          "value": "19"
         },
         {
           "alias": "ST_W",
@@ -6862,133 +7769,12 @@ const reportDataRaw ={
         "name": "STOCK_SERIALNUMBERS",
         "variables": []
       },
-      "documents": null
+      "documents": null,
+      "multiBodyStockVariables": null
     },
     {
-      "ID": "23fa568a-6c4b-4d34-8658-81769b4c6305.BOTTOM",
-      "part": "23fa568a-6c4b-4d34-8658-81769b4c6305",
-      "material": "Beech 1mm",
-      "messages": [],
-      "variables": [
-        {
-          "alias": "ST_ANGLEINPANEL",
-          "value": "0"
-        },
-        {
-          "alias": "ST_COST",
-          "value": "0.1083"
-        },
-        {
-          "alias": "ST_CPID",
-          "value": "-1"
-        },
-        {
-          "alias": "ST_DESC",
-          "value": "BOTTOM"
-        },
-        {
-          "alias": "ST_DFIL",
-          "value": "0"
-        },
-        {
-          "alias": "ST_EBCOUNT",
-          "value": "0"
-        },
-        {
-          "alias": "ST_GRAINISVERTICAL",
-          "value": "False"
-        },
-        {
-          "alias": "ST_ISCURVED",
-          "value": "False"
-        },
-        {
-          "alias": "ST_L",
-          "value": "950"
-        },
-        {
-          "alias": "ST_N",
-          "value": "BOTTOM"
-        },
-        {
-          "alias": "ST_T",
-          "value": "2"
-        },
-        {
-          "alias": "ST_W",
-          "value": "600"
-        }
-      ],
-      "serialNumbers": {
-        "name": "STOCK_SERIALNUMBERS",
-        "variables": []
-      },
-      "documents": null
-    },
-    {
-      "ID": "23fa568a-6c4b-4d34-8658-81769b4c6305.CORE",
-      "part": "23fa568a-6c4b-4d34-8658-81769b4c6305",
-      "material": "MDF 19mm",
-      "messages": [],
-      "variables": [
-        {
-          "alias": "ST_ANGLEINPANEL",
-          "value": "0"
-        },
-        {
-          "alias": "ST_COST",
-          "value": "0.758099999999996"
-        },
-        {
-          "alias": "ST_CPID",
-          "value": "17"
-        },
-        {
-          "alias": "ST_DESC",
-          "value": "CORE"
-        },
-        {
-          "alias": "ST_DFIL",
-          "value": "0"
-        },
-        {
-          "alias": "ST_EBCOUNT",
-          "value": "0"
-        },
-        {
-          "alias": "ST_GRAINISVERTICAL",
-          "value": "False"
-        },
-        {
-          "alias": "ST_ISCURVED",
-          "value": "False"
-        },
-        {
-          "alias": "ST_L",
-          "value": "950"
-        },
-        {
-          "alias": "ST_N",
-          "value": "CORE"
-        },
-        {
-          "alias": "ST_T",
-          "value": "18.9999999999999"
-        },
-        {
-          "alias": "ST_W",
-          "value": "600"
-        }
-      ],
-      "serialNumbers": {
-        "name": "STOCK_SERIALNUMBERS",
-        "variables": []
-      },
-      "documents": null
-    },
-    {
-      "ID": "e76f4f8a-43cc-412b-97e5-322c8134fd6b.CORE",
-      "part": "e76f4f8a-43cc-412b-97e5-322c8134fd6b",
+      "ID": "2e9e5c9f-adea-4b35-a98f-6d5d5d3f6cf3.CORE",
+      "part": "2e9e5c9f-adea-4b35-a98f-6d5d5d3f6cf3",
       "material": "MDF 5mm",
       "messages": [],
       "variables": [
@@ -6998,11 +7784,11 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_COST",
-          "value": "0.729351000000001"
+          "value": "0.729351"
         },
         {
           "alias": "ST_CPID",
-          "value": "18"
+          "value": "12"
         },
         {
           "alias": "ST_DESC",
@@ -7045,11 +7831,12 @@ const reportDataRaw ={
         "name": "STOCK_SERIALNUMBERS",
         "variables": []
       },
-      "documents": null
+      "documents": null,
+      "multiBodyStockVariables": null
     },
     {
-      "ID": "5da29f5d-c913-4adf-a991-02b7e2a5709a.CORE",
-      "part": "5da29f5d-c913-4adf-a991-02b7e2a5709a",
+      "ID": "c8b64987-4a91-4a30-b29f-a7c0e76a2ee1.CORE",
+      "part": "c8b64987-4a91-4a30-b29f-a7c0e76a2ee1",
       "material": "Beech 16mm",
       "messages": [],
       "variables": [
@@ -7063,7 +7850,7 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_CPID",
-          "value": "20"
+          "value": "26"
         },
         {
           "alias": "ST_DESC",
@@ -7106,11 +7893,12 @@ const reportDataRaw ={
         "name": "STOCK_SERIALNUMBERS",
         "variables": []
       },
-      "documents": null
+      "documents": null,
+      "multiBodyStockVariables": null
     },
     {
-      "ID": "a7aacb53-b186-4b2e-888b-a0602b1e7c3d.CORE",
-      "part": "a7aacb53-b186-4b2e-888b-a0602b1e7c3d",
+      "ID": "8caa3f39-bcbf-4d3f-adbf-5c9f1f4eba75.CORE",
+      "part": "8caa3f39-bcbf-4d3f-adbf-5c9f1f4eba75",
       "material": "Beech 16mm",
       "messages": [],
       "variables": [
@@ -7120,11 +7908,11 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_COST",
-          "value": "2.22108672000002"
+          "value": "2.22108672"
         },
         {
           "alias": "ST_CPID",
-          "value": "21"
+          "value": "23"
         },
         {
           "alias": "ST_DESC",
@@ -7160,18 +7948,19 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_W",
-          "value": "544.000000000005"
+          "value": "544"
         }
       ],
       "serialNumbers": {
         "name": "STOCK_SERIALNUMBERS",
         "variables": []
       },
-      "documents": null
+      "documents": null,
+      "multiBodyStockVariables": null
     },
     {
-      "ID": "1aef8687-3984-49ea-a2a5-e7b32d9c8ab1.CORE",
-      "part": "1aef8687-3984-49ea-a2a5-e7b32d9c8ab1",
+      "ID": "e1886458-2a0d-4505-9dab-ecaa2bff10ae.CORE",
+      "part": "e1886458-2a0d-4505-9dab-ecaa2bff10ae",
       "material": "Beech 19mm",
       "messages": [],
       "variables": [
@@ -7181,11 +7970,11 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_COST",
-          "value": "3.10536000000002"
+          "value": "3.10536"
         },
         {
           "alias": "ST_CPID",
-          "value": "0"
+          "value": "6"
         },
         {
           "alias": "ST_DESC",
@@ -7221,18 +8010,19 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_W",
-          "value": "600.000000000003"
+          "value": "600"
         }
       ],
       "serialNumbers": {
         "name": "STOCK_SERIALNUMBERS",
         "variables": []
       },
-      "documents": null
+      "documents": null,
+      "multiBodyStockVariables": null
     },
     {
-      "ID": "729f06e4-e139-49fc-82ba-38b79cb6cd7a.BOTTOM",
-      "part": "729f06e4-e139-49fc-82ba-38b79cb6cd7a",
+      "ID": "ad96f3f9-b34c-415d-ba50-6663d7af8b21.BOTTOM",
+      "part": "ad96f3f9-b34c-415d-ba50-6663d7af8b21",
       "material": "Beech 1mm",
       "messages": [],
       "variables": [
@@ -7282,18 +8072,19 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_W",
-          "value": "600.000000000003"
+          "value": "600"
         }
       ],
       "serialNumbers": {
         "name": "STOCK_SERIALNUMBERS",
         "variables": []
       },
-      "documents": null
+      "documents": null,
+      "multiBodyStockVariables": null
     },
     {
-      "ID": "729f06e4-e139-49fc-82ba-38b79cb6cd7a.CORE",
-      "part": "729f06e4-e139-49fc-82ba-38b79cb6cd7a",
+      "ID": "ad96f3f9-b34c-415d-ba50-6663d7af8b21.CORE",
+      "part": "ad96f3f9-b34c-415d-ba50-6663d7af8b21",
       "material": "MDF 19mm",
       "messages": [],
       "variables": [
@@ -7307,7 +8098,7 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_CPID",
-          "value": "11"
+          "value": "19"
         },
         {
           "alias": "ST_DESC",
@@ -7339,22 +8130,23 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_T",
-          "value": "18.9999999999999"
+          "value": "19"
         },
         {
           "alias": "ST_W",
-          "value": "600.000000000003"
+          "value": "600"
         }
       ],
       "serialNumbers": {
         "name": "STOCK_SERIALNUMBERS",
         "variables": []
       },
-      "documents": null
+      "documents": null,
+      "multiBodyStockVariables": null
     },
     {
-      "ID": "5a6666ed-b2ac-4b40-bfec-2b68d16899f8.CORE",
-      "part": "5a6666ed-b2ac-4b40-bfec-2b68d16899f8",
+      "ID": "69491234-2b0a-4f8a-985e-4953b6692bb2.CORE",
+      "part": "69491234-2b0a-4f8a-985e-4953b6692bb2",
       "material": "Beech 19mm",
       "messages": [],
       "variables": [
@@ -7364,11 +8156,11 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_COST",
-          "value": "2.05173209999999"
+          "value": "2.0517321"
         },
         {
           "alias": "ST_CPID",
-          "value": "2"
+          "value": "7"
         },
         {
           "alias": "ST_DESC",
@@ -7400,7 +8192,7 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_T",
-          "value": "18.9999999999999"
+          "value": "19"
         },
         {
           "alias": "ST_W",
@@ -7411,11 +8203,12 @@ const reportDataRaw ={
         "name": "STOCK_SERIALNUMBERS",
         "variables": []
       },
-      "documents": null
+      "documents": null,
+      "multiBodyStockVariables": null
     },
     {
-      "ID": "17477517-cf35-4b28-a0ac-ac8efaabd845.CORE",
-      "part": "17477517-cf35-4b28-a0ac-ac8efaabd845",
+      "ID": "c6225d67-cf52-430b-b38f-fa642ae35793.CORE",
+      "part": "c6225d67-cf52-430b-b38f-fa642ae35793",
       "material": "Beech 19mm",
       "messages": [],
       "variables": [
@@ -7425,72 +8218,11 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_COST",
-          "value": "3.09799560000105"
+          "value": "3.097995600004"
         },
         {
           "alias": "ST_CPID",
-          "value": "4"
-        },
-        {
-          "alias": "ST_DESC",
-          "value": "CORE"
-        },
-        {
-          "alias": "ST_DFIL",
-          "value": "0"
-        },
-        {
-          "alias": "ST_EBCOUNT",
-          "value": "4"
-        },
-        {
-          "alias": "ST_GRAINISVERTICAL",
-          "value": "False"
-        },
-        {
-          "alias": "ST_ISCURVED",
-          "value": "False"
-        },
-        {
-          "alias": "ST_L",
-          "value": "1151.50000000001"
-        },
-        {
-          "alias": "ST_N",
-          "value": "CORE"
-        },
-        {
-          "alias": "ST_T",
-          "value": "19.0000000000061"
-        },
-        {
-          "alias": "ST_W",
-          "value": "472.000000000003"
-        }
-      ],
-      "serialNumbers": {
-        "name": "STOCK_SERIALNUMBERS",
-        "variables": []
-      },
-      "documents": null
-    },
-    {
-      "ID": "67d5e6db-94a1-420f-afd9-653e935f0eaa.CORE",
-      "part": "67d5e6db-94a1-420f-afd9-653e935f0eaa",
-      "material": "Beech 19mm",
-      "messages": [],
-      "variables": [
-        {
-          "alias": "ST_ANGLEINPANEL",
-          "value": "0"
-        },
-        {
-          "alias": "ST_COST",
-          "value": "3.0979956000012"
-        },
-        {
-          "alias": "ST_CPID",
-          "value": "5"
+          "value": "9"
         },
         {
           "alias": "ST_DESC",
@@ -7522,22 +8254,23 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_T",
-          "value": "19.0000000000063"
+          "value": "19"
         },
         {
           "alias": "ST_W",
-          "value": "472.000000000027"
+          "value": "472"
         }
       ],
       "serialNumbers": {
         "name": "STOCK_SERIALNUMBERS",
         "variables": []
       },
-      "documents": null
+      "documents": null,
+      "multiBodyStockVariables": null
     },
     {
-      "ID": "1c408da5-d940-477e-a904-8fd539fd4a86.CORE",
-      "part": "1c408da5-d940-477e-a904-8fd539fd4a86",
+      "ID": "3baffa6a-4172-4b3d-8511-f80fa866db20.CORE",
+      "part": "3baffa6a-4172-4b3d-8511-f80fa866db20",
       "material": "Beech 19mm",
       "messages": [],
       "variables": [
@@ -7547,11 +8280,73 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_COST",
-          "value": "0.541500000000001"
+          "value": "3.097995600005"
         },
         {
           "alias": "ST_CPID",
-          "value": "1"
+          "value": "10"
+        },
+        {
+          "alias": "ST_DESC",
+          "value": "CORE"
+        },
+        {
+          "alias": "ST_DFIL",
+          "value": "0"
+        },
+        {
+          "alias": "ST_EBCOUNT",
+          "value": "4"
+        },
+        {
+          "alias": "ST_GRAINISVERTICAL",
+          "value": "False"
+        },
+        {
+          "alias": "ST_ISCURVED",
+          "value": "False"
+        },
+        {
+          "alias": "ST_L",
+          "value": "1151.5"
+        },
+        {
+          "alias": "ST_N",
+          "value": "CORE"
+        },
+        {
+          "alias": "ST_T",
+          "value": "19"
+        },
+        {
+          "alias": "ST_W",
+          "value": "472"
+        }
+      ],
+      "serialNumbers": {
+        "name": "STOCK_SERIALNUMBERS",
+        "variables": []
+      },
+      "documents": null,
+      "multiBodyStockVariables": null
+    },
+    {
+      "ID": "bd2641ba-5ad6-496d-bd81-7a4e98a42b54.CORE",
+      "part": "bd2641ba-5ad6-496d-bd81-7a4e98a42b54",
+      "material": "Beech 19mm",
+      "messages": [],
+      "variables": [
+        {
+          "alias": "ST_ANGLEINPANEL",
+          "value": "0"
+        },
+        {
+          "alias": "ST_COST",
+          "value": "0.5415"
+        },
+        {
+          "alias": "ST_CPID",
+          "value": "5"
         },
         {
           "alias": "ST_DESC",
@@ -7575,7 +8370,7 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_L",
-          "value": "950.000000000001"
+          "value": "950"
         },
         {
           "alias": "ST_N",
@@ -7594,11 +8389,12 @@ const reportDataRaw ={
         "name": "STOCK_SERIALNUMBERS",
         "variables": []
       },
-      "documents": null
+      "documents": null,
+      "multiBodyStockVariables": null
     },
     {
-      "ID": "a2b16b36-e478-46c3-8a29-6f011ca36f3d.CORE",
-      "part": "a2b16b36-e478-46c3-8a29-6f011ca36f3d",
+      "ID": "ea9204d6-9e7f-41fc-8ac2-f1dbb29cbb5b.CORE",
+      "part": "ea9204d6-9e7f-41fc-8ac2-f1dbb29cbb5b",
       "material": "Glass 7mm",
       "messages": [],
       "variables": [
@@ -7644,7 +8440,7 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_T",
-          "value": "7.00000000000001"
+          "value": "7"
         },
         {
           "alias": "ST_W",
@@ -7655,11 +8451,12 @@ const reportDataRaw ={
         "name": "STOCK_SERIALNUMBERS",
         "variables": []
       },
-      "documents": null
+      "documents": null,
+      "multiBodyStockVariables": null
     },
     {
-      "ID": "1358051f-b7f8-4991-b110-2c5e6ec8b60e.CORE",
-      "part": "1358051f-b7f8-4991-b110-2c5e6ec8b60e",
+      "ID": "3148c2a7-9eb2-48da-90b8-598617059e18.CORE",
+      "part": "3148c2a7-9eb2-48da-90b8-598617059e18",
       "material": "Beech 16mm",
       "messages": [],
       "variables": [
@@ -7669,11 +8466,11 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_COST",
-          "value": "0.882756000000001"
+          "value": "0.882756"
         },
         {
           "alias": "ST_CPID",
-          "value": "22"
+          "value": "25"
         },
         {
           "alias": "ST_DESC",
@@ -7716,11 +8513,12 @@ const reportDataRaw ={
         "name": "STOCK_SERIALNUMBERS",
         "variables": []
       },
-      "documents": null
+      "documents": null,
+      "multiBodyStockVariables": null
     },
     {
-      "ID": "89b367ac-2751-4f12-8a5b-db4112a6ff28.BOTTOM",
-      "part": "89b367ac-2751-4f12-8a5b-db4112a6ff28",
+      "ID": "1f215b66-dcc9-4563-b1d7-2857f9ed2e04.BOTTOM",
+      "part": "1f215b66-dcc9-4563-b1d7-2857f9ed2e04",
       "material": "Beech 1mm",
       "messages": [],
       "variables": [
@@ -7777,11 +8575,12 @@ const reportDataRaw ={
         "name": "STOCK_SERIALNUMBERS",
         "variables": []
       },
-      "documents": null
+      "documents": null,
+      "multiBodyStockVariables": null
     },
     {
-      "ID": "89b367ac-2751-4f12-8a5b-db4112a6ff28.CORE",
-      "part": "89b367ac-2751-4f12-8a5b-db4112a6ff28",
+      "ID": "1f215b66-dcc9-4563-b1d7-2857f9ed2e04.CORE",
+      "part": "1f215b66-dcc9-4563-b1d7-2857f9ed2e04",
       "material": "MDF 19mm",
       "messages": [],
       "variables": [
@@ -7791,11 +8590,11 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_COST",
-          "value": "1.91520000000003"
+          "value": "1.9152"
         },
         {
           "alias": "ST_CPID",
-          "value": "13"
+          "value": "17"
         },
         {
           "alias": "ST_DESC",
@@ -7827,7 +8626,7 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_T",
-          "value": "19.0000000000003"
+          "value": "19"
         },
         {
           "alias": "ST_W",
@@ -7838,11 +8637,12 @@ const reportDataRaw ={
         "name": "STOCK_SERIALNUMBERS",
         "variables": []
       },
-      "documents": null
+      "documents": null,
+      "multiBodyStockVariables": null
     },
     {
-      "ID": "6253ca19-90e6-4f82-9d1f-00e79ca96087.CORE",
-      "part": "6253ca19-90e6-4f82-9d1f-00e79ca96087",
+      "ID": "c3b08b68-a681-4599-837a-67986a87a9b8.CORE",
+      "part": "c3b08b68-a681-4599-837a-67986a87a9b8",
       "material": "Beech 19mm",
       "messages": [],
       "variables": [
@@ -7852,11 +8652,11 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_COST",
-          "value": "3.02772600000004"
+          "value": "3.027726"
         },
         {
           "alias": "ST_CPID",
-          "value": "3"
+          "value": "8"
         },
         {
           "alias": "ST_DESC",
@@ -7888,22 +8688,23 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_T",
-          "value": "19.0000000000001"
+          "value": "19"
         },
         {
           "alias": "ST_W",
-          "value": "585.000000000004"
+          "value": "585"
         }
       ],
       "serialNumbers": {
         "name": "STOCK_SERIALNUMBERS",
         "variables": []
       },
-      "documents": null
+      "documents": null,
+      "multiBodyStockVariables": null
     },
     {
-      "ID": "8c76ed32-84c8-4a78-81a6-28c3cd031010.CORE",
-      "part": "8c76ed32-84c8-4a78-81a6-28c3cd031010",
+      "ID": "1f9597c9-a2ee-42ec-95c7-c43a20c7e012.CORE",
+      "part": "1f9597c9-a2ee-42ec-95c7-c43a20c7e012",
       "material": "Glass 7mm",
       "messages": [],
       "variables": [
@@ -7941,7 +8742,7 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_L",
-          "value": "321.999999999999"
+          "value": "322"
         },
         {
           "alias": "ST_N",
@@ -7949,7 +8750,7 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_T",
-          "value": "7.00000000000003"
+          "value": "7"
         },
         {
           "alias": "ST_W",
@@ -7960,11 +8761,12 @@ const reportDataRaw ={
         "name": "STOCK_SERIALNUMBERS",
         "variables": []
       },
-      "documents": null
+      "documents": null,
+      "multiBodyStockVariables": null
     },
     {
-      "ID": "e85628e9-f94d-4d10-95d9-389442270130.CORE",
-      "part": "e85628e9-f94d-4d10-95d9-389442270130",
+      "ID": "62ee4540-2c99-43c5-bf28-80d81a96cc58.CORE",
+      "part": "62ee4540-2c99-43c5-bf28-80d81a96cc58",
       "material": "Beech 16mm",
       "messages": [],
       "variables": [
@@ -7974,11 +8776,11 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_COST",
-          "value": "0.882756000000001"
+          "value": "0.882756"
         },
         {
           "alias": "ST_CPID",
-          "value": "23"
+          "value": "24"
         },
         {
           "alias": "ST_DESC",
@@ -8021,11 +8823,12 @@ const reportDataRaw ={
         "name": "STOCK_SERIALNUMBERS",
         "variables": []
       },
-      "documents": null
+      "documents": null,
+      "multiBodyStockVariables": null
     },
     {
-      "ID": "5e735bfd-0cab-4555-84d8-cfb332e69c8f.BOTTOM",
-      "part": "5e735bfd-0cab-4555-84d8-cfb332e69c8f",
+      "ID": "f09aac8d-c25b-4912-9c5f-ece0d341472f.BOTTOM",
+      "part": "f09aac8d-c25b-4912-9c5f-ece0d341472f",
       "material": "Beech 1mm",
       "messages": [],
       "variables": [
@@ -8035,7 +8838,7 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_COST",
-          "value": "0.273600000000001"
+          "value": "0.2736"
         },
         {
           "alias": "ST_CPID",
@@ -8075,18 +8878,19 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_W",
-          "value": "600.000000000003"
+          "value": "600"
         }
       ],
       "serialNumbers": {
         "name": "STOCK_SERIALNUMBERS",
         "variables": []
       },
-      "documents": null
+      "documents": null,
+      "multiBodyStockVariables": null
     },
     {
-      "ID": "5e735bfd-0cab-4555-84d8-cfb332e69c8f.CORE",
-      "part": "5e735bfd-0cab-4555-84d8-cfb332e69c8f",
+      "ID": "f09aac8d-c25b-4912-9c5f-ece0d341472f.CORE",
+      "part": "f09aac8d-c25b-4912-9c5f-ece0d341472f",
       "material": "MDF 19mm",
       "messages": [],
       "variables": [
@@ -8096,11 +8900,11 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_COST",
-          "value": "1.91520000000001"
+          "value": "1.9152"
         },
         {
           "alias": "ST_CPID",
-          "value": "12"
+          "value": "18"
         },
         {
           "alias": "ST_DESC",
@@ -8136,18 +8940,19 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_W",
-          "value": "600.000000000003"
+          "value": "600"
         }
       ],
       "serialNumbers": {
         "name": "STOCK_SERIALNUMBERS",
         "variables": []
       },
-      "documents": null
+      "documents": null,
+      "multiBodyStockVariables": null
     },
     {
-      "ID": "134a9f10-6dd6-4cce-b445-4c99260daecd.TOP",
-      "part": "134a9f10-6dd6-4cce-b445-4c99260daecd",
+      "ID": "34890a23-4986-4933-91a8-a2b2b9b8a618.TOP",
+      "part": "34890a23-4986-4933-91a8-a2b2b9b8a618",
       "material": "Beech 1mm",
       "messages": [],
       "variables": [
@@ -8157,7 +8962,7 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_COST",
-          "value": "0.0953268000000007"
+          "value": "0.0953268"
         },
         {
           "alias": "ST_CPID",
@@ -8197,18 +9002,19 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_W",
-          "value": "555.000000000004"
+          "value": "555"
         }
       ],
       "serialNumbers": {
         "name": "STOCK_SERIALNUMBERS",
         "variables": []
       },
-      "documents": null
+      "documents": null,
+      "multiBodyStockVariables": null
     },
     {
-      "ID": "134a9f10-6dd6-4cce-b445-4c99260daecd.BOTTOM",
-      "part": "134a9f10-6dd6-4cce-b445-4c99260daecd",
+      "ID": "34890a23-4986-4933-91a8-a2b2b9b8a618.BOTTOM",
+      "part": "34890a23-4986-4933-91a8-a2b2b9b8a618",
       "material": "Beech 1mm",
       "messages": [],
       "variables": [
@@ -8218,7 +9024,7 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_COST",
-          "value": "0.0953268000000007"
+          "value": "0.0953268"
         },
         {
           "alias": "ST_CPID",
@@ -8258,18 +9064,19 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_W",
-          "value": "555.000000000004"
+          "value": "555"
         }
       ],
       "serialNumbers": {
         "name": "STOCK_SERIALNUMBERS",
         "variables": []
       },
-      "documents": null
+      "documents": null,
+      "multiBodyStockVariables": null
     },
     {
-      "ID": "134a9f10-6dd6-4cce-b445-4c99260daecd.CORE",
-      "part": "134a9f10-6dd6-4cce-b445-4c99260daecd",
+      "ID": "34890a23-4986-4933-91a8-a2b2b9b8a618.CORE",
+      "part": "34890a23-4986-4933-91a8-a2b2b9b8a618",
       "material": "MDF 16mm",
       "messages": [],
       "variables": [
@@ -8279,11 +9086,11 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_COST",
-          "value": "0.561926399999997"
+          "value": "0.5619264"
         },
         {
           "alias": "ST_CPID",
-          "value": "-1"
+          "value": "20"
         },
         {
           "alias": "ST_DESC",
@@ -8315,264 +9122,23 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_T",
-          "value": "15.9999999999998"
+          "value": "16"
         },
         {
           "alias": "ST_W",
-          "value": "555.000000000004"
+          "value": "555"
         }
       ],
       "serialNumbers": {
         "name": "STOCK_SERIALNUMBERS",
         "variables": []
       },
-      "documents": null
+      "documents": null,
+      "multiBodyStockVariables": null
     },
     {
-      "ID": "172aa9e7-641e-44f7-8346-34e39ecef013.Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[8]",
-      "part": "172aa9e7-641e-44f7-8346-34e39ecef013",
-      "material": "Steel",
-      "messages": [],
-      "variables": [
-        {
-          "alias": "MBS_Angle1",
-          "value": "45°"
-        },
-        {
-          "alias": "MBS_Angle2",
-          "value": "45°"
-        },
-        {
-          "alias": "MBS_BB_Length",
-          "value": "0"
-        },
-        {
-          "alias": "MBS_BB_Thickness",
-          "value": "0"
-        },
-        {
-          "alias": "MBS_BB_Volume",
-          "value": "0"
-        },
-        {
-          "alias": "MBS_BB_Width",
-          "value": "0"
-        },
-        {
-          "alias": "MBS_Cutlist",
-          "value": "AL TUBE 3.25 x 1.75 RECT x 0.08 WALL<1>"
-        },
-        {
-          "alias": "MBS_Description",
-          "value": "AL TUBE 3.25 x 1.75 RECT x 0.08 WALL"
-        },
-        {
-          "alias": "MBS_Length",
-          "value": "600"
-        },
-        {
-          "alias": "MBS_Material",
-          "value": "Steel"
-        },
-        {
-          "alias": "MBS_Quantity",
-          "value": "4"
-        },
-        {
-          "alias": "MBS_TotalLength",
-          "value": "6200"
-        },
-        {
-          "alias": "ST_ANGLEINPANEL",
-          "value": "0"
-        },
-        {
-          "alias": "ST_COST",
-          "value": "0.412750000000002"
-        },
-        {
-          "alias": "ST_CPID",
-          "value": "-1"
-        },
-        {
-          "alias": "ST_DESC",
-          "value": ""
-        },
-        {
-          "alias": "ST_DFIL",
-          "value": "0"
-        },
-        {
-          "alias": "ST_EBCOUNT",
-          "value": "0"
-        },
-        {
-          "alias": "ST_GRAINISVERTICAL",
-          "value": "False"
-        },
-        {
-          "alias": "ST_ISCURVED",
-          "value": "False"
-        },
-        {
-          "alias": "ST_L",
-          "value": "82.5500000000004"
-        },
-        {
-          "alias": "ST_N",
-          "value": "Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[8]"
-        },
-        {
-          "alias": "ST_T",
-          "value": "44.4500000000004"
-        },
-        {
-          "alias": "ST_W",
-          "value": "600.000000000001"
-        }
-      ],
-      "serialNumbers": {
-        "name": "STOCK_SERIALNUMBERS",
-        "variables": []
-      },
-      "documents": [
-        {
-          "documentName": "IMG_MULTIBODY_PANEL",
-          "type": "IMG_MULTIBODY_PANEL",
-          "docType": "IMAGE",
-          "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/multibody-panels/multibody panel-Metal Frame_Table_SwoodDesign_1_Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[8].jpg",
-          "hidden": true,
-          "storageType": 0,
-          "exists": true,
-          "objType": "STOCK"
-        }
-      ]
-    },
-    {
-      "ID": "172aa9e7-641e-44f7-8346-34e39ecef013.Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[1]",
-      "part": "172aa9e7-641e-44f7-8346-34e39ecef013",
-      "material": "Steel",
-      "messages": [],
-      "variables": [
-        {
-          "alias": "MBS_Angle1",
-          "value": "45°"
-        },
-        {
-          "alias": "MBS_Angle2",
-          "value": "45°"
-        },
-        {
-          "alias": "MBS_BB_Length",
-          "value": "0"
-        },
-        {
-          "alias": "MBS_BB_Thickness",
-          "value": "0"
-        },
-        {
-          "alias": "MBS_BB_Volume",
-          "value": "0"
-        },
-        {
-          "alias": "MBS_BB_Width",
-          "value": "0"
-        },
-        {
-          "alias": "MBS_Cutlist",
-          "value": "AL TUBE 3.25 x 1.75 RECT x 0.08 WALL<1>"
-        },
-        {
-          "alias": "MBS_Description",
-          "value": "AL TUBE 3.25 x 1.75 RECT x 0.08 WALL"
-        },
-        {
-          "alias": "MBS_Length",
-          "value": "600"
-        },
-        {
-          "alias": "MBS_Material",
-          "value": "Steel"
-        },
-        {
-          "alias": "MBS_Quantity",
-          "value": "4"
-        },
-        {
-          "alias": "MBS_TotalLength",
-          "value": "6200"
-        },
-        {
-          "alias": "ST_ANGLEINPANEL",
-          "value": "0"
-        },
-        {
-          "alias": "ST_COST",
-          "value": "0.412750000000002"
-        },
-        {
-          "alias": "ST_CPID",
-          "value": "-1"
-        },
-        {
-          "alias": "ST_DESC",
-          "value": ""
-        },
-        {
-          "alias": "ST_DFIL",
-          "value": "0"
-        },
-        {
-          "alias": "ST_EBCOUNT",
-          "value": "0"
-        },
-        {
-          "alias": "ST_GRAINISVERTICAL",
-          "value": "False"
-        },
-        {
-          "alias": "ST_ISCURVED",
-          "value": "False"
-        },
-        {
-          "alias": "ST_L",
-          "value": "82.5500000000004"
-        },
-        {
-          "alias": "ST_N",
-          "value": "Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[1]"
-        },
-        {
-          "alias": "ST_T",
-          "value": "44.4500000000002"
-        },
-        {
-          "alias": "ST_W",
-          "value": "600"
-        }
-      ],
-      "serialNumbers": {
-        "name": "STOCK_SERIALNUMBERS",
-        "variables": []
-      },
-      "documents": [
-        {
-          "documentName": "IMG_MULTIBODY_PANEL",
-          "type": "IMG_MULTIBODY_PANEL",
-          "docType": "IMAGE",
-          "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/multibody-panels/multibody panel-Metal Frame_Table_SwoodDesign_1_Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[1].jpg",
-          "hidden": true,
-          "storageType": 0,
-          "exists": true,
-          "objType": "STOCK"
-        }
-      ]
-    },
-    {
-      "ID": "172aa9e7-641e-44f7-8346-34e39ecef013.Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[4]",
-      "part": "172aa9e7-641e-44f7-8346-34e39ecef013",
+      "ID": "b1ed86ef-834e-4578-b9b3-61dd50c072ff.Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[3]",
+      "part": "b1ed86ef-834e-4578-b9b3-61dd50c072ff",
       "material": "Steel",
       "messages": [],
       "variables": [
@@ -8630,7 +9196,7 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_COST",
-          "value": "0.412750000000002"
+          "value": "0.41275"
         },
         {
           "alias": "ST_CPID",
@@ -8658,19 +9224,19 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_L",
-          "value": "82.5500000000004"
+          "value": "82.55"
         },
         {
           "alias": "ST_N",
-          "value": "Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[4]"
+          "value": "Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[3]"
         },
         {
           "alias": "ST_T",
-          "value": "950.000000000002"
+          "value": "950"
         },
         {
           "alias": "ST_W",
-          "value": "44.4500000000007"
+          "value": "44.45"
         }
       ],
       "serialNumbers": {
@@ -8683,17 +9249,651 @@ const reportDataRaw ={
           "type": "IMG_MULTIBODY_PANEL",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/multibody-panels/multibody panel-Metal Frame_Table_SwoodDesign_1_Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[4].jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/multibody-panels/multibody panel-Metal Frame_Table_SwoodDesign_1_Default_Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[3].jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
           "objType": "STOCK"
         }
+      ],
+      "multiBodyStockVariables": [
+        {
+          "alias": "MBST_BODYL",
+          "value": "82.55"
+        },
+        {
+          "alias": "MBST_BODYT",
+          "value": "950"
+        },
+        {
+          "alias": "MBST_BODYW",
+          "value": "44.45"
+        },
+        {
+          "alias": "MBST_EXT_B",
+          "value": "0"
+        },
+        {
+          "alias": "MBST_EXT_F",
+          "value": "0"
+        },
+        {
+          "alias": "MBST_EXT_L",
+          "value": "0"
+        },
+        {
+          "alias": "MBST_EXT_R",
+          "value": "0"
+        }
       ]
     },
     {
-      "ID": "172aa9e7-641e-44f7-8346-34e39ecef013.Trim/Extend1[2]",
-      "part": "172aa9e7-641e-44f7-8346-34e39ecef013",
+      "ID": "b1ed86ef-834e-4578-b9b3-61dd50c072ff.Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[6]",
+      "part": "b1ed86ef-834e-4578-b9b3-61dd50c072ff",
+      "material": "Steel",
+      "messages": [],
+      "variables": [
+        {
+          "alias": "MBS_Angle1",
+          "value": "45°"
+        },
+        {
+          "alias": "MBS_Angle2",
+          "value": "45°"
+        },
+        {
+          "alias": "MBS_BB_Length",
+          "value": "0"
+        },
+        {
+          "alias": "MBS_BB_Thickness",
+          "value": "0"
+        },
+        {
+          "alias": "MBS_BB_Volume",
+          "value": "0"
+        },
+        {
+          "alias": "MBS_BB_Width",
+          "value": "0"
+        },
+        {
+          "alias": "MBS_Cutlist",
+          "value": "AL TUBE 3.25 x 1.75 RECT x 0.08 WALL<2>"
+        },
+        {
+          "alias": "MBS_Description",
+          "value": "AL TUBE 3.25 x 1.75 RECT x 0.08 WALL"
+        },
+        {
+          "alias": "MBS_Length",
+          "value": "950"
+        },
+        {
+          "alias": "MBS_Material",
+          "value": "Steel"
+        },
+        {
+          "alias": "MBS_Quantity",
+          "value": "4"
+        },
+        {
+          "alias": "MBS_TotalLength",
+          "value": "6200"
+        },
+        {
+          "alias": "ST_ANGLEINPANEL",
+          "value": "0"
+        },
+        {
+          "alias": "ST_COST",
+          "value": "0.41275"
+        },
+        {
+          "alias": "ST_CPID",
+          "value": "-1"
+        },
+        {
+          "alias": "ST_DESC",
+          "value": ""
+        },
+        {
+          "alias": "ST_DFIL",
+          "value": "0"
+        },
+        {
+          "alias": "ST_EBCOUNT",
+          "value": "0"
+        },
+        {
+          "alias": "ST_GRAINISVERTICAL",
+          "value": "False"
+        },
+        {
+          "alias": "ST_ISCURVED",
+          "value": "False"
+        },
+        {
+          "alias": "ST_L",
+          "value": "82.55"
+        },
+        {
+          "alias": "ST_N",
+          "value": "Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[6]"
+        },
+        {
+          "alias": "ST_T",
+          "value": "950"
+        },
+        {
+          "alias": "ST_W",
+          "value": "44.45"
+        }
+      ],
+      "serialNumbers": {
+        "name": "STOCK_SERIALNUMBERS",
+        "variables": []
+      },
+      "documents": [
+        {
+          "documentName": "IMG_MULTIBODY_PANEL",
+          "type": "IMG_MULTIBODY_PANEL",
+          "docType": "IMAGE",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/multibody-panels/multibody panel-Metal Frame_Table_SwoodDesign_1_Default_Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[6].jpg",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "STOCK"
+        }
+      ],
+      "multiBodyStockVariables": [
+        {
+          "alias": "MBST_BODYL",
+          "value": "82.55"
+        },
+        {
+          "alias": "MBST_BODYT",
+          "value": "950"
+        },
+        {
+          "alias": "MBST_BODYW",
+          "value": "44.45"
+        },
+        {
+          "alias": "MBST_EXT_B",
+          "value": "0"
+        },
+        {
+          "alias": "MBST_EXT_F",
+          "value": "0"
+        },
+        {
+          "alias": "MBST_EXT_L",
+          "value": "0"
+        },
+        {
+          "alias": "MBST_EXT_R",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "ID": "b1ed86ef-834e-4578-b9b3-61dd50c072ff.Al tube rectangular AL TUBE 2.25 X 1.5 RECT X 0.104 WALL(1)[3]",
+      "part": "b1ed86ef-834e-4578-b9b3-61dd50c072ff",
+      "material": "Steel",
+      "messages": [],
+      "variables": [
+        {
+          "alias": "MBS_Angle1",
+          "value": "0°"
+        },
+        {
+          "alias": "MBS_Angle2",
+          "value": "0°"
+        },
+        {
+          "alias": "MBS_BB_Length",
+          "value": "0"
+        },
+        {
+          "alias": "MBS_BB_Thickness",
+          "value": "0"
+        },
+        {
+          "alias": "MBS_BB_Volume",
+          "value": "0"
+        },
+        {
+          "alias": "MBS_BB_Width",
+          "value": "0"
+        },
+        {
+          "alias": "MBS_Cutlist",
+          "value": "AL TUBE 2.25 x 1.5 RECT x 0.104 WALL<2>"
+        },
+        {
+          "alias": "MBS_Description",
+          "value": "AL TUBE 2.25 x 1.5 RECT x 0.104 WALL"
+        },
+        {
+          "alias": "MBS_Length",
+          "value": "523.8"
+        },
+        {
+          "alias": "MBS_Material",
+          "value": "Steel"
+        },
+        {
+          "alias": "MBS_Quantity",
+          "value": "1"
+        },
+        {
+          "alias": "MBS_TotalLength",
+          "value": "2993.6"
+        },
+        {
+          "alias": "ST_ANGLEINPANEL",
+          "value": "0"
+        },
+        {
+          "alias": "ST_COST",
+          "value": "0.1905"
+        },
+        {
+          "alias": "ST_CPID",
+          "value": "-1"
+        },
+        {
+          "alias": "ST_DESC",
+          "value": ""
+        },
+        {
+          "alias": "ST_DFIL",
+          "value": "0"
+        },
+        {
+          "alias": "ST_EBCOUNT",
+          "value": "0"
+        },
+        {
+          "alias": "ST_GRAINISVERTICAL",
+          "value": "False"
+        },
+        {
+          "alias": "ST_ISCURVED",
+          "value": "False"
+        },
+        {
+          "alias": "ST_L",
+          "value": "38.1"
+        },
+        {
+          "alias": "ST_N",
+          "value": "Al tube rectangular AL TUBE 2.25 X 1.5 RECT X 0.104 WALL(1)[3]"
+        },
+        {
+          "alias": "ST_T",
+          "value": "57.15"
+        },
+        {
+          "alias": "ST_W",
+          "value": "523.8"
+        }
+      ],
+      "serialNumbers": {
+        "name": "STOCK_SERIALNUMBERS",
+        "variables": []
+      },
+      "documents": [
+        {
+          "documentName": "IMG_MULTIBODY_PANEL",
+          "type": "IMG_MULTIBODY_PANEL",
+          "docType": "IMAGE",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/multibody-panels/multibody panel-Metal Frame_Table_SwoodDesign_1_Default_Al tube rectangular AL TUBE 2.25 X 1.5 RECT X 0.104 WALL(1)[3].jpg",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "STOCK"
+        }
+      ],
+      "multiBodyStockVariables": [
+        {
+          "alias": "MBST_BODYL",
+          "value": "38.1"
+        },
+        {
+          "alias": "MBST_BODYT",
+          "value": "57.15"
+        },
+        {
+          "alias": "MBST_BODYW",
+          "value": "523.8"
+        },
+        {
+          "alias": "MBST_EXT_B",
+          "value": "0"
+        },
+        {
+          "alias": "MBST_EXT_F",
+          "value": "0"
+        },
+        {
+          "alias": "MBST_EXT_L",
+          "value": "0"
+        },
+        {
+          "alias": "MBST_EXT_R",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "ID": "b1ed86ef-834e-4578-b9b3-61dd50c072ff.Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[7]",
+      "part": "b1ed86ef-834e-4578-b9b3-61dd50c072ff",
+      "material": "Steel",
+      "messages": [],
+      "variables": [
+        {
+          "alias": "MBS_Angle1",
+          "value": "45°"
+        },
+        {
+          "alias": "MBS_Angle2",
+          "value": "45°"
+        },
+        {
+          "alias": "MBS_BB_Length",
+          "value": "0"
+        },
+        {
+          "alias": "MBS_BB_Thickness",
+          "value": "0"
+        },
+        {
+          "alias": "MBS_BB_Volume",
+          "value": "0"
+        },
+        {
+          "alias": "MBS_BB_Width",
+          "value": "0"
+        },
+        {
+          "alias": "MBS_Cutlist",
+          "value": "AL TUBE 3.25 x 1.75 RECT x 0.08 WALL<1>"
+        },
+        {
+          "alias": "MBS_Description",
+          "value": "AL TUBE 3.25 x 1.75 RECT x 0.08 WALL"
+        },
+        {
+          "alias": "MBS_Length",
+          "value": "600"
+        },
+        {
+          "alias": "MBS_Material",
+          "value": "Steel"
+        },
+        {
+          "alias": "MBS_Quantity",
+          "value": "4"
+        },
+        {
+          "alias": "MBS_TotalLength",
+          "value": "6200"
+        },
+        {
+          "alias": "ST_ANGLEINPANEL",
+          "value": "0"
+        },
+        {
+          "alias": "ST_COST",
+          "value": "0.41275"
+        },
+        {
+          "alias": "ST_CPID",
+          "value": "-1"
+        },
+        {
+          "alias": "ST_DESC",
+          "value": ""
+        },
+        {
+          "alias": "ST_DFIL",
+          "value": "0"
+        },
+        {
+          "alias": "ST_EBCOUNT",
+          "value": "0"
+        },
+        {
+          "alias": "ST_GRAINISVERTICAL",
+          "value": "False"
+        },
+        {
+          "alias": "ST_ISCURVED",
+          "value": "False"
+        },
+        {
+          "alias": "ST_L",
+          "value": "82.55"
+        },
+        {
+          "alias": "ST_N",
+          "value": "Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[7]"
+        },
+        {
+          "alias": "ST_T",
+          "value": "44.45"
+        },
+        {
+          "alias": "ST_W",
+          "value": "600"
+        }
+      ],
+      "serialNumbers": {
+        "name": "STOCK_SERIALNUMBERS",
+        "variables": []
+      },
+      "documents": [
+        {
+          "documentName": "IMG_MULTIBODY_PANEL",
+          "type": "IMG_MULTIBODY_PANEL",
+          "docType": "IMAGE",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/multibody-panels/multibody panel-Metal Frame_Table_SwoodDesign_1_Default_Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[7].jpg",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "STOCK"
+        }
+      ],
+      "multiBodyStockVariables": [
+        {
+          "alias": "MBST_BODYL",
+          "value": "82.55"
+        },
+        {
+          "alias": "MBST_BODYT",
+          "value": "44.45"
+        },
+        {
+          "alias": "MBST_BODYW",
+          "value": "600"
+        },
+        {
+          "alias": "MBST_EXT_B",
+          "value": "0"
+        },
+        {
+          "alias": "MBST_EXT_F",
+          "value": "0"
+        },
+        {
+          "alias": "MBST_EXT_L",
+          "value": "0"
+        },
+        {
+          "alias": "MBST_EXT_R",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "ID": "b1ed86ef-834e-4578-b9b3-61dd50c072ff.Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[8]",
+      "part": "b1ed86ef-834e-4578-b9b3-61dd50c072ff",
+      "material": "Steel",
+      "messages": [],
+      "variables": [
+        {
+          "alias": "MBS_Angle1",
+          "value": "45°"
+        },
+        {
+          "alias": "MBS_Angle2",
+          "value": "45°"
+        },
+        {
+          "alias": "MBS_BB_Length",
+          "value": "0"
+        },
+        {
+          "alias": "MBS_BB_Thickness",
+          "value": "0"
+        },
+        {
+          "alias": "MBS_BB_Volume",
+          "value": "0"
+        },
+        {
+          "alias": "MBS_BB_Width",
+          "value": "0"
+        },
+        {
+          "alias": "MBS_Cutlist",
+          "value": "AL TUBE 3.25 x 1.75 RECT x 0.08 WALL<1>"
+        },
+        {
+          "alias": "MBS_Description",
+          "value": "AL TUBE 3.25 x 1.75 RECT x 0.08 WALL"
+        },
+        {
+          "alias": "MBS_Length",
+          "value": "600"
+        },
+        {
+          "alias": "MBS_Material",
+          "value": "Steel"
+        },
+        {
+          "alias": "MBS_Quantity",
+          "value": "4"
+        },
+        {
+          "alias": "MBS_TotalLength",
+          "value": "6200"
+        },
+        {
+          "alias": "ST_ANGLEINPANEL",
+          "value": "0"
+        },
+        {
+          "alias": "ST_COST",
+          "value": "0.41275"
+        },
+        {
+          "alias": "ST_CPID",
+          "value": "-1"
+        },
+        {
+          "alias": "ST_DESC",
+          "value": ""
+        },
+        {
+          "alias": "ST_DFIL",
+          "value": "0"
+        },
+        {
+          "alias": "ST_EBCOUNT",
+          "value": "0"
+        },
+        {
+          "alias": "ST_GRAINISVERTICAL",
+          "value": "False"
+        },
+        {
+          "alias": "ST_ISCURVED",
+          "value": "False"
+        },
+        {
+          "alias": "ST_L",
+          "value": "82.55"
+        },
+        {
+          "alias": "ST_N",
+          "value": "Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[8]"
+        },
+        {
+          "alias": "ST_T",
+          "value": "44.45"
+        },
+        {
+          "alias": "ST_W",
+          "value": "600"
+        }
+      ],
+      "serialNumbers": {
+        "name": "STOCK_SERIALNUMBERS",
+        "variables": []
+      },
+      "documents": [
+        {
+          "documentName": "IMG_MULTIBODY_PANEL",
+          "type": "IMG_MULTIBODY_PANEL",
+          "docType": "IMAGE",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/multibody-panels/multibody panel-Metal Frame_Table_SwoodDesign_1_Default_Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[8].jpg",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "STOCK"
+        }
+      ],
+      "multiBodyStockVariables": [
+        {
+          "alias": "MBST_BODYL",
+          "value": "82.55"
+        },
+        {
+          "alias": "MBST_BODYT",
+          "value": "44.45"
+        },
+        {
+          "alias": "MBST_BODYW",
+          "value": "600"
+        },
+        {
+          "alias": "MBST_EXT_B",
+          "value": "0"
+        },
+        {
+          "alias": "MBST_EXT_F",
+          "value": "0"
+        },
+        {
+          "alias": "MBST_EXT_L",
+          "value": "0"
+        },
+        {
+          "alias": "MBST_EXT_R",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "ID": "b1ed86ef-834e-4578-b9b3-61dd50c072ff.Trim/Extend1[2]",
+      "part": "b1ed86ef-834e-4578-b9b3-61dd50c072ff",
       "material": "Steel",
       "messages": [],
       "variables": [
@@ -8791,7 +9991,7 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_W",
-          "value": "38.1000000000007"
+          "value": "38.1"
         }
       ],
       "serialNumbers": {
@@ -8804,17 +10004,47 @@ const reportDataRaw ={
           "type": "IMG_MULTIBODY_PANEL",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/multibody-panels/multibody panel-Metal Frame_Table_SwoodDesign_1_Trim/Extend1[2].jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/multibody-panels/multibody panel-Metal Frame_Table_SwoodDesign_1_Default_Trim/Extend1[2].jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
           "objType": "STOCK"
         }
+      ],
+      "multiBodyStockVariables": [
+        {
+          "alias": "MBST_BODYL",
+          "value": "1234.9"
+        },
+        {
+          "alias": "MBST_BODYT",
+          "value": "57.15"
+        },
+        {
+          "alias": "MBST_BODYW",
+          "value": "38.1"
+        },
+        {
+          "alias": "MBST_EXT_B",
+          "value": "0"
+        },
+        {
+          "alias": "MBST_EXT_F",
+          "value": "0"
+        },
+        {
+          "alias": "MBST_EXT_L",
+          "value": "0"
+        },
+        {
+          "alias": "MBST_EXT_R",
+          "value": "0"
+        }
       ]
     },
     {
-      "ID": "172aa9e7-641e-44f7-8346-34e39ecef013.Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[6]",
-      "part": "172aa9e7-641e-44f7-8346-34e39ecef013",
+      "ID": "b1ed86ef-834e-4578-b9b3-61dd50c072ff.Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[1]",
+      "part": "b1ed86ef-834e-4578-b9b3-61dd50c072ff",
       "material": "Steel",
       "messages": [],
       "variables": [
@@ -8844,7 +10074,7 @@ const reportDataRaw ={
         },
         {
           "alias": "MBS_Cutlist",
-          "value": "AL TUBE 3.25 x 1.75 RECT x 0.08 WALL<2>"
+          "value": "AL TUBE 3.25 x 1.75 RECT x 0.08 WALL<1>"
         },
         {
           "alias": "MBS_Description",
@@ -8852,7 +10082,7 @@ const reportDataRaw ={
         },
         {
           "alias": "MBS_Length",
-          "value": "950"
+          "value": "600"
         },
         {
           "alias": "MBS_Material",
@@ -8900,132 +10130,11 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_L",
-          "value": "82.5499999999999"
+          "value": "82.55"
         },
         {
           "alias": "ST_N",
-          "value": "Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[6]"
-        },
-        {
-          "alias": "ST_T",
-          "value": "950"
-        },
-        {
-          "alias": "ST_W",
-          "value": "44.4500000000002"
-        }
-      ],
-      "serialNumbers": {
-        "name": "STOCK_SERIALNUMBERS",
-        "variables": []
-      },
-      "documents": [
-        {
-          "documentName": "IMG_MULTIBODY_PANEL",
-          "type": "IMG_MULTIBODY_PANEL",
-          "docType": "IMAGE",
-          "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/multibody-panels/multibody panel-Metal Frame_Table_SwoodDesign_1_Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[6].jpg",
-          "hidden": true,
-          "storageType": 0,
-          "exists": true,
-          "objType": "STOCK"
-        }
-      ]
-    },
-    {
-      "ID": "172aa9e7-641e-44f7-8346-34e39ecef013.Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[7]",
-      "part": "172aa9e7-641e-44f7-8346-34e39ecef013",
-      "material": "Steel",
-      "messages": [],
-      "variables": [
-        {
-          "alias": "MBS_Angle1",
-          "value": "45°"
-        },
-        {
-          "alias": "MBS_Angle2",
-          "value": "45°"
-        },
-        {
-          "alias": "MBS_BB_Length",
-          "value": "0"
-        },
-        {
-          "alias": "MBS_BB_Thickness",
-          "value": "0"
-        },
-        {
-          "alias": "MBS_BB_Volume",
-          "value": "0"
-        },
-        {
-          "alias": "MBS_BB_Width",
-          "value": "0"
-        },
-        {
-          "alias": "MBS_Cutlist",
-          "value": "AL TUBE 3.25 x 1.75 RECT x 0.08 WALL<1>"
-        },
-        {
-          "alias": "MBS_Description",
-          "value": "AL TUBE 3.25 x 1.75 RECT x 0.08 WALL"
-        },
-        {
-          "alias": "MBS_Length",
-          "value": "600"
-        },
-        {
-          "alias": "MBS_Material",
-          "value": "Steel"
-        },
-        {
-          "alias": "MBS_Quantity",
-          "value": "4"
-        },
-        {
-          "alias": "MBS_TotalLength",
-          "value": "6200"
-        },
-        {
-          "alias": "ST_ANGLEINPANEL",
-          "value": "0"
-        },
-        {
-          "alias": "ST_COST",
-          "value": "0.412750000000002"
-        },
-        {
-          "alias": "ST_CPID",
-          "value": "-1"
-        },
-        {
-          "alias": "ST_DESC",
-          "value": ""
-        },
-        {
-          "alias": "ST_DFIL",
-          "value": "0"
-        },
-        {
-          "alias": "ST_EBCOUNT",
-          "value": "0"
-        },
-        {
-          "alias": "ST_GRAINISVERTICAL",
-          "value": "False"
-        },
-        {
-          "alias": "ST_ISCURVED",
-          "value": "False"
-        },
-        {
-          "alias": "ST_L",
-          "value": "82.5500000000004"
-        },
-        {
-          "alias": "ST_N",
-          "value": "Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[7]"
+          "value": "Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[1]"
         },
         {
           "alias": "ST_T",
@@ -9033,7 +10142,7 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_W",
-          "value": "600.000000000001"
+          "value": "600"
         }
       ],
       "serialNumbers": {
@@ -9046,259 +10155,47 @@ const reportDataRaw ={
           "type": "IMG_MULTIBODY_PANEL",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/multibody-panels/multibody panel-Metal Frame_Table_SwoodDesign_1_Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[7].jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/multibody-panels/multibody panel-Metal Frame_Table_SwoodDesign_1_Default_Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[1].jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
           "objType": "STOCK"
         }
-      ]
-    },
-    {
-      "ID": "172aa9e7-641e-44f7-8346-34e39ecef013.Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[2]",
-      "part": "172aa9e7-641e-44f7-8346-34e39ecef013",
-      "material": "Steel",
-      "messages": [],
-      "variables": [
+      ],
+      "multiBodyStockVariables": [
         {
-          "alias": "MBS_Angle1",
-          "value": "45°"
+          "alias": "MBST_BODYL",
+          "value": "82.55"
         },
         {
-          "alias": "MBS_Angle2",
-          "value": "45°"
+          "alias": "MBST_BODYT",
+          "value": "44.45"
         },
         {
-          "alias": "MBS_BB_Length",
-          "value": "0"
-        },
-        {
-          "alias": "MBS_BB_Thickness",
-          "value": "0"
-        },
-        {
-          "alias": "MBS_BB_Volume",
-          "value": "0"
-        },
-        {
-          "alias": "MBS_BB_Width",
-          "value": "0"
-        },
-        {
-          "alias": "MBS_Cutlist",
-          "value": "AL TUBE 3.25 x 1.75 RECT x 0.08 WALL<1>"
-        },
-        {
-          "alias": "MBS_Description",
-          "value": "AL TUBE 3.25 x 1.75 RECT x 0.08 WALL"
-        },
-        {
-          "alias": "MBS_Length",
+          "alias": "MBST_BODYW",
           "value": "600"
         },
         {
-          "alias": "MBS_Material",
-          "value": "Steel"
-        },
-        {
-          "alias": "MBS_Quantity",
-          "value": "4"
-        },
-        {
-          "alias": "MBS_TotalLength",
-          "value": "6200"
-        },
-        {
-          "alias": "ST_ANGLEINPANEL",
+          "alias": "MBST_EXT_B",
           "value": "0"
         },
         {
-          "alias": "ST_COST",
-          "value": "0.412750000000002"
-        },
-        {
-          "alias": "ST_CPID",
-          "value": "-1"
-        },
-        {
-          "alias": "ST_DESC",
-          "value": ""
-        },
-        {
-          "alias": "ST_DFIL",
+          "alias": "MBST_EXT_F",
           "value": "0"
         },
         {
-          "alias": "ST_EBCOUNT",
+          "alias": "MBST_EXT_L",
           "value": "0"
         },
         {
-          "alias": "ST_GRAINISVERTICAL",
-          "value": "False"
-        },
-        {
-          "alias": "ST_ISCURVED",
-          "value": "False"
-        },
-        {
-          "alias": "ST_L",
-          "value": "82.5500000000004"
-        },
-        {
-          "alias": "ST_N",
-          "value": "Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[2]"
-        },
-        {
-          "alias": "ST_T",
-          "value": "44.4500000000007"
-        },
-        {
-          "alias": "ST_W",
-          "value": "600.000000000001"
-        }
-      ],
-      "serialNumbers": {
-        "name": "STOCK_SERIALNUMBERS",
-        "variables": []
-      },
-      "documents": [
-        {
-          "documentName": "IMG_MULTIBODY_PANEL",
-          "type": "IMG_MULTIBODY_PANEL",
-          "docType": "IMAGE",
-          "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/multibody-panels/multibody panel-Metal Frame_Table_SwoodDesign_1_Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[2].jpg",
-          "hidden": true,
-          "storageType": 0,
-          "exists": true,
-          "objType": "STOCK"
+          "alias": "MBST_EXT_R",
+          "value": "0"
         }
       ]
     },
     {
-      "ID": "172aa9e7-641e-44f7-8346-34e39ecef013.Al tube rectangular AL TUBE 2.25 X 1.5 RECT X 0.104 WALL(1)[3]",
-      "part": "172aa9e7-641e-44f7-8346-34e39ecef013",
-      "material": "Steel",
-      "messages": [],
-      "variables": [
-        {
-          "alias": "MBS_Angle1",
-          "value": "0°"
-        },
-        {
-          "alias": "MBS_Angle2",
-          "value": "0°"
-        },
-        {
-          "alias": "MBS_BB_Length",
-          "value": "0"
-        },
-        {
-          "alias": "MBS_BB_Thickness",
-          "value": "0"
-        },
-        {
-          "alias": "MBS_BB_Volume",
-          "value": "0"
-        },
-        {
-          "alias": "MBS_BB_Width",
-          "value": "0"
-        },
-        {
-          "alias": "MBS_Cutlist",
-          "value": "AL TUBE 2.25 x 1.5 RECT x 0.104 WALL<2>"
-        },
-        {
-          "alias": "MBS_Description",
-          "value": "AL TUBE 2.25 x 1.5 RECT x 0.104 WALL"
-        },
-        {
-          "alias": "MBS_Length",
-          "value": "523.8"
-        },
-        {
-          "alias": "MBS_Material",
-          "value": "Steel"
-        },
-        {
-          "alias": "MBS_Quantity",
-          "value": "1"
-        },
-        {
-          "alias": "MBS_TotalLength",
-          "value": "2993.6"
-        },
-        {
-          "alias": "ST_ANGLEINPANEL",
-          "value": "0"
-        },
-        {
-          "alias": "ST_COST",
-          "value": "0.190500000000005"
-        },
-        {
-          "alias": "ST_CPID",
-          "value": "-1"
-        },
-        {
-          "alias": "ST_DESC",
-          "value": ""
-        },
-        {
-          "alias": "ST_DFIL",
-          "value": "0"
-        },
-        {
-          "alias": "ST_EBCOUNT",
-          "value": "0"
-        },
-        {
-          "alias": "ST_GRAINISVERTICAL",
-          "value": "False"
-        },
-        {
-          "alias": "ST_ISCURVED",
-          "value": "False"
-        },
-        {
-          "alias": "ST_L",
-          "value": "38.1000000000009"
-        },
-        {
-          "alias": "ST_N",
-          "value": "Al tube rectangular AL TUBE 2.25 X 1.5 RECT X 0.104 WALL(1)[3]"
-        },
-        {
-          "alias": "ST_T",
-          "value": "57.15"
-        },
-        {
-          "alias": "ST_W",
-          "value": "523.8"
-        }
-      ],
-      "serialNumbers": {
-        "name": "STOCK_SERIALNUMBERS",
-        "variables": []
-      },
-      "documents": [
-        {
-          "documentName": "IMG_MULTIBODY_PANEL",
-          "type": "IMG_MULTIBODY_PANEL",
-          "docType": "IMAGE",
-          "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/multibody-panels/multibody panel-Metal Frame_Table_SwoodDesign_1_Al tube rectangular AL TUBE 2.25 X 1.5 RECT X 0.104 WALL(1)[3].jpg",
-          "hidden": true,
-          "storageType": 0,
-          "exists": true,
-          "objType": "STOCK"
-        }
-      ]
-    },
-    {
-      "ID": "172aa9e7-641e-44f7-8346-34e39ecef013.Trim/Extend1[1]",
-      "part": "172aa9e7-641e-44f7-8346-34e39ecef013",
+      "ID": "b1ed86ef-834e-4578-b9b3-61dd50c072ff.Trim/Extend1[1]",
+      "part": "b1ed86ef-834e-4578-b9b3-61dd50c072ff",
       "material": "Steel",
       "messages": [],
       "variables": [
@@ -9392,11 +10289,11 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_T",
-          "value": "57.1499999999999"
+          "value": "57.15"
         },
         {
           "alias": "ST_W",
-          "value": "38.1000000000002"
+          "value": "38.1"
         }
       ],
       "serialNumbers": {
@@ -9409,138 +10306,47 @@ const reportDataRaw ={
           "type": "IMG_MULTIBODY_PANEL",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/multibody-panels/multibody panel-Metal Frame_Table_SwoodDesign_1_Trim/Extend1[1].jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/multibody-panels/multibody panel-Metal Frame_Table_SwoodDesign_1_Default_Trim/Extend1[1].jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
           "objType": "STOCK"
-        }
-      ]
-    },
-    {
-      "ID": "172aa9e7-641e-44f7-8346-34e39ecef013.Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[5]",
-      "part": "172aa9e7-641e-44f7-8346-34e39ecef013",
-      "material": "Steel",
-      "messages": [],
-      "variables": [
-        {
-          "alias": "MBS_Angle1",
-          "value": "45°"
-        },
-        {
-          "alias": "MBS_Angle2",
-          "value": "45°"
-        },
-        {
-          "alias": "MBS_BB_Length",
-          "value": "0"
-        },
-        {
-          "alias": "MBS_BB_Thickness",
-          "value": "0"
-        },
-        {
-          "alias": "MBS_BB_Volume",
-          "value": "0"
-        },
-        {
-          "alias": "MBS_BB_Width",
-          "value": "0"
-        },
-        {
-          "alias": "MBS_Cutlist",
-          "value": "AL TUBE 3.25 x 1.75 RECT x 0.08 WALL<2>"
-        },
-        {
-          "alias": "MBS_Description",
-          "value": "AL TUBE 3.25 x 1.75 RECT x 0.08 WALL"
-        },
-        {
-          "alias": "MBS_Length",
-          "value": "950"
-        },
-        {
-          "alias": "MBS_Material",
-          "value": "Steel"
-        },
-        {
-          "alias": "MBS_Quantity",
-          "value": "4"
-        },
-        {
-          "alias": "MBS_TotalLength",
-          "value": "6200"
-        },
-        {
-          "alias": "ST_ANGLEINPANEL",
-          "value": "0"
-        },
-        {
-          "alias": "ST_COST",
-          "value": "0.412750000000002"
-        },
-        {
-          "alias": "ST_CPID",
-          "value": "-1"
-        },
-        {
-          "alias": "ST_DESC",
-          "value": ""
-        },
-        {
-          "alias": "ST_DFIL",
-          "value": "0"
-        },
-        {
-          "alias": "ST_EBCOUNT",
-          "value": "0"
-        },
-        {
-          "alias": "ST_GRAINISVERTICAL",
-          "value": "False"
-        },
-        {
-          "alias": "ST_ISCURVED",
-          "value": "False"
-        },
-        {
-          "alias": "ST_L",
-          "value": "82.5500000000004"
-        },
-        {
-          "alias": "ST_N",
-          "value": "Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[5]"
-        },
-        {
-          "alias": "ST_T",
-          "value": "950"
-        },
-        {
-          "alias": "ST_W",
-          "value": "44.45"
         }
       ],
-      "serialNumbers": {
-        "name": "STOCK_SERIALNUMBERS",
-        "variables": []
-      },
-      "documents": [
+      "multiBodyStockVariables": [
         {
-          "documentName": "IMG_MULTIBODY_PANEL",
-          "type": "IMG_MULTIBODY_PANEL",
-          "docType": "IMAGE",
-          "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/multibody-panels/multibody panel-Metal Frame_Table_SwoodDesign_1_Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[5].jpg",
-          "hidden": true,
-          "storageType": 0,
-          "exists": true,
-          "objType": "STOCK"
+          "alias": "MBST_BODYL",
+          "value": "1234.9"
+        },
+        {
+          "alias": "MBST_BODYT",
+          "value": "57.15"
+        },
+        {
+          "alias": "MBST_BODYW",
+          "value": "38.1"
+        },
+        {
+          "alias": "MBST_EXT_B",
+          "value": "0"
+        },
+        {
+          "alias": "MBST_EXT_F",
+          "value": "0"
+        },
+        {
+          "alias": "MBST_EXT_L",
+          "value": "0"
+        },
+        {
+          "alias": "MBST_EXT_R",
+          "value": "0"
         }
       ]
     },
     {
-      "ID": "172aa9e7-641e-44f7-8346-34e39ecef013.Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[3]",
-      "part": "172aa9e7-641e-44f7-8346-34e39ecef013",
+      "ID": "b1ed86ef-834e-4578-b9b3-61dd50c072ff.Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[4]",
+      "part": "b1ed86ef-834e-4578-b9b3-61dd50c072ff",
       "material": "Steel",
       "messages": [],
       "variables": [
@@ -9626,11 +10432,11 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_L",
-          "value": "82.5499999999999"
+          "value": "82.55"
         },
         {
           "alias": "ST_N",
-          "value": "Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[3]"
+          "value": "Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[4]"
         },
         {
           "alias": "ST_T",
@@ -9638,7 +10444,7 @@ const reportDataRaw ={
         },
         {
           "alias": "ST_W",
-          "value": "44.4500000000003"
+          "value": "44.45"
         }
       ],
       "serialNumbers": {
@@ -9651,23 +10457,358 @@ const reportDataRaw ={
           "type": "IMG_MULTIBODY_PANEL",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/multibody-panels/multibody panel-Metal Frame_Table_SwoodDesign_1_Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[3].jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/multibody-panels/multibody panel-Metal Frame_Table_SwoodDesign_1_Default_Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[4].jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
           "objType": "STOCK"
+        }
+      ],
+      "multiBodyStockVariables": [
+        {
+          "alias": "MBST_BODYL",
+          "value": "82.55"
+        },
+        {
+          "alias": "MBST_BODYT",
+          "value": "950"
+        },
+        {
+          "alias": "MBST_BODYW",
+          "value": "44.45"
+        },
+        {
+          "alias": "MBST_EXT_B",
+          "value": "0"
+        },
+        {
+          "alias": "MBST_EXT_F",
+          "value": "0"
+        },
+        {
+          "alias": "MBST_EXT_L",
+          "value": "0"
+        },
+        {
+          "alias": "MBST_EXT_R",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "ID": "b1ed86ef-834e-4578-b9b3-61dd50c072ff.Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[2]",
+      "part": "b1ed86ef-834e-4578-b9b3-61dd50c072ff",
+      "material": "Steel",
+      "messages": [],
+      "variables": [
+        {
+          "alias": "MBS_Angle1",
+          "value": "45°"
+        },
+        {
+          "alias": "MBS_Angle2",
+          "value": "45°"
+        },
+        {
+          "alias": "MBS_BB_Length",
+          "value": "0"
+        },
+        {
+          "alias": "MBS_BB_Thickness",
+          "value": "0"
+        },
+        {
+          "alias": "MBS_BB_Volume",
+          "value": "0"
+        },
+        {
+          "alias": "MBS_BB_Width",
+          "value": "0"
+        },
+        {
+          "alias": "MBS_Cutlist",
+          "value": "AL TUBE 3.25 x 1.75 RECT x 0.08 WALL<1>"
+        },
+        {
+          "alias": "MBS_Description",
+          "value": "AL TUBE 3.25 x 1.75 RECT x 0.08 WALL"
+        },
+        {
+          "alias": "MBS_Length",
+          "value": "600"
+        },
+        {
+          "alias": "MBS_Material",
+          "value": "Steel"
+        },
+        {
+          "alias": "MBS_Quantity",
+          "value": "4"
+        },
+        {
+          "alias": "MBS_TotalLength",
+          "value": "6200"
+        },
+        {
+          "alias": "ST_ANGLEINPANEL",
+          "value": "0"
+        },
+        {
+          "alias": "ST_COST",
+          "value": "0.41275"
+        },
+        {
+          "alias": "ST_CPID",
+          "value": "-1"
+        },
+        {
+          "alias": "ST_DESC",
+          "value": ""
+        },
+        {
+          "alias": "ST_DFIL",
+          "value": "0"
+        },
+        {
+          "alias": "ST_EBCOUNT",
+          "value": "0"
+        },
+        {
+          "alias": "ST_GRAINISVERTICAL",
+          "value": "False"
+        },
+        {
+          "alias": "ST_ISCURVED",
+          "value": "False"
+        },
+        {
+          "alias": "ST_L",
+          "value": "82.55"
+        },
+        {
+          "alias": "ST_N",
+          "value": "Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[2]"
+        },
+        {
+          "alias": "ST_T",
+          "value": "44.45"
+        },
+        {
+          "alias": "ST_W",
+          "value": "600"
+        }
+      ],
+      "serialNumbers": {
+        "name": "STOCK_SERIALNUMBERS",
+        "variables": []
+      },
+      "documents": [
+        {
+          "documentName": "IMG_MULTIBODY_PANEL",
+          "type": "IMG_MULTIBODY_PANEL",
+          "docType": "IMAGE",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/multibody-panels/multibody panel-Metal Frame_Table_SwoodDesign_1_Default_Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[2].jpg",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "STOCK"
+        }
+      ],
+      "multiBodyStockVariables": [
+        {
+          "alias": "MBST_BODYL",
+          "value": "82.55"
+        },
+        {
+          "alias": "MBST_BODYT",
+          "value": "44.45"
+        },
+        {
+          "alias": "MBST_BODYW",
+          "value": "600"
+        },
+        {
+          "alias": "MBST_EXT_B",
+          "value": "0"
+        },
+        {
+          "alias": "MBST_EXT_F",
+          "value": "0"
+        },
+        {
+          "alias": "MBST_EXT_L",
+          "value": "0"
+        },
+        {
+          "alias": "MBST_EXT_R",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "ID": "b1ed86ef-834e-4578-b9b3-61dd50c072ff.Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[5]",
+      "part": "b1ed86ef-834e-4578-b9b3-61dd50c072ff",
+      "material": "Steel",
+      "messages": [],
+      "variables": [
+        {
+          "alias": "MBS_Angle1",
+          "value": "45°"
+        },
+        {
+          "alias": "MBS_Angle2",
+          "value": "45°"
+        },
+        {
+          "alias": "MBS_BB_Length",
+          "value": "0"
+        },
+        {
+          "alias": "MBS_BB_Thickness",
+          "value": "0"
+        },
+        {
+          "alias": "MBS_BB_Volume",
+          "value": "0"
+        },
+        {
+          "alias": "MBS_BB_Width",
+          "value": "0"
+        },
+        {
+          "alias": "MBS_Cutlist",
+          "value": "AL TUBE 3.25 x 1.75 RECT x 0.08 WALL<2>"
+        },
+        {
+          "alias": "MBS_Description",
+          "value": "AL TUBE 3.25 x 1.75 RECT x 0.08 WALL"
+        },
+        {
+          "alias": "MBS_Length",
+          "value": "950"
+        },
+        {
+          "alias": "MBS_Material",
+          "value": "Steel"
+        },
+        {
+          "alias": "MBS_Quantity",
+          "value": "4"
+        },
+        {
+          "alias": "MBS_TotalLength",
+          "value": "6200"
+        },
+        {
+          "alias": "ST_ANGLEINPANEL",
+          "value": "0"
+        },
+        {
+          "alias": "ST_COST",
+          "value": "0.41275"
+        },
+        {
+          "alias": "ST_CPID",
+          "value": "-1"
+        },
+        {
+          "alias": "ST_DESC",
+          "value": ""
+        },
+        {
+          "alias": "ST_DFIL",
+          "value": "0"
+        },
+        {
+          "alias": "ST_EBCOUNT",
+          "value": "0"
+        },
+        {
+          "alias": "ST_GRAINISVERTICAL",
+          "value": "False"
+        },
+        {
+          "alias": "ST_ISCURVED",
+          "value": "False"
+        },
+        {
+          "alias": "ST_L",
+          "value": "82.55"
+        },
+        {
+          "alias": "ST_N",
+          "value": "Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[5]"
+        },
+        {
+          "alias": "ST_T",
+          "value": "950"
+        },
+        {
+          "alias": "ST_W",
+          "value": "44.45"
+        }
+      ],
+      "serialNumbers": {
+        "name": "STOCK_SERIALNUMBERS",
+        "variables": []
+      },
+      "documents": [
+        {
+          "documentName": "IMG_MULTIBODY_PANEL",
+          "type": "IMG_MULTIBODY_PANEL",
+          "docType": "IMAGE",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/multibody-panels/multibody panel-Metal Frame_Table_SwoodDesign_1_Default_Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[5].jpg",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "STOCK"
+        }
+      ],
+      "multiBodyStockVariables": [
+        {
+          "alias": "MBST_BODYL",
+          "value": "82.55"
+        },
+        {
+          "alias": "MBST_BODYT",
+          "value": "950"
+        },
+        {
+          "alias": "MBST_BODYW",
+          "value": "44.45"
+        },
+        {
+          "alias": "MBST_EXT_B",
+          "value": "0"
+        },
+        {
+          "alias": "MBST_EXT_F",
+          "value": "0"
+        },
+        {
+          "alias": "MBST_EXT_L",
+          "value": "0"
+        },
+        {
+          "alias": "MBST_EXT_R",
+          "value": "0"
         }
       ]
     }
   ],
   "parts": [
     {
-      "ID": "ddc31756-e1cc-4ad0-982f-c872dad9b680",
+      "ID": "445e1306-8db1-4e82-a3b3-4e1b6c847bba",
       "programs": [],
       "stocks": [
-        "ddc31756-e1cc-4ad0-982f-c872dad9b680.CORE"
+        "445e1306-8db1-4e82-a3b3-4e1b6c847bba.CORE",
+        "445e1306-8db1-4e82-a3b3-4e1b6c847bba.LAYER1",
+        "445e1306-8db1-4e82-a3b3-4e1b6c847bba.LAYER2",
+        "445e1306-8db1-4e82-a3b3-4e1b6c847bba.LAYER3"
       ],
-      "panel": "ddc31756-e1cc-4ad0-982f-c872dad9b680",
+      "panel": "445e1306-8db1-4e82-a3b3-4e1b6c847bba",
       "bodyCount": 0,
       "messages": [],
       "variables": [
@@ -9709,7 +10850,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "ddc31756-e1cc-4ad0-982f-c872dad9b680"
+          "value": "445e1306-8db1-4e82-a3b3-4e1b6c847bba"
         },
         {
           "alias": "Hardware",
@@ -9729,11 +10870,11 @@ const reportDataRaw ={
         },
         {
           "alias": "MASS",
-          "value": "44.6961707639578"
+          "value": "58.476168893169"
         },
         {
           "alias": "MAT",
-          "value": "Oak 26mm"
+          "value": "Compound Top"
         },
         {
           "alias": "NAME",
@@ -9786,7 +10927,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PART",
             "type": "S",
-            "value": "part-36"
+            "value": "part-35"
           }
         ]
       },
@@ -9798,7 +10939,7 @@ const reportDataRaw ={
           "type": "IMG_PART",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/part/part-CounterTop_SwoodDesign.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/parts/part-CounterTop_SwoodDesign_Default.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -9829,7 +10970,7 @@ const reportDataRaw ={
         {
           "name": "Material",
           "type": "Text",
-          "value": "Oak 26mm"
+          "value": "Compound Top"
         },
         {
           "name": "PanelID",
@@ -9839,12 +10980,12 @@ const reportDataRaw ={
         {
           "name": "Thickness",
           "type": "Text",
-          "value": "26"
+          "value": "34"
         },
         {
           "name": "Weight",
           "type": "Text",
-          "value": "44696.17"
+          "value": "58476.17"
         },
         {
           "name": "Width",
@@ -9854,12 +10995,12 @@ const reportDataRaw ={
       ]
     },
     {
-      "ID": "8d8bda2e-e0c7-40a9-a927-f768273c14a3",
+      "ID": "91083e91-419e-400e-af7d-275827b68958",
       "programs": [],
       "stocks": [
-        "8d8bda2e-e0c7-40a9-a927-f768273c14a3.CORE"
+        "91083e91-419e-400e-af7d-275827b68958.CORE"
       ],
-      "panel": "8d8bda2e-e0c7-40a9-a927-f768273c14a3",
+      "panel": "91083e91-419e-400e-af7d-275827b68958",
       "bodyCount": 0,
       "messages": [],
       "variables": [
@@ -9901,7 +11042,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "8d8bda2e-e0c7-40a9-a927-f768273c14a3"
+          "value": "91083e91-419e-400e-af7d-275827b68958"
         },
         {
           "alias": "Hardware",
@@ -9978,7 +11119,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PART",
             "type": "S",
-            "value": "part-27"
+            "value": "part-4"
           }
         ]
       },
@@ -9989,7 +11130,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_FRAME",
               "type": "S",
-              "value": "frame-02"
+              "value": "frame-01"
             }
           ]
         }
@@ -10001,7 +11142,7 @@ const reportDataRaw ={
           "type": "IMG_PART",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/part/part-Back Support_Doors_SwoodDesign_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/parts/part-Back Support_Doors_SwoodDesign_1_Default.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -10082,14 +11223,14 @@ const reportDataRaw ={
       ]
     },
     {
-      "ID": "3d5ad5ba-7875-4083-9b4c-8c67226f140f",
+      "ID": "a24f7410-4ce6-48b8-a506-63da2959b6f7",
       "programs": [
         "Back_Doors_SwoodDesign_1_Milling_1_Default"
       ],
       "stocks": [
-        "3d5ad5ba-7875-4083-9b4c-8c67226f140f.CORE"
+        "a24f7410-4ce6-48b8-a506-63da2959b6f7.CORE"
       ],
-      "panel": "3d5ad5ba-7875-4083-9b4c-8c67226f140f",
+      "panel": "a24f7410-4ce6-48b8-a506-63da2959b6f7",
       "bodyCount": 0,
       "messages": [],
       "variables": [
@@ -10131,7 +11272,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "3d5ad5ba-7875-4083-9b4c-8c67226f140f"
+          "value": "a24f7410-4ce6-48b8-a506-63da2959b6f7"
         },
         {
           "alias": "Hardware",
@@ -10208,7 +11349,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PART",
             "type": "S",
-            "value": "part-30"
+            "value": "part-3"
           }
         ]
       },
@@ -10219,7 +11360,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_FRAME",
               "type": "S",
-              "value": "frame-02"
+              "value": "frame-01"
             }
           ]
         }
@@ -10231,7 +11372,7 @@ const reportDataRaw ={
           "type": "IMG_PART",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/part/part-Back_Doors_SwoodDesign_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/parts/part-Back_Doors_SwoodDesign_1_Default.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -10297,12 +11438,12 @@ const reportDataRaw ={
       ]
     },
     {
-      "ID": "bb37d6cf-cb5c-4315-85c0-f4f46200a472",
+      "ID": "c6f835b1-d9cc-4c5e-a75d-9fafc566081d",
       "programs": [],
       "stocks": [
-        "bb37d6cf-cb5c-4315-85c0-f4f46200a472.CORE"
+        "c6f835b1-d9cc-4c5e-a75d-9fafc566081d.CORE"
       ],
-      "panel": "bb37d6cf-cb5c-4315-85c0-f4f46200a472",
+      "panel": "c6f835b1-d9cc-4c5e-a75d-9fafc566081d",
       "bodyCount": 0,
       "messages": [],
       "variables": [
@@ -10344,7 +11485,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "bb37d6cf-cb5c-4315-85c0-f4f46200a472"
+          "value": "c6f835b1-d9cc-4c5e-a75d-9fafc566081d"
         },
         {
           "alias": "Hardware",
@@ -10421,7 +11562,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PART",
             "type": "S",
-            "value": "part-32"
+            "value": "part-7"
           }
         ]
       },
@@ -10432,7 +11573,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_FRAME",
               "type": "S",
-              "value": "frame-02"
+              "value": "frame-01"
             }
           ]
         }
@@ -10444,7 +11585,7 @@ const reportDataRaw ={
           "type": "IMG_PART",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/part/part-Bottom_Doors_SwoodDesign_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/parts/part-Bottom_Doors_SwoodDesign_1_Default.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -10510,12 +11651,12 @@ const reportDataRaw ={
       ]
     },
     {
-      "ID": "b11c1e3d-8a2c-4440-a5cf-14c0aeb2c5f1",
+      "ID": "043b4845-8ca5-41b2-bb28-7c444264f198",
       "programs": [],
       "stocks": [
-        "b11c1e3d-8a2c-4440-a5cf-14c0aeb2c5f1.CORE"
+        "043b4845-8ca5-41b2-bb28-7c444264f198.CORE"
       ],
-      "panel": "b11c1e3d-8a2c-4440-a5cf-14c0aeb2c5f1",
+      "panel": "043b4845-8ca5-41b2-bb28-7c444264f198",
       "bodyCount": 0,
       "messages": [],
       "variables": [
@@ -10557,7 +11698,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "b11c1e3d-8a2c-4440-a5cf-14c0aeb2c5f1"
+          "value": "043b4845-8ca5-41b2-bb28-7c444264f198"
         },
         {
           "alias": "Hardware",
@@ -10634,7 +11775,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PART",
             "type": "S",
-            "value": "part-31"
+            "value": "part-8"
           }
         ]
       },
@@ -10645,7 +11786,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_FRAME",
               "type": "S",
-              "value": "frame-02"
+              "value": "frame-01"
             }
           ]
         }
@@ -10657,7 +11798,7 @@ const reportDataRaw ={
           "type": "IMG_PART",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/part/part-Front Support_Doors_SwoodDesign_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/parts/part-Front Support_Doors_SwoodDesign_1_Default.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -10738,12 +11879,12 @@ const reportDataRaw ={
       ]
     },
     {
-      "ID": "937e155e-5ad0-4469-8936-6a996af61b4a",
+      "ID": "dd1a1d0f-6789-400d-92d2-1ad05147db3a",
       "programs": [],
       "stocks": [
-        "937e155e-5ad0-4469-8936-6a996af61b4a.CORE"
+        "dd1a1d0f-6789-400d-92d2-1ad05147db3a.CORE"
       ],
-      "panel": "937e155e-5ad0-4469-8936-6a996af61b4a",
+      "panel": "dd1a1d0f-6789-400d-92d2-1ad05147db3a",
       "bodyCount": 0,
       "messages": [],
       "variables": [
@@ -10785,7 +11926,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "937e155e-5ad0-4469-8936-6a996af61b4a"
+          "value": "dd1a1d0f-6789-400d-92d2-1ad05147db3a"
         },
         {
           "alias": "Hardware",
@@ -10862,7 +12003,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PART",
             "type": "S",
-            "value": "part-34"
+            "value": "part-9"
           }
         ]
       },
@@ -10873,7 +12014,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_FRAME",
               "type": "S",
-              "value": "frame-02"
+              "value": "frame-01"
             }
           ]
         }
@@ -10885,7 +12026,7 @@ const reportDataRaw ={
           "type": "IMG_PART",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/part/part-Front_Doors_SwoodDesign_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/parts/part-Front_Doors_SwoodDesign_1_Default.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -10961,12 +12102,12 @@ const reportDataRaw ={
       ]
     },
     {
-      "ID": "6c203907-647e-4372-8bd6-a10e7ec5536c",
+      "ID": "2707b1b7-5162-4684-983f-e7ff1d06109a",
       "programs": [],
       "stocks": [
-        "6c203907-647e-4372-8bd6-a10e7ec5536c.CORE"
+        "2707b1b7-5162-4684-983f-e7ff1d06109a.CORE"
       ],
-      "panel": "6c203907-647e-4372-8bd6-a10e7ec5536c",
+      "panel": "2707b1b7-5162-4684-983f-e7ff1d06109a",
       "bodyCount": 0,
       "messages": [],
       "variables": [
@@ -11008,7 +12149,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "6c203907-647e-4372-8bd6-a10e7ec5536c"
+          "value": "2707b1b7-5162-4684-983f-e7ff1d06109a"
         },
         {
           "alias": "Hardware",
@@ -11028,7 +12169,7 @@ const reportDataRaw ={
         },
         {
           "alias": "MASS",
-          "value": "7.72132817462246"
+          "value": "7.721328174622"
         },
         {
           "alias": "MAT",
@@ -11085,7 +12226,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PART",
             "type": "S",
-            "value": "part-29"
+            "value": "part-11"
           }
         ]
       },
@@ -11096,7 +12237,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_FRAME",
               "type": "S",
-              "value": "frame-02"
+              "value": "frame-01"
             }
           ]
         },
@@ -11106,7 +12247,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_SUBFRAME",
               "type": "S",
-              "value": "sub-frame-03"
+              "value": "sub-frame-01"
             }
           ]
         }
@@ -11118,7 +12259,7 @@ const reportDataRaw ={
           "type": "IMG_PART",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/part/part-Front_Left Door_Door Overlay_Doors_SwoodDesign_1_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/parts/part-Front_Left Door_Door Overlay_Doors_SwoodDesign_1_1_Default.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -11184,12 +12325,12 @@ const reportDataRaw ={
       ]
     },
     {
-      "ID": "f2be11ed-4b24-4dcb-b38d-58084a37c7b6",
+      "ID": "9d44626b-a462-4782-a8f1-3865fd91071a",
       "programs": [],
       "stocks": [
-        "f2be11ed-4b24-4dcb-b38d-58084a37c7b6.CORE"
+        "9d44626b-a462-4782-a8f1-3865fd91071a.CORE"
       ],
-      "panel": "f2be11ed-4b24-4dcb-b38d-58084a37c7b6",
+      "panel": "9d44626b-a462-4782-a8f1-3865fd91071a",
       "bodyCount": 0,
       "messages": [],
       "variables": [
@@ -11231,7 +12372,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "f2be11ed-4b24-4dcb-b38d-58084a37c7b6"
+          "value": "9d44626b-a462-4782-a8f1-3865fd91071a"
         },
         {
           "alias": "Hardware",
@@ -11251,7 +12392,7 @@ const reportDataRaw ={
         },
         {
           "alias": "MASS",
-          "value": "7.72132817462246"
+          "value": "7.721328174622"
         },
         {
           "alias": "MAT",
@@ -11308,7 +12449,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PART",
             "type": "S",
-            "value": "part-28"
+            "value": "part-10"
           }
         ]
       },
@@ -11319,7 +12460,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_FRAME",
               "type": "S",
-              "value": "frame-02"
+              "value": "frame-01"
             }
           ]
         },
@@ -11329,7 +12470,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_SUBFRAME",
               "type": "S",
-              "value": "sub-frame-03"
+              "value": "sub-frame-01"
             }
           ]
         }
@@ -11341,7 +12482,7 @@ const reportDataRaw ={
           "type": "IMG_PART",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/part/part-Front_Right Door_Door Overlay_Doors_SwoodDesign_1_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/parts/part-Front_Right Door_Door Overlay_Doors_SwoodDesign_1_1_Default.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -11407,14 +12548,14 @@ const reportDataRaw ={
       ]
     },
     {
-      "ID": "5dd15c9d-6353-4653-a4ec-a2587ffede00",
+      "ID": "cf82a206-3c76-4167-a885-21c2392bfdcb",
       "programs": [
         "Machine not Configured - Kickboard_Doors_SwoodDesign_1 - Milling"
       ],
       "stocks": [
-        "5dd15c9d-6353-4653-a4ec-a2587ffede00.CORE"
+        "cf82a206-3c76-4167-a885-21c2392bfdcb.CORE"
       ],
-      "panel": "5dd15c9d-6353-4653-a4ec-a2587ffede00",
+      "panel": "cf82a206-3c76-4167-a885-21c2392bfdcb",
       "bodyCount": 0,
       "messages": [],
       "variables": [
@@ -11456,7 +12597,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "5dd15c9d-6353-4653-a4ec-a2587ffede00"
+          "value": "cf82a206-3c76-4167-a885-21c2392bfdcb"
         },
         {
           "alias": "Hardware",
@@ -11533,7 +12674,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PART",
             "type": "S",
-            "value": "part-25"
+            "value": "part-2"
           }
         ]
       },
@@ -11544,7 +12685,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_FRAME",
               "type": "S",
-              "value": "frame-02"
+              "value": "frame-01"
             }
           ]
         }
@@ -11556,7 +12697,7 @@ const reportDataRaw ={
           "type": "IMG_PART",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/part/part-Kickboard_Doors_SwoodDesign_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/parts/part-Kickboard_Doors_SwoodDesign_1_Default.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -11622,15 +12763,15 @@ const reportDataRaw ={
       ]
     },
     {
-      "ID": "820695a0-72ba-409b-a7ee-9b7998852039",
+      "ID": "2d3dd35e-ff5c-41d4-a4a4-bd81849ccdb0",
       "programs": [
         "Left_Doors_SwoodDesign_1_Milling_1_Default"
       ],
       "stocks": [
-        "820695a0-72ba-409b-a7ee-9b7998852039.BOTTOM",
-        "820695a0-72ba-409b-a7ee-9b7998852039.CORE"
+        "2d3dd35e-ff5c-41d4-a4a4-bd81849ccdb0.BOTTOM",
+        "2d3dd35e-ff5c-41d4-a4a4-bd81849ccdb0.CORE"
       ],
-      "panel": "820695a0-72ba-409b-a7ee-9b7998852039",
+      "panel": "2d3dd35e-ff5c-41d4-a4a4-bd81849ccdb0",
       "bodyCount": 0,
       "messages": [],
       "variables": [
@@ -11672,7 +12813,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "820695a0-72ba-409b-a7ee-9b7998852039"
+          "value": "2d3dd35e-ff5c-41d4-a4a4-bd81849ccdb0"
         },
         {
           "alias": "Hardware",
@@ -11692,7 +12833,7 @@ const reportDataRaw ={
         },
         {
           "alias": "MASS",
-          "value": "11.7613146018366"
+          "value": "11.761314601837"
         },
         {
           "alias": "MAT",
@@ -11749,7 +12890,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PART",
             "type": "S",
-            "value": "part-26"
+            "value": "part-6"
           }
         ]
       },
@@ -11760,7 +12901,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_FRAME",
               "type": "S",
-              "value": "frame-02"
+              "value": "frame-01"
             }
           ]
         }
@@ -11772,7 +12913,7 @@ const reportDataRaw ={
           "type": "IMG_PART",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/part/part-Left_Doors_SwoodDesign_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/parts/part-Left_Doors_SwoodDesign_1_Default.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -11873,15 +13014,15 @@ const reportDataRaw ={
       ]
     },
     {
-      "ID": "23fa568a-6c4b-4d34-8658-81769b4c6305",
+      "ID": "7cfeb824-7803-44d7-be93-2884a33075d8",
       "programs": [
         "Machine not Configured - Right_Doors_SwoodDesign_1 - Milling"
       ],
       "stocks": [
-        "23fa568a-6c4b-4d34-8658-81769b4c6305.BOTTOM",
-        "23fa568a-6c4b-4d34-8658-81769b4c6305.CORE"
+        "7cfeb824-7803-44d7-be93-2884a33075d8.BOTTOM",
+        "7cfeb824-7803-44d7-be93-2884a33075d8.CORE"
       ],
-      "panel": "23fa568a-6c4b-4d34-8658-81769b4c6305",
+      "panel": "7cfeb824-7803-44d7-be93-2884a33075d8",
       "bodyCount": 0,
       "messages": [],
       "variables": [
@@ -11923,7 +13064,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "23fa568a-6c4b-4d34-8658-81769b4c6305"
+          "value": "7cfeb824-7803-44d7-be93-2884a33075d8"
         },
         {
           "alias": "Hardware",
@@ -11943,7 +13084,7 @@ const reportDataRaw ={
         },
         {
           "alias": "MASS",
-          "value": "11.7613146018366"
+          "value": "11.761314601837"
         },
         {
           "alias": "MAT",
@@ -12000,7 +13141,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PART",
             "type": "S",
-            "value": "part-33"
+            "value": "part-5"
           }
         ]
       },
@@ -12011,7 +13152,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_FRAME",
               "type": "S",
-              "value": "frame-02"
+              "value": "frame-01"
             }
           ]
         }
@@ -12023,7 +13164,7 @@ const reportDataRaw ={
           "type": "IMG_PART",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/part/part-Right_Doors_SwoodDesign_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/parts/part-Right_Doors_SwoodDesign_1_Default.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -12124,12 +13265,12 @@ const reportDataRaw ={
       ]
     },
     {
-      "ID": "e76f4f8a-43cc-412b-97e5-322c8134fd6b",
+      "ID": "2e9e5c9f-adea-4b35-a98f-6d5d5d3f6cf3",
       "programs": [],
       "stocks": [
-        "e76f4f8a-43cc-412b-97e5-322c8134fd6b.CORE"
+        "2e9e5c9f-adea-4b35-a98f-6d5d5d3f6cf3.CORE"
       ],
-      "panel": "e76f4f8a-43cc-412b-97e5-322c8134fd6b",
+      "panel": "2e9e5c9f-adea-4b35-a98f-6d5d5d3f6cf3",
       "bodyCount": 0,
       "messages": [],
       "variables": [
@@ -12171,7 +13312,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "e76f4f8a-43cc-412b-97e5-322c8134fd6b"
+          "value": "2e9e5c9f-adea-4b35-a98f-6d5d5d3f6cf3"
         },
         {
           "alias": "Hardware",
@@ -12248,7 +13389,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PART",
             "type": "S",
-            "value": "part-9"
+            "value": "part-22"
           }
         ]
       },
@@ -12259,7 +13400,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_FRAME",
               "type": "S",
-              "value": "frame-01"
+              "value": "frame-02"
             }
           ]
         }
@@ -12271,7 +13412,7 @@ const reportDataRaw ={
           "type": "IMG_PART",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/part/part-BACK_Back_High Cabinet_SwoodDesign_1_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/parts/part-BACK_Back_High Cabinet_SwoodDesign_1_1_Défaut.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -12327,14 +13468,14 @@ const reportDataRaw ={
       ]
     },
     {
-      "ID": "5da29f5d-c913-4adf-a991-02b7e2a5709a",
+      "ID": "c8b64987-4a91-4a30-b29f-a7c0e76a2ee1",
       "programs": [
         "Back_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default"
       ],
       "stocks": [
-        "5da29f5d-c913-4adf-a991-02b7e2a5709a.CORE"
+        "c8b64987-4a91-4a30-b29f-a7c0e76a2ee1.CORE"
       ],
-      "panel": "5da29f5d-c913-4adf-a991-02b7e2a5709a",
+      "panel": "c8b64987-4a91-4a30-b29f-a7c0e76a2ee1",
       "bodyCount": 0,
       "messages": [],
       "variables": [
@@ -12376,7 +13517,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "5da29f5d-c913-4adf-a991-02b7e2a5709a"
+          "value": "c8b64987-4a91-4a30-b29f-a7c0e76a2ee1"
         },
         {
           "alias": "Hardware",
@@ -12412,7 +13553,7 @@ const reportDataRaw ={
         },
         {
           "alias": "PATH",
-          "value": "C:\\Swood Data Directory\\SWOODDesign\\Frames\\Report Example\\SwoodDesign\\High Cabinet_SwoodDesign_1\\Back_Drawers Overlay_High Cabinet_SwoodDesign_1_1.sldprt"
+          "value": "C:\\Swood Data Directory\\SWOODDesign\\Frames\\Report Example\\SwoodDesign\\High Cabinet_SwoodDesign_1\\Back_Drawers Overlay_High Cabinet_SwoodDesign_1_1.SLDPRT"
         },
         {
           "alias": "PLM_ID",
@@ -12453,7 +13594,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PART",
             "type": "S",
-            "value": "part-11"
+            "value": "part-28"
           }
         ]
       },
@@ -12464,7 +13605,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_FRAME",
               "type": "S",
-              "value": "frame-01"
+              "value": "frame-02"
             }
           ]
         },
@@ -12474,7 +13615,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_SUBFRAME",
               "type": "S",
-              "value": "sub-frame-01"
+              "value": "sub-frame-02"
             }
           ]
         }
@@ -12486,7 +13627,7 @@ const reportDataRaw ={
           "type": "IMG_PART",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/part/part-Back_Drawers Overlay_High Cabinet_SwoodDesign_1_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/parts/part-Back_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Default.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -12552,14 +13693,14 @@ const reportDataRaw ={
       ]
     },
     {
-      "ID": "a7aacb53-b186-4b2e-888b-a0602b1e7c3d",
+      "ID": "8caa3f39-bcbf-4d3f-adbf-5c9f1f4eba75",
       "programs": [
         "Bottom_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default"
       ],
       "stocks": [
-        "a7aacb53-b186-4b2e-888b-a0602b1e7c3d.CORE"
+        "8caa3f39-bcbf-4d3f-adbf-5c9f1f4eba75.CORE"
       ],
-      "panel": "a7aacb53-b186-4b2e-888b-a0602b1e7c3d",
+      "panel": "8caa3f39-bcbf-4d3f-adbf-5c9f1f4eba75",
       "bodyCount": 0,
       "messages": [],
       "variables": [
@@ -12601,7 +13742,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "a7aacb53-b186-4b2e-888b-a0602b1e7c3d"
+          "value": "8caa3f39-bcbf-4d3f-adbf-5c9f1f4eba75"
         },
         {
           "alias": "Hardware",
@@ -12637,7 +13778,7 @@ const reportDataRaw ={
         },
         {
           "alias": "PATH",
-          "value": "C:\\Swood Data Directory\\SWOODDesign\\Frames\\Report Example\\SwoodDesign\\High Cabinet_SwoodDesign_1\\Bottom_Drawers Overlay_High Cabinet_SwoodDesign_1_1.sldprt"
+          "value": "C:\\Swood Data Directory\\SWOODDesign\\Frames\\Report Example\\SwoodDesign\\High Cabinet_SwoodDesign_1\\Bottom_Drawers Overlay_High Cabinet_SwoodDesign_1_1.SLDPRT"
         },
         {
           "alias": "PLM_ID",
@@ -12678,7 +13819,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PART",
             "type": "S",
-            "value": "part-12"
+            "value": "part-23"
           }
         ]
       },
@@ -12689,7 +13830,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_FRAME",
               "type": "S",
-              "value": "frame-01"
+              "value": "frame-02"
             }
           ]
         },
@@ -12699,7 +13840,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_SUBFRAME",
               "type": "S",
-              "value": "sub-frame-01"
+              "value": "sub-frame-02"
             }
           ]
         }
@@ -12711,7 +13852,7 @@ const reportDataRaw ={
           "type": "IMG_PART",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/part/part-Bottom_Drawers Overlay_High Cabinet_SwoodDesign_1_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/parts/part-Bottom_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Default.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -12777,14 +13918,14 @@ const reportDataRaw ={
       ]
     },
     {
-      "ID": "1aef8687-3984-49ea-a2a5-e7b32d9c8ab1",
+      "ID": "e1886458-2a0d-4505-9dab-ecaa2bff10ae",
       "programs": [
         "Bottom_High Cabinet_SwoodDesign_1_Milling_1_Default"
       ],
       "stocks": [
-        "1aef8687-3984-49ea-a2a5-e7b32d9c8ab1.CORE"
+        "e1886458-2a0d-4505-9dab-ecaa2bff10ae.CORE"
       ],
-      "panel": "1aef8687-3984-49ea-a2a5-e7b32d9c8ab1",
+      "panel": "e1886458-2a0d-4505-9dab-ecaa2bff10ae",
       "bodyCount": 0,
       "messages": [],
       "variables": [
@@ -12826,7 +13967,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "1aef8687-3984-49ea-a2a5-e7b32d9c8ab1"
+          "value": "e1886458-2a0d-4505-9dab-ecaa2bff10ae"
         },
         {
           "alias": "Hardware",
@@ -12903,7 +14044,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PART",
             "type": "S",
-            "value": "part-2"
+            "value": "part-19"
           }
         ]
       },
@@ -12914,7 +14055,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_FRAME",
               "type": "S",
-              "value": "frame-01"
+              "value": "frame-02"
             }
           ]
         }
@@ -12926,7 +14067,7 @@ const reportDataRaw ={
           "type": "IMG_PART",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/part/part-Bottom_High Cabinet_SwoodDesign_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/parts/part-Bottom_High Cabinet_SwoodDesign_1_Default.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -12997,15 +14138,15 @@ const reportDataRaw ={
       ]
     },
     {
-      "ID": "729f06e4-e139-49fc-82ba-38b79cb6cd7a",
+      "ID": "ad96f3f9-b34c-415d-ba50-6663d7af8b21",
       "programs": [
         "Front Support_High Cabinet_SwoodDesign_1_Milling_1_Default"
       ],
       "stocks": [
-        "729f06e4-e139-49fc-82ba-38b79cb6cd7a.BOTTOM",
-        "729f06e4-e139-49fc-82ba-38b79cb6cd7a.CORE"
+        "ad96f3f9-b34c-415d-ba50-6663d7af8b21.BOTTOM",
+        "ad96f3f9-b34c-415d-ba50-6663d7af8b21.CORE"
       ],
-      "panel": "729f06e4-e139-49fc-82ba-38b79cb6cd7a",
+      "panel": "ad96f3f9-b34c-415d-ba50-6663d7af8b21",
       "bodyCount": 0,
       "messages": [],
       "variables": [
@@ -13047,7 +14188,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "729f06e4-e139-49fc-82ba-38b79cb6cd7a"
+          "value": "ad96f3f9-b34c-415d-ba50-6663d7af8b21"
         },
         {
           "alias": "Hardware",
@@ -13067,7 +14208,7 @@ const reportDataRaw ={
         },
         {
           "alias": "MASS",
-          "value": "11.3881972747031"
+          "value": "11.388197274703"
         },
         {
           "alias": "MAT",
@@ -13124,7 +14265,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PART",
             "type": "S",
-            "value": "part-5"
+            "value": "part-16"
           }
         ]
       },
@@ -13135,7 +14276,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_FRAME",
               "type": "S",
-              "value": "frame-01"
+              "value": "frame-02"
             }
           ]
         }
@@ -13147,7 +14288,7 @@ const reportDataRaw ={
           "type": "IMG_PART",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/part/part-Front Support_High Cabinet_SwoodDesign_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/parts/part-Front Support_High Cabinet_SwoodDesign_1_Default.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -13258,14 +14399,14 @@ const reportDataRaw ={
       ]
     },
     {
-      "ID": "5a6666ed-b2ac-4b40-bfec-2b68d16899f8",
+      "ID": "69491234-2b0a-4f8a-985e-4953b6692bb2",
       "programs": [
         "Front_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default"
       ],
       "stocks": [
-        "5a6666ed-b2ac-4b40-bfec-2b68d16899f8.CORE"
+        "69491234-2b0a-4f8a-985e-4953b6692bb2.CORE"
       ],
-      "panel": "5a6666ed-b2ac-4b40-bfec-2b68d16899f8",
+      "panel": "69491234-2b0a-4f8a-985e-4953b6692bb2",
       "bodyCount": 0,
       "messages": [],
       "variables": [
@@ -13307,7 +14448,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "5a6666ed-b2ac-4b40-bfec-2b68d16899f8"
+          "value": "69491234-2b0a-4f8a-985e-4953b6692bb2"
         },
         {
           "alias": "Hardware",
@@ -13327,7 +14468,7 @@ const reportDataRaw ={
         },
         {
           "alias": "MASS",
-          "value": "5.87950722128562"
+          "value": "5.879507221286"
         },
         {
           "alias": "MAT",
@@ -13343,7 +14484,7 @@ const reportDataRaw ={
         },
         {
           "alias": "PATH",
-          "value": "C:\\Swood Data Directory\\SWOODDesign\\Frames\\Report Example\\SwoodDesign\\High Cabinet_SwoodDesign_1\\Front_Drawers Overlay_High Cabinet_SwoodDesign_1_1.sldprt"
+          "value": "C:\\Swood Data Directory\\SWOODDesign\\Frames\\Report Example\\SwoodDesign\\High Cabinet_SwoodDesign_1\\Front_Drawers Overlay_High Cabinet_SwoodDesign_1_1.SLDPRT"
         },
         {
           "alias": "PLM_ID",
@@ -13384,7 +14525,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PART",
             "type": "S",
-            "value": "part-15"
+            "value": "part-26"
           }
         ]
       },
@@ -13395,7 +14536,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_FRAME",
               "type": "S",
-              "value": "frame-01"
+              "value": "frame-02"
             }
           ]
         },
@@ -13405,7 +14546,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_SUBFRAME",
               "type": "S",
-              "value": "sub-frame-01"
+              "value": "sub-frame-02"
             }
           ]
         }
@@ -13417,7 +14558,7 @@ const reportDataRaw ={
           "type": "IMG_PART",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/part/part-Front_Drawers Overlay_High Cabinet_SwoodDesign_1_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/parts/part-Front_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Default.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -13483,14 +14624,14 @@ const reportDataRaw ={
       ]
     },
     {
-      "ID": "17477517-cf35-4b28-a0ac-ac8efaabd845",
+      "ID": "c6225d67-cf52-430b-b38f-fa642ae35793",
       "programs": [
         "Front_Left Door_Door Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default"
       ],
       "stocks": [
-        "17477517-cf35-4b28-a0ac-ac8efaabd845.CORE"
+        "c6225d67-cf52-430b-b38f-fa642ae35793.CORE"
       ],
-      "panel": "17477517-cf35-4b28-a0ac-ac8efaabd845",
+      "panel": "c6225d67-cf52-430b-b38f-fa642ae35793",
       "bodyCount": 0,
       "messages": [],
       "variables": [
@@ -13532,7 +14673,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "17477517-cf35-4b28-a0ac-ac8efaabd845"
+          "value": "c6225d67-cf52-430b-b38f-fa642ae35793"
         },
         {
           "alias": "Hardware",
@@ -13552,7 +14693,7 @@ const reportDataRaw ={
         },
         {
           "alias": "MASS",
-          "value": "4.53994517462246"
+          "value": "4.539945174622"
         },
         {
           "alias": "MAT",
@@ -13568,7 +14709,7 @@ const reportDataRaw ={
         },
         {
           "alias": "PATH",
-          "value": "C:\\Swood Data Directory\\SWOODDesign\\Frames\\Report Example\\SwoodDesign\\High Cabinet_SwoodDesign_1\\Front_Left Door_Door Overlay_High Cabinet_SwoodDesign_1_1.sldprt"
+          "value": "C:\\Swood Data Directory\\SWOODDesign\\Frames\\Report Example\\SwoodDesign\\High Cabinet_SwoodDesign_1\\Front_Left Door_Door Overlay_High Cabinet_SwoodDesign_1_1.SLDPRT"
         },
         {
           "alias": "PLM_ID",
@@ -13609,7 +14750,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PART",
             "type": "S",
-            "value": "part-19"
+            "value": "part-31"
           }
         ]
       },
@@ -13620,7 +14761,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_FRAME",
               "type": "S",
-              "value": "frame-01"
+              "value": "frame-02"
             }
           ]
         },
@@ -13630,7 +14771,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_SUBFRAME",
               "type": "S",
-              "value": "sub-frame-02"
+              "value": "sub-frame-03"
             }
           ]
         }
@@ -13642,7 +14783,7 @@ const reportDataRaw ={
           "type": "IMG_PART",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/part/part-Front_Left Door_Door Overlay_High Cabinet_SwoodDesign_1_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/parts/part-Front_Left Door_Door Overlay_High Cabinet_SwoodDesign_1_1_Default.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -13718,14 +14859,14 @@ const reportDataRaw ={
       ]
     },
     {
-      "ID": "67d5e6db-94a1-420f-afd9-653e935f0eaa",
+      "ID": "3baffa6a-4172-4b3d-8511-f80fa866db20",
       "programs": [
         "Front_Right Door_Door Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default"
       ],
       "stocks": [
-        "67d5e6db-94a1-420f-afd9-653e935f0eaa.CORE"
+        "3baffa6a-4172-4b3d-8511-f80fa866db20.CORE"
       ],
-      "panel": "67d5e6db-94a1-420f-afd9-653e935f0eaa",
+      "panel": "3baffa6a-4172-4b3d-8511-f80fa866db20",
       "bodyCount": 0,
       "messages": [],
       "variables": [
@@ -13767,7 +14908,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "67d5e6db-94a1-420f-afd9-653e935f0eaa"
+          "value": "3baffa6a-4172-4b3d-8511-f80fa866db20"
         },
         {
           "alias": "Hardware",
@@ -13787,7 +14928,7 @@ const reportDataRaw ={
         },
         {
           "alias": "MASS",
-          "value": "4.53994517462246"
+          "value": "4.539945174622"
         },
         {
           "alias": "MAT",
@@ -13803,7 +14944,7 @@ const reportDataRaw ={
         },
         {
           "alias": "PATH",
-          "value": "C:\\Swood Data Directory\\SWOODDesign\\Frames\\Report Example\\SwoodDesign\\High Cabinet_SwoodDesign_1\\Front_Right Door_Door Overlay_High Cabinet_SwoodDesign_1_1.sldprt"
+          "value": "C:\\Swood Data Directory\\SWOODDesign\\Frames\\Report Example\\SwoodDesign\\High Cabinet_SwoodDesign_1\\Front_Right Door_Door Overlay_High Cabinet_SwoodDesign_1_1.SLDPRT"
         },
         {
           "alias": "PLM_ID",
@@ -13844,7 +14985,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PART",
             "type": "S",
-            "value": "part-21"
+            "value": "part-32"
           }
         ]
       },
@@ -13855,7 +14996,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_FRAME",
               "type": "S",
-              "value": "frame-01"
+              "value": "frame-02"
             }
           ]
         },
@@ -13865,7 +15006,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_SUBFRAME",
               "type": "S",
-              "value": "sub-frame-02"
+              "value": "sub-frame-03"
             }
           ]
         }
@@ -13877,7 +15018,7 @@ const reportDataRaw ={
           "type": "IMG_PART",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/part/part-Front_Right Door_Door Overlay_High Cabinet_SwoodDesign_1_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/parts/part-Front_Right Door_Door Overlay_High Cabinet_SwoodDesign_1_1_Default.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -13953,12 +15094,12 @@ const reportDataRaw ={
       ]
     },
     {
-      "ID": "1c408da5-d940-477e-a904-8fd539fd4a86",
+      "ID": "bd2641ba-5ad6-496d-bd81-7a4e98a42b54",
       "programs": [],
       "stocks": [
-        "1c408da5-d940-477e-a904-8fd539fd4a86.CORE"
+        "bd2641ba-5ad6-496d-bd81-7a4e98a42b54.CORE"
       ],
-      "panel": "1c408da5-d940-477e-a904-8fd539fd4a86",
+      "panel": "bd2641ba-5ad6-496d-bd81-7a4e98a42b54",
       "bodyCount": 0,
       "messages": [],
       "variables": [
@@ -14000,7 +15141,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "1c408da5-d940-477e-a904-8fd539fd4a86"
+          "value": "bd2641ba-5ad6-496d-bd81-7a4e98a42b54"
         },
         {
           "alias": "Hardware",
@@ -14077,7 +15218,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PART",
             "type": "S",
-            "value": "part-4"
+            "value": "part-14"
           }
         ]
       },
@@ -14088,7 +15229,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_FRAME",
               "type": "S",
-              "value": "frame-01"
+              "value": "frame-02"
             }
           ]
         }
@@ -14100,7 +15241,7 @@ const reportDataRaw ={
           "type": "IMG_PART",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/part/part-Kickboard_High Cabinet_SwoodDesign_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/parts/part-Kickboard_High Cabinet_SwoodDesign_1_Default.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -14171,12 +15312,12 @@ const reportDataRaw ={
       ]
     },
     {
-      "ID": "a2b16b36-e478-46c3-8a29-6f011ca36f3d",
+      "ID": "ea9204d6-9e7f-41fc-8ac2-f1dbb29cbb5b",
       "programs": [],
       "stocks": [
-        "a2b16b36-e478-46c3-8a29-6f011ca36f3d.CORE"
+        "ea9204d6-9e7f-41fc-8ac2-f1dbb29cbb5b.CORE"
       ],
-      "panel": "a2b16b36-e478-46c3-8a29-6f011ca36f3d",
+      "panel": "ea9204d6-9e7f-41fc-8ac2-f1dbb29cbb5b",
       "bodyCount": 0,
       "messages": [],
       "variables": [
@@ -14218,7 +15359,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "a2b16b36-e478-46c3-8a29-6f011ca36f3d"
+          "value": "ea9204d6-9e7f-41fc-8ac2-f1dbb29cbb5b"
         },
         {
           "alias": "Hardware",
@@ -14238,7 +15379,7 @@ const reportDataRaw ={
         },
         {
           "alias": "MASS",
-          "value": "2.22770031071337"
+          "value": "2.227700310713"
         },
         {
           "alias": "MAT",
@@ -14295,7 +15436,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PART",
             "type": "S",
-            "value": "part-20"
+            "value": "part-33"
           }
         ]
       },
@@ -14306,7 +15447,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_FRAME",
               "type": "S",
-              "value": "frame-01"
+              "value": "frame-02"
             }
           ]
         },
@@ -14316,7 +15457,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_SUBFRAME",
               "type": "S",
-              "value": "sub-frame-02"
+              "value": "sub-frame-03"
             }
           ]
         }
@@ -14328,7 +15469,7 @@ const reportDataRaw ={
           "type": "IMG_PART",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/part/part-Left Glass_Door Overlay_High Cabinet_SwoodDesign_1_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/parts/part-Left Glass_Door Overlay_High Cabinet_SwoodDesign_1_1_Default.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -14402,21 +15543,21 @@ const reportDataRaw ={
           "value": "2228"
         },
         {
-          "name": "Width Panel",
+          "name": "Width",
           "type": "Text",
           "value": "322"
         }
       ]
     },
     {
-      "ID": "1358051f-b7f8-4991-b110-2c5e6ec8b60e",
+      "ID": "3148c2a7-9eb2-48da-90b8-598617059e18",
       "programs": [
         "Left_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default"
       ],
       "stocks": [
-        "1358051f-b7f8-4991-b110-2c5e6ec8b60e.CORE"
+        "3148c2a7-9eb2-48da-90b8-598617059e18.CORE"
       ],
-      "panel": "1358051f-b7f8-4991-b110-2c5e6ec8b60e",
+      "panel": "3148c2a7-9eb2-48da-90b8-598617059e18",
       "bodyCount": 0,
       "messages": [],
       "variables": [
@@ -14458,7 +15599,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "1358051f-b7f8-4991-b110-2c5e6ec8b60e"
+          "value": "3148c2a7-9eb2-48da-90b8-598617059e18"
         },
         {
           "alias": "Hardware",
@@ -14478,7 +15619,7 @@ const reportDataRaw ={
         },
         {
           "alias": "MASS",
-          "value": "2.94230794249588"
+          "value": "2.942307942496"
         },
         {
           "alias": "MAT",
@@ -14494,7 +15635,7 @@ const reportDataRaw ={
         },
         {
           "alias": "PATH",
-          "value": "C:\\Swood Data Directory\\SWOODDesign\\Frames\\Report Example\\SwoodDesign\\High Cabinet_SwoodDesign_1\\Left_Drawers Overlay_High Cabinet_SwoodDesign_1_1.sldprt"
+          "value": "C:\\Swood Data Directory\\SWOODDesign\\Frames\\Report Example\\SwoodDesign\\High Cabinet_SwoodDesign_1\\Left_Drawers Overlay_High Cabinet_SwoodDesign_1_1.SLDPRT"
         },
         {
           "alias": "PLM_ID",
@@ -14535,7 +15676,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PART",
             "type": "S",
-            "value": "part-13"
+            "value": "part-27"
           }
         ]
       },
@@ -14546,7 +15687,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_FRAME",
               "type": "S",
-              "value": "frame-01"
+              "value": "frame-02"
             }
           ]
         },
@@ -14556,7 +15697,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_SUBFRAME",
               "type": "S",
-              "value": "sub-frame-01"
+              "value": "sub-frame-02"
             }
           ]
         }
@@ -14568,7 +15709,7 @@ const reportDataRaw ={
           "type": "IMG_PART",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/part/part-Left_Drawers Overlay_High Cabinet_SwoodDesign_1_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/parts/part-Left_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Default.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -14639,15 +15780,15 @@ const reportDataRaw ={
       ]
     },
     {
-      "ID": "89b367ac-2751-4f12-8a5b-db4112a6ff28",
+      "ID": "1f215b66-dcc9-4563-b1d7-2857f9ed2e04",
       "programs": [
         "Left_High Cabinet_SwoodDesign_1_Milling_1_Default"
       ],
       "stocks": [
-        "89b367ac-2751-4f12-8a5b-db4112a6ff28.BOTTOM",
-        "89b367ac-2751-4f12-8a5b-db4112a6ff28.CORE"
+        "1f215b66-dcc9-4563-b1d7-2857f9ed2e04.BOTTOM",
+        "1f215b66-dcc9-4563-b1d7-2857f9ed2e04.CORE"
       ],
-      "panel": "89b367ac-2751-4f12-8a5b-db4112a6ff28",
+      "panel": "1f215b66-dcc9-4563-b1d7-2857f9ed2e04",
       "bodyCount": 0,
       "messages": [],
       "variables": [
@@ -14689,7 +15830,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "89b367ac-2751-4f12-8a5b-db4112a6ff28"
+          "value": "1f215b66-dcc9-4563-b1d7-2857f9ed2e04"
         },
         {
           "alias": "Hardware",
@@ -14709,7 +15850,7 @@ const reportDataRaw ={
         },
         {
           "alias": "MASS",
-          "value": "29.8931519901298"
+          "value": "29.89315199013"
         },
         {
           "alias": "MAT",
@@ -14766,7 +15907,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PART",
             "type": "S",
-            "value": "part-8"
+            "value": "part-13"
           }
         ]
       },
@@ -14777,7 +15918,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_FRAME",
               "type": "S",
-              "value": "frame-01"
+              "value": "frame-02"
             }
           ]
         }
@@ -14789,7 +15930,7 @@ const reportDataRaw ={
           "type": "IMG_PART",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/part/part-Left_High Cabinet_SwoodDesign_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/parts/part-Left_High Cabinet_SwoodDesign_1_Default.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -14890,14 +16031,14 @@ const reportDataRaw ={
       ]
     },
     {
-      "ID": "6253ca19-90e6-4f82-9d1f-00e79ca96087",
+      "ID": "c3b08b68-a681-4599-837a-67986a87a9b8",
       "programs": [
         "Partition_Partition Horizontal_High Cabinet_SwoodDesign_1_1_Milling_1_Default"
       ],
       "stocks": [
-        "6253ca19-90e6-4f82-9d1f-00e79ca96087.CORE"
+        "c3b08b68-a681-4599-837a-67986a87a9b8.CORE"
       ],
-      "panel": "6253ca19-90e6-4f82-9d1f-00e79ca96087",
+      "panel": "c3b08b68-a681-4599-837a-67986a87a9b8",
       "bodyCount": 0,
       "messages": [],
       "variables": [
@@ -14939,7 +16080,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "6253ca19-90e6-4f82-9d1f-00e79ca96087"
+          "value": "c3b08b68-a681-4599-837a-67986a87a9b8"
         },
         {
           "alias": "Hardware",
@@ -15016,7 +16157,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PART",
             "type": "S",
-            "value": "part-18"
+            "value": "part-30"
           }
         ]
       },
@@ -15027,7 +16168,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_FRAME",
               "type": "S",
-              "value": "frame-01"
+              "value": "frame-02"
             }
           ]
         }
@@ -15039,7 +16180,7 @@ const reportDataRaw ={
           "type": "IMG_PART",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/part/part-Partition_Partition Horizontal_High Cabinet_SwoodDesign_1_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/parts/part-Partition_Partition Horizontal_High Cabinet_SwoodDesign_1_1_Default.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -15095,12 +16236,12 @@ const reportDataRaw ={
       ]
     },
     {
-      "ID": "8c76ed32-84c8-4a78-81a6-28c3cd031010",
+      "ID": "1f9597c9-a2ee-42ec-95c7-c43a20c7e012",
       "programs": [],
       "stocks": [
-        "8c76ed32-84c8-4a78-81a6-28c3cd031010.CORE"
+        "1f9597c9-a2ee-42ec-95c7-c43a20c7e012.CORE"
       ],
-      "panel": "8c76ed32-84c8-4a78-81a6-28c3cd031010",
+      "panel": "1f9597c9-a2ee-42ec-95c7-c43a20c7e012",
       "bodyCount": 0,
       "messages": [],
       "variables": [
@@ -15142,7 +16283,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "8c76ed32-84c8-4a78-81a6-28c3cd031010"
+          "value": "1f9597c9-a2ee-42ec-95c7-c43a20c7e012"
         },
         {
           "alias": "Hardware",
@@ -15162,7 +16303,7 @@ const reportDataRaw ={
         },
         {
           "alias": "MASS",
-          "value": "2.22770031071337"
+          "value": "2.227700310713"
         },
         {
           "alias": "MAT",
@@ -15219,7 +16360,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PART",
             "type": "S",
-            "value": "part-22"
+            "value": "part-34"
           }
         ]
       },
@@ -15230,7 +16371,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_FRAME",
               "type": "S",
-              "value": "frame-01"
+              "value": "frame-02"
             }
           ]
         },
@@ -15240,7 +16381,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_SUBFRAME",
               "type": "S",
-              "value": "sub-frame-02"
+              "value": "sub-frame-03"
             }
           ]
         }
@@ -15252,7 +16393,7 @@ const reportDataRaw ={
           "type": "IMG_PART",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/part/part-Right Glass_Door Overlay_High Cabinet_SwoodDesign_1_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/parts/part-Right Glass_Door Overlay_High Cabinet_SwoodDesign_1_1_Default.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -15326,21 +16467,21 @@ const reportDataRaw ={
           "value": "2228"
         },
         {
-          "name": "Width Panel",
+          "name": "Width",
           "type": "Text",
           "value": "322"
         }
       ]
     },
     {
-      "ID": "e85628e9-f94d-4d10-95d9-389442270130",
+      "ID": "62ee4540-2c99-43c5-bf28-80d81a96cc58",
       "programs": [
         "Right_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default"
       ],
       "stocks": [
-        "e85628e9-f94d-4d10-95d9-389442270130.CORE"
+        "62ee4540-2c99-43c5-bf28-80d81a96cc58.CORE"
       ],
-      "panel": "e85628e9-f94d-4d10-95d9-389442270130",
+      "panel": "62ee4540-2c99-43c5-bf28-80d81a96cc58",
       "bodyCount": 0,
       "messages": [],
       "variables": [
@@ -15382,7 +16523,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "e85628e9-f94d-4d10-95d9-389442270130"
+          "value": "62ee4540-2c99-43c5-bf28-80d81a96cc58"
         },
         {
           "alias": "Hardware",
@@ -15402,7 +16543,7 @@ const reportDataRaw ={
         },
         {
           "alias": "MASS",
-          "value": "2.94230794249588"
+          "value": "2.942307942496"
         },
         {
           "alias": "MAT",
@@ -15418,7 +16559,7 @@ const reportDataRaw ={
         },
         {
           "alias": "PATH",
-          "value": "C:\\Swood Data Directory\\SWOODDesign\\Frames\\Report Example\\SwoodDesign\\High Cabinet_SwoodDesign_1\\Right_Drawers Overlay_High Cabinet_SwoodDesign_1_1.sldprt"
+          "value": "C:\\Swood Data Directory\\SWOODDesign\\Frames\\Report Example\\SwoodDesign\\High Cabinet_SwoodDesign_1\\Right_Drawers Overlay_High Cabinet_SwoodDesign_1_1.SLDPRT"
         },
         {
           "alias": "PLM_ID",
@@ -15459,7 +16600,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PART",
             "type": "S",
-            "value": "part-14"
+            "value": "part-24"
           }
         ]
       },
@@ -15470,7 +16611,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_FRAME",
               "type": "S",
-              "value": "frame-01"
+              "value": "frame-02"
             }
           ]
         },
@@ -15480,7 +16621,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_SUBFRAME",
               "type": "S",
-              "value": "sub-frame-01"
+              "value": "sub-frame-02"
             }
           ]
         }
@@ -15492,7 +16633,7 @@ const reportDataRaw ={
           "type": "IMG_PART",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/part/part-Right_Drawers Overlay_High Cabinet_SwoodDesign_1_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/parts/part-Right_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Default.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -15563,15 +16704,15 @@ const reportDataRaw ={
       ]
     },
     {
-      "ID": "5e735bfd-0cab-4555-84d8-cfb332e69c8f",
+      "ID": "f09aac8d-c25b-4912-9c5f-ece0d341472f",
       "programs": [
         "Right_High Cabinet_SwoodDesign_1_Milling_1_Default"
       ],
       "stocks": [
-        "5e735bfd-0cab-4555-84d8-cfb332e69c8f.BOTTOM",
-        "5e735bfd-0cab-4555-84d8-cfb332e69c8f.CORE"
+        "f09aac8d-c25b-4912-9c5f-ece0d341472f.BOTTOM",
+        "f09aac8d-c25b-4912-9c5f-ece0d341472f.CORE"
       ],
-      "panel": "5e735bfd-0cab-4555-84d8-cfb332e69c8f",
+      "panel": "f09aac8d-c25b-4912-9c5f-ece0d341472f",
       "bodyCount": 0,
       "messages": [],
       "variables": [
@@ -15613,7 +16754,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "5e735bfd-0cab-4555-84d8-cfb332e69c8f"
+          "value": "f09aac8d-c25b-4912-9c5f-ece0d341472f"
         },
         {
           "alias": "Hardware",
@@ -15633,7 +16774,7 @@ const reportDataRaw ={
         },
         {
           "alias": "MASS",
-          "value": "29.8925990698228"
+          "value": "29.892599069823"
         },
         {
           "alias": "MAT",
@@ -15690,7 +16831,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PART",
             "type": "S",
-            "value": "part-6"
+            "value": "part-15"
           }
         ]
       },
@@ -15701,7 +16842,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_FRAME",
               "type": "S",
-              "value": "frame-01"
+              "value": "frame-02"
             }
           ]
         }
@@ -15713,7 +16854,7 @@ const reportDataRaw ={
           "type": "IMG_PART",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/part/part-Right_High Cabinet_SwoodDesign_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/parts/part-Right_High Cabinet_SwoodDesign_1_Default.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -15814,16 +16955,16 @@ const reportDataRaw ={
       ]
     },
     {
-      "ID": "134a9f10-6dd6-4cce-b445-4c99260daecd",
+      "ID": "34890a23-4986-4933-91a8-a2b2b9b8a618",
       "programs": [
         "Shelve_Removable Shelves_High Cabinet_SwoodDesign_1_1_Milling_1_Default"
       ],
       "stocks": [
-        "134a9f10-6dd6-4cce-b445-4c99260daecd.TOP",
-        "134a9f10-6dd6-4cce-b445-4c99260daecd.BOTTOM",
-        "134a9f10-6dd6-4cce-b445-4c99260daecd.CORE"
+        "34890a23-4986-4933-91a8-a2b2b9b8a618.TOP",
+        "34890a23-4986-4933-91a8-a2b2b9b8a618.BOTTOM",
+        "34890a23-4986-4933-91a8-a2b2b9b8a618.CORE"
       ],
-      "panel": "134a9f10-6dd6-4cce-b445-4c99260daecd",
+      "panel": "34890a23-4986-4933-91a8-a2b2b9b8a618",
       "bodyCount": 0,
       "messages": [],
       "variables": [
@@ -15865,7 +17006,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "134a9f10-6dd6-4cce-b445-4c99260daecd"
+          "value": "34890a23-4986-4933-91a8-a2b2b9b8a618"
         },
         {
           "alias": "Hardware",
@@ -15901,7 +17042,7 @@ const reportDataRaw ={
         },
         {
           "alias": "PATH",
-          "value": "C:\\Swood Data Directory\\SWOODDesign\\Frames\\Report Example\\SwoodDesign\\High Cabinet_SwoodDesign_1\\Shelve_Removable Shelves_High Cabinet_SwoodDesign_1_1.sldprt"
+          "value": "C:\\Swood Data Directory\\SWOODDesign\\Frames\\Report Example\\SwoodDesign\\High Cabinet_SwoodDesign_1\\Shelve_Removable Shelves_High Cabinet_SwoodDesign_1_1.SLDPRT"
         },
         {
           "alias": "PLM_ID",
@@ -15942,7 +17083,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PART",
             "type": "S",
-            "value": "part-23"
+            "value": "part-21"
           }
         ]
       },
@@ -15953,7 +17094,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_FRAME",
               "type": "S",
-              "value": "frame-01"
+              "value": "frame-02"
             }
           ]
         }
@@ -15965,7 +17106,7 @@ const reportDataRaw ={
           "type": "IMG_PART",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/part/part-Shelve_Removable Shelves_High Cabinet_SwoodDesign_1_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/parts/part-Shelve_Removable Shelves_High Cabinet_SwoodDesign_1_1_Default.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -16066,7 +17207,7 @@ const reportDataRaw ={
       ]
     },
     {
-      "ID": "68dc8561-3cb5-46ec-88a5-b0baa754b6fa",
+      "ID": "d6da4264-070f-4aed-9742-327d14380724",
       "programs": [],
       "stocks": null,
       "panel": null,
@@ -16111,7 +17252,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "68dc8561-3cb5-46ec-88a5-b0baa754b6fa"
+          "value": "d6da4264-070f-4aed-9742-327d14380724"
         },
         {
           "alias": "Hardware",
@@ -16207,20 +17348,20 @@ const reportDataRaw ={
       ]
     },
     {
-      "ID": "172aa9e7-641e-44f7-8346-34e39ecef013",
+      "ID": "b1ed86ef-834e-4578-b9b3-61dd50c072ff",
       "programs": [],
       "stocks": [
-        "172aa9e7-641e-44f7-8346-34e39ecef013.Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[8]",
-        "172aa9e7-641e-44f7-8346-34e39ecef013.Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[1]",
-        "172aa9e7-641e-44f7-8346-34e39ecef013.Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[4]",
-        "172aa9e7-641e-44f7-8346-34e39ecef013.Trim/Extend1[2]",
-        "172aa9e7-641e-44f7-8346-34e39ecef013.Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[6]",
-        "172aa9e7-641e-44f7-8346-34e39ecef013.Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[7]",
-        "172aa9e7-641e-44f7-8346-34e39ecef013.Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[2]",
-        "172aa9e7-641e-44f7-8346-34e39ecef013.Al tube rectangular AL TUBE 2.25 X 1.5 RECT X 0.104 WALL(1)[3]",
-        "172aa9e7-641e-44f7-8346-34e39ecef013.Trim/Extend1[1]",
-        "172aa9e7-641e-44f7-8346-34e39ecef013.Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[5]",
-        "172aa9e7-641e-44f7-8346-34e39ecef013.Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[3]"
+        "b1ed86ef-834e-4578-b9b3-61dd50c072ff.Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[3]",
+        "b1ed86ef-834e-4578-b9b3-61dd50c072ff.Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[6]",
+        "b1ed86ef-834e-4578-b9b3-61dd50c072ff.Al tube rectangular AL TUBE 2.25 X 1.5 RECT X 0.104 WALL(1)[3]",
+        "b1ed86ef-834e-4578-b9b3-61dd50c072ff.Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[7]",
+        "b1ed86ef-834e-4578-b9b3-61dd50c072ff.Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[8]",
+        "b1ed86ef-834e-4578-b9b3-61dd50c072ff.Trim/Extend1[2]",
+        "b1ed86ef-834e-4578-b9b3-61dd50c072ff.Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[1]",
+        "b1ed86ef-834e-4578-b9b3-61dd50c072ff.Trim/Extend1[1]",
+        "b1ed86ef-834e-4578-b9b3-61dd50c072ff.Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[4]",
+        "b1ed86ef-834e-4578-b9b3-61dd50c072ff.Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[2]",
+        "b1ed86ef-834e-4578-b9b3-61dd50c072ff.Al tube rectangular AL TUBE 3.25 X 1.75 RECT X 0.08 WALL(1)[5]"
       ],
       "panel": null,
       "bodyCount": 11,
@@ -16264,7 +17405,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "172aa9e7-641e-44f7-8346-34e39ecef013"
+          "value": "b1ed86ef-834e-4578-b9b3-61dd50c072ff"
         },
         {
           "alias": "Hardware",
@@ -16284,7 +17425,7 @@ const reportDataRaw ={
         },
         {
           "alias": "MASS",
-          "value": "4.34282760439185"
+          "value": "4.342827604392"
         },
         {
           "alias": "MAT",
@@ -16341,7 +17482,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PART",
             "type": "S",
-            "value": "part-35"
+            "value": "part-36"
           }
         ]
       },
@@ -16398,7 +17539,7 @@ const reportDataRaw ={
       ]
     },
     {
-      "ID": "ae741226-f5c1-4d09-9b6a-7b5361b4c203",
+      "ID": "ebd8878b-c084-4fd7-9c21-36603a6a8b5f",
       "programs": [],
       "stocks": null,
       "panel": null,
@@ -16443,7 +17584,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "ae741226-f5c1-4d09-9b6a-7b5361b4c203"
+          "value": "ebd8878b-c084-4fd7-9c21-36603a6a8b5f"
         },
         {
           "alias": "Hardware",
@@ -16463,7 +17604,7 @@ const reportDataRaw ={
         },
         {
           "alias": "MASS",
-          "value": "0.0135782751338944"
+          "value": "0.013578275134"
         },
         {
           "alias": "MAT",
@@ -16525,7 +17666,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PART",
             "type": "S",
-            "value": "part-7"
+            "value": "part-18"
           }
         ]
       },
@@ -16536,7 +17677,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_FRAME",
               "type": "S",
-              "value": "frame-01"
+              "value": "frame-02"
             }
           ]
         }
@@ -16551,7 +17692,7 @@ const reportDataRaw ={
           "type": "EDRAWINGS_HARDWARE",
           "docType": "TEMPLATE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/edrawings/hardware/CamBolt.html",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/edrawings/hardware/CamBolt_15_14.2_24_8_11_8_9.html",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -16562,7 +17703,18 @@ const reportDataRaw ={
           "type": "IMG_HARDWARE",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/hardware/hardware-CamBolt_15_14.2_24_8_11_8_9.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/hardware/hardware-CamBolt_15_14.2_24_8_11_8_9.jpg",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "CONFIGURATION"
+        },
+        {
+          "documentName": "STEP_HARDWARE",
+          "type": "STEP_HARDWARE",
+          "docType": "STEP",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/steps/hardware/CamBolt_15_14.2_24_8_11_8_9.step",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -16613,7 +17765,7 @@ const reportDataRaw ={
       ]
     },
     {
-      "ID": "cb733167-3b47-4630-8afc-5efe1c79020e",
+      "ID": "8ba5eee9-c2f1-4035-83b0-e25101cba806",
       "programs": [],
       "stocks": null,
       "panel": null,
@@ -16658,7 +17810,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "cb733167-3b47-4630-8afc-5efe1c79020e"
+          "value": "8ba5eee9-c2f1-4035-83b0-e25101cba806"
         },
         {
           "alias": "Hardware",
@@ -16678,7 +17830,7 @@ const reportDataRaw ={
         },
         {
           "alias": "MASS",
-          "value": "0.00148492612759678"
+          "value": "0.001484926128"
         },
         {
           "alias": "MAT",
@@ -16740,7 +17892,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PART",
             "type": "S",
-            "value": "part-3"
+            "value": "part-17"
           }
         ]
       },
@@ -16751,7 +17903,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_FRAME",
               "type": "S",
-              "value": "frame-01"
+              "value": "frame-02"
             }
           ]
         }
@@ -16766,7 +17918,7 @@ const reportDataRaw ={
           "type": "EDRAWINGS_HARDWARE",
           "docType": "TEMPLATE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/edrawings/hardware/Dowel.html",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/edrawings/hardware/Dowel_8_30.html",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -16777,7 +17929,18 @@ const reportDataRaw ={
           "type": "IMG_HARDWARE",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/hardware/hardware-Dowel_8_30.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/hardware/hardware-Dowel_8_30.jpg",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "CONFIGURATION"
+        },
+        {
+          "documentName": "STEP_HARDWARE",
+          "type": "STEP_HARDWARE",
+          "docType": "STEP",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/steps/hardware/Dowel_8_30.step",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -16823,7 +17986,7 @@ const reportDataRaw ={
       ]
     },
     {
-      "ID": "f09de750-a739-4b4b-9d7e-bbd98d2b93ed",
+      "ID": "3cee1371-e66f-426e-b358-707ad44b6283",
       "programs": [],
       "stocks": null,
       "panel": null,
@@ -16868,7 +18031,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "f09de750-a739-4b4b-9d7e-bbd98d2b93ed"
+          "value": "3cee1371-e66f-426e-b358-707ad44b6283"
         },
         {
           "alias": "Hardware",
@@ -16888,7 +18051,7 @@ const reportDataRaw ={
         },
         {
           "alias": "MASS",
-          "value": "0.0260761480954134"
+          "value": "0.026076148095"
         },
         {
           "alias": "MAT",
@@ -16950,7 +18113,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PART",
             "type": "S",
-            "value": "part-10"
+            "value": "part-12"
           }
         ]
       },
@@ -16986,7 +18149,7 @@ const reportDataRaw ={
           "type": "EDRAWINGS_HARDWARE",
           "docType": "TEMPLATE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/edrawings/hardware/Bar Handle.html",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/edrawings/hardware/Bar Handle_Default.html",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -16997,7 +18160,18 @@ const reportDataRaw ={
           "type": "IMG_HARDWARE",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/hardware/hardware-Bar Handle_Default.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/hardware/hardware-Bar Handle_Default.jpg",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "CONFIGURATION"
+        },
+        {
+          "documentName": "STEP_HARDWARE",
+          "type": "STEP_HARDWARE",
+          "docType": "STEP",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/steps/hardware/Bar Handle_Default.step",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -17058,7 +18232,7 @@ const reportDataRaw ={
       ]
     },
     {
-      "ID": "dd97aff9-2053-4fb2-b287-9d44b5132323",
+      "ID": "7969a91f-d485-4fe4-8f9c-a9969b42c828",
       "programs": [],
       "stocks": null,
       "panel": null,
@@ -17103,7 +18277,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "dd97aff9-2053-4fb2-b287-9d44b5132323"
+          "value": "7969a91f-d485-4fe4-8f9c-a9969b42c828"
         },
         {
           "alias": "Hardware",
@@ -17123,7 +18297,7 @@ const reportDataRaw ={
         },
         {
           "alias": "MASS",
-          "value": "0.0313364526445998"
+          "value": "0.031336452645"
         },
         {
           "alias": "MAT",
@@ -17185,7 +18359,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PART",
             "type": "S",
-            "value": "part-16"
+            "value": "part-25"
           }
         ]
       },
@@ -17196,7 +18370,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_FRAME",
               "type": "S",
-              "value": "frame-01"
+              "value": "frame-02"
             }
           ]
         },
@@ -17206,7 +18380,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_SUBFRAME",
               "type": "S",
-              "value": "sub-frame-01"
+              "value": "sub-frame-02"
             }
           ]
         }
@@ -17221,7 +18395,7 @@ const reportDataRaw ={
           "type": "EDRAWINGS_HARDWARE",
           "docType": "TEMPLATE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/edrawings/hardware/Drawer Runner 350mm.html",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/edrawings/hardware/Drawer Runner 350mm_Drawer Runner 350mm (Left).html",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -17232,7 +18406,18 @@ const reportDataRaw ={
           "type": "IMG_HARDWARE",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/hardware/hardware-Drawer Runner 350mm_Drawer Runner 350mm (Left).jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/hardware/hardware-Drawer Runner 350mm_Drawer Runner 350mm (Left).jpg",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "CONFIGURATION"
+        },
+        {
+          "documentName": "STEP_HARDWARE",
+          "type": "STEP_HARDWARE",
+          "docType": "STEP",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/steps/hardware/Drawer Runner 350mm_Drawer Runner 350mm (Left).step",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -17283,7 +18468,7 @@ const reportDataRaw ={
       ]
     },
     {
-      "ID": "7b62d1b2-91c2-4936-bb53-ba509df3fff0",
+      "ID": "18556d44-ef6f-4ba0-8f41-5674f9fc7eb2",
       "programs": [],
       "stocks": null,
       "panel": null,
@@ -17328,7 +18513,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "7b62d1b2-91c2-4936-bb53-ba509df3fff0"
+          "value": "18556d44-ef6f-4ba0-8f41-5674f9fc7eb2"
         },
         {
           "alias": "Hardware",
@@ -17348,7 +18533,7 @@ const reportDataRaw ={
         },
         {
           "alias": "MASS",
-          "value": "0.0313364467779274"
+          "value": "0.031336446778"
         },
         {
           "alias": "MAT",
@@ -17410,7 +18595,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PART",
             "type": "S",
-            "value": "part-17"
+            "value": "part-29"
           }
         ]
       },
@@ -17421,7 +18606,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_FRAME",
               "type": "S",
-              "value": "frame-01"
+              "value": "frame-02"
             }
           ]
         },
@@ -17431,7 +18616,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_SUBFRAME",
               "type": "S",
-              "value": "sub-frame-01"
+              "value": "sub-frame-02"
             }
           ]
         }
@@ -17446,7 +18631,7 @@ const reportDataRaw ={
           "type": "EDRAWINGS_HARDWARE",
           "docType": "TEMPLATE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/edrawings/hardware/Drawer Runner 350mm.html",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/edrawings/hardware/Drawer Runner 350mm_Drawer Runner 350mm (Right).html",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -17457,7 +18642,18 @@ const reportDataRaw ={
           "type": "IMG_HARDWARE",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/hardware/hardware-Drawer Runner 350mm_Drawer Runner 350mm (Right).jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/hardware/hardware-Drawer Runner 350mm_Drawer Runner 350mm (Right).jpg",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "CONFIGURATION"
+        },
+        {
+          "documentName": "STEP_HARDWARE",
+          "type": "STEP_HARDWARE",
+          "docType": "STEP",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/steps/hardware/Drawer Runner 350mm_Drawer Runner 350mm (Right).step",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -17508,7 +18704,7 @@ const reportDataRaw ={
       ]
     },
     {
-      "ID": "0e04bfe4-d833-47f4-9dd1-f717accb53ef",
+      "ID": "c8c62451-98b0-43b5-9106-d9fbb9a25fc0",
       "programs": [],
       "stocks": null,
       "panel": null,
@@ -17553,7 +18749,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "0e04bfe4-d833-47f4-9dd1-f717accb53ef"
+          "value": "c8c62451-98b0-43b5-9106-d9fbb9a25fc0"
         },
         {
           "alias": "Hardware",
@@ -17573,7 +18769,7 @@ const reportDataRaw ={
         },
         {
           "alias": "MASS",
-          "value": "0.00460911409173344"
+          "value": "0.004609114092"
         },
         {
           "alias": "MAT",
@@ -17635,7 +18831,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PART",
             "type": "S",
-            "value": "part-24"
+            "value": "part-20"
           }
         ]
       },
@@ -17646,7 +18842,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_FRAME",
               "type": "S",
-              "value": "frame-01"
+              "value": "frame-02"
             }
           ]
         }
@@ -17661,7 +18857,7 @@ const reportDataRaw ={
           "type": "EDRAWINGS_HARDWARE",
           "docType": "TEMPLATE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/edrawings/hardware/Shelf Pin.html",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/edrawings/hardware/Shelf Pin_Default.html",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -17672,7 +18868,18 @@ const reportDataRaw ={
           "type": "IMG_HARDWARE",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/hardware/hardware-Shelf Pin_Default.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/hardware/hardware-Shelf Pin_Default.jpg",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "CONFIGURATION"
+        },
+        {
+          "documentName": "STEP_HARDWARE",
+          "type": "STEP_HARDWARE",
+          "docType": "STEP",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/steps/hardware/Shelf Pin_Default.step",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -17715,7 +18922,7 @@ const reportDataRaw ={
   ],
   "assemblies": [
     {
-      "ID": "bb087193-8761-4a89-83ca-a02fdeab368a",
+      "ID": "6bf77da4-c1fb-4c2d-bd91-cd81b8acf156",
       "messages": [],
       "variables": [
         {
@@ -17756,7 +18963,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "bb087193-8761-4a89-83ca-a02fdeab368a"
+          "value": "6bf77da4-c1fb-4c2d-bd91-cd81b8acf156"
         },
         {
           "alias": "Hardware",
@@ -17771,6 +18978,10 @@ const reportDataRaw ={
           "value": "False"
         },
         {
+          "alias": "MASS",
+          "value": "3254.86988615367"
+        },
+        {
           "alias": "NAME",
           "value": "SwoodDesign"
         },
@@ -17780,7 +18991,7 @@ const reportDataRaw ={
         },
         {
           "alias": "PATH",
-          "value": "C:\\Swood Data Directory\\SWOODDesign\\Frames\\Report Example\\SwoodDesign.sldasm"
+          "value": "C:\\Swood Data Directory\\SWOODDesign\\Frames\\Report Example\\SwoodDesign.SLDASM"
         },
         {
           "alias": "PLM_ID",
@@ -17823,240 +19034,240 @@ const reportDataRaw ={
       "typedObjectVariables": null,
       "programs": [],
       "parts": [
-        "8d8bda2e-e0c7-40a9-a927-f768273c14a3",
-        "e76f4f8a-43cc-412b-97e5-322c8134fd6b",
-        "3d5ad5ba-7875-4083-9b4c-8c67226f140f",
-        "5da29f5d-c913-4adf-a991-02b7e2a5709a",
-        "f09de750-a739-4b4b-9d7e-bbd98d2b93ed",
-        "bb37d6cf-cb5c-4315-85c0-f4f46200a472",
-        "a7aacb53-b186-4b2e-888b-a0602b1e7c3d",
-        "1aef8687-3984-49ea-a2a5-e7b32d9c8ab1",
-        "ae741226-f5c1-4d09-9b6a-7b5361b4c203",
-        "ddc31756-e1cc-4ad0-982f-c872dad9b680",
-        "cb733167-3b47-4630-8afc-5efe1c79020e",
-        "dd97aff9-2053-4fb2-b287-9d44b5132323",
-        "7b62d1b2-91c2-4936-bb53-ba509df3fff0",
-        "b11c1e3d-8a2c-4440-a5cf-14c0aeb2c5f1",
-        "729f06e4-e139-49fc-82ba-38b79cb6cd7a",
-        "937e155e-5ad0-4469-8936-6a996af61b4a",
-        "5a6666ed-b2ac-4b40-bfec-2b68d16899f8",
-        "6c203907-647e-4372-8bd6-a10e7ec5536c",
-        "17477517-cf35-4b28-a0ac-ac8efaabd845",
-        "f2be11ed-4b24-4dcb-b38d-58084a37c7b6",
-        "67d5e6db-94a1-420f-afd9-653e935f0eaa",
-        "5dd15c9d-6353-4653-a4ec-a2587ffede00",
-        "1c408da5-d940-477e-a904-8fd539fd4a86",
-        "a2b16b36-e478-46c3-8a29-6f011ca36f3d",
-        "820695a0-72ba-409b-a7ee-9b7998852039",
-        "1358051f-b7f8-4991-b110-2c5e6ec8b60e",
-        "89b367ac-2751-4f12-8a5b-db4112a6ff28",
-        "172aa9e7-641e-44f7-8346-34e39ecef013",
-        "6253ca19-90e6-4f82-9d1f-00e79ca96087",
-        "8c76ed32-84c8-4a78-81a6-28c3cd031010",
-        "23fa568a-6c4b-4d34-8658-81769b4c6305",
-        "e85628e9-f94d-4d10-95d9-389442270130",
-        "5e735bfd-0cab-4555-84d8-cfb332e69c8f",
-        "68dc8561-3cb5-46ec-88a5-b0baa754b6fa",
-        "0e04bfe4-d833-47f4-9dd1-f717accb53ef",
-        "134a9f10-6dd6-4cce-b445-4c99260daecd"
+        "91083e91-419e-400e-af7d-275827b68958",
+        "2e9e5c9f-adea-4b35-a98f-6d5d5d3f6cf3",
+        "a24f7410-4ce6-48b8-a506-63da2959b6f7",
+        "c8b64987-4a91-4a30-b29f-a7c0e76a2ee1",
+        "3cee1371-e66f-426e-b358-707ad44b6283",
+        "c6f835b1-d9cc-4c5e-a75d-9fafc566081d",
+        "8caa3f39-bcbf-4d3f-adbf-5c9f1f4eba75",
+        "e1886458-2a0d-4505-9dab-ecaa2bff10ae",
+        "ebd8878b-c084-4fd7-9c21-36603a6a8b5f",
+        "445e1306-8db1-4e82-a3b3-4e1b6c847bba",
+        "8ba5eee9-c2f1-4035-83b0-e25101cba806",
+        "7969a91f-d485-4fe4-8f9c-a9969b42c828",
+        "18556d44-ef6f-4ba0-8f41-5674f9fc7eb2",
+        "043b4845-8ca5-41b2-bb28-7c444264f198",
+        "ad96f3f9-b34c-415d-ba50-6663d7af8b21",
+        "dd1a1d0f-6789-400d-92d2-1ad05147db3a",
+        "69491234-2b0a-4f8a-985e-4953b6692bb2",
+        "2707b1b7-5162-4684-983f-e7ff1d06109a",
+        "c6225d67-cf52-430b-b38f-fa642ae35793",
+        "9d44626b-a462-4782-a8f1-3865fd91071a",
+        "3baffa6a-4172-4b3d-8511-f80fa866db20",
+        "cf82a206-3c76-4167-a885-21c2392bfdcb",
+        "bd2641ba-5ad6-496d-bd81-7a4e98a42b54",
+        "ea9204d6-9e7f-41fc-8ac2-f1dbb29cbb5b",
+        "2d3dd35e-ff5c-41d4-a4a4-bd81849ccdb0",
+        "3148c2a7-9eb2-48da-90b8-598617059e18",
+        "1f215b66-dcc9-4563-b1d7-2857f9ed2e04",
+        "b1ed86ef-834e-4578-b9b3-61dd50c072ff",
+        "c3b08b68-a681-4599-837a-67986a87a9b8",
+        "1f9597c9-a2ee-42ec-95c7-c43a20c7e012",
+        "7cfeb824-7803-44d7-be93-2884a33075d8",
+        "62ee4540-2c99-43c5-bf28-80d81a96cc58",
+        "f09aac8d-c25b-4912-9c5f-ece0d341472f",
+        "d6da4264-070f-4aed-9742-327d14380724",
+        "c8c62451-98b0-43b5-9106-d9fbb9a25fc0",
+        "34890a23-4986-4933-91a8-a2b2b9b8a618"
       ],
       "partsRefs": [
         {
-          "ID": "8d8bda2e-e0c7-40a9-a927-f768273c14a3",
+          "ID": "91083e91-419e-400e-af7d-275827b68958",
           "count": 1
         },
         {
-          "ID": "e76f4f8a-43cc-412b-97e5-322c8134fd6b",
+          "ID": "2e9e5c9f-adea-4b35-a98f-6d5d5d3f6cf3",
           "count": 1
         },
         {
-          "ID": "3d5ad5ba-7875-4083-9b4c-8c67226f140f",
+          "ID": "a24f7410-4ce6-48b8-a506-63da2959b6f7",
           "count": 1
         },
         {
-          "ID": "5da29f5d-c913-4adf-a991-02b7e2a5709a",
+          "ID": "c8b64987-4a91-4a30-b29f-a7c0e76a2ee1",
           "count": 3
         },
         {
-          "ID": "f09de750-a739-4b4b-9d7e-bbd98d2b93ed",
+          "ID": "3cee1371-e66f-426e-b358-707ad44b6283",
           "count": 7
         },
         {
-          "ID": "bb37d6cf-cb5c-4315-85c0-f4f46200a472",
+          "ID": "c6f835b1-d9cc-4c5e-a75d-9fafc566081d",
           "count": 1
         },
         {
-          "ID": "a7aacb53-b186-4b2e-888b-a0602b1e7c3d",
+          "ID": "8caa3f39-bcbf-4d3f-adbf-5c9f1f4eba75",
           "count": 3
         },
         {
-          "ID": "1aef8687-3984-49ea-a2a5-e7b32d9c8ab1",
+          "ID": "e1886458-2a0d-4505-9dab-ecaa2bff10ae",
           "count": 1
         },
         {
-          "ID": "ae741226-f5c1-4d09-9b6a-7b5361b4c203",
+          "ID": "ebd8878b-c084-4fd7-9c21-36603a6a8b5f",
           "count": 5
         },
         {
-          "ID": "ddc31756-e1cc-4ad0-982f-c872dad9b680",
+          "ID": "445e1306-8db1-4e82-a3b3-4e1b6c847bba",
           "count": 1
         },
         {
-          "ID": "cb733167-3b47-4630-8afc-5efe1c79020e",
+          "ID": "8ba5eee9-c2f1-4035-83b0-e25101cba806",
           "count": 12
         },
         {
-          "ID": "dd97aff9-2053-4fb2-b287-9d44b5132323",
+          "ID": "7969a91f-d485-4fe4-8f9c-a9969b42c828",
           "count": 3
         },
         {
-          "ID": "7b62d1b2-91c2-4936-bb53-ba509df3fff0",
+          "ID": "18556d44-ef6f-4ba0-8f41-5674f9fc7eb2",
           "count": 3
         },
         {
-          "ID": "b11c1e3d-8a2c-4440-a5cf-14c0aeb2c5f1",
+          "ID": "043b4845-8ca5-41b2-bb28-7c444264f198",
           "count": 1
         },
         {
-          "ID": "729f06e4-e139-49fc-82ba-38b79cb6cd7a",
+          "ID": "ad96f3f9-b34c-415d-ba50-6663d7af8b21",
           "count": 1
         },
         {
-          "ID": "937e155e-5ad0-4469-8936-6a996af61b4a",
+          "ID": "dd1a1d0f-6789-400d-92d2-1ad05147db3a",
           "count": 1
         },
         {
-          "ID": "5a6666ed-b2ac-4b40-bfec-2b68d16899f8",
+          "ID": "69491234-2b0a-4f8a-985e-4953b6692bb2",
           "count": 3
         },
         {
-          "ID": "6c203907-647e-4372-8bd6-a10e7ec5536c",
+          "ID": "2707b1b7-5162-4684-983f-e7ff1d06109a",
           "count": 1
         },
         {
-          "ID": "17477517-cf35-4b28-a0ac-ac8efaabd845",
+          "ID": "c6225d67-cf52-430b-b38f-fa642ae35793",
           "count": 1
         },
         {
-          "ID": "f2be11ed-4b24-4dcb-b38d-58084a37c7b6",
+          "ID": "9d44626b-a462-4782-a8f1-3865fd91071a",
           "count": 1
         },
         {
-          "ID": "67d5e6db-94a1-420f-afd9-653e935f0eaa",
+          "ID": "3baffa6a-4172-4b3d-8511-f80fa866db20",
           "count": 1
         },
         {
-          "ID": "5dd15c9d-6353-4653-a4ec-a2587ffede00",
+          "ID": "cf82a206-3c76-4167-a885-21c2392bfdcb",
           "count": 1
         },
         {
-          "ID": "1c408da5-d940-477e-a904-8fd539fd4a86",
+          "ID": "bd2641ba-5ad6-496d-bd81-7a4e98a42b54",
           "count": 1
         },
         {
-          "ID": "a2b16b36-e478-46c3-8a29-6f011ca36f3d",
+          "ID": "ea9204d6-9e7f-41fc-8ac2-f1dbb29cbb5b",
           "count": 1
         },
         {
-          "ID": "820695a0-72ba-409b-a7ee-9b7998852039",
+          "ID": "2d3dd35e-ff5c-41d4-a4a4-bd81849ccdb0",
           "count": 1
         },
         {
-          "ID": "1358051f-b7f8-4991-b110-2c5e6ec8b60e",
+          "ID": "3148c2a7-9eb2-48da-90b8-598617059e18",
           "count": 3
         },
         {
-          "ID": "89b367ac-2751-4f12-8a5b-db4112a6ff28",
+          "ID": "1f215b66-dcc9-4563-b1d7-2857f9ed2e04",
           "count": 1
         },
         {
-          "ID": "172aa9e7-641e-44f7-8346-34e39ecef013",
+          "ID": "b1ed86ef-834e-4578-b9b3-61dd50c072ff",
           "count": 1
         },
         {
-          "ID": "6253ca19-90e6-4f82-9d1f-00e79ca96087",
+          "ID": "c3b08b68-a681-4599-837a-67986a87a9b8",
           "count": 1
         },
         {
-          "ID": "8c76ed32-84c8-4a78-81a6-28c3cd031010",
+          "ID": "1f9597c9-a2ee-42ec-95c7-c43a20c7e012",
           "count": 1
         },
         {
-          "ID": "23fa568a-6c4b-4d34-8658-81769b4c6305",
+          "ID": "7cfeb824-7803-44d7-be93-2884a33075d8",
           "count": 1
         },
         {
-          "ID": "e85628e9-f94d-4d10-95d9-389442270130",
+          "ID": "62ee4540-2c99-43c5-bf28-80d81a96cc58",
           "count": 3
         },
         {
-          "ID": "5e735bfd-0cab-4555-84d8-cfb332e69c8f",
+          "ID": "f09aac8d-c25b-4912-9c5f-ece0d341472f",
           "count": 1
         },
         {
-          "ID": "68dc8561-3cb5-46ec-88a5-b0baa754b6fa",
+          "ID": "d6da4264-070f-4aed-9742-327d14380724",
           "count": 1
         },
         {
-          "ID": "0e04bfe4-d833-47f4-9dd1-f717accb53ef",
+          "ID": "c8c62451-98b0-43b5-9106-d9fbb9a25fc0",
           "count": 8
         },
         {
-          "ID": "134a9f10-6dd6-4cce-b445-4c99260daecd",
+          "ID": "34890a23-4986-4933-91a8-a2b2b9b8a618",
           "count": 2
         }
       ],
       "assemblies": [
-        "e8c22850-7460-46b9-9141-a1b220b9b4eb",
-        "b48f607a-a766-4221-bef2-e9024c57b70b",
-        "b998a4a3-7f51-41ea-a234-8912869bc163",
-        "c3a54ce6-62fc-4599-a906-68dae7fa7914",
-        "61d088e5-999a-488c-942d-4fa7d582e744",
-        "c0008ecb-91c3-4d06-8e5c-5f87641df6fd",
-        "9eb32567-c71f-4744-97ef-8fde50dbc6d8",
-        "354c4b1d-0c11-4428-9651-cac5bbe655c3",
-        "c6ca732a-3466-4ba6-848d-f6257ce95f17",
-        "8f21f17f-1057-4960-946e-a2e3c53f0665"
+        "a789462c-89dc-4fb7-b956-a0fc18091f19",
+        "fcf86ae8-5d5b-4a71-9558-8545a758bc4c",
+        "67e1d2df-2028-4637-840c-5d20e7eab8d4",
+        "f6e13cb5-d880-4608-81b2-a721c37a6ef7",
+        "93091a93-e7b2-4c45-85e5-4a2810e5ef2a",
+        "2e15e345-5d8b-4b4d-ae84-fa63c8548a96",
+        "10cdf901-7039-4301-a76b-9d3c66a1aeef",
+        "0ce5d2dc-cfd4-485d-9ce5-cbaac6582a61",
+        "aec194e3-caba-44c0-8f19-cdea4a27e118",
+        "9627c2aa-9d3b-4437-8b19-ad14ecf7640a"
       ],
       "assembliesRefs": [
         {
-          "ID": "e8c22850-7460-46b9-9141-a1b220b9b4eb",
+          "ID": "a789462c-89dc-4fb7-b956-a0fc18091f19",
           "count": 1
         },
         {
-          "ID": "b48f607a-a766-4221-bef2-e9024c57b70b",
+          "ID": "fcf86ae8-5d5b-4a71-9558-8545a758bc4c",
           "count": 1
         },
         {
-          "ID": "b998a4a3-7f51-41ea-a234-8912869bc163",
+          "ID": "67e1d2df-2028-4637-840c-5d20e7eab8d4",
           "count": 1
         },
         {
-          "ID": "c3a54ce6-62fc-4599-a906-68dae7fa7914",
+          "ID": "f6e13cb5-d880-4608-81b2-a721c37a6ef7",
           "count": 1
         },
         {
-          "ID": "61d088e5-999a-488c-942d-4fa7d582e744",
+          "ID": "93091a93-e7b2-4c45-85e5-4a2810e5ef2a",
           "count": 1
         },
         {
-          "ID": "c0008ecb-91c3-4d06-8e5c-5f87641df6fd",
+          "ID": "2e15e345-5d8b-4b4d-ae84-fa63c8548a96",
           "count": 8
         },
         {
-          "ID": "9eb32567-c71f-4744-97ef-8fde50dbc6d8",
+          "ID": "10cdf901-7039-4301-a76b-9d3c66a1aeef",
           "count": 1
         },
         {
-          "ID": "354c4b1d-0c11-4428-9651-cac5bbe655c3",
+          "ID": "0ce5d2dc-cfd4-485d-9ce5-cbaac6582a61",
           "count": 1
         },
         {
-          "ID": "c6ca732a-3466-4ba6-848d-f6257ce95f17",
+          "ID": "aec194e3-caba-44c0-8f19-cdea4a27e118",
           "count": 1
         },
         {
-          "ID": "8f21f17f-1057-4960-946e-a2e3c53f0665",
+          "ID": "9627c2aa-9d3b-4437-8b19-ad14ecf7640a",
           "count": 1
         }
       ],
@@ -18105,7 +19316,7 @@ const reportDataRaw ={
       ]
     },
     {
-      "ID": "c3a54ce6-62fc-4599-a906-68dae7fa7914",
+      "ID": "f6e13cb5-d880-4608-81b2-a721c37a6ef7",
       "messages": [],
       "variables": [
         {
@@ -18146,7 +19357,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "c3a54ce6-62fc-4599-a906-68dae7fa7914"
+          "value": "f6e13cb5-d880-4608-81b2-a721c37a6ef7"
         },
         {
           "alias": "Hardware",
@@ -18161,6 +19372,10 @@ const reportDataRaw ={
           "value": "False"
         },
         {
+          "alias": "MASS",
+          "value": "64.583556054757"
+        },
+        {
           "alias": "NAME",
           "value": "Doors_SwoodDesign_1"
         },
@@ -18170,7 +19385,7 @@ const reportDataRaw ={
         },
         {
           "alias": "PATH",
-          "value": "C:\\Swood Data Directory\\SWOODDesign\\Frames\\Report Example\\SwoodDesign\\Doors_SwoodDesign_1.sldasm"
+          "value": "C:\\Swood Data Directory\\SWOODDesign\\Frames\\Report Example\\SwoodDesign\\Doors_SwoodDesign_1.SLDASM"
         },
         {
           "alias": "PLM_ID",
@@ -18216,7 +19431,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_FRAME",
               "type": "S",
-              "value": "frame-02"
+              "value": "frame-01"
             }
           ]
         }
@@ -18224,75 +19439,75 @@ const reportDataRaw ={
       "typedObjectVariables": null,
       "programs": [],
       "parts": [
-        "8d8bda2e-e0c7-40a9-a927-f768273c14a3",
-        "3d5ad5ba-7875-4083-9b4c-8c67226f140f",
-        "f09de750-a739-4b4b-9d7e-bbd98d2b93ed",
-        "bb37d6cf-cb5c-4315-85c0-f4f46200a472",
-        "b11c1e3d-8a2c-4440-a5cf-14c0aeb2c5f1",
-        "937e155e-5ad0-4469-8936-6a996af61b4a",
-        "6c203907-647e-4372-8bd6-a10e7ec5536c",
-        "f2be11ed-4b24-4dcb-b38d-58084a37c7b6",
-        "5dd15c9d-6353-4653-a4ec-a2587ffede00",
-        "820695a0-72ba-409b-a7ee-9b7998852039",
-        "23fa568a-6c4b-4d34-8658-81769b4c6305"
+        "91083e91-419e-400e-af7d-275827b68958",
+        "a24f7410-4ce6-48b8-a506-63da2959b6f7",
+        "3cee1371-e66f-426e-b358-707ad44b6283",
+        "c6f835b1-d9cc-4c5e-a75d-9fafc566081d",
+        "043b4845-8ca5-41b2-bb28-7c444264f198",
+        "dd1a1d0f-6789-400d-92d2-1ad05147db3a",
+        "2707b1b7-5162-4684-983f-e7ff1d06109a",
+        "9d44626b-a462-4782-a8f1-3865fd91071a",
+        "cf82a206-3c76-4167-a885-21c2392bfdcb",
+        "2d3dd35e-ff5c-41d4-a4a4-bd81849ccdb0",
+        "7cfeb824-7803-44d7-be93-2884a33075d8"
       ],
       "partsRefs": [
         {
-          "ID": "8d8bda2e-e0c7-40a9-a927-f768273c14a3",
+          "ID": "91083e91-419e-400e-af7d-275827b68958",
           "count": 1
         },
         {
-          "ID": "3d5ad5ba-7875-4083-9b4c-8c67226f140f",
+          "ID": "a24f7410-4ce6-48b8-a506-63da2959b6f7",
           "count": 1
         },
         {
-          "ID": "f09de750-a739-4b4b-9d7e-bbd98d2b93ed",
+          "ID": "3cee1371-e66f-426e-b358-707ad44b6283",
           "count": 2
         },
         {
-          "ID": "bb37d6cf-cb5c-4315-85c0-f4f46200a472",
+          "ID": "c6f835b1-d9cc-4c5e-a75d-9fafc566081d",
           "count": 1
         },
         {
-          "ID": "b11c1e3d-8a2c-4440-a5cf-14c0aeb2c5f1",
+          "ID": "043b4845-8ca5-41b2-bb28-7c444264f198",
           "count": 1
         },
         {
-          "ID": "937e155e-5ad0-4469-8936-6a996af61b4a",
+          "ID": "dd1a1d0f-6789-400d-92d2-1ad05147db3a",
           "count": 1
         },
         {
-          "ID": "6c203907-647e-4372-8bd6-a10e7ec5536c",
+          "ID": "2707b1b7-5162-4684-983f-e7ff1d06109a",
           "count": 1
         },
         {
-          "ID": "f2be11ed-4b24-4dcb-b38d-58084a37c7b6",
+          "ID": "9d44626b-a462-4782-a8f1-3865fd91071a",
           "count": 1
         },
         {
-          "ID": "5dd15c9d-6353-4653-a4ec-a2587ffede00",
+          "ID": "cf82a206-3c76-4167-a885-21c2392bfdcb",
           "count": 1
         },
         {
-          "ID": "820695a0-72ba-409b-a7ee-9b7998852039",
+          "ID": "2d3dd35e-ff5c-41d4-a4a4-bd81849ccdb0",
           "count": 1
         },
         {
-          "ID": "23fa568a-6c4b-4d34-8658-81769b4c6305",
+          "ID": "7cfeb824-7803-44d7-be93-2884a33075d8",
           "count": 1
         }
       ],
       "assemblies": [
-        "b48f607a-a766-4221-bef2-e9024c57b70b",
-        "c0008ecb-91c3-4d06-8e5c-5f87641df6fd"
+        "fcf86ae8-5d5b-4a71-9558-8545a758bc4c",
+        "2e15e345-5d8b-4b4d-ae84-fa63c8548a96"
       ],
       "assembliesRefs": [
         {
-          "ID": "b48f607a-a766-4221-bef2-e9024c57b70b",
+          "ID": "fcf86ae8-5d5b-4a71-9558-8545a758bc4c",
           "count": 1
         },
         {
-          "ID": "c0008ecb-91c3-4d06-8e5c-5f87641df6fd",
+          "ID": "2e15e345-5d8b-4b4d-ae84-fa63c8548a96",
           "count": 4
         }
       ],
@@ -18302,7 +19517,7 @@ const reportDataRaw ={
           "type": "EDRAWINGS_FRAME",
           "docType": "TEMPLATE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/edrawings/frames/Doors_SwoodDesign_1.html",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/edrawings/frames/Doors_SwoodDesign_1_Default.html",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -18313,7 +19528,7 @@ const reportDataRaw ={
           "type": "IMG_FRAME",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/frames/frame-Doors_SwoodDesign_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/frames/frame-Doors_SwoodDesign_1_Default.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -18324,10 +19539,21 @@ const reportDataRaw ={
           "type": "PDF_FRAME",
           "docType": "DRAWING2PDF",
           "processingStatus": 0,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/pdfs/frames/Doors_SwoodDesign_1.pdf",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/pdfs/frames/Doors_SwoodDesign_1_Default.pdf",
           "hidden": true,
           "storageType": 0,
           "exists": false,
+          "objType": "CONFIGURATION"
+        },
+        {
+          "documentName": "STEP_FRAME",
+          "type": "STEP_FRAME",
+          "docType": "STEP",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/steps/frames/Doors_SwoodDesign_1_Default.step",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
           "objType": "CONFIGURATION"
         }
       ],
@@ -18395,7 +19621,7 @@ const reportDataRaw ={
       ]
     },
     {
-      "ID": "b48f607a-a766-4221-bef2-e9024c57b70b",
+      "ID": "fcf86ae8-5d5b-4a71-9558-8545a758bc4c",
       "messages": [],
       "variables": [
         {
@@ -18436,7 +19662,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "b48f607a-a766-4221-bef2-e9024c57b70b"
+          "value": "fcf86ae8-5d5b-4a71-9558-8545a758bc4c"
         },
         {
           "alias": "Hardware",
@@ -18449,6 +19675,10 @@ const reportDataRaw ={
         {
           "alias": "Location",
           "value": "False"
+        },
+        {
+          "alias": "MASS",
+          "value": "15.524812851084"
         },
         {
           "alias": "NAME",
@@ -18506,7 +19736,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_FRAME",
               "type": "S",
-              "value": "frame-02"
+              "value": "frame-01"
             }
           ]
         },
@@ -18516,7 +19746,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_SUBFRAME",
               "type": "S",
-              "value": "sub-frame-03"
+              "value": "sub-frame-01"
             }
           ]
         }
@@ -18524,30 +19754,30 @@ const reportDataRaw ={
       "typedObjectVariables": null,
       "programs": [],
       "parts": [
-        "f09de750-a739-4b4b-9d7e-bbd98d2b93ed",
-        "6c203907-647e-4372-8bd6-a10e7ec5536c",
-        "f2be11ed-4b24-4dcb-b38d-58084a37c7b6"
+        "3cee1371-e66f-426e-b358-707ad44b6283",
+        "2707b1b7-5162-4684-983f-e7ff1d06109a",
+        "9d44626b-a462-4782-a8f1-3865fd91071a"
       ],
       "partsRefs": [
         {
-          "ID": "f09de750-a739-4b4b-9d7e-bbd98d2b93ed",
+          "ID": "3cee1371-e66f-426e-b358-707ad44b6283",
           "count": 2
         },
         {
-          "ID": "6c203907-647e-4372-8bd6-a10e7ec5536c",
+          "ID": "2707b1b7-5162-4684-983f-e7ff1d06109a",
           "count": 1
         },
         {
-          "ID": "f2be11ed-4b24-4dcb-b38d-58084a37c7b6",
+          "ID": "9d44626b-a462-4782-a8f1-3865fd91071a",
           "count": 1
         }
       ],
       "assemblies": [
-        "c0008ecb-91c3-4d06-8e5c-5f87641df6fd"
+        "2e15e345-5d8b-4b4d-ae84-fa63c8548a96"
       ],
       "assembliesRefs": [
         {
-          "ID": "c0008ecb-91c3-4d06-8e5c-5f87641df6fd",
+          "ID": "2e15e345-5d8b-4b4d-ae84-fa63c8548a96",
           "count": 4
         }
       ],
@@ -18557,7 +19787,7 @@ const reportDataRaw ={
           "type": "EDRAWINGS_SUBFRAME",
           "docType": "TEMPLATE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/edrawings/sub-frames/Door Overlay_Doors_SwoodDesign_1_1.html",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/edrawings/sub-frames/Door Overlay_Doors_SwoodDesign_1_1_Default.html",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -18568,7 +19798,18 @@ const reportDataRaw ={
           "type": "IMG_SUBFRAME",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/sub-frames/subframe-Door Overlay_Doors_SwoodDesign_1_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/sub-frames/subframe-Door Overlay_Doors_SwoodDesign_1_1_Default.jpg",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "CONFIGURATION"
+        },
+        {
+          "documentName": "STEP_SUBFRAME",
+          "type": "STEP_SUBFRAME",
+          "docType": "STEP",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/steps/sub-frames/Door Overlay_Doors_SwoodDesign_1_1_Default.step",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -18619,7 +19860,7 @@ const reportDataRaw ={
       ]
     },
     {
-      "ID": "9eb32567-c71f-4744-97ef-8fde50dbc6d8",
+      "ID": "10cdf901-7039-4301-a76b-9d3c66a1aeef",
       "messages": [],
       "variables": [
         {
@@ -18660,7 +19901,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "9eb32567-c71f-4744-97ef-8fde50dbc6d8"
+          "value": "10cdf901-7039-4301-a76b-9d3c66a1aeef"
         },
         {
           "alias": "Hardware",
@@ -18675,6 +19916,10 @@ const reportDataRaw ={
           "value": "False"
         },
         {
+          "alias": "MASS",
+          "value": "208.684987270491"
+        },
+        {
           "alias": "NAME",
           "value": "High Cabinet_SwoodDesign_1"
         },
@@ -18684,7 +19929,7 @@ const reportDataRaw ={
         },
         {
           "alias": "PATH",
-          "value": "C:\\Swood Data Directory\\SWOODDesign\\Frames\\Report Example\\SwoodDesign\\High Cabinet_SwoodDesign_1.sldasm"
+          "value": "C:\\Swood Data Directory\\SWOODDesign\\Frames\\Report Example\\SwoodDesign\\High Cabinet_SwoodDesign_1.SLDASM"
         },
         {
           "alias": "PLM_ID",
@@ -18730,7 +19975,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_FRAME",
               "type": "S",
-              "value": "frame-01"
+              "value": "frame-02"
             }
           ]
         }
@@ -18738,155 +19983,155 @@ const reportDataRaw ={
       "typedObjectVariables": null,
       "programs": [],
       "parts": [
-        "e76f4f8a-43cc-412b-97e5-322c8134fd6b",
-        "5da29f5d-c913-4adf-a991-02b7e2a5709a",
-        "f09de750-a739-4b4b-9d7e-bbd98d2b93ed",
-        "a7aacb53-b186-4b2e-888b-a0602b1e7c3d",
-        "1aef8687-3984-49ea-a2a5-e7b32d9c8ab1",
-        "ae741226-f5c1-4d09-9b6a-7b5361b4c203",
-        "cb733167-3b47-4630-8afc-5efe1c79020e",
-        "dd97aff9-2053-4fb2-b287-9d44b5132323",
-        "7b62d1b2-91c2-4936-bb53-ba509df3fff0",
-        "729f06e4-e139-49fc-82ba-38b79cb6cd7a",
-        "5a6666ed-b2ac-4b40-bfec-2b68d16899f8",
-        "17477517-cf35-4b28-a0ac-ac8efaabd845",
-        "67d5e6db-94a1-420f-afd9-653e935f0eaa",
-        "1c408da5-d940-477e-a904-8fd539fd4a86",
-        "a2b16b36-e478-46c3-8a29-6f011ca36f3d",
-        "1358051f-b7f8-4991-b110-2c5e6ec8b60e",
-        "89b367ac-2751-4f12-8a5b-db4112a6ff28",
-        "6253ca19-90e6-4f82-9d1f-00e79ca96087",
-        "8c76ed32-84c8-4a78-81a6-28c3cd031010",
-        "e85628e9-f94d-4d10-95d9-389442270130",
-        "5e735bfd-0cab-4555-84d8-cfb332e69c8f",
-        "0e04bfe4-d833-47f4-9dd1-f717accb53ef",
-        "134a9f10-6dd6-4cce-b445-4c99260daecd"
+        "2e9e5c9f-adea-4b35-a98f-6d5d5d3f6cf3",
+        "c8b64987-4a91-4a30-b29f-a7c0e76a2ee1",
+        "3cee1371-e66f-426e-b358-707ad44b6283",
+        "8caa3f39-bcbf-4d3f-adbf-5c9f1f4eba75",
+        "e1886458-2a0d-4505-9dab-ecaa2bff10ae",
+        "ebd8878b-c084-4fd7-9c21-36603a6a8b5f",
+        "8ba5eee9-c2f1-4035-83b0-e25101cba806",
+        "7969a91f-d485-4fe4-8f9c-a9969b42c828",
+        "18556d44-ef6f-4ba0-8f41-5674f9fc7eb2",
+        "ad96f3f9-b34c-415d-ba50-6663d7af8b21",
+        "69491234-2b0a-4f8a-985e-4953b6692bb2",
+        "c6225d67-cf52-430b-b38f-fa642ae35793",
+        "3baffa6a-4172-4b3d-8511-f80fa866db20",
+        "bd2641ba-5ad6-496d-bd81-7a4e98a42b54",
+        "ea9204d6-9e7f-41fc-8ac2-f1dbb29cbb5b",
+        "3148c2a7-9eb2-48da-90b8-598617059e18",
+        "1f215b66-dcc9-4563-b1d7-2857f9ed2e04",
+        "c3b08b68-a681-4599-837a-67986a87a9b8",
+        "1f9597c9-a2ee-42ec-95c7-c43a20c7e012",
+        "62ee4540-2c99-43c5-bf28-80d81a96cc58",
+        "f09aac8d-c25b-4912-9c5f-ece0d341472f",
+        "c8c62451-98b0-43b5-9106-d9fbb9a25fc0",
+        "34890a23-4986-4933-91a8-a2b2b9b8a618"
       ],
       "partsRefs": [
         {
-          "ID": "e76f4f8a-43cc-412b-97e5-322c8134fd6b",
+          "ID": "2e9e5c9f-adea-4b35-a98f-6d5d5d3f6cf3",
           "count": 1
         },
         {
-          "ID": "5da29f5d-c913-4adf-a991-02b7e2a5709a",
+          "ID": "c8b64987-4a91-4a30-b29f-a7c0e76a2ee1",
           "count": 3
         },
         {
-          "ID": "f09de750-a739-4b4b-9d7e-bbd98d2b93ed",
+          "ID": "3cee1371-e66f-426e-b358-707ad44b6283",
           "count": 5
         },
         {
-          "ID": "a7aacb53-b186-4b2e-888b-a0602b1e7c3d",
+          "ID": "8caa3f39-bcbf-4d3f-adbf-5c9f1f4eba75",
           "count": 3
         },
         {
-          "ID": "1aef8687-3984-49ea-a2a5-e7b32d9c8ab1",
+          "ID": "e1886458-2a0d-4505-9dab-ecaa2bff10ae",
           "count": 1
         },
         {
-          "ID": "ae741226-f5c1-4d09-9b6a-7b5361b4c203",
+          "ID": "ebd8878b-c084-4fd7-9c21-36603a6a8b5f",
           "count": 5
         },
         {
-          "ID": "cb733167-3b47-4630-8afc-5efe1c79020e",
+          "ID": "8ba5eee9-c2f1-4035-83b0-e25101cba806",
           "count": 12
         },
         {
-          "ID": "dd97aff9-2053-4fb2-b287-9d44b5132323",
+          "ID": "7969a91f-d485-4fe4-8f9c-a9969b42c828",
           "count": 3
         },
         {
-          "ID": "7b62d1b2-91c2-4936-bb53-ba509df3fff0",
+          "ID": "18556d44-ef6f-4ba0-8f41-5674f9fc7eb2",
           "count": 3
         },
         {
-          "ID": "729f06e4-e139-49fc-82ba-38b79cb6cd7a",
+          "ID": "ad96f3f9-b34c-415d-ba50-6663d7af8b21",
           "count": 1
         },
         {
-          "ID": "5a6666ed-b2ac-4b40-bfec-2b68d16899f8",
+          "ID": "69491234-2b0a-4f8a-985e-4953b6692bb2",
           "count": 3
         },
         {
-          "ID": "17477517-cf35-4b28-a0ac-ac8efaabd845",
+          "ID": "c6225d67-cf52-430b-b38f-fa642ae35793",
           "count": 1
         },
         {
-          "ID": "67d5e6db-94a1-420f-afd9-653e935f0eaa",
+          "ID": "3baffa6a-4172-4b3d-8511-f80fa866db20",
           "count": 1
         },
         {
-          "ID": "1c408da5-d940-477e-a904-8fd539fd4a86",
+          "ID": "bd2641ba-5ad6-496d-bd81-7a4e98a42b54",
           "count": 1
         },
         {
-          "ID": "a2b16b36-e478-46c3-8a29-6f011ca36f3d",
+          "ID": "ea9204d6-9e7f-41fc-8ac2-f1dbb29cbb5b",
           "count": 1
         },
         {
-          "ID": "1358051f-b7f8-4991-b110-2c5e6ec8b60e",
+          "ID": "3148c2a7-9eb2-48da-90b8-598617059e18",
           "count": 3
         },
         {
-          "ID": "89b367ac-2751-4f12-8a5b-db4112a6ff28",
+          "ID": "1f215b66-dcc9-4563-b1d7-2857f9ed2e04",
           "count": 1
         },
         {
-          "ID": "6253ca19-90e6-4f82-9d1f-00e79ca96087",
+          "ID": "c3b08b68-a681-4599-837a-67986a87a9b8",
           "count": 1
         },
         {
-          "ID": "8c76ed32-84c8-4a78-81a6-28c3cd031010",
+          "ID": "1f9597c9-a2ee-42ec-95c7-c43a20c7e012",
           "count": 1
         },
         {
-          "ID": "e85628e9-f94d-4d10-95d9-389442270130",
+          "ID": "62ee4540-2c99-43c5-bf28-80d81a96cc58",
           "count": 3
         },
         {
-          "ID": "5e735bfd-0cab-4555-84d8-cfb332e69c8f",
+          "ID": "f09aac8d-c25b-4912-9c5f-ece0d341472f",
           "count": 1
         },
         {
-          "ID": "0e04bfe4-d833-47f4-9dd1-f717accb53ef",
+          "ID": "c8c62451-98b0-43b5-9106-d9fbb9a25fc0",
           "count": 8
         },
         {
-          "ID": "134a9f10-6dd6-4cce-b445-4c99260daecd",
+          "ID": "34890a23-4986-4933-91a8-a2b2b9b8a618",
           "count": 2
         }
       ],
       "assemblies": [
-        "e8c22850-7460-46b9-9141-a1b220b9b4eb",
-        "b998a4a3-7f51-41ea-a234-8912869bc163",
-        "61d088e5-999a-488c-942d-4fa7d582e744",
-        "c0008ecb-91c3-4d06-8e5c-5f87641df6fd",
-        "354c4b1d-0c11-4428-9651-cac5bbe655c3",
-        "c6ca732a-3466-4ba6-848d-f6257ce95f17"
+        "a789462c-89dc-4fb7-b956-a0fc18091f19",
+        "67e1d2df-2028-4637-840c-5d20e7eab8d4",
+        "93091a93-e7b2-4c45-85e5-4a2810e5ef2a",
+        "2e15e345-5d8b-4b4d-ae84-fa63c8548a96",
+        "0ce5d2dc-cfd4-485d-9ce5-cbaac6582a61",
+        "aec194e3-caba-44c0-8f19-cdea4a27e118"
       ],
       "assembliesRefs": [
         {
-          "ID": "e8c22850-7460-46b9-9141-a1b220b9b4eb",
+          "ID": "a789462c-89dc-4fb7-b956-a0fc18091f19",
           "count": 1
         },
         {
-          "ID": "b998a4a3-7f51-41ea-a234-8912869bc163",
+          "ID": "67e1d2df-2028-4637-840c-5d20e7eab8d4",
           "count": 1
         },
         {
-          "ID": "61d088e5-999a-488c-942d-4fa7d582e744",
+          "ID": "93091a93-e7b2-4c45-85e5-4a2810e5ef2a",
           "count": 1
         },
         {
-          "ID": "c0008ecb-91c3-4d06-8e5c-5f87641df6fd",
+          "ID": "2e15e345-5d8b-4b4d-ae84-fa63c8548a96",
           "count": 4
         },
         {
-          "ID": "354c4b1d-0c11-4428-9651-cac5bbe655c3",
+          "ID": "0ce5d2dc-cfd4-485d-9ce5-cbaac6582a61",
           "count": 1
         },
         {
-          "ID": "c6ca732a-3466-4ba6-848d-f6257ce95f17",
+          "ID": "aec194e3-caba-44c0-8f19-cdea4a27e118",
           "count": 1
         }
       ],
@@ -18896,7 +20141,7 @@ const reportDataRaw ={
           "type": "EDRAWINGS_FRAME",
           "docType": "TEMPLATE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/edrawings/frames/High Cabinet_SwoodDesign_1.html",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/edrawings/frames/High Cabinet_SwoodDesign_1_Default.html",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -18907,7 +20152,7 @@ const reportDataRaw ={
           "type": "IMG_FRAME",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/frames/frame-High Cabinet_SwoodDesign_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/frames/frame-High Cabinet_SwoodDesign_1_Default.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -18918,7 +20163,18 @@ const reportDataRaw ={
           "type": "PDF_FRAME",
           "docType": "DRAWING2PDF",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/pdfs/frames/High Cabinet_SwoodDesign_1.pdf",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/pdfs/frames/High Cabinet_SwoodDesign_1_Default.pdf",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "CONFIGURATION"
+        },
+        {
+          "documentName": "STEP_FRAME",
+          "type": "STEP_FRAME",
+          "docType": "STEP",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/steps/frames/High Cabinet_SwoodDesign_1_Default.step",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -18987,6 +20243,26 @@ const reportDataRaw ={
           "value": "54321"
         },
         {
+          "name": "PDFFrames",
+          "type": "YesOrNo",
+          "value": "Yes"
+        },
+        {
+          "name": "PDFHardware",
+          "type": "YesOrNo",
+          "value": "No"
+        },
+        {
+          "name": "PDFPanels",
+          "type": "YesOrNo",
+          "value": "Yes"
+        },
+        {
+          "name": "PDFProject",
+          "type": "YesOrNo",
+          "value": "Yes"
+        },
+        {
           "name": "Weight",
           "type": "Text",
           "value": "208685g"
@@ -19004,7 +20280,7 @@ const reportDataRaw ={
       ]
     },
     {
-      "ID": "e8c22850-7460-46b9-9141-a1b220b9b4eb",
+      "ID": "a789462c-89dc-4fb7-b956-a0fc18091f19",
       "messages": [],
       "variables": [
         {
@@ -19045,7 +20321,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "e8c22850-7460-46b9-9141-a1b220b9b4eb"
+          "value": "a789462c-89dc-4fb7-b956-a0fc18091f19"
         },
         {
           "alias": "Hardware",
@@ -19058,6 +20334,10 @@ const reportDataRaw ={
         {
           "alias": "Location",
           "value": "False"
+        },
+        {
+          "alias": "MASS",
+          "value": "10.4193"
         },
         {
           "alias": "NAME",
@@ -19115,7 +20395,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_FRAME",
               "type": "S",
-              "value": "frame-01"
+              "value": "frame-02"
             }
           ]
         }
@@ -19123,11 +20403,11 @@ const reportDataRaw ={
       "typedObjectVariables": null,
       "programs": [],
       "parts": [
-        "e76f4f8a-43cc-412b-97e5-322c8134fd6b"
+        "2e9e5c9f-adea-4b35-a98f-6d5d5d3f6cf3"
       ],
       "partsRefs": [
         {
-          "ID": "e76f4f8a-43cc-412b-97e5-322c8134fd6b",
+          "ID": "2e9e5c9f-adea-4b35-a98f-6d5d5d3f6cf3",
           "count": 1
         }
       ],
@@ -19158,7 +20438,7 @@ const reportDataRaw ={
       ]
     },
     {
-      "ID": "b998a4a3-7f51-41ea-a234-8912869bc163",
+      "ID": "67e1d2df-2028-4637-840c-5d20e7eab8d4",
       "messages": [],
       "variables": [
         {
@@ -19199,7 +20479,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "b998a4a3-7f51-41ea-a234-8912869bc163"
+          "value": "67e1d2df-2028-4637-840c-5d20e7eab8d4"
         },
         {
           "alias": "Hardware",
@@ -19212,6 +20492,10 @@ const reportDataRaw ={
         {
           "alias": "Location",
           "value": "False"
+        },
+        {
+          "alias": "MASS",
+          "value": "13.617447472514"
         },
         {
           "alias": "NAME",
@@ -19269,7 +20553,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_FRAME",
               "type": "S",
-              "value": "frame-01"
+              "value": "frame-02"
             }
           ]
         },
@@ -19279,7 +20563,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_SUBFRAME",
               "type": "S",
-              "value": "sub-frame-02"
+              "value": "sub-frame-03"
             }
           ]
         }
@@ -19287,40 +20571,40 @@ const reportDataRaw ={
       "typedObjectVariables": null,
       "programs": [],
       "parts": [
-        "f09de750-a739-4b4b-9d7e-bbd98d2b93ed",
-        "17477517-cf35-4b28-a0ac-ac8efaabd845",
-        "67d5e6db-94a1-420f-afd9-653e935f0eaa",
-        "a2b16b36-e478-46c3-8a29-6f011ca36f3d",
-        "8c76ed32-84c8-4a78-81a6-28c3cd031010"
+        "3cee1371-e66f-426e-b358-707ad44b6283",
+        "c6225d67-cf52-430b-b38f-fa642ae35793",
+        "3baffa6a-4172-4b3d-8511-f80fa866db20",
+        "ea9204d6-9e7f-41fc-8ac2-f1dbb29cbb5b",
+        "1f9597c9-a2ee-42ec-95c7-c43a20c7e012"
       ],
       "partsRefs": [
         {
-          "ID": "f09de750-a739-4b4b-9d7e-bbd98d2b93ed",
+          "ID": "3cee1371-e66f-426e-b358-707ad44b6283",
           "count": 2
         },
         {
-          "ID": "17477517-cf35-4b28-a0ac-ac8efaabd845",
+          "ID": "c6225d67-cf52-430b-b38f-fa642ae35793",
           "count": 1
         },
         {
-          "ID": "67d5e6db-94a1-420f-afd9-653e935f0eaa",
+          "ID": "3baffa6a-4172-4b3d-8511-f80fa866db20",
           "count": 1
         },
         {
-          "ID": "a2b16b36-e478-46c3-8a29-6f011ca36f3d",
+          "ID": "ea9204d6-9e7f-41fc-8ac2-f1dbb29cbb5b",
           "count": 1
         },
         {
-          "ID": "8c76ed32-84c8-4a78-81a6-28c3cd031010",
+          "ID": "1f9597c9-a2ee-42ec-95c7-c43a20c7e012",
           "count": 1
         }
       ],
       "assemblies": [
-        "c0008ecb-91c3-4d06-8e5c-5f87641df6fd"
+        "2e15e345-5d8b-4b4d-ae84-fa63c8548a96"
       ],
       "assembliesRefs": [
         {
-          "ID": "c0008ecb-91c3-4d06-8e5c-5f87641df6fd",
+          "ID": "2e15e345-5d8b-4b4d-ae84-fa63c8548a96",
           "count": 4
         }
       ],
@@ -19330,7 +20614,7 @@ const reportDataRaw ={
           "type": "EDRAWINGS_SUBFRAME",
           "docType": "TEMPLATE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/edrawings/sub-frames/Door Overlay_High Cabinet_SwoodDesign_1_1.html",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/edrawings/sub-frames/Door Overlay_High Cabinet_SwoodDesign_1_1_Default.html",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -19341,7 +20625,18 @@ const reportDataRaw ={
           "type": "IMG_SUBFRAME",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/sub-frames/subframe-Door Overlay_High Cabinet_SwoodDesign_1_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/sub-frames/subframe-Door Overlay_High Cabinet_SwoodDesign_1_1_Default.jpg",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "CONFIGURATION"
+        },
+        {
+          "documentName": "STEP_SUBFRAME",
+          "type": "STEP_SUBFRAME",
+          "docType": "STEP",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/steps/sub-frames/Door Overlay_High Cabinet_SwoodDesign_1_1_Default.step",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -19392,7 +20687,7 @@ const reportDataRaw ={
       ]
     },
     {
-      "ID": "61d088e5-999a-488c-942d-4fa7d582e744",
+      "ID": "93091a93-e7b2-4c45-85e5-4a2810e5ef2a",
       "messages": [],
       "variables": [
         {
@@ -19433,7 +20728,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "61d088e5-999a-488c-942d-4fa7d582e744"
+          "value": "93091a93-e7b2-4c45-85e5-4a2810e5ef2a"
         },
         {
           "alias": "Hardware",
@@ -19446,6 +20741,10 @@ const reportDataRaw ={
         {
           "alias": "Location",
           "value": "False"
+        },
+        {
+          "alias": "MASS",
+          "value": "71.059258061393"
         },
         {
           "alias": "NAME",
@@ -19503,7 +20802,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_FRAME",
               "type": "S",
-              "value": "frame-01"
+              "value": "frame-02"
             }
           ]
         },
@@ -19513,7 +20812,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_SUBFRAME",
               "type": "S",
-              "value": "sub-frame-01"
+              "value": "sub-frame-02"
             }
           ]
         }
@@ -19521,46 +20820,46 @@ const reportDataRaw ={
       "typedObjectVariables": null,
       "programs": [],
       "parts": [
-        "5da29f5d-c913-4adf-a991-02b7e2a5709a",
-        "f09de750-a739-4b4b-9d7e-bbd98d2b93ed",
-        "a7aacb53-b186-4b2e-888b-a0602b1e7c3d",
-        "dd97aff9-2053-4fb2-b287-9d44b5132323",
-        "7b62d1b2-91c2-4936-bb53-ba509df3fff0",
-        "5a6666ed-b2ac-4b40-bfec-2b68d16899f8",
-        "1358051f-b7f8-4991-b110-2c5e6ec8b60e",
-        "e85628e9-f94d-4d10-95d9-389442270130"
+        "c8b64987-4a91-4a30-b29f-a7c0e76a2ee1",
+        "3cee1371-e66f-426e-b358-707ad44b6283",
+        "8caa3f39-bcbf-4d3f-adbf-5c9f1f4eba75",
+        "7969a91f-d485-4fe4-8f9c-a9969b42c828",
+        "18556d44-ef6f-4ba0-8f41-5674f9fc7eb2",
+        "69491234-2b0a-4f8a-985e-4953b6692bb2",
+        "3148c2a7-9eb2-48da-90b8-598617059e18",
+        "62ee4540-2c99-43c5-bf28-80d81a96cc58"
       ],
       "partsRefs": [
         {
-          "ID": "5da29f5d-c913-4adf-a991-02b7e2a5709a",
+          "ID": "c8b64987-4a91-4a30-b29f-a7c0e76a2ee1",
           "count": 3
         },
         {
-          "ID": "f09de750-a739-4b4b-9d7e-bbd98d2b93ed",
+          "ID": "3cee1371-e66f-426e-b358-707ad44b6283",
           "count": 3
         },
         {
-          "ID": "a7aacb53-b186-4b2e-888b-a0602b1e7c3d",
+          "ID": "8caa3f39-bcbf-4d3f-adbf-5c9f1f4eba75",
           "count": 3
         },
         {
-          "ID": "dd97aff9-2053-4fb2-b287-9d44b5132323",
+          "ID": "7969a91f-d485-4fe4-8f9c-a9969b42c828",
           "count": 3
         },
         {
-          "ID": "7b62d1b2-91c2-4936-bb53-ba509df3fff0",
+          "ID": "18556d44-ef6f-4ba0-8f41-5674f9fc7eb2",
           "count": 3
         },
         {
-          "ID": "5a6666ed-b2ac-4b40-bfec-2b68d16899f8",
+          "ID": "69491234-2b0a-4f8a-985e-4953b6692bb2",
           "count": 3
         },
         {
-          "ID": "1358051f-b7f8-4991-b110-2c5e6ec8b60e",
+          "ID": "3148c2a7-9eb2-48da-90b8-598617059e18",
           "count": 3
         },
         {
-          "ID": "e85628e9-f94d-4d10-95d9-389442270130",
+          "ID": "62ee4540-2c99-43c5-bf28-80d81a96cc58",
           "count": 3
         }
       ],
@@ -19572,7 +20871,7 @@ const reportDataRaw ={
           "type": "EDRAWINGS_SUBFRAME",
           "docType": "TEMPLATE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/edrawings/sub-frames/Drawers Overlay_High Cabinet_SwoodDesign_1_1.html",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/edrawings/sub-frames/Drawers Overlay_High Cabinet_SwoodDesign_1_1_Default.html",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -19583,7 +20882,18 @@ const reportDataRaw ={
           "type": "IMG_SUBFRAME",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/sub-frames/subframe-Drawers Overlay_High Cabinet_SwoodDesign_1_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/sub-frames/subframe-Drawers Overlay_High Cabinet_SwoodDesign_1_1_Default.jpg",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "CONFIGURATION"
+        },
+        {
+          "documentName": "STEP_SUBFRAME",
+          "type": "STEP_SUBFRAME",
+          "docType": "STEP",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/steps/sub-frames/Drawers Overlay_High Cabinet_SwoodDesign_1_1_Default.step",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -19629,7 +20939,7 @@ const reportDataRaw ={
       ]
     },
     {
-      "ID": "354c4b1d-0c11-4428-9651-cac5bbe655c3",
+      "ID": "0ce5d2dc-cfd4-485d-9ce5-cbaac6582a61",
       "messages": [],
       "variables": [
         {
@@ -19670,7 +20980,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "354c4b1d-0c11-4428-9651-cac5bbe655c3"
+          "value": "0ce5d2dc-cfd4-485d-9ce5-cbaac6582a61"
         },
         {
           "alias": "Hardware",
@@ -19683,6 +20993,10 @@ const reportDataRaw ={
         {
           "alias": "Location",
           "value": "False"
+        },
+        {
+          "alias": "MASS",
+          "value": "10.09242"
         },
         {
           "alias": "NAME",
@@ -19740,7 +21054,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_FRAME",
               "type": "S",
-              "value": "frame-01"
+              "value": "frame-02"
             }
           ]
         }
@@ -19748,11 +21062,11 @@ const reportDataRaw ={
       "typedObjectVariables": null,
       "programs": [],
       "parts": [
-        "6253ca19-90e6-4f82-9d1f-00e79ca96087"
+        "c3b08b68-a681-4599-837a-67986a87a9b8"
       ],
       "partsRefs": [
         {
-          "ID": "6253ca19-90e6-4f82-9d1f-00e79ca96087",
+          "ID": "c3b08b68-a681-4599-837a-67986a87a9b8",
           "count": 1
         }
       ],
@@ -19783,7 +21097,7 @@ const reportDataRaw ={
       ]
     },
     {
-      "ID": "c6ca732a-3466-4ba6-848d-f6257ce95f17",
+      "ID": "aec194e3-caba-44c0-8f19-cdea4a27e118",
       "messages": [],
       "variables": [
         {
@@ -19824,7 +21138,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "c6ca732a-3466-4ba6-848d-f6257ce95f17"
+          "value": "aec194e3-caba-44c0-8f19-cdea4a27e118"
         },
         {
           "alias": "Hardware",
@@ -19837,6 +21151,10 @@ const reportDataRaw ={
         {
           "alias": "Location",
           "value": "False"
+        },
+        {
+          "alias": "MASS",
+          "value": "20.105672912734"
         },
         {
           "alias": "NAME",
@@ -19894,7 +21212,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_FRAME",
               "type": "S",
-              "value": "frame-01"
+              "value": "frame-02"
             }
           ]
         }
@@ -19902,16 +21220,16 @@ const reportDataRaw ={
       "typedObjectVariables": null,
       "programs": [],
       "parts": [
-        "0e04bfe4-d833-47f4-9dd1-f717accb53ef",
-        "134a9f10-6dd6-4cce-b445-4c99260daecd"
+        "c8c62451-98b0-43b5-9106-d9fbb9a25fc0",
+        "34890a23-4986-4933-91a8-a2b2b9b8a618"
       ],
       "partsRefs": [
         {
-          "ID": "0e04bfe4-d833-47f4-9dd1-f717accb53ef",
+          "ID": "c8c62451-98b0-43b5-9106-d9fbb9a25fc0",
           "count": 8
         },
         {
-          "ID": "134a9f10-6dd6-4cce-b445-4c99260daecd",
+          "ID": "34890a23-4986-4933-91a8-a2b2b9b8a618",
           "count": 2
         }
       ],
@@ -19942,7 +21260,7 @@ const reportDataRaw ={
       ]
     },
     {
-      "ID": "8f21f17f-1057-4960-946e-a2e3c53f0665",
+      "ID": "9627c2aa-9d3b-4437-8b19-ad14ecf7640a",
       "messages": [],
       "variables": [
         {
@@ -19983,7 +21301,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "8f21f17f-1057-4960-946e-a2e3c53f0665"
+          "value": "9627c2aa-9d3b-4437-8b19-ad14ecf7640a"
         },
         {
           "alias": "Hardware",
@@ -19998,6 +21316,10 @@ const reportDataRaw ={
           "value": "False"
         },
         {
+          "alias": "MASS",
+          "value": "4.342827604392"
+        },
+        {
           "alias": "NAME",
           "value": "Table_SwoodDesign_1"
         },
@@ -20007,7 +21329,7 @@ const reportDataRaw ={
         },
         {
           "alias": "PATH",
-          "value": "C:\\Swood Data Directory\\SWOODDesign\\Frames\\Report Example\\SwoodDesign\\Table_SwoodDesign_1.sldasm"
+          "value": "C:\\Swood Data Directory\\SWOODDesign\\Frames\\Report Example\\SwoodDesign\\Table_SwoodDesign_1.SLDASM"
         },
         {
           "alias": "PLM_ID",
@@ -20061,11 +21383,11 @@ const reportDataRaw ={
       "typedObjectVariables": null,
       "programs": [],
       "parts": [
-        "172aa9e7-641e-44f7-8346-34e39ecef013"
+        "b1ed86ef-834e-4578-b9b3-61dd50c072ff"
       ],
       "partsRefs": [
         {
-          "ID": "172aa9e7-641e-44f7-8346-34e39ecef013",
+          "ID": "b1ed86ef-834e-4578-b9b3-61dd50c072ff",
           "count": 1
         }
       ],
@@ -20077,7 +21399,7 @@ const reportDataRaw ={
           "type": "EDRAWINGS_FRAME",
           "docType": "TEMPLATE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/edrawings/frames/Table_SwoodDesign_1.html",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/edrawings/frames/Table_SwoodDesign_1_Assem1.html",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -20088,7 +21410,7 @@ const reportDataRaw ={
           "type": "IMG_FRAME",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/frames/frame-Table_SwoodDesign_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/frames/frame-Table_SwoodDesign_1_Assem1.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -20099,18 +21421,34 @@ const reportDataRaw ={
           "type": "PDF_FRAME",
           "docType": "DRAWING2PDF",
           "processingStatus": 0,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/pdfs/frames/Table_SwoodDesign_1.pdf",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/pdfs/frames/Table_SwoodDesign_1_Assem1.pdf",
           "hidden": true,
           "storageType": 0,
           "exists": false,
+          "objType": "CONFIGURATION"
+        },
+        {
+          "documentName": "STEP_FRAME",
+          "type": "STEP_FRAME",
+          "docType": "STEP",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/steps/frames/Table_SwoodDesign_1_Assem1.step",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
           "objType": "CONFIGURATION"
         }
       ],
       "swcps": [
         {
+          "name": "Depth",
+          "type": "Text",
+          "value": "600"
+        },
+        {
           "name": "Description",
           "type": "Text",
-          "value": "Metal structure"
+          "value": "Metal Structure"
         },
         {
           "name": "Frame",
@@ -20121,11 +21459,31 @@ const reportDataRaw ={
           "name": "Frame Type",
           "type": "Text",
           "value": "Structural"
+        },
+        {
+          "name": "FrameID",
+          "type": "Text",
+          "value": "C"
+        },
+        {
+          "name": "Height",
+          "type": "Text",
+          "value": "950"
+        },
+        {
+          "name": "ID",
+          "type": "Text",
+          "value": "C"
+        },
+        {
+          "name": "Width",
+          "type": "Text",
+          "value": "1400"
         }
       ]
     },
     {
-      "ID": "c0008ecb-91c3-4d06-8e5c-5f87641df6fd",
+      "ID": "2e15e345-5d8b-4b4d-ae84-fa63c8548a96",
       "messages": [],
       "variables": [
         {
@@ -20166,7 +21524,7 @@ const reportDataRaw ={
         },
         {
           "alias": "GUID",
-          "value": "c0008ecb-91c3-4d06-8e5c-5f87641df6fd"
+          "value": "2e15e345-5d8b-4b4d-ae84-fa63c8548a96"
         },
         {
           "alias": "Hardware",
@@ -20179,6 +21537,10 @@ const reportDataRaw ={
         {
           "alias": "Location",
           "value": "False"
+        },
+        {
+          "alias": "MASS",
+          "value": "0.007501051412"
         },
         {
           "alias": "NAME",
@@ -20246,7 +21608,7 @@ const reportDataRaw ={
             {
               "alias": "NUM_SUBFRAME",
               "type": "S",
-              "value": "sub-frame-02"
+              "value": "sub-frame-01"
             }
           ]
         }
@@ -20272,7 +21634,7 @@ const reportDataRaw ={
           "type": "EDRAWINGS_HARDWARE",
           "docType": "TEMPLATE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/edrawings/hardware/Halafe 31160500.html",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/edrawings/hardware/Halafe 31160500_Closed.html",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -20283,7 +21645,18 @@ const reportDataRaw ={
           "type": "IMG_HARDWARE",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/hardware/hardware-Halafe 31160500_Closed.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/hardware/hardware-Halafe 31160500_Closed.jpg",
+          "hidden": true,
+          "storageType": 0,
+          "exists": true,
+          "objType": "CONFIGURATION"
+        },
+        {
+          "documentName": "STEP_HARDWARE",
+          "type": "STEP_HARDWARE",
+          "docType": "STEP",
+          "processingStatus": 2,
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/steps/hardware/Halafe 31160500_Closed.step",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -20316,8 +21689,8 @@ const reportDataRaw ={
   ],
   "edgebands": [
     {
-      "ID": "6c203907-647e-4372-8bd6-a10e7ec5536c.Edgeband1",
-      "panel": "6c203907-647e-4372-8bd6-a10e7ec5536c",
+      "ID": "2707b1b7-5162-4684-983f-e7ff1d06109a.Edgeband1",
+      "panel": "2707b1b7-5162-4684-983f-e7ff1d06109a",
       "edgebandMaterial": "Mahogany B.MA1",
       "variables": [
         {
@@ -20378,11 +21751,15 @@ const reportDataRaw ={
         "variables": []
       },
       "documents": null,
-      "messages": []
+      "messages": [],
+      "shapeVariables": null,
+      "leftEndShapeVariables": null,
+      "rightEndShapeVariables": null,
+      "additionalShapeVariables": null
     },
     {
-      "ID": "6c203907-647e-4372-8bd6-a10e7ec5536c.Edgeband2",
-      "panel": "6c203907-647e-4372-8bd6-a10e7ec5536c",
+      "ID": "2707b1b7-5162-4684-983f-e7ff1d06109a.Edgeband2",
+      "panel": "2707b1b7-5162-4684-983f-e7ff1d06109a",
       "edgebandMaterial": "Mahogany B.MA1",
       "variables": [
         {
@@ -20443,11 +21820,15 @@ const reportDataRaw ={
         "variables": []
       },
       "documents": null,
-      "messages": []
+      "messages": [],
+      "shapeVariables": null,
+      "leftEndShapeVariables": null,
+      "rightEndShapeVariables": null,
+      "additionalShapeVariables": null
     },
     {
-      "ID": "6c203907-647e-4372-8bd6-a10e7ec5536c.Edgeband3",
-      "panel": "6c203907-647e-4372-8bd6-a10e7ec5536c",
+      "ID": "2707b1b7-5162-4684-983f-e7ff1d06109a.Edgeband3",
+      "panel": "2707b1b7-5162-4684-983f-e7ff1d06109a",
       "edgebandMaterial": "Mahogany B.MA1",
       "variables": [
         {
@@ -20508,11 +21889,15 @@ const reportDataRaw ={
         "variables": []
       },
       "documents": null,
-      "messages": []
+      "messages": [],
+      "shapeVariables": null,
+      "leftEndShapeVariables": null,
+      "rightEndShapeVariables": null,
+      "additionalShapeVariables": null
     },
     {
-      "ID": "6c203907-647e-4372-8bd6-a10e7ec5536c.Edgeband4",
-      "panel": "6c203907-647e-4372-8bd6-a10e7ec5536c",
+      "ID": "2707b1b7-5162-4684-983f-e7ff1d06109a.Edgeband4",
+      "panel": "2707b1b7-5162-4684-983f-e7ff1d06109a",
       "edgebandMaterial": "Mahogany B.MA1",
       "variables": [
         {
@@ -20573,11 +21958,15 @@ const reportDataRaw ={
         "variables": []
       },
       "documents": null,
-      "messages": []
+      "messages": [],
+      "shapeVariables": null,
+      "leftEndShapeVariables": null,
+      "rightEndShapeVariables": null,
+      "additionalShapeVariables": null
     },
     {
-      "ID": "f2be11ed-4b24-4dcb-b38d-58084a37c7b6.Edgeband1",
-      "panel": "f2be11ed-4b24-4dcb-b38d-58084a37c7b6",
+      "ID": "9d44626b-a462-4782-a8f1-3865fd91071a.Edgeband1",
+      "panel": "9d44626b-a462-4782-a8f1-3865fd91071a",
       "edgebandMaterial": "Mahogany B.MA1",
       "variables": [
         {
@@ -20638,11 +22027,15 @@ const reportDataRaw ={
         "variables": []
       },
       "documents": null,
-      "messages": []
+      "messages": [],
+      "shapeVariables": null,
+      "leftEndShapeVariables": null,
+      "rightEndShapeVariables": null,
+      "additionalShapeVariables": null
     },
     {
-      "ID": "f2be11ed-4b24-4dcb-b38d-58084a37c7b6.Edgeband2",
-      "panel": "f2be11ed-4b24-4dcb-b38d-58084a37c7b6",
+      "ID": "9d44626b-a462-4782-a8f1-3865fd91071a.Edgeband2",
+      "panel": "9d44626b-a462-4782-a8f1-3865fd91071a",
       "edgebandMaterial": "Mahogany B.MA1",
       "variables": [
         {
@@ -20703,11 +22096,15 @@ const reportDataRaw ={
         "variables": []
       },
       "documents": null,
-      "messages": []
+      "messages": [],
+      "shapeVariables": null,
+      "leftEndShapeVariables": null,
+      "rightEndShapeVariables": null,
+      "additionalShapeVariables": null
     },
     {
-      "ID": "f2be11ed-4b24-4dcb-b38d-58084a37c7b6.Edgeband3",
-      "panel": "f2be11ed-4b24-4dcb-b38d-58084a37c7b6",
+      "ID": "9d44626b-a462-4782-a8f1-3865fd91071a.Edgeband3",
+      "panel": "9d44626b-a462-4782-a8f1-3865fd91071a",
       "edgebandMaterial": "Mahogany B.MA1",
       "variables": [
         {
@@ -20768,11 +22165,15 @@ const reportDataRaw ={
         "variables": []
       },
       "documents": null,
-      "messages": []
+      "messages": [],
+      "shapeVariables": null,
+      "leftEndShapeVariables": null,
+      "rightEndShapeVariables": null,
+      "additionalShapeVariables": null
     },
     {
-      "ID": "f2be11ed-4b24-4dcb-b38d-58084a37c7b6.Edgeband4",
-      "panel": "f2be11ed-4b24-4dcb-b38d-58084a37c7b6",
+      "ID": "9d44626b-a462-4782-a8f1-3865fd91071a.Edgeband4",
+      "panel": "9d44626b-a462-4782-a8f1-3865fd91071a",
       "edgebandMaterial": "Mahogany B.MA1",
       "variables": [
         {
@@ -20833,11 +22234,15 @@ const reportDataRaw ={
         "variables": []
       },
       "documents": null,
-      "messages": []
+      "messages": [],
+      "shapeVariables": null,
+      "leftEndShapeVariables": null,
+      "rightEndShapeVariables": null,
+      "additionalShapeVariables": null
     },
     {
-      "ID": "1aef8687-3984-49ea-a2a5-e7b32d9c8ab1.Edge Band1",
-      "panel": "1aef8687-3984-49ea-a2a5-e7b32d9c8ab1",
+      "ID": "e1886458-2a0d-4505-9dab-ecaa2bff10ae.Edge Band1",
+      "panel": "e1886458-2a0d-4505-9dab-ecaa2bff10ae",
       "edgebandMaterial": "Mahogany B.MA1",
       "variables": [
         {
@@ -20898,11 +22303,15 @@ const reportDataRaw ={
         "variables": []
       },
       "documents": null,
-      "messages": []
+      "messages": [],
+      "shapeVariables": null,
+      "leftEndShapeVariables": null,
+      "rightEndShapeVariables": null,
+      "additionalShapeVariables": null
     },
     {
-      "ID": "729f06e4-e139-49fc-82ba-38b79cb6cd7a.Edgeband1",
-      "panel": "729f06e4-e139-49fc-82ba-38b79cb6cd7a",
+      "ID": "ad96f3f9-b34c-415d-ba50-6663d7af8b21.Edgeband1",
+      "panel": "ad96f3f9-b34c-415d-ba50-6663d7af8b21",
       "edgebandMaterial": "Mahogany B.MA1",
       "variables": [
         {
@@ -20963,11 +22372,15 @@ const reportDataRaw ={
         "variables": []
       },
       "documents": null,
-      "messages": []
+      "messages": [],
+      "shapeVariables": null,
+      "leftEndShapeVariables": null,
+      "rightEndShapeVariables": null,
+      "additionalShapeVariables": null
     },
     {
-      "ID": "5a6666ed-b2ac-4b40-bfec-2b68d16899f8.Edgeband1",
-      "panel": "5a6666ed-b2ac-4b40-bfec-2b68d16899f8",
+      "ID": "69491234-2b0a-4f8a-985e-4953b6692bb2.Edgeband1",
+      "panel": "69491234-2b0a-4f8a-985e-4953b6692bb2",
       "edgebandMaterial": "Mahogany B.MA1",
       "variables": [
         {
@@ -21028,11 +22441,15 @@ const reportDataRaw ={
         "variables": []
       },
       "documents": null,
-      "messages": []
+      "messages": [],
+      "shapeVariables": null,
+      "leftEndShapeVariables": null,
+      "rightEndShapeVariables": null,
+      "additionalShapeVariables": null
     },
     {
-      "ID": "5a6666ed-b2ac-4b40-bfec-2b68d16899f8.Edgeband2",
-      "panel": "5a6666ed-b2ac-4b40-bfec-2b68d16899f8",
+      "ID": "69491234-2b0a-4f8a-985e-4953b6692bb2.Edgeband2",
+      "panel": "69491234-2b0a-4f8a-985e-4953b6692bb2",
       "edgebandMaterial": "Mahogany B.MA1",
       "variables": [
         {
@@ -21093,11 +22510,15 @@ const reportDataRaw ={
         "variables": []
       },
       "documents": null,
-      "messages": []
+      "messages": [],
+      "shapeVariables": null,
+      "leftEndShapeVariables": null,
+      "rightEndShapeVariables": null,
+      "additionalShapeVariables": null
     },
     {
-      "ID": "5a6666ed-b2ac-4b40-bfec-2b68d16899f8.Edgeband3",
-      "panel": "5a6666ed-b2ac-4b40-bfec-2b68d16899f8",
+      "ID": "69491234-2b0a-4f8a-985e-4953b6692bb2.Edgeband3",
+      "panel": "69491234-2b0a-4f8a-985e-4953b6692bb2",
       "edgebandMaterial": "Mahogany B.MA1",
       "variables": [
         {
@@ -21158,11 +22579,15 @@ const reportDataRaw ={
         "variables": []
       },
       "documents": null,
-      "messages": []
+      "messages": [],
+      "shapeVariables": null,
+      "leftEndShapeVariables": null,
+      "rightEndShapeVariables": null,
+      "additionalShapeVariables": null
     },
     {
-      "ID": "5a6666ed-b2ac-4b40-bfec-2b68d16899f8.Edgeband4",
-      "panel": "5a6666ed-b2ac-4b40-bfec-2b68d16899f8",
+      "ID": "69491234-2b0a-4f8a-985e-4953b6692bb2.Edgeband4",
+      "panel": "69491234-2b0a-4f8a-985e-4953b6692bb2",
       "edgebandMaterial": "Mahogany B.MA1",
       "variables": [
         {
@@ -21223,11 +22648,15 @@ const reportDataRaw ={
         "variables": []
       },
       "documents": null,
-      "messages": []
+      "messages": [],
+      "shapeVariables": null,
+      "leftEndShapeVariables": null,
+      "rightEndShapeVariables": null,
+      "additionalShapeVariables": null
     },
     {
-      "ID": "17477517-cf35-4b28-a0ac-ac8efaabd845.Edgeband1",
-      "panel": "17477517-cf35-4b28-a0ac-ac8efaabd845",
+      "ID": "c6225d67-cf52-430b-b38f-fa642ae35793.Edgeband1",
+      "panel": "c6225d67-cf52-430b-b38f-fa642ae35793",
       "edgebandMaterial": "Mahogany B.MA1",
       "variables": [
         {
@@ -21256,7 +22685,7 @@ const reportDataRaw ={
         },
         {
           "alias": "EB_LSTOCK",
-          "value": "472.000000000003"
+          "value": "472"
         },
         {
           "alias": "EB_N",
@@ -21288,11 +22717,15 @@ const reportDataRaw ={
         "variables": []
       },
       "documents": null,
-      "messages": []
+      "messages": [],
+      "shapeVariables": null,
+      "leftEndShapeVariables": null,
+      "rightEndShapeVariables": null,
+      "additionalShapeVariables": null
     },
     {
-      "ID": "17477517-cf35-4b28-a0ac-ac8efaabd845.Edgeband2",
-      "panel": "17477517-cf35-4b28-a0ac-ac8efaabd845",
+      "ID": "c6225d67-cf52-430b-b38f-fa642ae35793.Edgeband2",
+      "panel": "c6225d67-cf52-430b-b38f-fa642ae35793",
       "edgebandMaterial": "Mahogany B.MA1",
       "variables": [
         {
@@ -21321,7 +22754,7 @@ const reportDataRaw ={
         },
         {
           "alias": "EB_LSTOCK",
-          "value": "1151.50000000001"
+          "value": "1151.5"
         },
         {
           "alias": "EB_N",
@@ -21353,11 +22786,15 @@ const reportDataRaw ={
         "variables": []
       },
       "documents": null,
-      "messages": []
+      "messages": [],
+      "shapeVariables": null,
+      "leftEndShapeVariables": null,
+      "rightEndShapeVariables": null,
+      "additionalShapeVariables": null
     },
     {
-      "ID": "17477517-cf35-4b28-a0ac-ac8efaabd845.Edgeband3",
-      "panel": "17477517-cf35-4b28-a0ac-ac8efaabd845",
+      "ID": "c6225d67-cf52-430b-b38f-fa642ae35793.Edgeband3",
+      "panel": "c6225d67-cf52-430b-b38f-fa642ae35793",
       "edgebandMaterial": "Mahogany B.MA1",
       "variables": [
         {
@@ -21386,7 +22823,7 @@ const reportDataRaw ={
         },
         {
           "alias": "EB_LSTOCK",
-          "value": "472.000000000003"
+          "value": "472"
         },
         {
           "alias": "EB_N",
@@ -21418,11 +22855,15 @@ const reportDataRaw ={
         "variables": []
       },
       "documents": null,
-      "messages": []
+      "messages": [],
+      "shapeVariables": null,
+      "leftEndShapeVariables": null,
+      "rightEndShapeVariables": null,
+      "additionalShapeVariables": null
     },
     {
-      "ID": "17477517-cf35-4b28-a0ac-ac8efaabd845.Edgeband4",
-      "panel": "17477517-cf35-4b28-a0ac-ac8efaabd845",
+      "ID": "c6225d67-cf52-430b-b38f-fa642ae35793.Edgeband4",
+      "panel": "c6225d67-cf52-430b-b38f-fa642ae35793",
       "edgebandMaterial": "Mahogany B.MA1",
       "variables": [
         {
@@ -21451,7 +22892,7 @@ const reportDataRaw ={
         },
         {
           "alias": "EB_LSTOCK",
-          "value": "1151.50000000001"
+          "value": "1151.5"
         },
         {
           "alias": "EB_N",
@@ -21483,11 +22924,15 @@ const reportDataRaw ={
         "variables": []
       },
       "documents": null,
-      "messages": []
+      "messages": [],
+      "shapeVariables": null,
+      "leftEndShapeVariables": null,
+      "rightEndShapeVariables": null,
+      "additionalShapeVariables": null
     },
     {
-      "ID": "67d5e6db-94a1-420f-afd9-653e935f0eaa.Edgeband1",
-      "panel": "67d5e6db-94a1-420f-afd9-653e935f0eaa",
+      "ID": "3baffa6a-4172-4b3d-8511-f80fa866db20.Edgeband1",
+      "panel": "3baffa6a-4172-4b3d-8511-f80fa866db20",
       "edgebandMaterial": "Mahogany B.MA1",
       "variables": [
         {
@@ -21516,7 +22961,7 @@ const reportDataRaw ={
         },
         {
           "alias": "EB_LSTOCK",
-          "value": "472.000000000027"
+          "value": "472"
         },
         {
           "alias": "EB_N",
@@ -21548,11 +22993,15 @@ const reportDataRaw ={
         "variables": []
       },
       "documents": null,
-      "messages": []
+      "messages": [],
+      "shapeVariables": null,
+      "leftEndShapeVariables": null,
+      "rightEndShapeVariables": null,
+      "additionalShapeVariables": null
     },
     {
-      "ID": "67d5e6db-94a1-420f-afd9-653e935f0eaa.Edgeband2",
-      "panel": "67d5e6db-94a1-420f-afd9-653e935f0eaa",
+      "ID": "3baffa6a-4172-4b3d-8511-f80fa866db20.Edgeband2",
+      "panel": "3baffa6a-4172-4b3d-8511-f80fa866db20",
       "edgebandMaterial": "Mahogany B.MA1",
       "variables": [
         {
@@ -21613,11 +23062,15 @@ const reportDataRaw ={
         "variables": []
       },
       "documents": null,
-      "messages": []
+      "messages": [],
+      "shapeVariables": null,
+      "leftEndShapeVariables": null,
+      "rightEndShapeVariables": null,
+      "additionalShapeVariables": null
     },
     {
-      "ID": "67d5e6db-94a1-420f-afd9-653e935f0eaa.Edgeband3",
-      "panel": "67d5e6db-94a1-420f-afd9-653e935f0eaa",
+      "ID": "3baffa6a-4172-4b3d-8511-f80fa866db20.Edgeband3",
+      "panel": "3baffa6a-4172-4b3d-8511-f80fa866db20",
       "edgebandMaterial": "Mahogany B.MA1",
       "variables": [
         {
@@ -21646,7 +23099,7 @@ const reportDataRaw ={
         },
         {
           "alias": "EB_LSTOCK",
-          "value": "472.000000000027"
+          "value": "472"
         },
         {
           "alias": "EB_N",
@@ -21678,11 +23131,15 @@ const reportDataRaw ={
         "variables": []
       },
       "documents": null,
-      "messages": []
+      "messages": [],
+      "shapeVariables": null,
+      "leftEndShapeVariables": null,
+      "rightEndShapeVariables": null,
+      "additionalShapeVariables": null
     },
     {
-      "ID": "67d5e6db-94a1-420f-afd9-653e935f0eaa.Edgeband4",
-      "panel": "67d5e6db-94a1-420f-afd9-653e935f0eaa",
+      "ID": "3baffa6a-4172-4b3d-8511-f80fa866db20.Edgeband4",
+      "panel": "3baffa6a-4172-4b3d-8511-f80fa866db20",
       "edgebandMaterial": "Mahogany B.MA1",
       "variables": [
         {
@@ -21743,11 +23200,15 @@ const reportDataRaw ={
         "variables": []
       },
       "documents": null,
-      "messages": []
+      "messages": [],
+      "shapeVariables": null,
+      "leftEndShapeVariables": null,
+      "rightEndShapeVariables": null,
+      "additionalShapeVariables": null
     },
     {
-      "ID": "89b367ac-2751-4f12-8a5b-db4112a6ff28.Edge Band1",
-      "panel": "89b367ac-2751-4f12-8a5b-db4112a6ff28",
+      "ID": "1f215b66-dcc9-4563-b1d7-2857f9ed2e04.Edge Band1",
+      "panel": "1f215b66-dcc9-4563-b1d7-2857f9ed2e04",
       "edgebandMaterial": "Mahogany B.MA1",
       "variables": [
         {
@@ -21808,11 +23269,15 @@ const reportDataRaw ={
         "variables": []
       },
       "documents": null,
-      "messages": []
+      "messages": [],
+      "shapeVariables": null,
+      "leftEndShapeVariables": null,
+      "rightEndShapeVariables": null,
+      "additionalShapeVariables": null
     },
     {
-      "ID": "5e735bfd-0cab-4555-84d8-cfb332e69c8f.Edgeband1",
-      "panel": "5e735bfd-0cab-4555-84d8-cfb332e69c8f",
+      "ID": "f09aac8d-c25b-4912-9c5f-ece0d341472f.Edgeband1",
+      "panel": "f09aac8d-c25b-4912-9c5f-ece0d341472f",
       "edgebandMaterial": "Mahogany B.MA1",
       "variables": [
         {
@@ -21873,11 +23338,15 @@ const reportDataRaw ={
         "variables": []
       },
       "documents": null,
-      "messages": []
+      "messages": [],
+      "shapeVariables": null,
+      "leftEndShapeVariables": null,
+      "rightEndShapeVariables": null,
+      "additionalShapeVariables": null
     },
     {
-      "ID": "134a9f10-6dd6-4cce-b445-4c99260daecd.Edgeband1",
-      "panel": "134a9f10-6dd6-4cce-b445-4c99260daecd",
+      "ID": "34890a23-4986-4933-91a8-a2b2b9b8a618.Edgeband1",
+      "panel": "34890a23-4986-4933-91a8-a2b2b9b8a618",
       "edgebandMaterial": "Mahogany B.MA1",
       "variables": [
         {
@@ -21938,7 +23407,11 @@ const reportDataRaw ={
         "variables": []
       },
       "documents": null,
-      "messages": []
+      "messages": [],
+      "shapeVariables": null,
+      "leftEndShapeVariables": null,
+      "rightEndShapeVariables": null,
+      "additionalShapeVariables": null
     }
   ],
   "edgebandMaterials": [
@@ -21948,6 +23421,10 @@ const reportDataRaw ={
         {
           "alias": "BAND_WIDTH",
           "value": "111"
+        },
+        {
+          "alias": "EBMAT_ALPHA_IDX",
+          "value": "A"
         },
         {
           "alias": "EBMAT_C",
@@ -22023,7 +23500,7 @@ const reportDataRaw ={
   "profilings": [
     {
       "ID": "CounterTop_SwoodDesign.Profiling 1",
-      "part": "ddc31756-e1cc-4ad0-982f-c872dad9b680",
+      "part": "445e1306-8db1-4e82-a3b3-4e1b6c847bba",
       "shape": {
         "ID": "25",
         "name": "1/4 Ø 8",
@@ -22099,16 +23576,28 @@ const reportDataRaw ={
           "value": "Core"
         },
         {
-          "alias": "DRAWING_LAYER",
-          "value": ""
-        },
-        {
           "alias": "EXCLUDE",
           "value": "False"
         },
         {
           "alias": "EXCLUDEID",
           "value": "False"
+        },
+        {
+          "alias": "LINEAR_PATTERN_CUTTER_THICKNESS",
+          "value": "0"
+        },
+        {
+          "alias": "LINEAR_PATTERN_LENGTH",
+          "value": "0"
+        },
+        {
+          "alias": "LINEAR_PATTERN_PADDING_LEFT",
+          "value": "0"
+        },
+        {
+          "alias": "LINEAR_PATTERN_PADDING_RIGHT",
+          "value": "0"
         },
         {
           "alias": "MAT_COSTTYPE",
@@ -22144,7 +23633,7 @@ const reportDataRaw ={
         },
         {
           "alias": "MAT_STOCKS_AREA",
-          "value": "3.32223510000001"
+          "value": "3.3222351"
         },
         {
           "alias": "MAT_STOCKS_COUNT",
@@ -22156,7 +23645,7 @@ const reportDataRaw ={
         },
         {
           "alias": "MAT_STOCKS_VOLUME",
-          "value": "0.0531557616000003"
+          "value": "0.0531557616"
         },
         {
           "alias": "MAT_T",
@@ -22173,14 +23662,6 @@ const reportDataRaw ={
         {
           "alias": "MAT_WITHGRAIN",
           "value": "True"
-        },
-        {
-          "alias": "MATERIAL_TYPE",
-          "value": "Core"
-        },
-        {
-          "alias": "MYCUSTOMPROP",
-          "value": "123"
         },
         {
           "alias": "PAINT",
@@ -22218,16 +23699,28 @@ const reportDataRaw ={
           "value": "Core"
         },
         {
-          "alias": "DRAWING_LAYER",
-          "value": ""
-        },
-        {
           "alias": "EXCLUDE",
           "value": "False"
         },
         {
           "alias": "EXCLUDEID",
           "value": "False"
+        },
+        {
+          "alias": "LINEAR_PATTERN_CUTTER_THICKNESS",
+          "value": "0"
+        },
+        {
+          "alias": "LINEAR_PATTERN_LENGTH",
+          "value": "0"
+        },
+        {
+          "alias": "LINEAR_PATTERN_PADDING_LEFT",
+          "value": "0"
+        },
+        {
+          "alias": "LINEAR_PATTERN_PADDING_RIGHT",
+          "value": "0"
         },
         {
           "alias": "MAT_COSTTYPE",
@@ -22263,7 +23756,7 @@ const reportDataRaw ={
         },
         {
           "alias": "MAT_STOCKS_AREA",
-          "value": "5.13788500000005"
+          "value": "5.137885"
         },
         {
           "alias": "MAT_STOCKS_COUNT",
@@ -22275,7 +23768,7 @@ const reportDataRaw ={
         },
         {
           "alias": "MAT_STOCKS_VOLUME",
-          "value": "0.0976198150000084"
+          "value": "0.097619815"
         },
         {
           "alias": "MAT_T",
@@ -22292,14 +23785,6 @@ const reportDataRaw ={
         {
           "alias": "MAT_WITHGRAIN",
           "value": "True"
-        },
-        {
-          "alias": "MATERIAL_TYPE",
-          "value": "Core"
-        },
-        {
-          "alias": "MYCUSTOMPROP",
-          "value": "123"
         },
         {
           "alias": "PAINT",
@@ -22337,16 +23822,28 @@ const reportDataRaw ={
           "value": "Core"
         },
         {
-          "alias": "DRAWING_LAYER",
-          "value": ""
-        },
-        {
           "alias": "EXCLUDE",
           "value": "False"
         },
         {
           "alias": "EXCLUDEID",
           "value": "False"
+        },
+        {
+          "alias": "LINEAR_PATTERN_CUTTER_THICKNESS",
+          "value": "0"
+        },
+        {
+          "alias": "LINEAR_PATTERN_LENGTH",
+          "value": "0"
+        },
+        {
+          "alias": "LINEAR_PATTERN_PADDING_LEFT",
+          "value": "0"
+        },
+        {
+          "alias": "LINEAR_PATTERN_PADDING_RIGHT",
+          "value": "0"
         },
         {
           "alias": "MAT_COSTTYPE",
@@ -22382,7 +23879,7 @@ const reportDataRaw ={
         },
         {
           "alias": "MAT_STOCKS_AREA",
-          "value": "6.57168000000002"
+          "value": "6.57168"
         },
         {
           "alias": "MAT_STOCKS_COUNT",
@@ -22413,12 +23910,127 @@ const reportDataRaw ={
           "value": "True"
         },
         {
-          "alias": "MATERIAL_TYPE",
+          "alias": "PAINT",
+          "value": "False"
+        },
+        {
+          "alias": "WELDMENT",
+          "value": "False"
+        }
+      ],
+      "serialNumbers": {
+        "name": "MATERIAL_SERIALNUMBERS",
+        "variables": []
+      },
+      "messages": [],
+      "documents": null
+    },
+    {
+      "ID": "Compound Top",
+      "variables": [
+        {
+          "alias": "BEAM_SAW",
+          "value": "False"
+        },
+        {
+          "alias": "BOARD_LENGTH",
+          "value": "2440"
+        },
+        {
+          "alias": "BOARD_WIDTH",
+          "value": "1220"
+        },
+        {
+          "alias": "CATEGORY",
           "value": "Core"
         },
         {
-          "alias": "MYCUSTOMPROP",
-          "value": "123"
+          "alias": "EXCLUDE",
+          "value": "False"
+        },
+        {
+          "alias": "EXCLUDEID",
+          "value": "False"
+        },
+        {
+          "alias": "LINEAR_PATTERN_CUTTER_THICKNESS",
+          "value": "0"
+        },
+        {
+          "alias": "LINEAR_PATTERN_LENGTH",
+          "value": "0"
+        },
+        {
+          "alias": "LINEAR_PATTERN_PADDING_LEFT",
+          "value": "0"
+        },
+        {
+          "alias": "LINEAR_PATTERN_PADDING_RIGHT",
+          "value": "0"
+        },
+        {
+          "alias": "MAT_COSTTYPE",
+          "value": "0"
+        },
+        {
+          "alias": "MAT_CUTREF",
+          "value": ""
+        },
+        {
+          "alias": "MAT_DENSITY",
+          "value": "0"
+        },
+        {
+          "alias": "MAT_DESC",
+          "value": "Compound Material"
+        },
+        {
+          "alias": "MAT_ISFORSAW",
+          "value": "False"
+        },
+        {
+          "alias": "MAT_LAYERSCOUNT",
+          "value": "3"
+        },
+        {
+          "alias": "MAT_MACHININGCOSTFACTOR",
+          "value": "1"
+        },
+        {
+          "alias": "MAT_NAME",
+          "value": "Compound Top"
+        },
+        {
+          "alias": "MAT_STOCKS_AREA",
+          "value": "1.7225"
+        },
+        {
+          "alias": "MAT_STOCKS_COUNT",
+          "value": "1"
+        },
+        {
+          "alias": "MAT_STOCKS_LENGTH",
+          "value": "2650"
+        },
+        {
+          "alias": "MAT_STOCKS_VOLUME",
+          "value": "0.058565"
+        },
+        {
+          "alias": "MAT_T",
+          "value": "34"
+        },
+        {
+          "alias": "MAT_TYPE",
+          "value": "2"
+        },
+        {
+          "alias": "MAT_UCOST",
+          "value": "0.5"
+        },
+        {
+          "alias": "MAT_WITHGRAIN",
+          "value": "False"
         },
         {
           "alias": "PAINT",
@@ -22456,16 +24068,28 @@ const reportDataRaw ={
           "value": "Glass"
         },
         {
-          "alias": "DRAWING_LAYER",
-          "value": ""
-        },
-        {
           "alias": "EXCLUDE",
           "value": "False"
         },
         {
           "alias": "EXCLUDEID",
           "value": "False"
+        },
+        {
+          "alias": "LINEAR_PATTERN_CUTTER_THICKNESS",
+          "value": "0"
+        },
+        {
+          "alias": "LINEAR_PATTERN_LENGTH",
+          "value": "0"
+        },
+        {
+          "alias": "LINEAR_PATTERN_PADDING_LEFT",
+          "value": "0"
+        },
+        {
+          "alias": "LINEAR_PATTERN_PADDING_RIGHT",
+          "value": "0"
         },
         {
           "alias": "MAT_COSTTYPE",
@@ -22501,7 +24125,7 @@ const reportDataRaw ={
         },
         {
           "alias": "MAT_STOCKS_AREA",
-          "value": "0.644965999999999"
+          "value": "0.644966"
         },
         {
           "alias": "MAT_STOCKS_COUNT",
@@ -22509,11 +24133,11 @@ const reportDataRaw ={
         },
         {
           "alias": "MAT_STOCKS_LENGTH",
-          "value": "643.999999999999"
+          "value": "644"
         },
         {
           "alias": "MAT_STOCKS_VOLUME",
-          "value": "0.00451476200000001"
+          "value": "0.004514762"
         },
         {
           "alias": "MAT_T",
@@ -22530,14 +24154,6 @@ const reportDataRaw ={
         {
           "alias": "MAT_WITHGRAIN",
           "value": "False"
-        },
-        {
-          "alias": "MATERIAL_TYPE",
-          "value": "Glass"
-        },
-        {
-          "alias": "MYCUSTOMPROP",
-          "value": "123"
         },
         {
           "alias": "PAINT",
@@ -22575,16 +24191,28 @@ const reportDataRaw ={
           "value": "Core"
         },
         {
-          "alias": "DRAWING_LAYER",
-          "value": ""
-        },
-        {
           "alias": "EXCLUDE",
           "value": "False"
         },
         {
           "alias": "EXCLUDEID",
           "value": "False"
+        },
+        {
+          "alias": "LINEAR_PATTERN_CUTTER_THICKNESS",
+          "value": "0"
+        },
+        {
+          "alias": "LINEAR_PATTERN_LENGTH",
+          "value": "0"
+        },
+        {
+          "alias": "LINEAR_PATTERN_PADDING_LEFT",
+          "value": "0"
+        },
+        {
+          "alias": "LINEAR_PATTERN_PADDING_RIGHT",
+          "value": "0"
         },
         {
           "alias": "MAT_COSTTYPE",
@@ -22620,19 +24248,19 @@ const reportDataRaw ={
         },
         {
           "alias": "MAT_STOCKS_AREA",
-          "value": "1.00344000000001"
+          "value": "4.44844"
         },
         {
           "alias": "MAT_STOCKS_COUNT",
-          "value": "2"
+          "value": "4"
         },
         {
           "alias": "MAT_STOCKS_LENGTH",
-          "value": "1808"
+          "value": "7108"
         },
         {
           "alias": "MAT_STOCKS_VOLUME",
-          "value": "0.0160550399999999"
+          "value": "0.07117504"
         },
         {
           "alias": "MAT_T",
@@ -22649,14 +24277,6 @@ const reportDataRaw ={
         {
           "alias": "MAT_WITHGRAIN",
           "value": "False"
-        },
-        {
-          "alias": "MATERIAL_TYPE",
-          "value": "Core"
-        },
-        {
-          "alias": "MYCUSTOMPROP",
-          "value": "123"
         },
         {
           "alias": "PAINT",
@@ -22694,16 +24314,28 @@ const reportDataRaw ={
           "value": "Core"
         },
         {
-          "alias": "DRAWING_LAYER",
-          "value": ""
-        },
-        {
           "alias": "EXCLUDE",
           "value": "False"
         },
         {
           "alias": "EXCLUDEID",
           "value": "False"
+        },
+        {
+          "alias": "LINEAR_PATTERN_CUTTER_THICKNESS",
+          "value": "0"
+        },
+        {
+          "alias": "LINEAR_PATTERN_LENGTH",
+          "value": "0"
+        },
+        {
+          "alias": "LINEAR_PATTERN_PADDING_LEFT",
+          "value": "0"
+        },
+        {
+          "alias": "LINEAR_PATTERN_PADDING_RIGHT",
+          "value": "0"
         },
         {
           "alias": "MAT_COSTTYPE",
@@ -22739,7 +24371,7 @@ const reportDataRaw ={
         },
         {
           "alias": "MAT_STOCKS_AREA",
-          "value": "4.79640000000001"
+          "value": "4.7964"
         },
         {
           "alias": "MAT_STOCKS_COUNT",
@@ -22751,7 +24383,7 @@ const reportDataRaw ={
         },
         {
           "alias": "MAT_STOCKS_VOLUME",
-          "value": "0.0911316000000005"
+          "value": "0.0911316"
         },
         {
           "alias": "MAT_T",
@@ -22768,14 +24400,6 @@ const reportDataRaw ={
         {
           "alias": "MAT_WITHGRAIN",
           "value": "False"
-        },
-        {
-          "alias": "MATERIAL_TYPE",
-          "value": "Core"
-        },
-        {
-          "alias": "MYCUSTOMPROP",
-          "value": "123"
         },
         {
           "alias": "PAINT",
@@ -22813,16 +24437,28 @@ const reportDataRaw ={
           "value": "Core"
         },
         {
-          "alias": "DRAWING_LAYER",
-          "value": ""
-        },
-        {
           "alias": "EXCLUDE",
           "value": "False"
         },
         {
           "alias": "EXCLUDEID",
           "value": "False"
+        },
+        {
+          "alias": "LINEAR_PATTERN_CUTTER_THICKNESS",
+          "value": "0"
+        },
+        {
+          "alias": "LINEAR_PATTERN_LENGTH",
+          "value": "0"
+        },
+        {
+          "alias": "LINEAR_PATTERN_PADDING_LEFT",
+          "value": "0"
+        },
+        {
+          "alias": "LINEAR_PATTERN_PADDING_RIGHT",
+          "value": "0"
         },
         {
           "alias": "MAT_COSTTYPE",
@@ -22858,7 +24494,7 @@ const reportDataRaw ={
         },
         {
           "alias": "MAT_STOCKS_AREA",
-          "value": "3.16195799999999"
+          "value": "3.161958"
         },
         {
           "alias": "MAT_STOCKS_COUNT",
@@ -22866,11 +24502,11 @@ const reportDataRaw ={
         },
         {
           "alias": "MAT_STOCKS_LENGTH",
-          "value": "1848.99999999999"
+          "value": "1849"
         },
         {
           "alias": "MAT_STOCKS_VOLUME",
-          "value": "0.0158097899999998"
+          "value": "0.01580979"
         },
         {
           "alias": "MAT_T",
@@ -22889,14 +24525,6 @@ const reportDataRaw ={
           "value": "False"
         },
         {
-          "alias": "MATERIAL_TYPE",
-          "value": "Core"
-        },
-        {
-          "alias": "MYCUSTOMPROP",
-          "value": "123"
-        },
-        {
           "alias": "PAINT",
           "value": "False"
         },
@@ -22913,7 +24541,7 @@ const reportDataRaw ={
       "documents": null
     },
     {
-      "ID": "Oak 26mm",
+      "ID": "Oak 2mm",
       "variables": [
         {
           "alias": "BEAM_SAW",
@@ -22932,10 +24560,6 @@ const reportDataRaw ={
           "value": "Core"
         },
         {
-          "alias": "DRAWING_LAYER",
-          "value": ""
-        },
-        {
           "alias": "EXCLUDE",
           "value": "False"
         },
@@ -22944,16 +24568,32 @@ const reportDataRaw ={
           "value": "False"
         },
         {
+          "alias": "LINEAR_PATTERN_CUTTER_THICKNESS",
+          "value": "0"
+        },
+        {
+          "alias": "LINEAR_PATTERN_LENGTH",
+          "value": "0"
+        },
+        {
+          "alias": "LINEAR_PATTERN_PADDING_LEFT",
+          "value": "0"
+        },
+        {
+          "alias": "LINEAR_PATTERN_PADDING_RIGHT",
+          "value": "0"
+        },
+        {
           "alias": "MAT_COSTTYPE",
           "value": "0"
         },
         {
           "alias": "MAT_CUTREF",
-          "value": ""
+          "value": "LAMOA2"
         },
         {
           "alias": "MAT_DENSITY",
-          "value": "0"
+          "value": "100"
         },
         {
           "alias": "MAT_DESC",
@@ -22961,7 +24601,7 @@ const reportDataRaw ={
         },
         {
           "alias": "MAT_ISFORSAW",
-          "value": "False"
+          "value": "True"
         },
         {
           "alias": "MAT_LAYERSCOUNT",
@@ -22973,7 +24613,7 @@ const reportDataRaw ={
         },
         {
           "alias": "MAT_NAME",
-          "value": "Oak 26mm"
+          "value": "Oak 2mm"
         },
         {
           "alias": "MAT_STOCKS_AREA",
@@ -22989,31 +24629,23 @@ const reportDataRaw ={
         },
         {
           "alias": "MAT_STOCKS_VOLUME",
-          "value": "0.0447849999999998"
+          "value": "0.003445"
         },
         {
           "alias": "MAT_T",
-          "value": "26"
+          "value": "2"
         },
         {
           "alias": "MAT_TYPE",
-          "value": "0"
+          "value": "1"
         },
         {
           "alias": "MAT_UCOST",
-          "value": "400"
+          "value": "100"
         },
         {
           "alias": "MAT_WITHGRAIN",
-          "value": "False"
-        },
-        {
-          "alias": "MATERIAL_TYPE",
-          "value": "Hardwood"
-        },
-        {
-          "alias": "MYCUSTOMPROP",
-          "value": "123"
+          "value": "True"
         },
         {
           "alias": "PAINT",
@@ -23051,16 +24683,28 @@ const reportDataRaw ={
           "value": "Core"
         },
         {
-          "alias": "DRAWING_LAYER",
-          "value": ""
-        },
-        {
           "alias": "EXCLUDE",
           "value": "False"
         },
         {
           "alias": "EXCLUDEID",
           "value": "True"
+        },
+        {
+          "alias": "LINEAR_PATTERN_CUTTER_THICKNESS",
+          "value": "5"
+        },
+        {
+          "alias": "LINEAR_PATTERN_LENGTH",
+          "value": "2000"
+        },
+        {
+          "alias": "LINEAR_PATTERN_PADDING_LEFT",
+          "value": "10"
+        },
+        {
+          "alias": "LINEAR_PATTERN_PADDING_RIGHT",
+          "value": "10"
         },
         {
           "alias": "MAT_COSTTYPE",
@@ -23125,14 +24769,6 @@ const reportDataRaw ={
         {
           "alias": "MAT_WITHGRAIN",
           "value": "False"
-        },
-        {
-          "alias": "MATERIAL_TYPE",
-          "value": "Core"
-        },
-        {
-          "alias": "MYCUSTOMPROP",
-          "value": "123"
         },
         {
           "alias": "PAINT",
@@ -23278,7 +24914,7 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGBX",
-          "value": "930.999999999987"
+          "value": "931"
         },
         {
           "alias": "PROGBY",
@@ -23286,7 +24922,7 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGBZ",
-          "value": "4.9999999999999"
+          "value": "5"
         },
         {
           "alias": "PROGCB",
@@ -23298,11 +24934,11 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGCFGPATH",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs"
         },
         {
           "alias": "PROGDIR",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs"
         },
         {
           "alias": "PROGID",
@@ -23318,11 +24954,11 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGPATH",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs\\Back_Doors_SwoodDesign_1_Milling_1_Default.CN"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs\\Back_Doors_SwoodDesign_1_Milling_1_Default.CN"
         },
         {
           "alias": "PROGTPS",
-          "value": "129.212189704947"
+          "value": "129.212"
         },
         {
           "alias": "PROGTPSIMPRO",
@@ -23330,7 +24966,7 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGTPSPRO",
-          "value": "129.038189704947"
+          "value": "129.038"
         },
         {
           "alias": "PROGTYPE",
@@ -23347,7 +24983,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PROG",
             "type": "S",
-            "value": "program-16"
+            "value": "program-2"
           },
           {
             "alias": "NUM_SHEET",
@@ -23362,7 +24998,7 @@ const reportDataRaw ={
           "type": "IMG_PROGRAM",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/programs/Back_Doors_SwoodDesign_1_Milling_Default_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/programs/Back_Doors_SwoodDesign_1_Default_Milling_1.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -23373,7 +25009,7 @@ const reportDataRaw ={
           "type": null,
           "docType": null,
           "processingStatus": 1,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/programs/Back_Doors_SwoodDesign_1_Milling_1_Default.CN",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/programs/Back_Doors_SwoodDesign_1_Milling_1_Default.CN",
           "hidden": false,
           "storageType": 0,
           "exists": true,
@@ -23528,11 +25164,11 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGCFGPATH",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs"
         },
         {
           "alias": "PROGDIR",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs"
         },
         {
           "alias": "PROGID",
@@ -23548,19 +25184,19 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGPATH",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs\\Machine not Configured - Kickboard_Doors_SwoodDesign_1 - Milling.bpp"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs\\Machine not Configured - Kickboard_Doors_SwoodDesign_1 - Milling.bpp"
         },
         {
           "alias": "PROGTPS",
-          "value": "82.2737228209488"
+          "value": "82.274"
         },
         {
           "alias": "PROGTPSIMPRO",
-          "value": "0.0506666666666667"
+          "value": "0.051"
         },
         {
           "alias": "PROGTPSPRO",
-          "value": "82.2230561542821"
+          "value": "82.223"
         },
         {
           "alias": "PROGTYPE",
@@ -23577,7 +25213,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PROG",
             "type": "S",
-            "value": "program-14"
+            "value": "program-1"
           },
           {
             "alias": "NUM_SHEET",
@@ -23592,7 +25228,7 @@ const reportDataRaw ={
           "type": "IMG_PROGRAM",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/programs/Kickboard_Doors_SwoodDesign_1_Milling_Default_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/programs/Kickboard_Doors_SwoodDesign_1_Default_Milling_1.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -23603,7 +25239,7 @@ const reportDataRaw ={
           "type": null,
           "docType": null,
           "processingStatus": 1,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/programs/Machine not Configured - Kickboard_Doors_SwoodDesign_1 - Milling.bpp",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/programs/Machine not Configured - Kickboard_Doors_SwoodDesign_1 - Milling.bpp",
           "hidden": false,
           "storageType": 0,
           "exists": true,
@@ -23746,7 +25382,7 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGBZ",
-          "value": "20.9999999999999"
+          "value": "21"
         },
         {
           "alias": "PROGCB",
@@ -23758,11 +25394,11 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGCFGPATH",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs"
         },
         {
           "alias": "PROGDIR",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs"
         },
         {
           "alias": "PROGID",
@@ -23778,11 +25414,11 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGPATH",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs\\Left_Doors_SwoodDesign_1_Milling_1_Default.CN"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs\\Left_Doors_SwoodDesign_1_Milling_1_Default.CN"
         },
         {
           "alias": "PROGTPS",
-          "value": "49.5547724811902"
+          "value": "49.555"
         },
         {
           "alias": "PROGTPSIMPRO",
@@ -23790,7 +25426,7 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGTPSPRO",
-          "value": "49.4647724811902"
+          "value": "49.465"
         },
         {
           "alias": "PROGTYPE",
@@ -23807,7 +25443,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PROG",
             "type": "S",
-            "value": "program-15"
+            "value": "program-4"
           },
           {
             "alias": "NUM_SHEET",
@@ -23822,7 +25458,7 @@ const reportDataRaw ={
           "type": "IMG_PROGRAM",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/programs/Left_Doors_SwoodDesign_1_Milling_Default_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/programs/Left_Doors_SwoodDesign_1_Default_Milling_1.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -23833,7 +25469,7 @@ const reportDataRaw ={
           "type": null,
           "docType": null,
           "processingStatus": 1,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/programs/Left_Doors_SwoodDesign_1_Milling_1_Default.CN",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/programs/Left_Doors_SwoodDesign_1_Milling_1_Default.CN",
           "hidden": false,
           "storageType": 0,
           "exists": true,
@@ -23976,7 +25612,7 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGBZ",
-          "value": "20.9999999999999"
+          "value": "21"
         },
         {
           "alias": "PROGCB",
@@ -23988,11 +25624,11 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGCFGPATH",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs"
         },
         {
           "alias": "PROGDIR",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs"
         },
         {
           "alias": "PROGID",
@@ -24008,19 +25644,19 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGPATH",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs\\Machine not Configured - Right_Doors_SwoodDesign_1 - Milling.bpp"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs\\Machine not Configured - Right_Doors_SwoodDesign_1 - Milling.bpp"
         },
         {
           "alias": "PROGTPS",
-          "value": "97.3567444315818"
+          "value": "49.515"
         },
         {
           "alias": "PROGTPSIMPRO",
-          "value": "0.0506666666666664"
+          "value": "0.051"
         },
         {
           "alias": "PROGTPSPRO",
-          "value": "97.3060777649152"
+          "value": "49.465"
         },
         {
           "alias": "PROGTYPE",
@@ -24037,7 +25673,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PROG",
             "type": "S",
-            "value": "program-17"
+            "value": "program-3"
           },
           {
             "alias": "NUM_SHEET",
@@ -24052,7 +25688,7 @@ const reportDataRaw ={
           "type": "IMG_PROGRAM",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/programs/Right_Doors_SwoodDesign_1_Milling_Default_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/programs/Right_Doors_SwoodDesign_1_Default_Milling_1.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -24063,7 +25699,7 @@ const reportDataRaw ={
           "type": null,
           "docType": null,
           "processingStatus": 1,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/programs/Machine not Configured - Right_Doors_SwoodDesign_1 - Milling.bpp",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/programs/Machine not Configured - Right_Doors_SwoodDesign_1 - Milling.bpp",
           "hidden": false,
           "storageType": 0,
           "exists": true,
@@ -24218,11 +25854,11 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGCFGPATH",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs"
         },
         {
           "alias": "PROGDIR",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs"
         },
         {
           "alias": "PROGID",
@@ -24238,19 +25874,19 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGPATH",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs\\Back_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default.CN"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs\\Back_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default.CN"
         },
         {
           "alias": "PROGTPS",
-          "value": "38.1504159309336"
+          "value": "38.15"
         },
         {
           "alias": "PROGTPSIMPRO",
-          "value": "0.107999999999999"
+          "value": "0.108"
         },
         {
           "alias": "PROGTPSPRO",
-          "value": "38.0424159309336"
+          "value": "38.042"
         },
         {
           "alias": "PROGTYPE",
@@ -24267,7 +25903,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PROG",
             "type": "S",
-            "value": "program-5"
+            "value": "program-14"
           },
           {
             "alias": "NUM_SHEET",
@@ -24282,7 +25918,7 @@ const reportDataRaw ={
           "type": "IMG_PROGRAM",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/programs/Back_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Milling_Default_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/programs/Back_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Default_Milling_1.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -24293,7 +25929,7 @@ const reportDataRaw ={
           "type": null,
           "docType": null,
           "processingStatus": 1,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/programs/Back_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default.CN",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/programs/Back_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default.CN",
           "hidden": false,
           "storageType": 0,
           "exists": true,
@@ -24432,7 +26068,7 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGBY",
-          "value": "544.000000000005"
+          "value": "544"
         },
         {
           "alias": "PROGBZ",
@@ -24448,11 +26084,11 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGCFGPATH",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs"
         },
         {
           "alias": "PROGDIR",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs"
         },
         {
           "alias": "PROGID",
@@ -24468,19 +26104,19 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGPATH",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs\\Bottom_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default.CN"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs\\Bottom_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default.CN"
         },
         {
           "alias": "PROGTPS",
-          "value": "44.7054159309337"
+          "value": "44.705"
         },
         {
           "alias": "PROGTPSIMPRO",
-          "value": "0.107999999999999"
+          "value": "0.108"
         },
         {
           "alias": "PROGTPSPRO",
-          "value": "44.5974159309337"
+          "value": "44.597"
         },
         {
           "alias": "PROGTYPE",
@@ -24497,7 +26133,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PROG",
             "type": "S",
-            "value": "program-6"
+            "value": "program-10"
           },
           {
             "alias": "NUM_SHEET",
@@ -24512,7 +26148,7 @@ const reportDataRaw ={
           "type": "IMG_PROGRAM",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/programs/Bottom_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Milling_Default_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/programs/Bottom_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Default_Milling_1.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -24523,7 +26159,7 @@ const reportDataRaw ={
           "type": null,
           "docType": null,
           "processingStatus": 1,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/programs/Bottom_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default.CN",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/programs/Bottom_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default.CN",
           "hidden": false,
           "storageType": 0,
           "exists": true,
@@ -24662,7 +26298,7 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGBY",
-          "value": "600.000000000003"
+          "value": "600"
         },
         {
           "alias": "PROGBZ",
@@ -24678,11 +26314,11 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGCFGPATH",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs"
         },
         {
           "alias": "PROGDIR",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs"
         },
         {
           "alias": "PROGID",
@@ -24698,11 +26334,11 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGPATH",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs\\Bottom_High Cabinet_SwoodDesign_1_Milling_1_Default.CN"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs\\Bottom_High Cabinet_SwoodDesign_1_Milling_1_Default.CN"
         },
         {
           "alias": "PROGTPS",
-          "value": "94.7330561542821"
+          "value": "94.733"
         },
         {
           "alias": "PROGTPSIMPRO",
@@ -24710,7 +26346,7 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGTPSPRO",
-          "value": "94.6430561542821"
+          "value": "94.643"
         },
         {
           "alias": "PROGTYPE",
@@ -24727,7 +26363,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PROG",
             "type": "S",
-            "value": "program-1"
+            "value": "program-8"
           },
           {
             "alias": "NUM_SHEET",
@@ -24742,7 +26378,7 @@ const reportDataRaw ={
           "type": "IMG_PROGRAM",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/programs/Bottom_High Cabinet_SwoodDesign_1_Milling_Default_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/programs/Bottom_High Cabinet_SwoodDesign_1_Default_Milling_1.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -24753,7 +26389,7 @@ const reportDataRaw ={
           "type": null,
           "docType": null,
           "processingStatus": 1,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/programs/Bottom_High Cabinet_SwoodDesign_1_Milling_1_Default.CN",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/programs/Bottom_High Cabinet_SwoodDesign_1_Milling_1_Default.CN",
           "hidden": false,
           "storageType": 0,
           "exists": true,
@@ -24896,11 +26532,11 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGBY",
-          "value": "600.000000000003"
+          "value": "600"
         },
         {
           "alias": "PROGBZ",
-          "value": "20.9999999999999"
+          "value": "21"
         },
         {
           "alias": "PROGCB",
@@ -24912,11 +26548,11 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGCFGPATH",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs"
         },
         {
           "alias": "PROGDIR",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs"
         },
         {
           "alias": "PROGID",
@@ -24932,11 +26568,11 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGPATH",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs\\Front Support_High Cabinet_SwoodDesign_1_Milling_1_Default.CN"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs\\Front Support_High Cabinet_SwoodDesign_1_Milling_1_Default.CN"
         },
         {
           "alias": "PROGTPS",
-          "value": "422.719077764915"
+          "value": "422.719"
         },
         {
           "alias": "PROGTPSIMPRO",
@@ -24944,7 +26580,7 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGTPSPRO",
-          "value": "422.449077764915"
+          "value": "422.449"
         },
         {
           "alias": "PROGTYPE",
@@ -24961,7 +26597,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PROG",
             "type": "S",
-            "value": "program-2"
+            "value": "program-7"
           },
           {
             "alias": "NUM_SHEET",
@@ -24976,7 +26612,7 @@ const reportDataRaw ={
           "type": "IMG_PROGRAM",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/programs/Front Support_High Cabinet_SwoodDesign_1_Milling_Default_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/programs/Front Support_High Cabinet_SwoodDesign_1_Default_Milling_1.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -24987,7 +26623,7 @@ const reportDataRaw ={
           "type": null,
           "docType": null,
           "processingStatus": 1,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/programs/Front Support_High Cabinet_SwoodDesign_1_Milling_1_Default.CN",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/programs/Front Support_High Cabinet_SwoodDesign_1_Milling_1_Default.CN",
           "hidden": false,
           "storageType": 0,
           "exists": true,
@@ -25131,7 +26767,7 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGBZ",
-          "value": "18.9999999999999"
+          "value": "19"
         },
         {
           "alias": "PROGCB",
@@ -25143,11 +26779,11 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGCFGPATH",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs"
         },
         {
           "alias": "PROGDIR",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs"
         },
         {
           "alias": "PROGID",
@@ -25163,19 +26799,19 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGPATH",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs\\Front_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default.CN"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs\\Front_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default.CN"
         },
         {
           "alias": "PROGTPS",
-          "value": "83.6630561542821"
+          "value": "83.663"
         },
         {
           "alias": "PROGTPSIMPRO",
-          "value": "0.0900000000000004"
+          "value": "0.09"
         },
         {
           "alias": "PROGTPSPRO",
-          "value": "83.5730561542821"
+          "value": "83.573"
         },
         {
           "alias": "PROGTYPE",
@@ -25192,7 +26828,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PROG",
             "type": "S",
-            "value": "program-9"
+            "value": "program-12"
           },
           {
             "alias": "NUM_SHEET",
@@ -25207,7 +26843,7 @@ const reportDataRaw ={
           "type": "IMG_PROGRAM",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/programs/Front_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Milling_Default_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/programs/Front_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Default_Milling_1.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -25218,7 +26854,7 @@ const reportDataRaw ={
           "type": null,
           "docType": null,
           "processingStatus": 1,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/programs/Front_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default.CN",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/programs/Front_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default.CN",
           "hidden": false,
           "storageType": 0,
           "exists": true,
@@ -25245,7 +26881,7 @@ const reportDataRaw ={
         },
         {
           "alias": "PROG_ANGLE_OP0X_PANELX",
-          "value": "4.71238898038469"
+          "value": "4.712"
         },
         {
           "alias": "PROG_FILENAME",
@@ -25353,15 +26989,15 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGBX",
-          "value": "472.000000000003"
+          "value": "472"
         },
         {
           "alias": "PROGBY",
-          "value": "1151.50000000001"
+          "value": "1151.5"
         },
         {
           "alias": "PROGBZ",
-          "value": "19.0000000000061"
+          "value": "19"
         },
         {
           "alias": "PROGCB",
@@ -25373,11 +27009,11 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGCFGPATH",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs"
         },
         {
           "alias": "PROGDIR",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs"
         },
         {
           "alias": "PROGID",
@@ -25393,19 +27029,19 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGPATH",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs\\Front_Left Door_Door Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default.CN"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs\\Front_Left Door_Door Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default.CN"
         },
         {
           "alias": "PROGTPS",
-          "value": "180.888606360551"
+          "value": "180.889"
         },
         {
           "alias": "PROGTPSIMPRO",
-          "value": "2.28317446507121"
+          "value": "2.283"
         },
         {
           "alias": "PROGTPSPRO",
-          "value": "178.60543189548"
+          "value": "178.605"
         },
         {
           "alias": "PROGTYPE",
@@ -25422,7 +27058,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PROG",
             "type": "S",
-            "value": "program-11"
+            "value": "program-16"
           },
           {
             "alias": "NUM_SHEET",
@@ -25437,7 +27073,7 @@ const reportDataRaw ={
           "type": "IMG_PROGRAM",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/programs/Front_Left Door_Door Overlay_High Cabinet_SwoodDesign_1_1_Milling_Default_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/programs/Front_Left Door_Door Overlay_High Cabinet_SwoodDesign_1_1_Default_Milling_1.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -25448,7 +27084,7 @@ const reportDataRaw ={
           "type": null,
           "docType": null,
           "processingStatus": 1,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/programs/Front_Left Door_Door Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default.CN",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/programs/Front_Left Door_Door Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default.CN",
           "hidden": false,
           "storageType": 0,
           "exists": true,
@@ -25475,7 +27111,7 @@ const reportDataRaw ={
         },
         {
           "alias": "PROG_ANGLE_OP0X_PANELX",
-          "value": "4.71238898038469"
+          "value": "4.712"
         },
         {
           "alias": "PROG_FILENAME",
@@ -25583,7 +27219,7 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGBX",
-          "value": "472.000000000026"
+          "value": "472"
         },
         {
           "alias": "PROGBY",
@@ -25591,7 +27227,7 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGBZ",
-          "value": "19.0000000000063"
+          "value": "19"
         },
         {
           "alias": "PROGCB",
@@ -25603,11 +27239,11 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGCFGPATH",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs"
         },
         {
           "alias": "PROGDIR",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs"
         },
         {
           "alias": "PROGID",
@@ -25623,19 +27259,19 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGPATH",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs\\Front_Right Door_Door Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default.CN"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs\\Front_Right Door_Door Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default.CN"
         },
         {
           "alias": "PROGTPS",
-          "value": "181.966339757609"
+          "value": "181.966"
         },
         {
           "alias": "PROGTPSIMPRO",
-          "value": "3.36090786212837"
+          "value": "3.361"
         },
         {
           "alias": "PROGTPSPRO",
-          "value": "178.605431895481"
+          "value": "178.605"
         },
         {
           "alias": "PROGTYPE",
@@ -25652,7 +27288,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PROG",
             "type": "S",
-            "value": "program-12"
+            "value": "program-17"
           },
           {
             "alias": "NUM_SHEET",
@@ -25667,7 +27303,7 @@ const reportDataRaw ={
           "type": "IMG_PROGRAM",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/programs/Front_Right Door_Door Overlay_High Cabinet_SwoodDesign_1_1_Milling_Default_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/programs/Front_Right Door_Door Overlay_High Cabinet_SwoodDesign_1_1_Default_Milling_1.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -25678,7 +27314,7 @@ const reportDataRaw ={
           "type": null,
           "docType": null,
           "processingStatus": 1,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/programs/Front_Right Door_Door Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default.CN",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/programs/Front_Right Door_Door Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default.CN",
           "hidden": false,
           "storageType": 0,
           "exists": true,
@@ -25705,7 +27341,7 @@ const reportDataRaw ={
         },
         {
           "alias": "PROG_ANGLE_OP0X_PANELX",
-          "value": "4.71238898038469"
+          "value": "4.712"
         },
         {
           "alias": "PROG_FILENAME",
@@ -25833,11 +27469,11 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGCFGPATH",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs"
         },
         {
           "alias": "PROGDIR",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs"
         },
         {
           "alias": "PROGID",
@@ -25853,19 +27489,19 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGPATH",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs\\Left_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default.CN"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs\\Left_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default.CN"
         },
         {
           "alias": "PROGTPS",
-          "value": "59.2081910546524"
+          "value": "59.208"
         },
         {
           "alias": "PROGTPSIMPRO",
-          "value": "0.259359192785242"
+          "value": "0.259"
         },
         {
           "alias": "PROGTPSPRO",
-          "value": "58.9488318618671"
+          "value": "58.949"
         },
         {
           "alias": "PROGTYPE",
@@ -25882,7 +27518,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PROG",
             "type": "S",
-            "value": "program-7"
+            "value": "program-13"
           },
           {
             "alias": "NUM_SHEET",
@@ -25897,7 +27533,7 @@ const reportDataRaw ={
           "type": "IMG_PROGRAM",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/programs/Left_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Milling_Default_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/programs/Left_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Default_Milling_1.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -25908,7 +27544,7 @@ const reportDataRaw ={
           "type": null,
           "docType": null,
           "processingStatus": 1,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/programs/Left_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default.CN",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/programs/Left_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default.CN",
           "hidden": false,
           "storageType": 0,
           "exists": true,
@@ -26052,7 +27688,7 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGBZ",
-          "value": "21.0000000000003"
+          "value": "21"
         },
         {
           "alias": "PROGCB",
@@ -26064,11 +27700,11 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGCFGPATH",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs"
         },
         {
           "alias": "PROGDIR",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs"
         },
         {
           "alias": "PROGID",
@@ -26084,19 +27720,19 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGPATH",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs\\Left_High Cabinet_SwoodDesign_1_Milling_1_Default.CN"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs\\Left_High Cabinet_SwoodDesign_1_Milling_1_Default.CN"
         },
         {
           "alias": "PROGTPS",
-          "value": "93.0247724811902"
+          "value": "93.025"
         },
         {
           "alias": "PROGTPSIMPRO",
-          "value": "0.0900000000000001"
+          "value": "0.09"
         },
         {
           "alias": "PROGTPSPRO",
-          "value": "92.9347724811902"
+          "value": "92.935"
         },
         {
           "alias": "PROGTYPE",
@@ -26113,7 +27749,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PROG",
             "type": "S",
-            "value": "program-4"
+            "value": "program-5"
           },
           {
             "alias": "NUM_SHEET",
@@ -26128,7 +27764,7 @@ const reportDataRaw ={
           "type": "IMG_PROGRAM",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/programs/Left_High Cabinet_SwoodDesign_1_Milling_Default_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/programs/Left_High Cabinet_SwoodDesign_1_Default_Milling_1.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -26139,7 +27775,7 @@ const reportDataRaw ={
           "type": null,
           "docType": null,
           "processingStatus": 1,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/programs/Left_High Cabinet_SwoodDesign_1_Milling_1_Default.CN",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/programs/Left_High Cabinet_SwoodDesign_1_Milling_1_Default.CN",
           "hidden": false,
           "storageType": 0,
           "exists": true,
@@ -26278,11 +27914,11 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGBY",
-          "value": "585.000000000004"
+          "value": "585"
         },
         {
           "alias": "PROGBZ",
-          "value": "19.0000000000001"
+          "value": "19"
         },
         {
           "alias": "PROGCB",
@@ -26294,11 +27930,11 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGCFGPATH",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs"
         },
         {
           "alias": "PROGDIR",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs"
         },
         {
           "alias": "PROGID",
@@ -26314,11 +27950,11 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGPATH",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs\\Partition_Partition Horizontal_High Cabinet_SwoodDesign_1_1_Milling_1_Default.CN"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs\\Partition_Partition Horizontal_High Cabinet_SwoodDesign_1_1_Milling_1_Default.CN"
         },
         {
           "alias": "PROGTPS",
-          "value": "93.8930561542821"
+          "value": "93.893"
         },
         {
           "alias": "PROGTPSIMPRO",
@@ -26326,7 +27962,7 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGTPSPRO",
-          "value": "93.8030561542821"
+          "value": "93.803"
         },
         {
           "alias": "PROGTYPE",
@@ -26343,7 +27979,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PROG",
             "type": "S",
-            "value": "program-10"
+            "value": "program-15"
           },
           {
             "alias": "NUM_SHEET",
@@ -26358,7 +27994,7 @@ const reportDataRaw ={
           "type": "IMG_PROGRAM",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/programs/Partition_Partition Horizontal_High Cabinet_SwoodDesign_1_1_Milling_Default_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/programs/Partition_Partition Horizontal_High Cabinet_SwoodDesign_1_1_Default_Milling_1.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -26369,7 +28005,7 @@ const reportDataRaw ={
           "type": null,
           "docType": null,
           "processingStatus": 1,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/programs/Partition_Partition Horizontal_High Cabinet_SwoodDesign_1_1_Milling_1_Default.CN",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/programs/Partition_Partition Horizontal_High Cabinet_SwoodDesign_1_1_Milling_1_Default.CN",
           "hidden": false,
           "storageType": 0,
           "exists": true,
@@ -26396,7 +28032,7 @@ const reportDataRaw ={
         },
         {
           "alias": "PROG_ANGLE_OP0X_PANELX",
-          "value": "4.71238898038469"
+          "value": "4.712"
         },
         {
           "alias": "PROG_FILENAME",
@@ -26524,11 +28160,11 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGCFGPATH",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs"
         },
         {
           "alias": "PROGDIR",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs"
         },
         {
           "alias": "PROGID",
@@ -26544,19 +28180,19 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGPATH",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs\\Right_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default.CN"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs\\Right_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default.CN"
         },
         {
           "alias": "PROGTPS",
-          "value": "29.5824159309336"
+          "value": "29.582"
         },
         {
           "alias": "PROGTPSIMPRO",
-          "value": "0.107999999999999"
+          "value": "0.108"
         },
         {
           "alias": "PROGTPSPRO",
-          "value": "29.4744159309336"
+          "value": "29.474"
         },
         {
           "alias": "PROGTYPE",
@@ -26573,7 +28209,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PROG",
             "type": "S",
-            "value": "program-8"
+            "value": "program-11"
           },
           {
             "alias": "NUM_SHEET",
@@ -26588,7 +28224,7 @@ const reportDataRaw ={
           "type": "IMG_PROGRAM",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/programs/Right_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Milling_Default_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/programs/Right_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Default_Milling_1.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -26599,7 +28235,7 @@ const reportDataRaw ={
           "type": null,
           "docType": null,
           "processingStatus": 1,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/programs/Right_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default.CN",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/programs/Right_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default.CN",
           "hidden": false,
           "storageType": 0,
           "exists": true,
@@ -26740,7 +28376,7 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGBY",
-          "value": "600.000000000003"
+          "value": "600"
         },
         {
           "alias": "PROGBZ",
@@ -26756,11 +28392,11 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGCFGPATH",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs"
         },
         {
           "alias": "PROGDIR",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs"
         },
         {
           "alias": "PROGID",
@@ -26776,7 +28412,7 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGPATH",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs\\Right_High Cabinet_SwoodDesign_1_Milling_1_Default.CN"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs\\Right_High Cabinet_SwoodDesign_1_Milling_1_Default.CN"
         },
         {
           "alias": "PROGTPS",
@@ -26805,7 +28441,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PROG",
             "type": "S",
-            "value": "program-3"
+            "value": "program-6"
           },
           {
             "alias": "NUM_SHEET",
@@ -26820,7 +28456,7 @@ const reportDataRaw ={
           "type": "IMG_PROGRAM",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/programs/Right_High Cabinet_SwoodDesign_1_Milling_Default_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/programs/Right_High Cabinet_SwoodDesign_1_Default_Milling_1.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -26831,7 +28467,7 @@ const reportDataRaw ={
           "type": null,
           "docType": null,
           "processingStatus": 1,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/programs/Right_High Cabinet_SwoodDesign_1_Milling_1_Default.CN",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/programs/Right_High Cabinet_SwoodDesign_1_Milling_1_Default.CN",
           "hidden": false,
           "storageType": 0,
           "exists": true,
@@ -26970,11 +28606,11 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGBY",
-          "value": "555.000000000004"
+          "value": "555"
         },
         {
           "alias": "PROGBZ",
-          "value": "19.9999999999998"
+          "value": "20"
         },
         {
           "alias": "PROGCB",
@@ -26986,11 +28622,11 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGCFGPATH",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs"
         },
         {
           "alias": "PROGDIR",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs"
         },
         {
           "alias": "PROGID",
@@ -27006,11 +28642,11 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGPATH",
-          "value": "C:\\Swood Reports\\2025_12\\SwoodDesign\\programs\\Shelve_Removable Shelves_High Cabinet_SwoodDesign_1_1_Milling_1_Default.CN"
+          "value": "C:\\Swood Reports\\2026_05\\SwoodDesign\\programs\\Shelve_Removable Shelves_High Cabinet_SwoodDesign_1_1_Milling_1_Default.CN"
         },
         {
           "alias": "PROGTPS",
-          "value": "91.8344406726257"
+          "value": "91.834"
         },
         {
           "alias": "PROGTPSIMPRO",
@@ -27018,7 +28654,7 @@ const reportDataRaw ={
         },
         {
           "alias": "PROGTPSPRO",
-          "value": "91.7444406726257"
+          "value": "91.744"
         },
         {
           "alias": "PROGTYPE",
@@ -27035,7 +28671,7 @@ const reportDataRaw ={
           {
             "alias": "NUM_PROG",
             "type": "S",
-            "value": "program-13"
+            "value": "program-9"
           },
           {
             "alias": "NUM_SHEET",
@@ -27050,7 +28686,7 @@ const reportDataRaw ={
           "type": "IMG_PROGRAM",
           "docType": "IMAGE",
           "processingStatus": 2,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/programs/Shelve_Removable Shelves_High Cabinet_SwoodDesign_1_1_Milling_Default_1.jpg",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/programs/Shelve_Removable Shelves_High Cabinet_SwoodDesign_1_1_Default_Milling_1.jpg",
           "hidden": true,
           "storageType": 0,
           "exists": true,
@@ -27061,7 +28697,7 @@ const reportDataRaw ={
           "type": null,
           "docType": null,
           "processingStatus": 1,
-          "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/programs/Shelve_Removable Shelves_High Cabinet_SwoodDesign_1_1_Milling_1_Default.CN",
+          "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/programs/Shelve_Removable Shelves_High Cabinet_SwoodDesign_1_1_Milling_1_Default.CN",
           "hidden": false,
           "storageType": 0,
           "exists": true,
@@ -27074,20 +28710,20 @@ const reportDataRaw ={
   "programParts": [],
   "boards": null,
   "typedObjects": [
-    "c3a54ce6-62fc-4599-a906-68dae7fa7914",
-    "b48f607a-a766-4221-bef2-e9024c57b70b",
-    "9eb32567-c71f-4744-97ef-8fde50dbc6d8",
-    "b998a4a3-7f51-41ea-a234-8912869bc163",
-    "61d088e5-999a-488c-942d-4fa7d582e744",
-    "68dc8561-3cb5-46ec-88a5-b0baa754b6fa",
-    "8f21f17f-1057-4960-946e-a2e3c53f0665",
-    "ae741226-f5c1-4d09-9b6a-7b5361b4c203",
-    "cb733167-3b47-4630-8afc-5efe1c79020e",
-    "f09de750-a739-4b4b-9d7e-bbd98d2b93ed",
-    "c0008ecb-91c3-4d06-8e5c-5f87641df6fd",
-    "dd97aff9-2053-4fb2-b287-9d44b5132323",
-    "7b62d1b2-91c2-4936-bb53-ba509df3fff0",
-    "0e04bfe4-d833-47f4-9dd1-f717accb53ef"
+    "f6e13cb5-d880-4608-81b2-a721c37a6ef7",
+    "fcf86ae8-5d5b-4a71-9558-8545a758bc4c",
+    "10cdf901-7039-4301-a76b-9d3c66a1aeef",
+    "67e1d2df-2028-4637-840c-5d20e7eab8d4",
+    "93091a93-e7b2-4c45-85e5-4a2810e5ef2a",
+    "d6da4264-070f-4aed-9742-327d14380724",
+    "9627c2aa-9d3b-4437-8b19-ad14ecf7640a",
+    "ebd8878b-c084-4fd7-9c21-36603a6a8b5f",
+    "8ba5eee9-c2f1-4035-83b0-e25101cba806",
+    "3cee1371-e66f-426e-b358-707ad44b6283",
+    "2e15e345-5d8b-4b4d-ae84-fa63c8548a96",
+    "7969a91f-d485-4fe4-8f9c-a9969b42c828",
+    "18556d44-ef6f-4ba0-8f41-5674f9fc7eb2",
+    "c8c62451-98b0-43b5-9106-d9fbb9a25fc0"
   ],
   "documents": [
     {
@@ -27095,7 +28731,7 @@ const reportDataRaw ={
       "type": "EDRAWINGS_PROJECT",
       "docType": "TEMPLATE",
       "processingStatus": 2,
-      "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/edrawings/SwoodDesign.html",
+      "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/edrawings/SwoodDesign_Default.html",
       "hidden": true,
       "storageType": 0,
       "exists": true,
@@ -27106,18 +28742,30 @@ const reportDataRaw ={
       "type": "IMG_REPORT",
       "docType": "IMAGE",
       "processingStatus": 2,
-      "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/images/report-SwoodDesign.jpg",
+      "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/images/report-SwoodDesign_Default.jpg",
       "hidden": true,
       "storageType": 0,
       "exists": true,
       "objType": "REPORT"
     },
     {
+      "documentName": "OFFCUT_CONDITION_DOC",
+      "type": "OFFCUT_CONDITION_DOC",
+      "docType": "TEMPLATE",
+      "processingStatus": 2,
+      "absoluteURI": "",
+      "hidden": true,
+      "storageType": 1,
+      "exists": false,
+      "objType": "REPORT",
+      "textContent": ""
+    },
+    {
       "documentName": "PDF_PROJECT",
       "type": "PDF_PROJECT",
       "docType": "DRAWING2PDF",
       "processingStatus": 2,
-      "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/pdfs/SwoodDesign.pdf",
+      "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/pdfs/SwoodDesign_Default.pdf",
       "hidden": true,
       "storageType": 0,
       "exists": true,
@@ -27128,8 +28776,19 @@ const reportDataRaw ={
       "type": "Report",
       "docType": "TEMPLATE",
       "processingStatus": 2,
-      "absoluteURI": "file:///C:/Swood Reports/2025_12/SwoodDesign/index.html",
+      "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/index.html",
       "hidden": false,
+      "storageType": 0,
+      "exists": true,
+      "objType": "REPORT"
+    },
+    {
+      "documentName": "STEP_PROJECT",
+      "type": "STEP_PROJECT",
+      "docType": "STEP",
+      "processingStatus": 2,
+      "absoluteURI": "file:///C:/Swood Reports/2026_05/SwoodDesign/steps/SwoodDesign_Default.step",
+      "hidden": true,
       "storageType": 0,
       "exists": true,
       "objType": "REPORT"
@@ -27145,8 +28804,8 @@ const reportDataRaw ={
           "template-stock-id": 0,
           "item": null,
           "quantity": 1,
-          "length": 3,
-          "width": 1.5,
+          "length": 2.44,
+          "width": 1.22,
           "panel-name": "",
           "cut": "H",
           "cut-coordinate": 0.015,
@@ -27155,7 +28814,7 @@ const reportDataRaw ={
             "type": "padding",
             "item": null,
             "quantity": 1,
-            "length": 3,
+            "length": 2.44,
             "width": 0.015,
             "panel-name": "",
             "cut": null,
@@ -27174,18 +28833,18 @@ const reportDataRaw ={
             "type": null,
             "item": null,
             "quantity": 1,
-            "length": 3,
-            "width": 1.48,
+            "length": 2.44,
+            "width": 1.2,
             "panel-name": "",
             "cut": "H",
-            "cut-coordinate": 0.3805,
+            "cut-coordinate": 0.562,
             "cut-half-thickness": 0.0025,
             "left-stock": {
               "type": null,
               "item": null,
               "quantity": 1,
-              "length": 3,
-              "width": 0.3805,
+              "length": 2.44,
+              "width": 0.562,
               "panel-name": "",
               "cut": "V",
               "cut-coordinate": 0.015,
@@ -27195,7 +28854,7 @@ const reportDataRaw ={
                 "item": null,
                 "quantity": 1,
                 "length": 0.015,
-                "width": 0.3805,
+                "width": 0.562,
                 "panel-name": "",
                 "cut": null,
                 "cut-coordinate": 0,
@@ -27213,22 +28872,22 @@ const reportDataRaw ={
                 "type": null,
                 "item": null,
                 "quantity": 1,
-                "length": 2.98,
-                "width": 0.3805,
+                "length": 2.42,
+                "width": 0.562,
                 "panel-name": "",
                 "cut": "V",
-                "cut-coordinate": 0.946,
+                "cut-coordinate": 1.158,
                 "cut-half-thickness": 0.0025,
                 "left-stock": {
                   "type": "item",
                   "item": {
-                    "template-item-id": 2,
+                    "template-item-id": 1,
                     "rotation": null
                   },
                   "quantity": 1,
-                  "length": 0.946,
-                  "width": 0.3805,
-                  "panel-name": "Front_Drawers Overlay_High Cabinet_SwoodDesign_1_1",
+                  "length": 1.158,
+                  "width": 0.562,
+                  "panel-name": "Bottom_Doors_SwoodDesign_1",
                   "cut": null,
                   "cut-coordinate": 0,
                   "cut-half-thickness": 0,
@@ -27245,22 +28904,244 @@ const reportDataRaw ={
                   "type": null,
                   "item": null,
                   "quantity": 1,
-                  "length": 2.029,
-                  "width": 0.3805,
+                  "length": 1.257,
+                  "width": 0.562,
+                  "panel-name": "",
+                  "cut": "H",
+                  "cut-coordinate": 0.472,
+                  "cut-half-thickness": 0.0025,
+                  "left-stock": {
+                    "type": null,
+                    "item": null,
+                    "quantity": 1,
+                    "length": 1.257,
+                    "width": 0.472,
+                    "panel-name": "",
+                    "cut": "V",
+                    "cut-coordinate": 1.1515,
+                    "cut-half-thickness": 0.0025,
+                    "left-stock": {
+                      "type": "item",
+                      "item": {
+                        "template-item-id": 10,
+                        "rotation": null
+                      },
+                      "quantity": 1,
+                      "length": 1.1515,
+                      "width": 0.472,
+                      "panel-name": "Front_Right Door_Door Overlay_High Cabinet_SwoodDesign_1_1",
+                      "cut": null,
+                      "cut-coordinate": 0,
+                      "cut-half-thickness": 0,
+                      "left-stock": null,
+                      "right-stock": null,
+                      "grain-direction": 1,
+                      "Description": null,
+                      "ProcessOn": null,
+                      "ProcessOnTypedObject": null,
+                      "UserDefined": false,
+                      "ForceExposeToEndUser": true
+                    },
+                    "right-stock": {
+                      "type": "waste",
+                      "item": null,
+                      "quantity": 1,
+                      "length": 0.1005,
+                      "width": 0.472,
+                      "panel-name": "",
+                      "cut": null,
+                      "cut-coordinate": 0,
+                      "cut-half-thickness": 0,
+                      "left-stock": null,
+                      "right-stock": null,
+                      "grain-direction": 0,
+                      "Description": null,
+                      "ProcessOn": null,
+                      "ProcessOnTypedObject": null,
+                      "UserDefined": false,
+                      "ForceExposeToEndUser": true
+                    },
+                    "grain-direction": 0,
+                    "Description": null,
+                    "ProcessOn": null,
+                    "ProcessOnTypedObject": null,
+                    "UserDefined": false,
+                    "ForceExposeToEndUser": true
+                  },
+                  "right-stock": {
+                    "type": null,
+                    "item": null,
+                    "quantity": 1,
+                    "length": 1.257,
+                    "width": 0.085,
+                    "panel-name": "",
+                    "cut": "H",
+                    "cut-coordinate": 0.05,
+                    "cut-half-thickness": 0.0025,
+                    "left-stock": {
+                      "type": null,
+                      "item": null,
+                      "quantity": 1,
+                      "length": 1.257,
+                      "width": 0.05,
+                      "panel-name": "",
+                      "cut": "V",
+                      "cut-coordinate": 1.158,
+                      "cut-half-thickness": 0.0025,
+                      "left-stock": {
+                        "type": "item",
+                        "item": {
+                          "template-item-id": 2,
+                          "rotation": null
+                        },
+                        "quantity": 1,
+                        "length": 1.158,
+                        "width": 0.05,
+                        "panel-name": "Front_Doors_SwoodDesign_1",
+                        "cut": null,
+                        "cut-coordinate": 0,
+                        "cut-half-thickness": 0,
+                        "left-stock": null,
+                        "right-stock": null,
+                        "grain-direction": 1,
+                        "Description": null,
+                        "ProcessOn": null,
+                        "ProcessOnTypedObject": null,
+                        "UserDefined": false,
+                        "ForceExposeToEndUser": true
+                      },
+                      "right-stock": {
+                        "type": "waste",
+                        "item": null,
+                        "quantity": 1,
+                        "length": 0.094,
+                        "width": 0.05,
+                        "panel-name": "",
+                        "cut": null,
+                        "cut-coordinate": 0,
+                        "cut-half-thickness": 0,
+                        "left-stock": null,
+                        "right-stock": null,
+                        "grain-direction": 0,
+                        "Description": null,
+                        "ProcessOn": null,
+                        "ProcessOnTypedObject": null,
+                        "UserDefined": false,
+                        "ForceExposeToEndUser": true
+                      },
+                      "grain-direction": 0,
+                      "Description": null,
+                      "ProcessOn": null,
+                      "ProcessOnTypedObject": null,
+                      "UserDefined": false,
+                      "ForceExposeToEndUser": true
+                    },
+                    "right-stock": {
+                      "type": "waste",
+                      "item": null,
+                      "quantity": 1,
+                      "length": 1.257,
+                      "width": 0.03,
+                      "panel-name": "",
+                      "cut": null,
+                      "cut-coordinate": 0,
+                      "cut-half-thickness": 0,
+                      "left-stock": null,
+                      "right-stock": null,
+                      "grain-direction": 0,
+                      "Description": null,
+                      "ProcessOn": null,
+                      "ProcessOnTypedObject": null,
+                      "UserDefined": false,
+                      "ForceExposeToEndUser": true
+                    },
+                    "grain-direction": 0,
+                    "Description": null,
+                    "ProcessOn": null,
+                    "ProcessOnTypedObject": null,
+                    "UserDefined": false,
+                    "ForceExposeToEndUser": true
+                  },
+                  "grain-direction": 0,
+                  "Description": null,
+                  "ProcessOn": null,
+                  "ProcessOnTypedObject": null,
+                  "UserDefined": false,
+                  "ForceExposeToEndUser": true
+                },
+                "grain-direction": 0,
+                "Description": null,
+                "ProcessOn": null,
+                "ProcessOnTypedObject": null,
+                "UserDefined": false,
+                "ForceExposeToEndUser": true
+              },
+              "grain-direction": 0,
+              "Description": null,
+              "ProcessOn": null,
+              "ProcessOnTypedObject": null,
+              "UserDefined": false,
+              "ForceExposeToEndUser": true
+            },
+            "right-stock": {
+              "type": null,
+              "item": null,
+              "quantity": 1,
+              "length": 2.44,
+              "width": 0.633,
+              "panel-name": "",
+              "cut": "H",
+              "cut-coordinate": 0.6,
+              "cut-half-thickness": 0.0025,
+              "left-stock": {
+                "type": null,
+                "item": null,
+                "quantity": 1,
+                "length": 2.44,
+                "width": 0.6,
+                "panel-name": "",
+                "cut": "V",
+                "cut-coordinate": 0.015,
+                "cut-half-thickness": 0.0025,
+                "left-stock": {
+                  "type": "padding",
+                  "item": null,
+                  "quantity": 1,
+                  "length": 0.015,
+                  "width": 0.6,
+                  "panel-name": "",
+                  "cut": null,
+                  "cut-coordinate": 0,
+                  "cut-half-thickness": 0,
+                  "left-stock": null,
+                  "right-stock": null,
+                  "grain-direction": 0,
+                  "Description": null,
+                  "ProcessOn": null,
+                  "ProcessOnTypedObject": null,
+                  "UserDefined": false,
+                  "ForceExposeToEndUser": true
+                },
+                "right-stock": {
+                  "type": null,
+                  "item": null,
+                  "quantity": 1,
+                  "length": 2.42,
+                  "width": 0.6,
                   "panel-name": "",
                   "cut": "V",
-                  "cut-coordinate": 0.946,
+                  "cut-coordinate": 0.908,
                   "cut-half-thickness": 0.0025,
                   "left-stock": {
                     "type": "item",
                     "item": {
-                      "template-item-id": 2,
+                      "template-item-id": 6,
                       "rotation": null
                     },
                     "quantity": 1,
-                    "length": 0.946,
-                    "width": 0.3805,
-                    "panel-name": "Front_Drawers Overlay_High Cabinet_SwoodDesign_1_1",
+                    "length": 0.908,
+                    "width": 0.6,
+                    "panel-name": "Bottom_High Cabinet_SwoodDesign_1",
                     "cut": null,
                     "cut-coordinate": 0,
                     "cut-half-thickness": 0,
@@ -27277,7 +29158,341 @@ const reportDataRaw ={
                     "type": null,
                     "item": null,
                     "quantity": 1,
-                    "length": 1.078,
+                    "length": 1.507,
+                    "width": 0.6,
+                    "panel-name": "",
+                    "cut": "H",
+                    "cut-coordinate": 0.472,
+                    "cut-half-thickness": 0.0025,
+                    "left-stock": {
+                      "type": null,
+                      "item": null,
+                      "quantity": 1,
+                      "length": 1.507,
+                      "width": 0.472,
+                      "panel-name": "",
+                      "cut": "V",
+                      "cut-coordinate": 1.1515,
+                      "cut-half-thickness": 0.0025,
+                      "left-stock": {
+                        "type": "item",
+                        "item": {
+                          "template-item-id": 9,
+                          "rotation": null
+                        },
+                        "quantity": 1,
+                        "length": 1.1515,
+                        "width": 0.472,
+                        "panel-name": "Front_Left Door_Door Overlay_High Cabinet_SwoodDesign_1_1",
+                        "cut": null,
+                        "cut-coordinate": 0,
+                        "cut-half-thickness": 0,
+                        "left-stock": null,
+                        "right-stock": null,
+                        "grain-direction": 1,
+                        "Description": null,
+                        "ProcessOn": null,
+                        "ProcessOnTypedObject": null,
+                        "UserDefined": false,
+                        "ForceExposeToEndUser": true
+                      },
+                      "right-stock": {
+                        "type": "waste",
+                        "item": null,
+                        "quantity": 1,
+                        "length": 0.3505,
+                        "width": 0.472,
+                        "panel-name": "",
+                        "cut": null,
+                        "cut-coordinate": 0,
+                        "cut-half-thickness": 0,
+                        "left-stock": null,
+                        "right-stock": null,
+                        "grain-direction": 0,
+                        "Description": null,
+                        "ProcessOn": null,
+                        "ProcessOnTypedObject": null,
+                        "UserDefined": false,
+                        "ForceExposeToEndUser": true
+                      },
+                      "grain-direction": 0,
+                      "Description": null,
+                      "ProcessOn": null,
+                      "ProcessOnTypedObject": null,
+                      "UserDefined": false,
+                      "ForceExposeToEndUser": true
+                    },
+                    "right-stock": {
+                      "type": null,
+                      "item": null,
+                      "quantity": 1,
+                      "length": 1.507,
+                      "width": 0.123,
+                      "panel-name": "",
+                      "cut": "H",
+                      "cut-coordinate": 0.1,
+                      "cut-half-thickness": 0.0025,
+                      "left-stock": {
+                        "type": null,
+                        "item": null,
+                        "quantity": 1,
+                        "length": 1.507,
+                        "width": 0.1,
+                        "panel-name": "",
+                        "cut": "V",
+                        "cut-coordinate": 1.2,
+                        "cut-half-thickness": 0.0025,
+                        "left-stock": {
+                          "type": "item",
+                          "item": {
+                            "template-item-id": 0,
+                            "rotation": null
+                          },
+                          "quantity": 1,
+                          "length": 1.2,
+                          "width": 0.1,
+                          "panel-name": "Kickboard_Doors_SwoodDesign_1",
+                          "cut": null,
+                          "cut-coordinate": 0,
+                          "cut-half-thickness": 0,
+                          "left-stock": null,
+                          "right-stock": null,
+                          "grain-direction": 1,
+                          "Description": null,
+                          "ProcessOn": null,
+                          "ProcessOnTypedObject": null,
+                          "UserDefined": false,
+                          "ForceExposeToEndUser": true
+                        },
+                        "right-stock": {
+                          "type": "waste",
+                          "item": null,
+                          "quantity": 1,
+                          "length": 0.302,
+                          "width": 0.1,
+                          "panel-name": "",
+                          "cut": null,
+                          "cut-coordinate": 0,
+                          "cut-half-thickness": 0,
+                          "left-stock": null,
+                          "right-stock": null,
+                          "grain-direction": 0,
+                          "Description": null,
+                          "ProcessOn": null,
+                          "ProcessOnTypedObject": null,
+                          "UserDefined": false,
+                          "ForceExposeToEndUser": true
+                        },
+                        "grain-direction": 0,
+                        "Description": null,
+                        "ProcessOn": null,
+                        "ProcessOnTypedObject": null,
+                        "UserDefined": false,
+                        "ForceExposeToEndUser": true
+                      },
+                      "right-stock": {
+                        "type": "waste",
+                        "item": null,
+                        "quantity": 1,
+                        "length": 1.507,
+                        "width": 0.018,
+                        "panel-name": "",
+                        "cut": null,
+                        "cut-coordinate": 0,
+                        "cut-half-thickness": 0,
+                        "left-stock": null,
+                        "right-stock": null,
+                        "grain-direction": 0,
+                        "Description": null,
+                        "ProcessOn": null,
+                        "ProcessOnTypedObject": null,
+                        "UserDefined": false,
+                        "ForceExposeToEndUser": true
+                      },
+                      "grain-direction": 0,
+                      "Description": null,
+                      "ProcessOn": null,
+                      "ProcessOnTypedObject": null,
+                      "UserDefined": false,
+                      "ForceExposeToEndUser": true
+                    },
+                    "grain-direction": 0,
+                    "Description": null,
+                    "ProcessOn": null,
+                    "ProcessOnTypedObject": null,
+                    "UserDefined": false,
+                    "ForceExposeToEndUser": true
+                  },
+                  "grain-direction": 0,
+                  "Description": null,
+                  "ProcessOn": null,
+                  "ProcessOnTypedObject": null,
+                  "UserDefined": false,
+                  "ForceExposeToEndUser": true
+                },
+                "grain-direction": 0,
+                "Description": null,
+                "ProcessOn": null,
+                "ProcessOnTypedObject": null,
+                "UserDefined": false,
+                "ForceExposeToEndUser": true
+              },
+              "right-stock": {
+                "type": "waste",
+                "item": null,
+                "quantity": 1,
+                "length": 2.44,
+                "width": 0.028,
+                "panel-name": "",
+                "cut": null,
+                "cut-coordinate": 0,
+                "cut-half-thickness": 0,
+                "left-stock": null,
+                "right-stock": null,
+                "grain-direction": 0,
+                "Description": null,
+                "ProcessOn": null,
+                "ProcessOnTypedObject": null,
+                "UserDefined": false,
+                "ForceExposeToEndUser": true
+              },
+              "grain-direction": 0,
+              "Description": null,
+              "ProcessOn": null,
+              "ProcessOnTypedObject": null,
+              "UserDefined": false,
+              "ForceExposeToEndUser": true
+            },
+            "grain-direction": 0,
+            "Description": null,
+            "ProcessOn": null,
+            "ProcessOnTypedObject": null,
+            "UserDefined": false,
+            "ForceExposeToEndUser": true
+          },
+          "grain-direction": 1,
+          "Description": null,
+          "ProcessOn": null,
+          "ProcessOnTypedObject": null,
+          "UserDefined": false,
+          "ForceExposeToEndUser": true
+        },
+        {
+          "type": null,
+          "template-stock-id": 0,
+          "item": null,
+          "quantity": 1,
+          "length": 2.44,
+          "width": 1.22,
+          "panel-name": "",
+          "cut": "H",
+          "cut-coordinate": 0.015,
+          "cut-half-thickness": 0.0025,
+          "left-stock": {
+            "type": "padding",
+            "item": null,
+            "quantity": 1,
+            "length": 2.44,
+            "width": 0.015,
+            "panel-name": "",
+            "cut": null,
+            "cut-coordinate": 0,
+            "cut-half-thickness": 0,
+            "left-stock": null,
+            "right-stock": null,
+            "grain-direction": 0,
+            "Description": null,
+            "ProcessOn": null,
+            "ProcessOnTypedObject": null,
+            "UserDefined": false,
+            "ForceExposeToEndUser": true
+          },
+          "right-stock": {
+            "type": null,
+            "item": null,
+            "quantity": 1,
+            "length": 2.44,
+            "width": 1.2,
+            "panel-name": "",
+            "cut": "H",
+            "cut-coordinate": 0.585,
+            "cut-half-thickness": 0.0025,
+            "left-stock": {
+              "type": null,
+              "item": null,
+              "quantity": 1,
+              "length": 2.44,
+              "width": 0.585,
+              "panel-name": "",
+              "cut": "V",
+              "cut-coordinate": 0.015,
+              "cut-half-thickness": 0.0025,
+              "left-stock": {
+                "type": "padding",
+                "item": null,
+                "quantity": 1,
+                "length": 0.015,
+                "width": 0.585,
+                "panel-name": "",
+                "cut": null,
+                "cut-coordinate": 0,
+                "cut-half-thickness": 0,
+                "left-stock": null,
+                "right-stock": null,
+                "grain-direction": 0,
+                "Description": null,
+                "ProcessOn": null,
+                "ProcessOnTypedObject": null,
+                "UserDefined": false,
+                "ForceExposeToEndUser": true
+              },
+              "right-stock": {
+                "type": null,
+                "item": null,
+                "quantity": 1,
+                "length": 2.42,
+                "width": 0.585,
+                "panel-name": "",
+                "cut": "V",
+                "cut-coordinate": 0.908,
+                "cut-half-thickness": 0.0025,
+                "left-stock": {
+                  "type": "item",
+                  "item": {
+                    "template-item-id": 8,
+                    "rotation": null
+                  },
+                  "quantity": 1,
+                  "length": 0.908,
+                  "width": 0.585,
+                  "panel-name": "Partition_Partition Horizontal_High Cabinet_SwoodDesign_1_1",
+                  "cut": null,
+                  "cut-coordinate": 0,
+                  "cut-half-thickness": 0,
+                  "left-stock": null,
+                  "right-stock": null,
+                  "grain-direction": 1,
+                  "Description": null,
+                  "ProcessOn": null,
+                  "ProcessOnTypedObject": null,
+                  "UserDefined": false,
+                  "ForceExposeToEndUser": true
+                },
+                "right-stock": {
+                  "type": null,
+                  "item": null,
+                  "quantity": 1,
+                  "length": 1.507,
+                  "width": 0.585,
+                  "panel-name": "",
+                  "cut": "H",
+                  "cut-coordinate": 0.3805,
+                  "cut-half-thickness": 0.0025,
+                  "left-stock": {
+                    "type": null,
+                    "item": null,
+                    "quantity": 1,
+                    "length": 1.507,
                     "width": 0.3805,
                     "panel-name": "",
                     "cut": "V",
@@ -27286,7 +29501,7 @@ const reportDataRaw ={
                     "left-stock": {
                       "type": "item",
                       "item": {
-                        "template-item-id": 2,
+                        "template-item-id": 7,
                         "rotation": null
                       },
                       "quantity": 1,
@@ -27309,7 +29524,251 @@ const reportDataRaw ={
                       "type": "waste",
                       "item": null,
                       "quantity": 1,
-                      "length": 0.127,
+                      "length": 0.556,
+                      "width": 0.3805,
+                      "panel-name": "",
+                      "cut": null,
+                      "cut-coordinate": 0,
+                      "cut-half-thickness": 0,
+                      "left-stock": null,
+                      "right-stock": null,
+                      "grain-direction": 0,
+                      "Description": null,
+                      "ProcessOn": null,
+                      "ProcessOnTypedObject": null,
+                      "UserDefined": false,
+                      "ForceExposeToEndUser": true
+                    },
+                    "grain-direction": 0,
+                    "Description": null,
+                    "ProcessOn": null,
+                    "ProcessOnTypedObject": null,
+                    "UserDefined": false,
+                    "ForceExposeToEndUser": true
+                  },
+                  "right-stock": {
+                    "type": null,
+                    "item": null,
+                    "quantity": 1,
+                    "length": 1.507,
+                    "width": 0.1995,
+                    "panel-name": "",
+                    "cut": "H",
+                    "cut-coordinate": 0.1,
+                    "cut-half-thickness": 0.0025,
+                    "left-stock": {
+                      "type": null,
+                      "item": null,
+                      "quantity": 1,
+                      "length": 1.507,
+                      "width": 0.1,
+                      "panel-name": "",
+                      "cut": "V",
+                      "cut-coordinate": 0.95,
+                      "cut-half-thickness": 0.0025,
+                      "left-stock": {
+                        "type": "item",
+                        "item": {
+                          "template-item-id": 5,
+                          "rotation": null
+                        },
+                        "quantity": 1,
+                        "length": 0.95,
+                        "width": 0.1,
+                        "panel-name": "Kickboard_High Cabinet_SwoodDesign_1",
+                        "cut": null,
+                        "cut-coordinate": 0,
+                        "cut-half-thickness": 0,
+                        "left-stock": null,
+                        "right-stock": null,
+                        "grain-direction": 1,
+                        "Description": null,
+                        "ProcessOn": null,
+                        "ProcessOnTypedObject": null,
+                        "UserDefined": false,
+                        "ForceExposeToEndUser": true
+                      },
+                      "right-stock": {
+                        "type": "waste",
+                        "item": null,
+                        "quantity": 1,
+                        "length": 0.552,
+                        "width": 0.1,
+                        "panel-name": "",
+                        "cut": null,
+                        "cut-coordinate": 0,
+                        "cut-half-thickness": 0,
+                        "left-stock": null,
+                        "right-stock": null,
+                        "grain-direction": 0,
+                        "Description": null,
+                        "ProcessOn": null,
+                        "ProcessOnTypedObject": null,
+                        "UserDefined": false,
+                        "ForceExposeToEndUser": true
+                      },
+                      "grain-direction": 0,
+                      "Description": null,
+                      "ProcessOn": null,
+                      "ProcessOnTypedObject": null,
+                      "UserDefined": false,
+                      "ForceExposeToEndUser": true
+                    },
+                    "right-stock": {
+                      "type": "waste",
+                      "item": null,
+                      "quantity": 1,
+                      "length": 1.507,
+                      "width": 0.0945,
+                      "panel-name": "",
+                      "cut": null,
+                      "cut-coordinate": 0,
+                      "cut-half-thickness": 0,
+                      "left-stock": null,
+                      "right-stock": null,
+                      "grain-direction": 0,
+                      "Description": null,
+                      "ProcessOn": null,
+                      "ProcessOnTypedObject": null,
+                      "UserDefined": false,
+                      "ForceExposeToEndUser": true
+                    },
+                    "grain-direction": 0,
+                    "Description": null,
+                    "ProcessOn": null,
+                    "ProcessOnTypedObject": null,
+                    "UserDefined": false,
+                    "ForceExposeToEndUser": true
+                  },
+                  "grain-direction": 0,
+                  "Description": null,
+                  "ProcessOn": null,
+                  "ProcessOnTypedObject": null,
+                  "UserDefined": false,
+                  "ForceExposeToEndUser": true
+                },
+                "grain-direction": 0,
+                "Description": null,
+                "ProcessOn": null,
+                "ProcessOnTypedObject": null,
+                "UserDefined": false,
+                "ForceExposeToEndUser": true
+              },
+              "grain-direction": 0,
+              "Description": null,
+              "ProcessOn": null,
+              "ProcessOnTypedObject": null,
+              "UserDefined": false,
+              "ForceExposeToEndUser": true
+            },
+            "right-stock": {
+              "type": null,
+              "item": null,
+              "quantity": 1,
+              "length": 2.44,
+              "width": 0.61,
+              "panel-name": "",
+              "cut": "H",
+              "cut-coordinate": 0.3805,
+              "cut-half-thickness": 0.0025,
+              "left-stock": {
+                "type": null,
+                "item": null,
+                "quantity": 1,
+                "length": 2.44,
+                "width": 0.3805,
+                "panel-name": "",
+                "cut": "V",
+                "cut-coordinate": 0.015,
+                "cut-half-thickness": 0.0025,
+                "left-stock": {
+                  "type": "padding",
+                  "item": null,
+                  "quantity": 1,
+                  "length": 0.015,
+                  "width": 0.3805,
+                  "panel-name": "",
+                  "cut": null,
+                  "cut-coordinate": 0,
+                  "cut-half-thickness": 0,
+                  "left-stock": null,
+                  "right-stock": null,
+                  "grain-direction": 0,
+                  "Description": null,
+                  "ProcessOn": null,
+                  "ProcessOnTypedObject": null,
+                  "UserDefined": false,
+                  "ForceExposeToEndUser": true
+                },
+                "right-stock": {
+                  "type": null,
+                  "item": null,
+                  "quantity": 1,
+                  "length": 2.42,
+                  "width": 0.3805,
+                  "panel-name": "",
+                  "cut": "V",
+                  "cut-coordinate": 0.946,
+                  "cut-half-thickness": 0.0025,
+                  "left-stock": {
+                    "type": "item",
+                    "item": {
+                      "template-item-id": 7,
+                      "rotation": null
+                    },
+                    "quantity": 1,
+                    "length": 0.946,
+                    "width": 0.3805,
+                    "panel-name": "Front_Drawers Overlay_High Cabinet_SwoodDesign_1_1",
+                    "cut": null,
+                    "cut-coordinate": 0,
+                    "cut-half-thickness": 0,
+                    "left-stock": null,
+                    "right-stock": null,
+                    "grain-direction": 1,
+                    "Description": null,
+                    "ProcessOn": null,
+                    "ProcessOnTypedObject": null,
+                    "UserDefined": false,
+                    "ForceExposeToEndUser": true
+                  },
+                  "right-stock": {
+                    "type": null,
+                    "item": null,
+                    "quantity": 1,
+                    "length": 1.469,
+                    "width": 0.3805,
+                    "panel-name": "",
+                    "cut": "V",
+                    "cut-coordinate": 0.946,
+                    "cut-half-thickness": 0.0025,
+                    "left-stock": {
+                      "type": "item",
+                      "item": {
+                        "template-item-id": 7,
+                        "rotation": null
+                      },
+                      "quantity": 1,
+                      "length": 0.946,
+                      "width": 0.3805,
+                      "panel-name": "Front_Drawers Overlay_High Cabinet_SwoodDesign_1_1",
+                      "cut": null,
+                      "cut-coordinate": 0,
+                      "cut-half-thickness": 0,
+                      "left-stock": null,
+                      "right-stock": null,
+                      "grain-direction": 1,
+                      "Description": null,
+                      "ProcessOn": null,
+                      "ProcessOnTypedObject": null,
+                      "UserDefined": false,
+                      "ForceExposeToEndUser": true
+                    },
+                    "right-stock": {
+                      "type": "waste",
+                      "item": null,
+                      "quantity": 1,
+                      "length": 0.518,
                       "width": 0.3805,
                       "panel-name": "",
                       "cut": null,
@@ -27345,507 +29804,18 @@ const reportDataRaw ={
                 "UserDefined": false,
                 "ForceExposeToEndUser": true
               },
-              "grain-direction": 0,
-              "Description": null,
-              "ProcessOn": null,
-              "ProcessOnTypedObject": null,
-              "UserDefined": false,
-              "ForceExposeToEndUser": true
-            },
-            "right-stock": {
-              "type": null,
-              "item": null,
-              "quantity": 1,
-              "length": 3,
-              "width": 1.0945,
-              "panel-name": "",
-              "cut": "V",
-              "cut-coordinate": 0.015,
-              "cut-half-thickness": 0.0025,
-              "left-stock": {
-                "type": "padding",
+              "right-stock": {
+                "type": "waste",
                 "item": null,
                 "quantity": 1,
-                "length": 0.015,
-                "width": 1.0945,
+                "length": 2.44,
+                "width": 0.2245,
                 "panel-name": "",
                 "cut": null,
                 "cut-coordinate": 0,
                 "cut-half-thickness": 0,
                 "left-stock": null,
                 "right-stock": null,
-                "grain-direction": 0,
-                "Description": null,
-                "ProcessOn": null,
-                "ProcessOnTypedObject": null,
-                "UserDefined": false,
-                "ForceExposeToEndUser": true
-              },
-              "right-stock": {
-                "type": null,
-                "item": null,
-                "quantity": 1,
-                "length": 2.98,
-                "width": 1.0945,
-                "panel-name": "",
-                "cut": "V",
-                "cut-coordinate": 1.1515,
-                "cut-half-thickness": 0.0025,
-                "left-stock": {
-                  "type": null,
-                  "item": null,
-                  "quantity": 1,
-                  "length": 1.1515,
-                  "width": 1.0945,
-                  "panel-name": "",
-                  "cut": "H",
-                  "cut-coordinate": 0.472,
-                  "cut-half-thickness": 0.0025,
-                  "left-stock": {
-                    "type": "item",
-                    "item": {
-                      "template-item-id": 4,
-                      "rotation": null
-                    },
-                    "quantity": 1,
-                    "length": 1.1515,
-                    "width": 0.472,
-                    "panel-name": "Front_Left Door_Door Overlay_High Cabinet_SwoodDesign_1_1",
-                    "cut": null,
-                    "cut-coordinate": 0,
-                    "cut-half-thickness": 0,
-                    "left-stock": null,
-                    "right-stock": null,
-                    "grain-direction": 1,
-                    "Description": null,
-                    "ProcessOn": null,
-                    "ProcessOnTypedObject": null,
-                    "UserDefined": false,
-                    "ForceExposeToEndUser": true
-                  },
-                  "right-stock": {
-                    "type": null,
-                    "item": null,
-                    "quantity": 1,
-                    "length": 1.1515,
-                    "width": 0.6175,
-                    "panel-name": "",
-                    "cut": "H",
-                    "cut-coordinate": 0.472,
-                    "cut-half-thickness": 0.0025,
-                    "left-stock": {
-                      "type": "item",
-                      "item": {
-                        "template-item-id": 5,
-                        "rotation": null
-                      },
-                      "quantity": 1,
-                      "length": 1.1515,
-                      "width": 0.472,
-                      "panel-name": "Front_Right Door_Door Overlay_High Cabinet_SwoodDesign_1_1",
-                      "cut": null,
-                      "cut-coordinate": 0,
-                      "cut-half-thickness": 0,
-                      "left-stock": null,
-                      "right-stock": null,
-                      "grain-direction": 1,
-                      "Description": null,
-                      "ProcessOn": null,
-                      "ProcessOnTypedObject": null,
-                      "UserDefined": false,
-                      "ForceExposeToEndUser": true
-                    },
-                    "right-stock": {
-                      "type": null,
-                      "item": null,
-                      "quantity": 1,
-                      "length": 1.1515,
-                      "width": 0.1405,
-                      "panel-name": "",
-                      "cut": "H",
-                      "cut-coordinate": 0.1,
-                      "cut-half-thickness": 0.0025,
-                      "left-stock": {
-                        "type": null,
-                        "item": null,
-                        "quantity": 1,
-                        "length": 1.1515,
-                        "width": 0.1,
-                        "panel-name": "",
-                        "cut": "V",
-                        "cut-coordinate": 0.95,
-                        "cut-half-thickness": 0.0025,
-                        "left-stock": {
-                          "type": "item",
-                          "item": {
-                            "template-item-id": 1,
-                            "rotation": null
-                          },
-                          "quantity": 1,
-                          "length": 0.95,
-                          "width": 0.1,
-                          "panel-name": "Kickboard_High Cabinet_SwoodDesign_1",
-                          "cut": null,
-                          "cut-coordinate": 0,
-                          "cut-half-thickness": 0,
-                          "left-stock": null,
-                          "right-stock": null,
-                          "grain-direction": 1,
-                          "Description": null,
-                          "ProcessOn": null,
-                          "ProcessOnTypedObject": null,
-                          "UserDefined": false,
-                          "ForceExposeToEndUser": true
-                        },
-                        "right-stock": {
-                          "type": "waste",
-                          "item": null,
-                          "quantity": 1,
-                          "length": 0.1965,
-                          "width": 0.1,
-                          "panel-name": "",
-                          "cut": null,
-                          "cut-coordinate": 0,
-                          "cut-half-thickness": 0,
-                          "left-stock": null,
-                          "right-stock": null,
-                          "grain-direction": 0,
-                          "Description": null,
-                          "ProcessOn": null,
-                          "ProcessOnTypedObject": null,
-                          "UserDefined": false,
-                          "ForceExposeToEndUser": true
-                        },
-                        "grain-direction": 0,
-                        "Description": null,
-                        "ProcessOn": null,
-                        "ProcessOnTypedObject": null,
-                        "UserDefined": false,
-                        "ForceExposeToEndUser": true
-                      },
-                      "right-stock": {
-                        "type": "waste",
-                        "item": null,
-                        "quantity": 1,
-                        "length": 1.1515,
-                        "width": 0.0355,
-                        "panel-name": "",
-                        "cut": null,
-                        "cut-coordinate": 0,
-                        "cut-half-thickness": 0,
-                        "left-stock": null,
-                        "right-stock": null,
-                        "grain-direction": 0,
-                        "Description": null,
-                        "ProcessOn": null,
-                        "ProcessOnTypedObject": null,
-                        "UserDefined": false,
-                        "ForceExposeToEndUser": true
-                      },
-                      "grain-direction": 0,
-                      "Description": null,
-                      "ProcessOn": null,
-                      "ProcessOnTypedObject": null,
-                      "UserDefined": false,
-                      "ForceExposeToEndUser": true
-                    },
-                    "grain-direction": 0,
-                    "Description": null,
-                    "ProcessOn": null,
-                    "ProcessOnTypedObject": null,
-                    "UserDefined": false,
-                    "ForceExposeToEndUser": true
-                  },
-                  "grain-direction": 0,
-                  "Description": null,
-                  "ProcessOn": null,
-                  "ProcessOnTypedObject": null,
-                  "UserDefined": false,
-                  "ForceExposeToEndUser": true
-                },
-                "right-stock": {
-                  "type": null,
-                  "item": null,
-                  "quantity": 1,
-                  "length": 1.8235,
-                  "width": 1.0945,
-                  "panel-name": "",
-                  "cut": "H",
-                  "cut-coordinate": 0.593,
-                  "cut-half-thickness": 0.0025,
-                  "left-stock": {
-                    "type": null,
-                    "item": null,
-                    "quantity": 1,
-                    "length": 1.8235,
-                    "width": 0.593,
-                    "panel-name": "",
-                    "cut": "V",
-                    "cut-coordinate": 0.819,
-                    "cut-half-thickness": 0.0025,
-                    "left-stock": {
-                      "type": "item",
-                      "item": {
-                        "template-item-id": 7,
-                        "rotation": null
-                      },
-                      "quantity": 1,
-                      "length": 0.819,
-                      "width": 0.593,
-                      "panel-name": "Front_Right Door_Door Overlay_Doors_SwoodDesign_1_1",
-                      "cut": null,
-                      "cut-coordinate": 0,
-                      "cut-half-thickness": 0,
-                      "left-stock": null,
-                      "right-stock": null,
-                      "grain-direction": 1,
-                      "Description": null,
-                      "ProcessOn": null,
-                      "ProcessOnTypedObject": null,
-                      "UserDefined": false,
-                      "ForceExposeToEndUser": true
-                    },
-                    "right-stock": {
-                      "type": null,
-                      "item": null,
-                      "quantity": 1,
-                      "length": 0.9995,
-                      "width": 0.593,
-                      "panel-name": "",
-                      "cut": "V",
-                      "cut-coordinate": 0.819,
-                      "cut-half-thickness": 0.0025,
-                      "left-stock": {
-                        "type": "item",
-                        "item": {
-                          "template-item-id": 8,
-                          "rotation": null
-                        },
-                        "quantity": 1,
-                        "length": 0.819,
-                        "width": 0.593,
-                        "panel-name": "Front_Left Door_Door Overlay_Doors_SwoodDesign_1_1",
-                        "cut": null,
-                        "cut-coordinate": 0,
-                        "cut-half-thickness": 0,
-                        "left-stock": null,
-                        "right-stock": null,
-                        "grain-direction": 1,
-                        "Description": null,
-                        "ProcessOn": null,
-                        "ProcessOnTypedObject": null,
-                        "UserDefined": false,
-                        "ForceExposeToEndUser": true
-                      },
-                      "right-stock": {
-                        "type": "waste",
-                        "item": null,
-                        "quantity": 1,
-                        "length": 0.1755,
-                        "width": 0.593,
-                        "panel-name": "",
-                        "cut": null,
-                        "cut-coordinate": 0,
-                        "cut-half-thickness": 0,
-                        "left-stock": null,
-                        "right-stock": null,
-                        "grain-direction": 0,
-                        "Description": null,
-                        "ProcessOn": null,
-                        "ProcessOnTypedObject": null,
-                        "UserDefined": false,
-                        "ForceExposeToEndUser": true
-                      },
-                      "grain-direction": 0,
-                      "Description": null,
-                      "ProcessOn": null,
-                      "ProcessOnTypedObject": null,
-                      "UserDefined": false,
-                      "ForceExposeToEndUser": true
-                    },
-                    "grain-direction": 0,
-                    "Description": null,
-                    "ProcessOn": null,
-                    "ProcessOnTypedObject": null,
-                    "UserDefined": false,
-                    "ForceExposeToEndUser": true
-                  },
-                  "right-stock": {
-                    "type": null,
-                    "item": null,
-                    "quantity": 1,
-                    "length": 1.8235,
-                    "width": 0.4965,
-                    "panel-name": "",
-                    "cut": "H",
-                    "cut-coordinate": 0.1,
-                    "cut-half-thickness": 0.0025,
-                    "left-stock": {
-                      "type": null,
-                      "item": null,
-                      "quantity": 1,
-                      "length": 1.8235,
-                      "width": 0.1,
-                      "panel-name": "",
-                      "cut": "V",
-                      "cut-coordinate": 1.2,
-                      "cut-half-thickness": 0.0025,
-                      "left-stock": {
-                        "type": "item",
-                        "item": {
-                          "template-item-id": 6,
-                          "rotation": null
-                        },
-                        "quantity": 1,
-                        "length": 1.2,
-                        "width": 0.1,
-                        "panel-name": "Kickboard_Doors_SwoodDesign_1",
-                        "cut": null,
-                        "cut-coordinate": 0,
-                        "cut-half-thickness": 0,
-                        "left-stock": null,
-                        "right-stock": null,
-                        "grain-direction": 1,
-                        "Description": null,
-                        "ProcessOn": null,
-                        "ProcessOnTypedObject": null,
-                        "UserDefined": false,
-                        "ForceExposeToEndUser": true
-                      },
-                      "right-stock": {
-                        "type": "waste",
-                        "item": null,
-                        "quantity": 1,
-                        "length": 0.6185,
-                        "width": 0.1,
-                        "panel-name": "",
-                        "cut": null,
-                        "cut-coordinate": 0,
-                        "cut-half-thickness": 0,
-                        "left-stock": null,
-                        "right-stock": null,
-                        "grain-direction": 0,
-                        "Description": null,
-                        "ProcessOn": null,
-                        "ProcessOnTypedObject": null,
-                        "UserDefined": false,
-                        "ForceExposeToEndUser": true
-                      },
-                      "grain-direction": 0,
-                      "Description": null,
-                      "ProcessOn": null,
-                      "ProcessOnTypedObject": null,
-                      "UserDefined": false,
-                      "ForceExposeToEndUser": true
-                    },
-                    "right-stock": {
-                      "type": null,
-                      "item": null,
-                      "quantity": 1,
-                      "length": 1.8235,
-                      "width": 0.3915,
-                      "panel-name": "",
-                      "cut": "H",
-                      "cut-coordinate": 0.05,
-                      "cut-half-thickness": 0.0025,
-                      "left-stock": {
-                        "type": null,
-                        "item": null,
-                        "quantity": 1,
-                        "length": 1.8235,
-                        "width": 0.05,
-                        "panel-name": "",
-                        "cut": "V",
-                        "cut-coordinate": 1.158,
-                        "cut-half-thickness": 0.0025,
-                        "left-stock": {
-                          "type": "item",
-                          "item": {
-                            "template-item-id": 10,
-                            "rotation": null
-                          },
-                          "quantity": 1,
-                          "length": 1.158,
-                          "width": 0.05,
-                          "panel-name": "Front_Doors_SwoodDesign_1",
-                          "cut": null,
-                          "cut-coordinate": 0,
-                          "cut-half-thickness": 0,
-                          "left-stock": null,
-                          "right-stock": null,
-                          "grain-direction": 1,
-                          "Description": null,
-                          "ProcessOn": null,
-                          "ProcessOnTypedObject": null,
-                          "UserDefined": false,
-                          "ForceExposeToEndUser": true
-                        },
-                        "right-stock": {
-                          "type": "waste",
-                          "item": null,
-                          "quantity": 1,
-                          "length": 0.6605,
-                          "width": 0.05,
-                          "panel-name": "",
-                          "cut": null,
-                          "cut-coordinate": 0,
-                          "cut-half-thickness": 0,
-                          "left-stock": null,
-                          "right-stock": null,
-                          "grain-direction": 0,
-                          "Description": null,
-                          "ProcessOn": null,
-                          "ProcessOnTypedObject": null,
-                          "UserDefined": false,
-                          "ForceExposeToEndUser": true
-                        },
-                        "grain-direction": 0,
-                        "Description": null,
-                        "ProcessOn": null,
-                        "ProcessOnTypedObject": null,
-                        "UserDefined": false,
-                        "ForceExposeToEndUser": true
-                      },
-                      "right-stock": {
-                        "type": "waste",
-                        "item": null,
-                        "quantity": 1,
-                        "length": 1.8235,
-                        "width": 0.3365,
-                        "panel-name": "",
-                        "cut": null,
-                        "cut-coordinate": 0,
-                        "cut-half-thickness": 0,
-                        "left-stock": null,
-                        "right-stock": null,
-                        "grain-direction": 0,
-                        "Description": null,
-                        "ProcessOn": null,
-                        "ProcessOnTypedObject": null,
-                        "UserDefined": false,
-                        "ForceExposeToEndUser": true
-                      },
-                      "grain-direction": 0,
-                      "Description": null,
-                      "ProcessOn": null,
-                      "ProcessOnTypedObject": null,
-                      "UserDefined": false,
-                      "ForceExposeToEndUser": true
-                    },
-                    "grain-direction": 0,
-                    "Description": null,
-                    "ProcessOn": null,
-                    "ProcessOnTypedObject": null,
-                    "UserDefined": false,
-                    "ForceExposeToEndUser": true
-                  },
-                  "grain-direction": 0,
-                  "Description": null,
-                  "ProcessOn": null,
-                  "ProcessOnTypedObject": null,
-                  "UserDefined": false,
-                  "ForceExposeToEndUser": true
-                },
                 "grain-direction": 0,
                 "Description": null,
                 "ProcessOn": null,
@@ -27879,18 +29849,18 @@ const reportDataRaw ={
           "template-stock-id": 0,
           "item": null,
           "quantity": 1,
-          "length": 3,
-          "width": 1.5,
+          "length": 2.44,
+          "width": 1.22,
           "panel-name": "",
-          "cut": "V",
+          "cut": "H",
           "cut-coordinate": 0.015,
           "cut-half-thickness": 0.0025,
           "left-stock": {
             "type": "padding",
             "item": null,
             "quantity": 1,
-            "length": 0.015,
-            "width": 1.5,
+            "length": 2.44,
+            "width": 0.015,
             "panel-name": "",
             "cut": null,
             "cut-coordinate": 0,
@@ -27908,28 +29878,28 @@ const reportDataRaw ={
             "type": null,
             "item": null,
             "quantity": 1,
-            "length": 2.98,
-            "width": 1.5,
+            "length": 2.44,
+            "width": 1.2,
             "panel-name": "",
-            "cut": "V",
-            "cut-coordinate": 0.908,
+            "cut": "H",
+            "cut-coordinate": 0.593,
             "cut-half-thickness": 0.0025,
             "left-stock": {
               "type": null,
               "item": null,
               "quantity": 1,
-              "length": 0.908,
-              "width": 1.5,
+              "length": 2.44,
+              "width": 0.593,
               "panel-name": "",
-              "cut": "H",
+              "cut": "V",
               "cut-coordinate": 0.015,
               "cut-half-thickness": 0.0025,
               "left-stock": {
                 "type": "padding",
                 "item": null,
                 "quantity": 1,
-                "length": 0.908,
-                "width": 0.015,
+                "length": 0.015,
+                "width": 0.593,
                 "panel-name": "",
                 "cut": null,
                 "cut-coordinate": 0,
@@ -27947,22 +29917,22 @@ const reportDataRaw ={
                 "type": null,
                 "item": null,
                 "quantity": 1,
-                "length": 0.908,
-                "width": 1.48,
+                "length": 2.42,
+                "width": 0.593,
                 "panel-name": "",
-                "cut": "H",
-                "cut-coordinate": 0.6,
+                "cut": "V",
+                "cut-coordinate": 0.819,
                 "cut-half-thickness": 0.0025,
                 "left-stock": {
                   "type": "item",
                   "item": {
-                    "template-item-id": 0,
+                    "template-item-id": 4,
                     "rotation": null
                   },
                   "quantity": 1,
-                  "length": 0.908,
-                  "width": 0.6,
-                  "panel-name": "Bottom_High Cabinet_SwoodDesign_1",
+                  "length": 0.819,
+                  "width": 0.593,
+                  "panel-name": "Front_Left Door_Door Overlay_Doors_SwoodDesign_1_1",
                   "cut": null,
                   "cut-coordinate": 0,
                   "cut-half-thickness": 0,
@@ -27979,11 +29949,11 @@ const reportDataRaw ={
                   "type": null,
                   "item": null,
                   "quantity": 1,
-                  "length": 0.908,
-                  "width": 0.875,
+                  "length": 1.596,
+                  "width": 0.593,
                   "panel-name": "",
-                  "cut": "H",
-                  "cut-coordinate": 0.585,
+                  "cut": "V",
+                  "cut-coordinate": 0.819,
                   "cut-half-thickness": 0.0025,
                   "left-stock": {
                     "type": "item",
@@ -27992,9 +29962,9 @@ const reportDataRaw ={
                       "rotation": null
                     },
                     "quantity": 1,
-                    "length": 0.908,
-                    "width": 0.585,
-                    "panel-name": "Partition_Partition Horizontal_High Cabinet_SwoodDesign_1_1",
+                    "length": 0.819,
+                    "width": 0.593,
+                    "panel-name": "Front_Right Door_Door Overlay_Doors_SwoodDesign_1_1",
                     "cut": null,
                     "cut-coordinate": 0,
                     "cut-half-thickness": 0,
@@ -28011,770 +29981,8 @@ const reportDataRaw ={
                     "type": "waste",
                     "item": null,
                     "quantity": 1,
-                    "length": 0.908,
-                    "width": 0.285,
-                    "panel-name": "",
-                    "cut": null,
-                    "cut-coordinate": 0,
-                    "cut-half-thickness": 0,
-                    "left-stock": null,
-                    "right-stock": null,
-                    "grain-direction": 0,
-                    "Description": null,
-                    "ProcessOn": null,
-                    "ProcessOnTypedObject": null,
-                    "UserDefined": false,
-                    "ForceExposeToEndUser": true
-                  },
-                  "grain-direction": 0,
-                  "Description": null,
-                  "ProcessOn": null,
-                  "ProcessOnTypedObject": null,
-                  "UserDefined": false,
-                  "ForceExposeToEndUser": true
-                },
-                "grain-direction": 0,
-                "Description": null,
-                "ProcessOn": null,
-                "ProcessOnTypedObject": null,
-                "UserDefined": false,
-                "ForceExposeToEndUser": true
-              },
-              "grain-direction": 0,
-              "Description": null,
-              "ProcessOn": null,
-              "ProcessOnTypedObject": null,
-              "UserDefined": false,
-              "ForceExposeToEndUser": true
-            },
-            "right-stock": {
-              "type": null,
-              "item": null,
-              "quantity": 1,
-              "length": 2.067,
-              "width": 1.5,
-              "panel-name": "",
-              "cut": "H",
-              "cut-coordinate": 0.015,
-              "cut-half-thickness": 0.0025,
-              "left-stock": {
-                "type": "padding",
-                "item": null,
-                "quantity": 1,
-                "length": 2.067,
-                "width": 0.015,
-                "panel-name": "",
-                "cut": null,
-                "cut-coordinate": 0,
-                "cut-half-thickness": 0,
-                "left-stock": null,
-                "right-stock": null,
-                "grain-direction": 0,
-                "Description": null,
-                "ProcessOn": null,
-                "ProcessOnTypedObject": null,
-                "UserDefined": false,
-                "ForceExposeToEndUser": true
-              },
-              "right-stock": {
-                "type": null,
-                "item": null,
-                "quantity": 1,
-                "length": 2.067,
-                "width": 1.48,
-                "panel-name": "",
-                "cut": "H",
-                "cut-coordinate": 0.562,
-                "cut-half-thickness": 0.0025,
-                "left-stock": {
-                  "type": null,
-                  "item": null,
-                  "quantity": 1,
-                  "length": 2.067,
-                  "width": 0.562,
-                  "panel-name": "",
-                  "cut": "V",
-                  "cut-coordinate": 1.158,
-                  "cut-half-thickness": 0.0025,
-                  "left-stock": {
-                    "type": "item",
-                    "item": {
-                      "template-item-id": 9,
-                      "rotation": null
-                    },
-                    "quantity": 1,
-                    "length": 1.158,
-                    "width": 0.562,
-                    "panel-name": "Bottom_Doors_SwoodDesign_1",
-                    "cut": null,
-                    "cut-coordinate": 0,
-                    "cut-half-thickness": 0,
-                    "left-stock": null,
-                    "right-stock": null,
-                    "grain-direction": 1,
-                    "Description": null,
-                    "ProcessOn": null,
-                    "ProcessOnTypedObject": null,
-                    "UserDefined": false,
-                    "ForceExposeToEndUser": true
-                  },
-                  "right-stock": {
-                    "type": "waste",
-                    "item": null,
-                    "quantity": 1,
-                    "length": 0.904,
-                    "width": 0.562,
-                    "panel-name": "",
-                    "cut": null,
-                    "cut-coordinate": 0,
-                    "cut-half-thickness": 0,
-                    "left-stock": null,
-                    "right-stock": null,
-                    "grain-direction": 0,
-                    "Description": null,
-                    "ProcessOn": null,
-                    "ProcessOnTypedObject": null,
-                    "UserDefined": false,
-                    "ForceExposeToEndUser": true
-                  },
-                  "grain-direction": 0,
-                  "Description": null,
-                  "ProcessOn": null,
-                  "ProcessOnTypedObject": null,
-                  "UserDefined": false,
-                  "ForceExposeToEndUser": true
-                },
-                "right-stock": {
-                  "type": "waste",
-                  "item": null,
-                  "quantity": 1,
-                  "length": 2.067,
-                  "width": 0.913,
-                  "panel-name": "",
-                  "cut": null,
-                  "cut-coordinate": 0,
-                  "cut-half-thickness": 0,
-                  "left-stock": null,
-                  "right-stock": null,
-                  "grain-direction": 0,
-                  "Description": null,
-                  "ProcessOn": null,
-                  "ProcessOnTypedObject": null,
-                  "UserDefined": false,
-                  "ForceExposeToEndUser": true
-                },
-                "grain-direction": 0,
-                "Description": null,
-                "ProcessOn": null,
-                "ProcessOnTypedObject": null,
-                "UserDefined": false,
-                "ForceExposeToEndUser": true
-              },
-              "grain-direction": 0,
-              "Description": null,
-              "ProcessOn": null,
-              "ProcessOnTypedObject": null,
-              "UserDefined": false,
-              "ForceExposeToEndUser": true
-            },
-            "grain-direction": 0,
-            "Description": null,
-            "ProcessOn": null,
-            "ProcessOnTypedObject": null,
-            "UserDefined": false,
-            "ForceExposeToEndUser": true
-          },
-          "grain-direction": 1,
-          "Description": null,
-          "ProcessOn": null,
-          "ProcessOnTypedObject": null,
-          "UserDefined": false,
-          "ForceExposeToEndUser": true
-        }
-      ],
-      "material": "Beech 19mm",
-      "name": "Beech Board 19mm",
-      "db-board-id": 5,
-      "thickness": 0.019,
-      "Description": null,
-      "ProcessOn": null,
-      "ProcessOnTypedObject": null,
-      "UserDefined": false,
-      "ForceExposeToEndUser": true
-    },
-    {
-      "version": 1,
-      "stocks": [
-        {
-          "type": null,
-          "template-stock-id": 1,
-          "item": null,
-          "quantity": 1,
-          "length": 3,
-          "width": 2,
-          "panel-name": "",
-          "cut": "V",
-          "cut-coordinate": 0.015,
-          "cut-half-thickness": 0.0025,
-          "left-stock": {
-            "type": "padding",
-            "item": null,
-            "quantity": 1,
-            "length": 0.015,
-            "width": 2,
-            "panel-name": "",
-            "cut": null,
-            "cut-coordinate": 0,
-            "cut-half-thickness": 0,
-            "left-stock": null,
-            "right-stock": null,
-            "grain-direction": 0,
-            "Description": null,
-            "ProcessOn": null,
-            "ProcessOnTypedObject": null,
-            "UserDefined": false,
-            "ForceExposeToEndUser": true
-          },
-          "right-stock": {
-            "type": null,
-            "item": null,
-            "quantity": 1,
-            "length": 2.98,
-            "width": 2,
-            "panel-name": "",
-            "cut": "V",
-            "cut-coordinate": 0.6,
-            "cut-half-thickness": 0.0025,
-            "left-stock": {
-              "type": null,
-              "item": null,
-              "quantity": 1,
-              "length": 0.6,
-              "width": 2,
-              "panel-name": "",
-              "cut": "H",
-              "cut-coordinate": 0.015,
-              "cut-half-thickness": 0.0025,
-              "left-stock": {
-                "type": "padding",
-                "item": null,
-                "quantity": 1,
-                "length": 0.6,
-                "width": 0.015,
-                "panel-name": "",
-                "cut": null,
-                "cut-coordinate": 0,
-                "cut-half-thickness": 0,
-                "left-stock": null,
-                "right-stock": null,
-                "grain-direction": 0,
-                "Description": null,
-                "ProcessOn": null,
-                "ProcessOnTypedObject": null,
-                "UserDefined": false,
-                "ForceExposeToEndUser": true
-              },
-              "right-stock": {
-                "type": null,
-                "item": null,
-                "quantity": 1,
-                "length": 0.6,
-                "width": 1.98,
-                "panel-name": "",
-                "cut": "H",
-                "cut-coordinate": 0.95,
-                "cut-half-thickness": 0.0025,
-                "left-stock": {
-                  "type": "item",
-                  "item": {
-                    "template-item-id": 14,
-                    "rotation": "HWT"
-                  },
-                  "quantity": 1,
-                  "length": 0.6,
-                  "width": 0.95,
-                  "panel-name": "Left_Doors_SwoodDesign_1",
-                  "cut": null,
-                  "cut-coordinate": 0,
-                  "cut-half-thickness": 0,
-                  "left-stock": null,
-                  "right-stock": null,
-                  "grain-direction": 0,
-                  "Description": null,
-                  "ProcessOn": null,
-                  "ProcessOnTypedObject": null,
-                  "UserDefined": false,
-                  "ForceExposeToEndUser": true
-                },
-                "right-stock": {
-                  "type": null,
-                  "item": null,
-                  "quantity": 1,
-                  "length": 0.6,
-                  "width": 1.025,
-                  "panel-name": "",
-                  "cut": "H",
-                  "cut-coordinate": 0.95,
-                  "cut-half-thickness": 0.0025,
-                  "left-stock": {
-                    "type": "item",
-                    "item": {
-                      "template-item-id": 17,
-                      "rotation": "HWT"
-                    },
-                    "quantity": 1,
-                    "length": 0.6,
-                    "width": 0.95,
-                    "panel-name": "Right_Doors_SwoodDesign_1",
-                    "cut": null,
-                    "cut-coordinate": 0,
-                    "cut-half-thickness": 0,
-                    "left-stock": null,
-                    "right-stock": null,
-                    "grain-direction": 0,
-                    "Description": null,
-                    "ProcessOn": null,
-                    "ProcessOnTypedObject": null,
-                    "UserDefined": false,
-                    "ForceExposeToEndUser": true
-                  },
-                  "right-stock": {
-                    "type": "waste",
-                    "item": null,
-                    "quantity": 1,
-                    "length": 0.6,
-                    "width": 0.07,
-                    "panel-name": "",
-                    "cut": null,
-                    "cut-coordinate": 0,
-                    "cut-half-thickness": 0,
-                    "left-stock": null,
-                    "right-stock": null,
-                    "grain-direction": 0,
-                    "Description": null,
-                    "ProcessOn": null,
-                    "ProcessOnTypedObject": null,
-                    "UserDefined": false,
-                    "ForceExposeToEndUser": true
-                  },
-                  "grain-direction": 0,
-                  "Description": null,
-                  "ProcessOn": null,
-                  "ProcessOnTypedObject": null,
-                  "UserDefined": false,
-                  "ForceExposeToEndUser": true
-                },
-                "grain-direction": 0,
-                "Description": null,
-                "ProcessOn": null,
-                "ProcessOnTypedObject": null,
-                "UserDefined": false,
-                "ForceExposeToEndUser": true
-              },
-              "grain-direction": 0,
-              "Description": null,
-              "ProcessOn": null,
-              "ProcessOnTypedObject": null,
-              "UserDefined": false,
-              "ForceExposeToEndUser": true
-            },
-            "right-stock": {
-              "type": null,
-              "item": null,
-              "quantity": 1,
-              "length": 2.375,
-              "width": 2,
-              "panel-name": "",
-              "cut": "H",
-              "cut-coordinate": 0.015,
-              "cut-half-thickness": 0.0025,
-              "left-stock": {
-                "type": "padding",
-                "item": null,
-                "quantity": 1,
-                "length": 2.375,
-                "width": 0.015,
-                "panel-name": "",
-                "cut": null,
-                "cut-coordinate": 0,
-                "cut-half-thickness": 0,
-                "left-stock": null,
-                "right-stock": null,
-                "grain-direction": 0,
-                "Description": null,
-                "ProcessOn": null,
-                "ProcessOnTypedObject": null,
-                "UserDefined": false,
-                "ForceExposeToEndUser": true
-              },
-              "right-stock": {
-                "type": null,
-                "item": null,
-                "quantity": 1,
-                "length": 2.375,
-                "width": 1.98,
-                "panel-name": "",
-                "cut": "H",
-                "cut-coordinate": 0.1,
-                "cut-half-thickness": 0.0025,
-                "left-stock": {
-                  "type": null,
-                  "item": null,
-                  "quantity": 1,
-                  "length": 2.375,
-                  "width": 0.1,
-                  "panel-name": "",
-                  "cut": "V",
-                  "cut-coordinate": 1.158,
-                  "cut-half-thickness": 0.0025,
-                  "left-stock": {
-                    "type": "item",
-                    "item": {
-                      "template-item-id": 15,
-                      "rotation": null
-                    },
-                    "quantity": 1,
-                    "length": 1.158,
-                    "width": 0.1,
-                    "panel-name": "Back Support_Doors_SwoodDesign_1",
-                    "cut": null,
-                    "cut-coordinate": 0,
-                    "cut-half-thickness": 0,
-                    "left-stock": null,
-                    "right-stock": null,
-                    "grain-direction": 0,
-                    "Description": null,
-                    "ProcessOn": null,
-                    "ProcessOnTypedObject": null,
-                    "UserDefined": false,
-                    "ForceExposeToEndUser": true
-                  },
-                  "right-stock": {
-                    "type": null,
-                    "item": null,
-                    "quantity": 1,
-                    "length": 1.212,
-                    "width": 0.1,
-                    "panel-name": "",
-                    "cut": "V",
-                    "cut-coordinate": 1.158,
-                    "cut-half-thickness": 0.0025,
-                    "left-stock": {
-                      "type": "item",
-                      "item": {
-                        "template-item-id": 16,
-                        "rotation": null
-                      },
-                      "quantity": 1,
-                      "length": 1.158,
-                      "width": 0.1,
-                      "panel-name": "Front Support_Doors_SwoodDesign_1",
-                      "cut": null,
-                      "cut-coordinate": 0,
-                      "cut-half-thickness": 0,
-                      "left-stock": null,
-                      "right-stock": null,
-                      "grain-direction": 0,
-                      "Description": null,
-                      "ProcessOn": null,
-                      "ProcessOnTypedObject": null,
-                      "UserDefined": false,
-                      "ForceExposeToEndUser": true
-                    },
-                    "right-stock": {
-                      "type": "waste",
-                      "item": null,
-                      "quantity": 1,
-                      "length": 0.049,
-                      "width": 0.1,
-                      "panel-name": "",
-                      "cut": null,
-                      "cut-coordinate": 0,
-                      "cut-half-thickness": 0,
-                      "left-stock": null,
-                      "right-stock": null,
-                      "grain-direction": 0,
-                      "Description": null,
-                      "ProcessOn": null,
-                      "ProcessOnTypedObject": null,
-                      "UserDefined": false,
-                      "ForceExposeToEndUser": true
-                    },
-                    "grain-direction": 0,
-                    "Description": null,
-                    "ProcessOn": null,
-                    "ProcessOnTypedObject": null,
-                    "UserDefined": false,
-                    "ForceExposeToEndUser": true
-                  },
-                  "grain-direction": 0,
-                  "Description": null,
-                  "ProcessOn": null,
-                  "ProcessOnTypedObject": null,
-                  "UserDefined": false,
-                  "ForceExposeToEndUser": true
-                },
-                "right-stock": {
-                  "type": null,
-                  "item": null,
-                  "quantity": 1,
-                  "length": 2.375,
-                  "width": 1.875,
-                  "panel-name": "",
-                  "cut": "H",
-                  "cut-coordinate": 0.908,
-                  "cut-half-thickness": 0.0025,
-                  "left-stock": {
-                    "type": null,
-                    "item": null,
-                    "quantity": 1,
-                    "length": 2.375,
-                    "width": 0.908,
-                    "panel-name": "",
-                    "cut": "V",
-                    "cut-coordinate": 0.6,
-                    "cut-half-thickness": 0.0025,
-                    "left-stock": {
-                      "type": "item",
-                      "item": {
-                        "template-item-id": 11,
-                        "rotation": "HWT"
-                      },
-                      "quantity": 1,
-                      "length": 0.6,
-                      "width": 0.908,
-                      "panel-name": "Front Support_High Cabinet_SwoodDesign_1",
-                      "cut": null,
-                      "cut-coordinate": 0,
-                      "cut-half-thickness": 0,
-                      "left-stock": null,
-                      "right-stock": null,
-                      "grain-direction": 0,
-                      "Description": null,
-                      "ProcessOn": null,
-                      "ProcessOnTypedObject": null,
-                      "UserDefined": false,
-                      "ForceExposeToEndUser": true
-                    },
-                    "right-stock": {
-                      "type": "waste",
-                      "item": null,
-                      "quantity": 1,
-                      "length": 1.77,
-                      "width": 0.908,
-                      "panel-name": "",
-                      "cut": null,
-                      "cut-coordinate": 0,
-                      "cut-half-thickness": 0,
-                      "left-stock": null,
-                      "right-stock": null,
-                      "grain-direction": 0,
-                      "Description": null,
-                      "ProcessOn": null,
-                      "ProcessOnTypedObject": null,
-                      "UserDefined": false,
-                      "ForceExposeToEndUser": true
-                    },
-                    "grain-direction": 0,
-                    "Description": null,
-                    "ProcessOn": null,
-                    "ProcessOnTypedObject": null,
-                    "UserDefined": false,
-                    "ForceExposeToEndUser": true
-                  },
-                  "right-stock": {
-                    "type": "waste",
-                    "item": null,
-                    "quantity": 1,
-                    "length": 2.375,
-                    "width": 0.962,
-                    "panel-name": "",
-                    "cut": null,
-                    "cut-coordinate": 0,
-                    "cut-half-thickness": 0,
-                    "left-stock": null,
-                    "right-stock": null,
-                    "grain-direction": 0,
-                    "Description": null,
-                    "ProcessOn": null,
-                    "ProcessOnTypedObject": null,
-                    "UserDefined": false,
-                    "ForceExposeToEndUser": true
-                  },
-                  "grain-direction": 0,
-                  "Description": null,
-                  "ProcessOn": null,
-                  "ProcessOnTypedObject": null,
-                  "UserDefined": false,
-                  "ForceExposeToEndUser": true
-                },
-                "grain-direction": 0,
-                "Description": null,
-                "ProcessOn": null,
-                "ProcessOnTypedObject": null,
-                "UserDefined": false,
-                "ForceExposeToEndUser": true
-              },
-              "grain-direction": 0,
-              "Description": null,
-              "ProcessOn": null,
-              "ProcessOnTypedObject": null,
-              "UserDefined": false,
-              "ForceExposeToEndUser": true
-            },
-            "grain-direction": 0,
-            "Description": null,
-            "ProcessOn": null,
-            "ProcessOnTypedObject": null,
-            "UserDefined": false,
-            "ForceExposeToEndUser": true
-          },
-          "grain-direction": 0,
-          "Description": null,
-          "ProcessOn": null,
-          "ProcessOnTypedObject": null,
-          "UserDefined": false,
-          "ForceExposeToEndUser": true
-        },
-        {
-          "type": null,
-          "template-stock-id": 1,
-          "item": null,
-          "quantity": 1,
-          "length": 3,
-          "width": 2,
-          "panel-name": "",
-          "cut": "V",
-          "cut-coordinate": 0.015,
-          "cut-half-thickness": 0.0025,
-          "left-stock": {
-            "type": "padding",
-            "item": null,
-            "quantity": 1,
-            "length": 0.015,
-            "width": 2,
-            "panel-name": "",
-            "cut": null,
-            "cut-coordinate": 0,
-            "cut-half-thickness": 0,
-            "left-stock": null,
-            "right-stock": null,
-            "grain-direction": 0,
-            "Description": null,
-            "ProcessOn": null,
-            "ProcessOnTypedObject": null,
-            "UserDefined": false,
-            "ForceExposeToEndUser": true
-          },
-          "right-stock": {
-            "type": null,
-            "item": null,
-            "quantity": 1,
-            "length": 2.98,
-            "width": 2,
-            "panel-name": "",
-            "cut": "V",
-            "cut-coordinate": 2.4,
-            "cut-half-thickness": 0.0025,
-            "left-stock": {
-              "type": null,
-              "item": null,
-              "quantity": 1,
-              "length": 2.4,
-              "width": 2,
-              "panel-name": "",
-              "cut": "H",
-              "cut-coordinate": 0.015,
-              "cut-half-thickness": 0.0025,
-              "left-stock": {
-                "type": "padding",
-                "item": null,
-                "quantity": 1,
-                "length": 2.4,
-                "width": 0.015,
-                "panel-name": "",
-                "cut": null,
-                "cut-coordinate": 0,
-                "cut-half-thickness": 0,
-                "left-stock": null,
-                "right-stock": null,
-                "grain-direction": 0,
-                "Description": null,
-                "ProcessOn": null,
-                "ProcessOnTypedObject": null,
-                "UserDefined": false,
-                "ForceExposeToEndUser": true
-              },
-              "right-stock": {
-                "type": null,
-                "item": null,
-                "quantity": 1,
-                "length": 2.4,
-                "width": 1.98,
-                "panel-name": "",
-                "cut": "H",
-                "cut-coordinate": 0.6,
-                "cut-half-thickness": 0.0025,
-                "left-stock": {
-                  "type": "item",
-                  "item": {
-                    "template-item-id": 12,
-                    "rotation": null
-                  },
-                  "quantity": 1,
-                  "length": 2.4,
-                  "width": 0.6,
-                  "panel-name": "Right_High Cabinet_SwoodDesign_1",
-                  "cut": null,
-                  "cut-coordinate": 0,
-                  "cut-half-thickness": 0,
-                  "left-stock": null,
-                  "right-stock": null,
-                  "grain-direction": 0,
-                  "Description": null,
-                  "ProcessOn": null,
-                  "ProcessOnTypedObject": null,
-                  "UserDefined": false,
-                  "ForceExposeToEndUser": true
-                },
-                "right-stock": {
-                  "type": null,
-                  "item": null,
-                  "quantity": 1,
-                  "length": 2.4,
-                  "width": 1.375,
-                  "panel-name": "",
-                  "cut": "H",
-                  "cut-coordinate": 0.6,
-                  "cut-half-thickness": 0.0025,
-                  "left-stock": {
-                    "type": "item",
-                    "item": {
-                      "template-item-id": 13,
-                      "rotation": null
-                    },
-                    "quantity": 1,
-                    "length": 2.4,
-                    "width": 0.6,
-                    "panel-name": "Left_High Cabinet_SwoodDesign_1",
-                    "cut": null,
-                    "cut-coordinate": 0,
-                    "cut-half-thickness": 0,
-                    "left-stock": null,
-                    "right-stock": null,
-                    "grain-direction": 0,
-                    "Description": null,
-                    "ProcessOn": null,
-                    "ProcessOnTypedObject": null,
-                    "UserDefined": false,
-                    "ForceExposeToEndUser": true
-                  },
-                  "right-stock": {
-                    "type": "waste",
-                    "item": null,
-                    "quantity": 1,
-                    "length": 2.4,
-                    "width": 0.77,
+                    "length": 0.772,
+                    "width": 0.593,
                     "panel-name": "",
                     "cut": null,
                     "cut-coordinate": 0,
@@ -28813,8 +30021,8 @@ const reportDataRaw ={
               "type": "waste",
               "item": null,
               "quantity": 1,
-              "length": 0.575,
-              "width": 2,
+              "length": 2.44,
+              "width": 0.602,
               "panel-name": "",
               "cut": null,
               "cut-coordinate": 0,
@@ -28835,7 +30043,7 @@ const reportDataRaw ={
             "UserDefined": false,
             "ForceExposeToEndUser": true
           },
-          "grain-direction": 0,
+          "grain-direction": 1,
           "Description": null,
           "ProcessOn": null,
           "ProcessOnTypedObject": null,
@@ -28843,9 +30051,9 @@ const reportDataRaw ={
           "ForceExposeToEndUser": true
         }
       ],
-      "material": "MDF 19mm",
-      "name": "MDF Board 19mm",
-      "db-board-id": 48,
+      "material": "Beech 19mm",
+      "name": "Beech 19mm",
+      "db-board-id": 1132,
       "thickness": 0.019,
       "Description": null,
       "ProcessOn": null,
@@ -28858,7 +30066,7 @@ const reportDataRaw ={
       "stocks": [
         {
           "type": null,
-          "template-stock-id": 2,
+          "template-stock-id": 1,
           "item": null,
           "quantity": 1,
           "length": 3,
@@ -28938,7 +30146,7 @@ const reportDataRaw ={
                 "left-stock": {
                   "type": "item",
                   "item": {
-                    "template-item-id": 18,
+                    "template-item-id": 12,
                     "rotation": "HWT"
                   },
                   "quantity": 1,
@@ -29025,7 +30233,7 @@ const reportDataRaw ={
         },
         {
           "type": null,
-          "template-stock-id": 2,
+          "template-stock-id": 1,
           "item": null,
           "quantity": 1,
           "length": 3,
@@ -29105,7 +30313,7 @@ const reportDataRaw ={
                 "left-stock": {
                   "type": "item",
                   "item": {
-                    "template-item-id": 19,
+                    "template-item-id": 11,
                     "rotation": "HWT"
                   },
                   "quantity": 1,
@@ -29206,21 +30414,21 @@ const reportDataRaw ={
       "stocks": [
         {
           "type": null,
-          "template-stock-id": 3,
+          "template-stock-id": 2,
           "item": null,
           "quantity": 1,
-          "length": 2.44,
-          "width": 1.22,
+          "length": 3,
+          "width": 2,
           "panel-name": "",
-          "cut": "V",
+          "cut": "H",
           "cut-coordinate": 0.015,
           "cut-half-thickness": 0.0025,
           "left-stock": {
             "type": "padding",
             "item": null,
             "quantity": 1,
-            "length": 0.015,
-            "width": 1.22,
+            "length": 3,
+            "width": 0.015,
             "panel-name": "",
             "cut": null,
             "cut-coordinate": 0,
@@ -29238,28 +30446,28 @@ const reportDataRaw ={
             "type": null,
             "item": null,
             "quantity": 1,
-            "length": 2.42,
-            "width": 1.22,
+            "length": 3,
+            "width": 1.98,
             "panel-name": "",
-            "cut": "V",
-            "cut-coordinate": 0.3255,
+            "cut": "H",
+            "cut-coordinate": 0.6,
             "cut-half-thickness": 0.0025,
             "left-stock": {
               "type": null,
               "item": null,
               "quantity": 1,
-              "length": 0.3255,
-              "width": 1.22,
+              "length": 3,
+              "width": 0.6,
               "panel-name": "",
-              "cut": "H",
+              "cut": "V",
               "cut-coordinate": 0.015,
               "cut-half-thickness": 0.0025,
               "left-stock": {
                 "type": "padding",
                 "item": null,
                 "quantity": 1,
-                "length": 0.3255,
-                "width": 0.015,
+                "length": 0.015,
+                "width": 0.6,
                 "panel-name": "",
                 "cut": null,
                 "cut-coordinate": 0,
@@ -29277,28 +30485,100 @@ const reportDataRaw ={
                 "type": null,
                 "item": null,
                 "quantity": 1,
-                "length": 0.3255,
-                "width": 1.2,
+                "length": 2.98,
+                "width": 0.6,
                 "panel-name": "",
-                "cut": "H",
-                "cut-coordinate": 0.565,
+                "cut": "V",
+                "cut-coordinate": 2.4,
                 "cut-half-thickness": 0.0025,
                 "left-stock": {
                   "type": "item",
                   "item": {
-                    "template-item-id": 22,
-                    "rotation": "HWT"
+                    "template-item-id": 18,
+                    "rotation": null
                   },
                   "quantity": 1,
-                  "length": 0.3255,
-                  "width": 0.565,
-                  "panel-name": "Left_Drawers Overlay_High Cabinet_SwoodDesign_1_1",
+                  "length": 2.4,
+                  "width": 0.6,
+                  "panel-name": "Right_High Cabinet_SwoodDesign_1",
                   "cut": null,
                   "cut-coordinate": 0,
                   "cut-half-thickness": 0,
                   "left-stock": null,
                   "right-stock": null,
-                  "grain-direction": 1,
+                  "grain-direction": 0,
+                  "Description": null,
+                  "ProcessOn": null,
+                  "ProcessOnTypedObject": null,
+                  "UserDefined": false,
+                  "ForceExposeToEndUser": true
+                },
+                "right-stock": {
+                  "type": "waste",
+                  "item": null,
+                  "quantity": 1,
+                  "length": 0.575,
+                  "width": 0.6,
+                  "panel-name": "",
+                  "cut": null,
+                  "cut-coordinate": 0,
+                  "cut-half-thickness": 0,
+                  "left-stock": null,
+                  "right-stock": null,
+                  "grain-direction": 0,
+                  "Description": null,
+                  "ProcessOn": null,
+                  "ProcessOnTypedObject": null,
+                  "UserDefined": false,
+                  "ForceExposeToEndUser": true
+                },
+                "grain-direction": 0,
+                "Description": null,
+                "ProcessOn": null,
+                "ProcessOnTypedObject": null,
+                "UserDefined": false,
+                "ForceExposeToEndUser": true
+              },
+              "grain-direction": 0,
+              "Description": null,
+              "ProcessOn": null,
+              "ProcessOnTypedObject": null,
+              "UserDefined": false,
+              "ForceExposeToEndUser": true
+            },
+            "right-stock": {
+              "type": null,
+              "item": null,
+              "quantity": 1,
+              "length": 3,
+              "width": 1.375,
+              "panel-name": "",
+              "cut": "H",
+              "cut-coordinate": 0.6,
+              "cut-half-thickness": 0.0025,
+              "left-stock": {
+                "type": null,
+                "item": null,
+                "quantity": 1,
+                "length": 3,
+                "width": 0.6,
+                "panel-name": "",
+                "cut": "V",
+                "cut-coordinate": 0.015,
+                "cut-half-thickness": 0.0025,
+                "left-stock": {
+                  "type": "padding",
+                  "item": null,
+                  "quantity": 1,
+                  "length": 0.015,
+                  "width": 0.6,
+                  "panel-name": "",
+                  "cut": null,
+                  "cut-coordinate": 0,
+                  "cut-half-thickness": 0,
+                  "left-stock": null,
+                  "right-stock": null,
+                  "grain-direction": 0,
                   "Description": null,
                   "ProcessOn": null,
                   "ProcessOnTypedObject": null,
@@ -29309,28 +30589,28 @@ const reportDataRaw ={
                   "type": null,
                   "item": null,
                   "quantity": 1,
-                  "length": 0.3255,
-                  "width": 0.63,
+                  "length": 2.98,
+                  "width": 0.6,
                   "panel-name": "",
-                  "cut": "H",
-                  "cut-coordinate": 0.565,
+                  "cut": "V",
+                  "cut-coordinate": 2.4,
                   "cut-half-thickness": 0.0025,
                   "left-stock": {
                     "type": "item",
                     "item": {
-                      "template-item-id": 22,
-                      "rotation": "HWT"
+                      "template-item-id": 17,
+                      "rotation": null
                     },
                     "quantity": 1,
-                    "length": 0.3255,
-                    "width": 0.565,
-                    "panel-name": "Left_Drawers Overlay_High Cabinet_SwoodDesign_1_1",
+                    "length": 2.4,
+                    "width": 0.6,
+                    "panel-name": "Left_High Cabinet_SwoodDesign_1",
                     "cut": null,
                     "cut-coordinate": 0,
                     "cut-half-thickness": 0,
                     "left-stock": null,
                     "right-stock": null,
-                    "grain-direction": 1,
+                    "grain-direction": 0,
                     "Description": null,
                     "ProcessOn": null,
                     "ProcessOnTypedObject": null,
@@ -29341,7 +30621,365 @@ const reportDataRaw ={
                     "type": "waste",
                     "item": null,
                     "quantity": 1,
-                    "length": 0.3255,
+                    "length": 0.575,
+                    "width": 0.6,
+                    "panel-name": "",
+                    "cut": null,
+                    "cut-coordinate": 0,
+                    "cut-half-thickness": 0,
+                    "left-stock": null,
+                    "right-stock": null,
+                    "grain-direction": 0,
+                    "Description": null,
+                    "ProcessOn": null,
+                    "ProcessOnTypedObject": null,
+                    "UserDefined": false,
+                    "ForceExposeToEndUser": true
+                  },
+                  "grain-direction": 0,
+                  "Description": null,
+                  "ProcessOn": null,
+                  "ProcessOnTypedObject": null,
+                  "UserDefined": false,
+                  "ForceExposeToEndUser": true
+                },
+                "grain-direction": 0,
+                "Description": null,
+                "ProcessOn": null,
+                "ProcessOnTypedObject": null,
+                "UserDefined": false,
+                "ForceExposeToEndUser": true
+              },
+              "right-stock": {
+                "type": null,
+                "item": null,
+                "quantity": 1,
+                "length": 3,
+                "width": 0.77,
+                "panel-name": "",
+                "cut": "H",
+                "cut-coordinate": 0.6,
+                "cut-half-thickness": 0.0025,
+                "left-stock": {
+                  "type": null,
+                  "item": null,
+                  "quantity": 1,
+                  "length": 3,
+                  "width": 0.6,
+                  "panel-name": "",
+                  "cut": "V",
+                  "cut-coordinate": 0.015,
+                  "cut-half-thickness": 0.0025,
+                  "left-stock": {
+                    "type": "padding",
+                    "item": null,
+                    "quantity": 1,
+                    "length": 0.015,
+                    "width": 0.6,
+                    "panel-name": "",
+                    "cut": null,
+                    "cut-coordinate": 0,
+                    "cut-half-thickness": 0,
+                    "left-stock": null,
+                    "right-stock": null,
+                    "grain-direction": 0,
+                    "Description": null,
+                    "ProcessOn": null,
+                    "ProcessOnTypedObject": null,
+                    "UserDefined": false,
+                    "ForceExposeToEndUser": true
+                  },
+                  "right-stock": {
+                    "type": null,
+                    "item": null,
+                    "quantity": 1,
+                    "length": 2.98,
+                    "width": 0.6,
+                    "panel-name": "",
+                    "cut": "V",
+                    "cut-coordinate": 0.95,
+                    "cut-half-thickness": 0.0025,
+                    "left-stock": {
+                      "type": "item",
+                      "item": {
+                        "template-item-id": 15,
+                        "rotation": null
+                      },
+                      "quantity": 1,
+                      "length": 0.95,
+                      "width": 0.6,
+                      "panel-name": "Left_Doors_SwoodDesign_1",
+                      "cut": null,
+                      "cut-coordinate": 0,
+                      "cut-half-thickness": 0,
+                      "left-stock": null,
+                      "right-stock": null,
+                      "grain-direction": 0,
+                      "Description": null,
+                      "ProcessOn": null,
+                      "ProcessOnTypedObject": null,
+                      "UserDefined": false,
+                      "ForceExposeToEndUser": true
+                    },
+                    "right-stock": {
+                      "type": null,
+                      "item": null,
+                      "quantity": 1,
+                      "length": 2.025,
+                      "width": 0.6,
+                      "panel-name": "",
+                      "cut": "V",
+                      "cut-coordinate": 0.95,
+                      "cut-half-thickness": 0.0025,
+                      "left-stock": {
+                        "type": "item",
+                        "item": {
+                          "template-item-id": 14,
+                          "rotation": null
+                        },
+                        "quantity": 1,
+                        "length": 0.95,
+                        "width": 0.6,
+                        "panel-name": "Right_Doors_SwoodDesign_1",
+                        "cut": null,
+                        "cut-coordinate": 0,
+                        "cut-half-thickness": 0,
+                        "left-stock": null,
+                        "right-stock": null,
+                        "grain-direction": 0,
+                        "Description": null,
+                        "ProcessOn": null,
+                        "ProcessOnTypedObject": null,
+                        "UserDefined": false,
+                        "ForceExposeToEndUser": true
+                      },
+                      "right-stock": {
+                        "type": null,
+                        "item": null,
+                        "quantity": 1,
+                        "length": 1.07,
+                        "width": 0.6,
+                        "panel-name": "",
+                        "cut": "V",
+                        "cut-coordinate": 0.908,
+                        "cut-half-thickness": 0.0025,
+                        "left-stock": {
+                          "type": "item",
+                          "item": {
+                            "template-item-id": 19,
+                            "rotation": null
+                          },
+                          "quantity": 1,
+                          "length": 0.908,
+                          "width": 0.6,
+                          "panel-name": "Front Support_High Cabinet_SwoodDesign_1",
+                          "cut": null,
+                          "cut-coordinate": 0,
+                          "cut-half-thickness": 0,
+                          "left-stock": null,
+                          "right-stock": null,
+                          "grain-direction": 0,
+                          "Description": null,
+                          "ProcessOn": null,
+                          "ProcessOnTypedObject": null,
+                          "UserDefined": false,
+                          "ForceExposeToEndUser": true
+                        },
+                        "right-stock": {
+                          "type": "waste",
+                          "item": null,
+                          "quantity": 1,
+                          "length": 0.157,
+                          "width": 0.6,
+                          "panel-name": "",
+                          "cut": null,
+                          "cut-coordinate": 0,
+                          "cut-half-thickness": 0,
+                          "left-stock": null,
+                          "right-stock": null,
+                          "grain-direction": 0,
+                          "Description": null,
+                          "ProcessOn": null,
+                          "ProcessOnTypedObject": null,
+                          "UserDefined": false,
+                          "ForceExposeToEndUser": true
+                        },
+                        "grain-direction": 0,
+                        "Description": null,
+                        "ProcessOn": null,
+                        "ProcessOnTypedObject": null,
+                        "UserDefined": false,
+                        "ForceExposeToEndUser": true
+                      },
+                      "grain-direction": 0,
+                      "Description": null,
+                      "ProcessOn": null,
+                      "ProcessOnTypedObject": null,
+                      "UserDefined": false,
+                      "ForceExposeToEndUser": true
+                    },
+                    "grain-direction": 0,
+                    "Description": null,
+                    "ProcessOn": null,
+                    "ProcessOnTypedObject": null,
+                    "UserDefined": false,
+                    "ForceExposeToEndUser": true
+                  },
+                  "grain-direction": 0,
+                  "Description": null,
+                  "ProcessOn": null,
+                  "ProcessOnTypedObject": null,
+                  "UserDefined": false,
+                  "ForceExposeToEndUser": true
+                },
+                "right-stock": {
+                  "type": null,
+                  "item": null,
+                  "quantity": 1,
+                  "length": 3,
+                  "width": 0.165,
+                  "panel-name": "",
+                  "cut": "H",
+                  "cut-coordinate": 0.1,
+                  "cut-half-thickness": 0.0025,
+                  "left-stock": {
+                    "type": null,
+                    "item": null,
+                    "quantity": 1,
+                    "length": 3,
+                    "width": 0.1,
+                    "panel-name": "",
+                    "cut": "V",
+                    "cut-coordinate": 0.015,
+                    "cut-half-thickness": 0.0025,
+                    "left-stock": {
+                      "type": "padding",
+                      "item": null,
+                      "quantity": 1,
+                      "length": 0.015,
+                      "width": 0.1,
+                      "panel-name": "",
+                      "cut": null,
+                      "cut-coordinate": 0,
+                      "cut-half-thickness": 0,
+                      "left-stock": null,
+                      "right-stock": null,
+                      "grain-direction": 0,
+                      "Description": null,
+                      "ProcessOn": null,
+                      "ProcessOnTypedObject": null,
+                      "UserDefined": false,
+                      "ForceExposeToEndUser": true
+                    },
+                    "right-stock": {
+                      "type": null,
+                      "item": null,
+                      "quantity": 1,
+                      "length": 2.98,
+                      "width": 0.1,
+                      "panel-name": "",
+                      "cut": "V",
+                      "cut-coordinate": 1.158,
+                      "cut-half-thickness": 0.0025,
+                      "left-stock": {
+                        "type": "item",
+                        "item": {
+                          "template-item-id": 16,
+                          "rotation": null
+                        },
+                        "quantity": 1,
+                        "length": 1.158,
+                        "width": 0.1,
+                        "panel-name": "Front Support_Doors_SwoodDesign_1",
+                        "cut": null,
+                        "cut-coordinate": 0,
+                        "cut-half-thickness": 0,
+                        "left-stock": null,
+                        "right-stock": null,
+                        "grain-direction": 0,
+                        "Description": null,
+                        "ProcessOn": null,
+                        "ProcessOnTypedObject": null,
+                        "UserDefined": false,
+                        "ForceExposeToEndUser": true
+                      },
+                      "right-stock": {
+                        "type": null,
+                        "item": null,
+                        "quantity": 1,
+                        "length": 1.817,
+                        "width": 0.1,
+                        "panel-name": "",
+                        "cut": "V",
+                        "cut-coordinate": 1.158,
+                        "cut-half-thickness": 0.0025,
+                        "left-stock": {
+                          "type": "item",
+                          "item": {
+                            "template-item-id": 13,
+                            "rotation": null
+                          },
+                          "quantity": 1,
+                          "length": 1.158,
+                          "width": 0.1,
+                          "panel-name": "Back Support_Doors_SwoodDesign_1",
+                          "cut": null,
+                          "cut-coordinate": 0,
+                          "cut-half-thickness": 0,
+                          "left-stock": null,
+                          "right-stock": null,
+                          "grain-direction": 0,
+                          "Description": null,
+                          "ProcessOn": null,
+                          "ProcessOnTypedObject": null,
+                          "UserDefined": false,
+                          "ForceExposeToEndUser": true
+                        },
+                        "right-stock": {
+                          "type": "waste",
+                          "item": null,
+                          "quantity": 1,
+                          "length": 0.654,
+                          "width": 0.1,
+                          "panel-name": "",
+                          "cut": null,
+                          "cut-coordinate": 0,
+                          "cut-half-thickness": 0,
+                          "left-stock": null,
+                          "right-stock": null,
+                          "grain-direction": 0,
+                          "Description": null,
+                          "ProcessOn": null,
+                          "ProcessOnTypedObject": null,
+                          "UserDefined": false,
+                          "ForceExposeToEndUser": true
+                        },
+                        "grain-direction": 0,
+                        "Description": null,
+                        "ProcessOn": null,
+                        "ProcessOnTypedObject": null,
+                        "UserDefined": false,
+                        "ForceExposeToEndUser": true
+                      },
+                      "grain-direction": 0,
+                      "Description": null,
+                      "ProcessOn": null,
+                      "ProcessOnTypedObject": null,
+                      "UserDefined": false,
+                      "ForceExposeToEndUser": true
+                    },
+                    "grain-direction": 0,
+                    "Description": null,
+                    "ProcessOn": null,
+                    "ProcessOnTypedObject": null,
+                    "UserDefined": false,
+                    "ForceExposeToEndUser": true
+                  },
+                  "right-stock": {
+                    "type": "waste",
+                    "item": null,
+                    "quantity": 1,
+                    "length": 3,
                     "width": 0.06,
                     "panel-name": "",
                     "cut": null,
@@ -29377,21 +31015,403 @@ const reportDataRaw ={
               "UserDefined": false,
               "ForceExposeToEndUser": true
             },
+            "grain-direction": 0,
+            "Description": null,
+            "ProcessOn": null,
+            "ProcessOnTypedObject": null,
+            "UserDefined": false,
+            "ForceExposeToEndUser": true
+          },
+          "grain-direction": 0,
+          "Description": null,
+          "ProcessOn": null,
+          "ProcessOnTypedObject": null,
+          "UserDefined": false,
+          "ForceExposeToEndUser": true
+        }
+      ],
+      "material": "MDF 19mm",
+      "name": "MDF Board 19mm",
+      "db-board-id": 48,
+      "thickness": 0.019,
+      "Description": null,
+      "ProcessOn": null,
+      "ProcessOnTypedObject": null,
+      "UserDefined": false,
+      "ForceExposeToEndUser": true
+    },
+    {
+      "version": 1,
+      "stocks": [
+        {
+          "type": null,
+          "template-stock-id": 3,
+          "item": null,
+          "quantity": 1,
+          "length": 2.44,
+          "width": 1.22,
+          "panel-name": "",
+          "cut": "H",
+          "cut-coordinate": 0.015,
+          "cut-half-thickness": 0.0025,
+          "left-stock": {
+            "type": "padding",
+            "item": null,
+            "quantity": 1,
+            "length": 2.44,
+            "width": 0.015,
+            "panel-name": "",
+            "cut": null,
+            "cut-coordinate": 0,
+            "cut-half-thickness": 0,
+            "left-stock": null,
+            "right-stock": null,
+            "grain-direction": 0,
+            "Description": null,
+            "ProcessOn": null,
+            "ProcessOnTypedObject": null,
+            "UserDefined": false,
+            "ForceExposeToEndUser": true
+          },
+          "right-stock": {
+            "type": null,
+            "item": null,
+            "quantity": 1,
+            "length": 2.44,
+            "width": 1.2,
+            "panel-name": "",
+            "cut": "H",
+            "cut-coordinate": 0.904,
+            "cut-half-thickness": 0.0025,
+            "left-stock": {
+              "type": null,
+              "item": null,
+              "quantity": 1,
+              "length": 2.44,
+              "width": 0.904,
+              "panel-name": "",
+              "cut": "V",
+              "cut-coordinate": 0.015,
+              "cut-half-thickness": 0.0025,
+              "left-stock": {
+                "type": "padding",
+                "item": null,
+                "quantity": 1,
+                "length": 0.015,
+                "width": 0.904,
+                "panel-name": "",
+                "cut": null,
+                "cut-coordinate": 0,
+                "cut-half-thickness": 0,
+                "left-stock": null,
+                "right-stock": null,
+                "grain-direction": 0,
+                "Description": null,
+                "ProcessOn": null,
+                "ProcessOnTypedObject": null,
+                "UserDefined": false,
+                "ForceExposeToEndUser": true
+              },
+              "right-stock": {
+                "type": null,
+                "item": null,
+                "quantity": 1,
+                "length": 2.42,
+                "width": 0.904,
+                "panel-name": "",
+                "cut": "V",
+                "cut-coordinate": 0.555,
+                "cut-half-thickness": 0.0025,
+                "left-stock": {
+                  "type": "item",
+                  "item": {
+                    "template-item-id": 20,
+                    "rotation": "HWT"
+                  },
+                  "quantity": 1,
+                  "length": 0.555,
+                  "width": 0.904,
+                  "panel-name": "Shelve_Removable Shelves_High Cabinet_SwoodDesign_1_1",
+                  "cut": null,
+                  "cut-coordinate": 0,
+                  "cut-half-thickness": 0,
+                  "left-stock": null,
+                  "right-stock": null,
+                  "grain-direction": 0,
+                  "Description": null,
+                  "ProcessOn": null,
+                  "ProcessOnTypedObject": null,
+                  "UserDefined": false,
+                  "ForceExposeToEndUser": true
+                },
+                "right-stock": {
+                  "type": null,
+                  "item": null,
+                  "quantity": 1,
+                  "length": 1.86,
+                  "width": 0.904,
+                  "panel-name": "",
+                  "cut": "V",
+                  "cut-coordinate": 0.555,
+                  "cut-half-thickness": 0.0025,
+                  "left-stock": {
+                    "type": "item",
+                    "item": {
+                      "template-item-id": 20,
+                      "rotation": "HWT"
+                    },
+                    "quantity": 1,
+                    "length": 0.555,
+                    "width": 0.904,
+                    "panel-name": "Shelve_Removable Shelves_High Cabinet_SwoodDesign_1_1",
+                    "cut": null,
+                    "cut-coordinate": 0,
+                    "cut-half-thickness": 0,
+                    "left-stock": null,
+                    "right-stock": null,
+                    "grain-direction": 0,
+                    "Description": null,
+                    "ProcessOn": null,
+                    "ProcessOnTypedObject": null,
+                    "UserDefined": false,
+                    "ForceExposeToEndUser": true
+                  },
+                  "right-stock": {
+                    "type": "waste",
+                    "item": null,
+                    "quantity": 1,
+                    "length": 1.3,
+                    "width": 0.904,
+                    "panel-name": "",
+                    "cut": null,
+                    "cut-coordinate": 0,
+                    "cut-half-thickness": 0,
+                    "left-stock": null,
+                    "right-stock": null,
+                    "grain-direction": 0,
+                    "Description": null,
+                    "ProcessOn": null,
+                    "ProcessOnTypedObject": null,
+                    "UserDefined": false,
+                    "ForceExposeToEndUser": true
+                  },
+                  "grain-direction": 0,
+                  "Description": null,
+                  "ProcessOn": null,
+                  "ProcessOnTypedObject": null,
+                  "UserDefined": false,
+                  "ForceExposeToEndUser": true
+                },
+                "grain-direction": 0,
+                "Description": null,
+                "ProcessOn": null,
+                "ProcessOnTypedObject": null,
+                "UserDefined": false,
+                "ForceExposeToEndUser": true
+              },
+              "grain-direction": 0,
+              "Description": null,
+              "ProcessOn": null,
+              "ProcessOnTypedObject": null,
+              "UserDefined": false,
+              "ForceExposeToEndUser": true
+            },
+            "right-stock": {
+              "type": "waste",
+              "item": null,
+              "quantity": 1,
+              "length": 2.44,
+              "width": 0.291,
+              "panel-name": "",
+              "cut": null,
+              "cut-coordinate": 0,
+              "cut-half-thickness": 0,
+              "left-stock": null,
+              "right-stock": null,
+              "grain-direction": 0,
+              "Description": null,
+              "ProcessOn": null,
+              "ProcessOnTypedObject": null,
+              "UserDefined": false,
+              "ForceExposeToEndUser": true
+            },
+            "grain-direction": 0,
+            "Description": null,
+            "ProcessOn": null,
+            "ProcessOnTypedObject": null,
+            "UserDefined": false,
+            "ForceExposeToEndUser": true
+          },
+          "grain-direction": 0,
+          "Description": null,
+          "ProcessOn": null,
+          "ProcessOnTypedObject": null,
+          "UserDefined": false,
+          "ForceExposeToEndUser": true
+        }
+      ],
+      "material": "MDF 16mm",
+      "name": "MDF 16mm",
+      "db-board-id": 4,
+      "thickness": 0.016,
+      "Description": null,
+      "ProcessOn": null,
+      "ProcessOnTypedObject": null,
+      "UserDefined": false,
+      "ForceExposeToEndUser": true
+    },
+    {
+      "version": 1,
+      "stocks": [
+        {
+          "type": null,
+          "template-stock-id": 4,
+          "item": null,
+          "quantity": 1,
+          "length": 2.44,
+          "width": 1.22,
+          "panel-name": "",
+          "cut": "V",
+          "cut-coordinate": 0.015,
+          "cut-half-thickness": 0.0025,
+          "left-stock": {
+            "type": "padding",
+            "item": null,
+            "quantity": 1,
+            "length": 0.015,
+            "width": 1.22,
+            "panel-name": "",
+            "cut": null,
+            "cut-coordinate": 0,
+            "cut-half-thickness": 0,
+            "left-stock": null,
+            "right-stock": null,
+            "grain-direction": 0,
+            "Description": null,
+            "ProcessOn": null,
+            "ProcessOnTypedObject": null,
+            "UserDefined": false,
+            "ForceExposeToEndUser": true
+          },
+          "right-stock": {
+            "type": null,
+            "item": null,
+            "quantity": 1,
+            "length": 2.42,
+            "width": 1.22,
+            "panel-name": "",
+            "cut": "V",
+            "cut-coordinate": 0.544,
+            "cut-half-thickness": 0.0025,
+            "left-stock": {
+              "type": null,
+              "item": null,
+              "quantity": 1,
+              "length": 0.544,
+              "width": 1.22,
+              "panel-name": "",
+              "cut": "H",
+              "cut-coordinate": 0.015,
+              "cut-half-thickness": 0.0025,
+              "left-stock": {
+                "type": "padding",
+                "item": null,
+                "quantity": 1,
+                "length": 0.544,
+                "width": 0.015,
+                "panel-name": "",
+                "cut": null,
+                "cut-coordinate": 0,
+                "cut-half-thickness": 0,
+                "left-stock": null,
+                "right-stock": null,
+                "grain-direction": 0,
+                "Description": null,
+                "ProcessOn": null,
+                "ProcessOnTypedObject": null,
+                "UserDefined": false,
+                "ForceExposeToEndUser": true
+              },
+              "right-stock": {
+                "type": null,
+                "item": null,
+                "quantity": 1,
+                "length": 0.544,
+                "width": 1.2,
+                "panel-name": "",
+                "cut": "H",
+                "cut-coordinate": 0.8506,
+                "cut-half-thickness": 0.0025,
+                "left-stock": {
+                  "type": "item",
+                  "item": {
+                    "template-item-id": 23,
+                    "rotation": "HWT"
+                  },
+                  "quantity": 1,
+                  "length": 0.544,
+                  "width": 0.8506,
+                  "panel-name": "Bottom_Drawers Overlay_High Cabinet_SwoodDesign_1_1",
+                  "cut": null,
+                  "cut-coordinate": 0,
+                  "cut-half-thickness": 0,
+                  "left-stock": null,
+                  "right-stock": null,
+                  "grain-direction": 1,
+                  "Description": null,
+                  "ProcessOn": null,
+                  "ProcessOnTypedObject": null,
+                  "UserDefined": false,
+                  "ForceExposeToEndUser": true
+                },
+                "right-stock": {
+                  "type": "waste",
+                  "item": null,
+                  "quantity": 1,
+                  "length": 0.544,
+                  "width": 0.3444,
+                  "panel-name": "",
+                  "cut": null,
+                  "cut-coordinate": 0,
+                  "cut-half-thickness": 0,
+                  "left-stock": null,
+                  "right-stock": null,
+                  "grain-direction": 0,
+                  "Description": null,
+                  "ProcessOn": null,
+                  "ProcessOnTypedObject": null,
+                  "UserDefined": false,
+                  "ForceExposeToEndUser": true
+                },
+                "grain-direction": 0,
+                "Description": null,
+                "ProcessOn": null,
+                "ProcessOnTypedObject": null,
+                "UserDefined": false,
+                "ForceExposeToEndUser": true
+              },
+              "grain-direction": 0,
+              "Description": null,
+              "ProcessOn": null,
+              "ProcessOnTypedObject": null,
+              "UserDefined": false,
+              "ForceExposeToEndUser": true
+            },
             "right-stock": {
               "type": null,
               "item": null,
               "quantity": 1,
-              "length": 2.0895,
+              "length": 1.871,
               "width": 1.22,
               "panel-name": "",
               "cut": "V",
-              "cut-coordinate": 0.3255,
+              "cut-coordinate": 0.544,
               "cut-half-thickness": 0.0025,
               "left-stock": {
                 "type": null,
                 "item": null,
                 "quantity": 1,
-                "length": 0.3255,
+                "length": 0.544,
                 "width": 1.22,
                 "panel-name": "",
                 "cut": "H",
@@ -29401,7 +31421,7 @@ const reportDataRaw ={
                   "type": "padding",
                   "item": null,
                   "quantity": 1,
-                  "length": 0.3255,
+                  "length": 0.544,
                   "width": 0.015,
                   "panel-name": "",
                   "cut": null,
@@ -29420,22 +31440,22 @@ const reportDataRaw ={
                   "type": null,
                   "item": null,
                   "quantity": 1,
-                  "length": 0.3255,
+                  "length": 0.544,
                   "width": 1.2,
                   "panel-name": "",
                   "cut": "H",
-                  "cut-coordinate": 0.565,
+                  "cut-coordinate": 0.8506,
                   "cut-half-thickness": 0.0025,
                   "left-stock": {
                     "type": "item",
                     "item": {
-                      "template-item-id": 22,
+                      "template-item-id": 23,
                       "rotation": "HWT"
                     },
                     "quantity": 1,
-                    "length": 0.3255,
-                    "width": 0.565,
-                    "panel-name": "Left_Drawers Overlay_High Cabinet_SwoodDesign_1_1",
+                    "length": 0.544,
+                    "width": 0.8506,
+                    "panel-name": "Bottom_Drawers Overlay_High Cabinet_SwoodDesign_1_1",
                     "cut": null,
                     "cut-coordinate": 0,
                     "cut-half-thickness": 0,
@@ -29449,56 +31469,17 @@ const reportDataRaw ={
                     "ForceExposeToEndUser": true
                   },
                   "right-stock": {
-                    "type": null,
+                    "type": "waste",
                     "item": null,
                     "quantity": 1,
-                    "length": 0.3255,
-                    "width": 0.63,
+                    "length": 0.544,
+                    "width": 0.3444,
                     "panel-name": "",
-                    "cut": "H",
-                    "cut-coordinate": 0.565,
-                    "cut-half-thickness": 0.0025,
-                    "left-stock": {
-                      "type": "item",
-                      "item": {
-                        "template-item-id": 23,
-                        "rotation": "HWT"
-                      },
-                      "quantity": 1,
-                      "length": 0.3255,
-                      "width": 0.565,
-                      "panel-name": "Right_Drawers Overlay_High Cabinet_SwoodDesign_1_1",
-                      "cut": null,
-                      "cut-coordinate": 0,
-                      "cut-half-thickness": 0,
-                      "left-stock": null,
-                      "right-stock": null,
-                      "grain-direction": 1,
-                      "Description": null,
-                      "ProcessOn": null,
-                      "ProcessOnTypedObject": null,
-                      "UserDefined": false,
-                      "ForceExposeToEndUser": true
-                    },
-                    "right-stock": {
-                      "type": "waste",
-                      "item": null,
-                      "quantity": 1,
-                      "length": 0.3255,
-                      "width": 0.06,
-                      "panel-name": "",
-                      "cut": null,
-                      "cut-coordinate": 0,
-                      "cut-half-thickness": 0,
-                      "left-stock": null,
-                      "right-stock": null,
-                      "grain-direction": 0,
-                      "Description": null,
-                      "ProcessOn": null,
-                      "ProcessOnTypedObject": null,
-                      "UserDefined": false,
-                      "ForceExposeToEndUser": true
-                    },
+                    "cut": null,
+                    "cut-coordinate": 0,
+                    "cut-half-thickness": 0,
+                    "left-stock": null,
+                    "right-stock": null,
                     "grain-direction": 0,
                     "Description": null,
                     "ProcessOn": null,
@@ -29524,17 +31505,17 @@ const reportDataRaw ={
                 "type": null,
                 "item": null,
                 "quantity": 1,
-                "length": 1.759,
+                "length": 1.322,
                 "width": 1.22,
                 "panel-name": "",
                 "cut": "V",
-                "cut-coordinate": 0.3255,
+                "cut-coordinate": 0.544,
                 "cut-half-thickness": 0.0025,
                 "left-stock": {
                   "type": null,
                   "item": null,
                   "quantity": 1,
-                  "length": 0.3255,
+                  "length": 0.544,
                   "width": 1.22,
                   "panel-name": "",
                   "cut": "H",
@@ -29544,7 +31525,7 @@ const reportDataRaw ={
                     "type": "padding",
                     "item": null,
                     "quantity": 1,
-                    "length": 0.3255,
+                    "length": 0.544,
                     "width": 0.015,
                     "panel-name": "",
                     "cut": null,
@@ -29563,11 +31544,11 @@ const reportDataRaw ={
                     "type": null,
                     "item": null,
                     "quantity": 1,
-                    "length": 0.3255,
+                    "length": 0.544,
                     "width": 1.2,
                     "panel-name": "",
                     "cut": "H",
-                    "cut-coordinate": 0.565,
+                    "cut-coordinate": 0.8506,
                     "cut-half-thickness": 0.0025,
                     "left-stock": {
                       "type": "item",
@@ -29576,9 +31557,9 @@ const reportDataRaw ={
                         "rotation": "HWT"
                       },
                       "quantity": 1,
-                      "length": 0.3255,
-                      "width": 0.565,
-                      "panel-name": "Right_Drawers Overlay_High Cabinet_SwoodDesign_1_1",
+                      "length": 0.544,
+                      "width": 0.8506,
+                      "panel-name": "Bottom_Drawers Overlay_High Cabinet_SwoodDesign_1_1",
                       "cut": null,
                       "cut-coordinate": 0,
                       "cut-half-thickness": 0,
@@ -29592,56 +31573,17 @@ const reportDataRaw ={
                       "ForceExposeToEndUser": true
                     },
                     "right-stock": {
-                      "type": null,
+                      "type": "waste",
                       "item": null,
                       "quantity": 1,
-                      "length": 0.3255,
-                      "width": 0.63,
+                      "length": 0.544,
+                      "width": 0.3444,
                       "panel-name": "",
-                      "cut": "H",
-                      "cut-coordinate": 0.565,
-                      "cut-half-thickness": 0.0025,
-                      "left-stock": {
-                        "type": "item",
-                        "item": {
-                          "template-item-id": 23,
-                          "rotation": "HWT"
-                        },
-                        "quantity": 1,
-                        "length": 0.3255,
-                        "width": 0.565,
-                        "panel-name": "Right_Drawers Overlay_High Cabinet_SwoodDesign_1_1",
-                        "cut": null,
-                        "cut-coordinate": 0,
-                        "cut-half-thickness": 0,
-                        "left-stock": null,
-                        "right-stock": null,
-                        "grain-direction": 1,
-                        "Description": null,
-                        "ProcessOn": null,
-                        "ProcessOnTypedObject": null,
-                        "UserDefined": false,
-                        "ForceExposeToEndUser": true
-                      },
-                      "right-stock": {
-                        "type": "waste",
-                        "item": null,
-                        "quantity": 1,
-                        "length": 0.3255,
-                        "width": 0.06,
-                        "panel-name": "",
-                        "cut": null,
-                        "cut-coordinate": 0,
-                        "cut-half-thickness": 0,
-                        "left-stock": null,
-                        "right-stock": null,
-                        "grain-direction": 0,
-                        "Description": null,
-                        "ProcessOn": null,
-                        "ProcessOnTypedObject": null,
-                        "UserDefined": false,
-                        "ForceExposeToEndUser": true
-                      },
+                      "cut": null,
+                      "cut-coordinate": 0,
+                      "cut-half-thickness": 0,
+                      "left-stock": null,
+                      "right-stock": null,
                       "grain-direction": 0,
                       "Description": null,
                       "ProcessOn": null,
@@ -29667,55 +31609,55 @@ const reportDataRaw ={
                   "type": null,
                   "item": null,
                   "quantity": 1,
-                  "length": 1.4285,
+                  "length": 0.773,
                   "width": 1.22,
                   "panel-name": "",
-                  "cut": "H",
-                  "cut-coordinate": 0.015,
+                  "cut": "V",
+                  "cut-coordinate": 0.3255,
                   "cut-half-thickness": 0.0025,
                   "left-stock": {
-                    "type": "padding",
-                    "item": null,
-                    "quantity": 1,
-                    "length": 1.4285,
-                    "width": 0.015,
-                    "panel-name": "",
-                    "cut": null,
-                    "cut-coordinate": 0,
-                    "cut-half-thickness": 0,
-                    "left-stock": null,
-                    "right-stock": null,
-                    "grain-direction": 0,
-                    "Description": null,
-                    "ProcessOn": null,
-                    "ProcessOnTypedObject": null,
-                    "UserDefined": false,
-                    "ForceExposeToEndUser": true
-                  },
-                  "right-stock": {
                     "type": null,
                     "item": null,
                     "quantity": 1,
-                    "length": 1.4285,
-                    "width": 1.2,
+                    "length": 0.3255,
+                    "width": 1.22,
                     "panel-name": "",
                     "cut": "H",
-                    "cut-coordinate": 0.8506,
+                    "cut-coordinate": 0.015,
                     "cut-half-thickness": 0.0025,
                     "left-stock": {
+                      "type": "padding",
+                      "item": null,
+                      "quantity": 1,
+                      "length": 0.3255,
+                      "width": 0.015,
+                      "panel-name": "",
+                      "cut": null,
+                      "cut-coordinate": 0,
+                      "cut-half-thickness": 0,
+                      "left-stock": null,
+                      "right-stock": null,
+                      "grain-direction": 0,
+                      "Description": null,
+                      "ProcessOn": null,
+                      "ProcessOnTypedObject": null,
+                      "UserDefined": false,
+                      "ForceExposeToEndUser": true
+                    },
+                    "right-stock": {
                       "type": null,
                       "item": null,
                       "quantity": 1,
-                      "length": 1.4285,
-                      "width": 0.8506,
+                      "length": 0.3255,
+                      "width": 1.2,
                       "panel-name": "",
-                      "cut": "V",
-                      "cut-coordinate": 0.3255,
+                      "cut": "H",
+                      "cut-coordinate": 0.8506,
                       "cut-half-thickness": 0.0025,
                       "left-stock": {
                         "type": "item",
                         "item": {
-                          "template-item-id": 20,
+                          "template-item-id": 26,
                           "rotation": "HWT"
                         },
                         "quantity": 1,
@@ -29735,19 +31677,91 @@ const reportDataRaw ={
                         "ForceExposeToEndUser": true
                       },
                       "right-stock": {
+                        "type": "waste",
+                        "item": null,
+                        "quantity": 1,
+                        "length": 0.3255,
+                        "width": 0.3444,
+                        "panel-name": "",
+                        "cut": null,
+                        "cut-coordinate": 0,
+                        "cut-half-thickness": 0,
+                        "left-stock": null,
+                        "right-stock": null,
+                        "grain-direction": 0,
+                        "Description": null,
+                        "ProcessOn": null,
+                        "ProcessOnTypedObject": null,
+                        "UserDefined": false,
+                        "ForceExposeToEndUser": true
+                      },
+                      "grain-direction": 0,
+                      "Description": null,
+                      "ProcessOn": null,
+                      "ProcessOnTypedObject": null,
+                      "UserDefined": false,
+                      "ForceExposeToEndUser": true
+                    },
+                    "grain-direction": 0,
+                    "Description": null,
+                    "ProcessOn": null,
+                    "ProcessOnTypedObject": null,
+                    "UserDefined": false,
+                    "ForceExposeToEndUser": true
+                  },
+                  "right-stock": {
+                    "type": null,
+                    "item": null,
+                    "quantity": 1,
+                    "length": 0.4425,
+                    "width": 1.22,
+                    "panel-name": "",
+                    "cut": "V",
+                    "cut-coordinate": 0.3255,
+                    "cut-half-thickness": 0.0025,
+                    "left-stock": {
+                      "type": null,
+                      "item": null,
+                      "quantity": 1,
+                      "length": 0.3255,
+                      "width": 1.22,
+                      "panel-name": "",
+                      "cut": "H",
+                      "cut-coordinate": 0.015,
+                      "cut-half-thickness": 0.0025,
+                      "left-stock": {
+                        "type": "padding",
+                        "item": null,
+                        "quantity": 1,
+                        "length": 0.3255,
+                        "width": 0.015,
+                        "panel-name": "",
+                        "cut": null,
+                        "cut-coordinate": 0,
+                        "cut-half-thickness": 0,
+                        "left-stock": null,
+                        "right-stock": null,
+                        "grain-direction": 0,
+                        "Description": null,
+                        "ProcessOn": null,
+                        "ProcessOnTypedObject": null,
+                        "UserDefined": false,
+                        "ForceExposeToEndUser": true
+                      },
+                      "right-stock": {
                         "type": null,
                         "item": null,
                         "quantity": 1,
-                        "length": 1.098,
-                        "width": 0.8506,
+                        "length": 0.3255,
+                        "width": 1.2,
                         "panel-name": "",
-                        "cut": "V",
-                        "cut-coordinate": 0.3255,
+                        "cut": "H",
+                        "cut-coordinate": 0.8506,
                         "cut-half-thickness": 0.0025,
                         "left-stock": {
                           "type": "item",
                           "item": {
-                            "template-item-id": 20,
+                            "template-item-id": 26,
                             "rotation": "HWT"
                           },
                           "quantity": 1,
@@ -29767,56 +31781,17 @@ const reportDataRaw ={
                           "ForceExposeToEndUser": true
                         },
                         "right-stock": {
-                          "type": null,
+                          "type": "waste",
                           "item": null,
                           "quantity": 1,
-                          "length": 0.7675,
-                          "width": 0.8506,
+                          "length": 0.3255,
+                          "width": 0.3444,
                           "panel-name": "",
-                          "cut": "V",
-                          "cut-coordinate": 0.544,
-                          "cut-half-thickness": 0.0025,
-                          "left-stock": {
-                            "type": "item",
-                            "item": {
-                              "template-item-id": 21,
-                              "rotation": "HWT"
-                            },
-                            "quantity": 1,
-                            "length": 0.544,
-                            "width": 0.8506,
-                            "panel-name": "Bottom_Drawers Overlay_High Cabinet_SwoodDesign_1_1",
-                            "cut": null,
-                            "cut-coordinate": 0,
-                            "cut-half-thickness": 0,
-                            "left-stock": null,
-                            "right-stock": null,
-                            "grain-direction": 1,
-                            "Description": null,
-                            "ProcessOn": null,
-                            "ProcessOnTypedObject": null,
-                            "UserDefined": false,
-                            "ForceExposeToEndUser": true
-                          },
-                          "right-stock": {
-                            "type": "waste",
-                            "item": null,
-                            "quantity": 1,
-                            "length": 0.2185,
-                            "width": 0.8506,
-                            "panel-name": "",
-                            "cut": null,
-                            "cut-coordinate": 0,
-                            "cut-half-thickness": 0,
-                            "left-stock": null,
-                            "right-stock": null,
-                            "grain-direction": 0,
-                            "Description": null,
-                            "ProcessOn": null,
-                            "ProcessOnTypedObject": null,
-                            "UserDefined": false,
-                            "ForceExposeToEndUser": true
-                          },
+                          "cut": null,
+                          "cut-coordinate": 0,
+                          "cut-half-thickness": 0,
+                          "left-stock": null,
+                          "right-stock": null,
                           "grain-direction": 0,
                           "Description": null,
                           "ProcessOn": null,
@@ -29842,8 +31817,8 @@ const reportDataRaw ={
                       "type": "waste",
                       "item": null,
                       "quantity": 1,
-                      "length": 1.4285,
-                      "width": 0.3444,
+                      "length": 0.112,
+                      "width": 1.22,
                       "panel-name": "",
                       "cut": null,
                       "cut-coordinate": 0,
@@ -29901,7 +31876,7 @@ const reportDataRaw ={
         },
         {
           "type": null,
-          "template-stock-id": 3,
+          "template-stock-id": 4,
           "item": null,
           "quantity": 1,
           "length": 2.44,
@@ -29981,7 +31956,7 @@ const reportDataRaw ={
                 "left-stock": {
                   "type": "item",
                   "item": {
-                    "template-item-id": 20,
+                    "template-item-id": 26,
                     "rotation": "HWT"
                   },
                   "quantity": 1,
@@ -30007,51 +31982,29 @@ const reportDataRaw ={
                   "length": 2.0895,
                   "width": 0.8506,
                   "panel-name": "",
-                  "cut": "V",
-                  "cut-coordinate": 0.544,
+                  "cut": "H",
+                  "cut-coordinate": 0.565,
                   "cut-half-thickness": 0.0025,
                   "left-stock": {
-                    "type": "item",
-                    "item": {
-                      "template-item-id": 21,
-                      "rotation": "HWT"
-                    },
-                    "quantity": 1,
-                    "length": 0.544,
-                    "width": 0.8506,
-                    "panel-name": "Bottom_Drawers Overlay_High Cabinet_SwoodDesign_1_1",
-                    "cut": null,
-                    "cut-coordinate": 0,
-                    "cut-half-thickness": 0,
-                    "left-stock": null,
-                    "right-stock": null,
-                    "grain-direction": 1,
-                    "Description": null,
-                    "ProcessOn": null,
-                    "ProcessOnTypedObject": null,
-                    "UserDefined": false,
-                    "ForceExposeToEndUser": true
-                  },
-                  "right-stock": {
                     "type": null,
                     "item": null,
                     "quantity": 1,
-                    "length": 1.5405,
-                    "width": 0.8506,
+                    "length": 2.0895,
+                    "width": 0.565,
                     "panel-name": "",
                     "cut": "V",
-                    "cut-coordinate": 0.544,
+                    "cut-coordinate": 0.3255,
                     "cut-half-thickness": 0.0025,
                     "left-stock": {
                       "type": "item",
                       "item": {
-                        "template-item-id": 21,
+                        "template-item-id": 25,
                         "rotation": "HWT"
                       },
                       "quantity": 1,
-                      "length": 0.544,
-                      "width": 0.8506,
-                      "panel-name": "Bottom_Drawers Overlay_High Cabinet_SwoodDesign_1_1",
+                      "length": 0.3255,
+                      "width": 0.565,
+                      "panel-name": "Left_Drawers Overlay_High Cabinet_SwoodDesign_1_1",
                       "cut": null,
                       "cut-coordinate": 0,
                       "cut-half-thickness": 0,
@@ -30065,17 +32018,212 @@ const reportDataRaw ={
                       "ForceExposeToEndUser": true
                     },
                     "right-stock": {
-                      "type": "waste",
+                      "type": null,
                       "item": null,
                       "quantity": 1,
-                      "length": 0.9915,
-                      "width": 0.8506,
+                      "length": 1.759,
+                      "width": 0.565,
                       "panel-name": "",
-                      "cut": null,
-                      "cut-coordinate": 0,
-                      "cut-half-thickness": 0,
-                      "left-stock": null,
-                      "right-stock": null,
+                      "cut": "V",
+                      "cut-coordinate": 0.3255,
+                      "cut-half-thickness": 0.0025,
+                      "left-stock": {
+                        "type": "item",
+                        "item": {
+                          "template-item-id": 25,
+                          "rotation": "HWT"
+                        },
+                        "quantity": 1,
+                        "length": 0.3255,
+                        "width": 0.565,
+                        "panel-name": "Left_Drawers Overlay_High Cabinet_SwoodDesign_1_1",
+                        "cut": null,
+                        "cut-coordinate": 0,
+                        "cut-half-thickness": 0,
+                        "left-stock": null,
+                        "right-stock": null,
+                        "grain-direction": 1,
+                        "Description": null,
+                        "ProcessOn": null,
+                        "ProcessOnTypedObject": null,
+                        "UserDefined": false,
+                        "ForceExposeToEndUser": true
+                      },
+                      "right-stock": {
+                        "type": null,
+                        "item": null,
+                        "quantity": 1,
+                        "length": 1.4285,
+                        "width": 0.565,
+                        "panel-name": "",
+                        "cut": "V",
+                        "cut-coordinate": 0.3255,
+                        "cut-half-thickness": 0.0025,
+                        "left-stock": {
+                          "type": "item",
+                          "item": {
+                            "template-item-id": 25,
+                            "rotation": "HWT"
+                          },
+                          "quantity": 1,
+                          "length": 0.3255,
+                          "width": 0.565,
+                          "panel-name": "Left_Drawers Overlay_High Cabinet_SwoodDesign_1_1",
+                          "cut": null,
+                          "cut-coordinate": 0,
+                          "cut-half-thickness": 0,
+                          "left-stock": null,
+                          "right-stock": null,
+                          "grain-direction": 1,
+                          "Description": null,
+                          "ProcessOn": null,
+                          "ProcessOnTypedObject": null,
+                          "UserDefined": false,
+                          "ForceExposeToEndUser": true
+                        },
+                        "right-stock": {
+                          "type": null,
+                          "item": null,
+                          "quantity": 1,
+                          "length": 1.098,
+                          "width": 0.565,
+                          "panel-name": "",
+                          "cut": "V",
+                          "cut-coordinate": 0.3255,
+                          "cut-half-thickness": 0.0025,
+                          "left-stock": {
+                            "type": "item",
+                            "item": {
+                              "template-item-id": 24,
+                              "rotation": "HWT"
+                            },
+                            "quantity": 1,
+                            "length": 0.3255,
+                            "width": 0.565,
+                            "panel-name": "Right_Drawers Overlay_High Cabinet_SwoodDesign_1_1",
+                            "cut": null,
+                            "cut-coordinate": 0,
+                            "cut-half-thickness": 0,
+                            "left-stock": null,
+                            "right-stock": null,
+                            "grain-direction": 1,
+                            "Description": null,
+                            "ProcessOn": null,
+                            "ProcessOnTypedObject": null,
+                            "UserDefined": false,
+                            "ForceExposeToEndUser": true
+                          },
+                          "right-stock": {
+                            "type": null,
+                            "item": null,
+                            "quantity": 1,
+                            "length": 0.7675,
+                            "width": 0.565,
+                            "panel-name": "",
+                            "cut": "V",
+                            "cut-coordinate": 0.3255,
+                            "cut-half-thickness": 0.0025,
+                            "left-stock": {
+                              "type": "item",
+                              "item": {
+                                "template-item-id": 24,
+                                "rotation": "HWT"
+                              },
+                              "quantity": 1,
+                              "length": 0.3255,
+                              "width": 0.565,
+                              "panel-name": "Right_Drawers Overlay_High Cabinet_SwoodDesign_1_1",
+                              "cut": null,
+                              "cut-coordinate": 0,
+                              "cut-half-thickness": 0,
+                              "left-stock": null,
+                              "right-stock": null,
+                              "grain-direction": 1,
+                              "Description": null,
+                              "ProcessOn": null,
+                              "ProcessOnTypedObject": null,
+                              "UserDefined": false,
+                              "ForceExposeToEndUser": true
+                            },
+                            "right-stock": {
+                              "type": null,
+                              "item": null,
+                              "quantity": 1,
+                              "length": 0.437,
+                              "width": 0.565,
+                              "panel-name": "",
+                              "cut": "V",
+                              "cut-coordinate": 0.3255,
+                              "cut-half-thickness": 0.0025,
+                              "left-stock": {
+                                "type": "item",
+                                "item": {
+                                  "template-item-id": 24,
+                                  "rotation": "HWT"
+                                },
+                                "quantity": 1,
+                                "length": 0.3255,
+                                "width": 0.565,
+                                "panel-name": "Right_Drawers Overlay_High Cabinet_SwoodDesign_1_1",
+                                "cut": null,
+                                "cut-coordinate": 0,
+                                "cut-half-thickness": 0,
+                                "left-stock": null,
+                                "right-stock": null,
+                                "grain-direction": 1,
+                                "Description": null,
+                                "ProcessOn": null,
+                                "ProcessOnTypedObject": null,
+                                "UserDefined": false,
+                                "ForceExposeToEndUser": true
+                              },
+                              "right-stock": {
+                                "type": "waste",
+                                "item": null,
+                                "quantity": 1,
+                                "length": 0.1065,
+                                "width": 0.565,
+                                "panel-name": "",
+                                "cut": null,
+                                "cut-coordinate": 0,
+                                "cut-half-thickness": 0,
+                                "left-stock": null,
+                                "right-stock": null,
+                                "grain-direction": 0,
+                                "Description": null,
+                                "ProcessOn": null,
+                                "ProcessOnTypedObject": null,
+                                "UserDefined": false,
+                                "ForceExposeToEndUser": true
+                              },
+                              "grain-direction": 0,
+                              "Description": null,
+                              "ProcessOn": null,
+                              "ProcessOnTypedObject": null,
+                              "UserDefined": false,
+                              "ForceExposeToEndUser": true
+                            },
+                            "grain-direction": 0,
+                            "Description": null,
+                            "ProcessOn": null,
+                            "ProcessOnTypedObject": null,
+                            "UserDefined": false,
+                            "ForceExposeToEndUser": true
+                          },
+                          "grain-direction": 0,
+                          "Description": null,
+                          "ProcessOn": null,
+                          "ProcessOnTypedObject": null,
+                          "UserDefined": false,
+                          "ForceExposeToEndUser": true
+                        },
+                        "grain-direction": 0,
+                        "Description": null,
+                        "ProcessOn": null,
+                        "ProcessOnTypedObject": null,
+                        "UserDefined": false,
+                        "ForceExposeToEndUser": true
+                      },
                       "grain-direction": 0,
                       "Description": null,
                       "ProcessOn": null,
@@ -30083,6 +32231,25 @@ const reportDataRaw ={
                       "UserDefined": false,
                       "ForceExposeToEndUser": true
                     },
+                    "grain-direction": 0,
+                    "Description": null,
+                    "ProcessOn": null,
+                    "ProcessOnTypedObject": null,
+                    "UserDefined": false,
+                    "ForceExposeToEndUser": true
+                  },
+                  "right-stock": {
+                    "type": "waste",
+                    "item": null,
+                    "quantity": 1,
+                    "length": 2.0895,
+                    "width": 0.2806,
+                    "panel-name": "",
+                    "cut": null,
+                    "cut-coordinate": 0,
+                    "cut-half-thickness": 0,
+                    "left-stock": null,
+                    "right-stock": null,
                     "grain-direction": 0,
                     "Description": null,
                     "ProcessOn": null,
@@ -30149,6 +32316,19 @@ const reportDataRaw ={
       "name": "Beech16",
       "db-board-id": 16,
       "thickness": 0.016,
+      "Description": null,
+      "ProcessOn": null,
+      "ProcessOnTypedObject": null,
+      "UserDefined": false,
+      "ForceExposeToEndUser": true
+    },
+    {
+      "version": 1,
+      "stocks": null,
+      "material": "",
+      "name": "",
+      "db-board-id": null,
+      "thickness": -1,
       "Description": null,
       "ProcessOn": null,
       "ProcessOnTypedObject": null,
@@ -30270,7 +32450,7 @@ const reportDataRaw ={
         },
         {
           "alias": "TOOL_TIMEUSED",
-          "value": "129.038189704947"
+          "value": "129.038"
         },
         {
           "alias": "TOOL_USED",
@@ -30389,11 +32569,11 @@ const reportDataRaw ={
         },
         {
           "alias": "TOOL_TIMEUNUSED",
-          "value": "0.0506666666666667"
+          "value": "0.051"
         },
         {
           "alias": "TOOL_TIMEUSED",
-          "value": "82.2230561542821"
+          "value": "82.223"
         },
         {
           "alias": "TOOL_USED",
@@ -30516,7 +32696,7 @@ const reportDataRaw ={
         },
         {
           "alias": "TOOL_TIMEUSED",
-          "value": "94.2230561542821"
+          "value": "94.223"
         },
         {
           "alias": "TOOL_USED",
@@ -30635,11 +32815,11 @@ const reportDataRaw ={
         },
         {
           "alias": "TOOL_TIMEUNUSED",
-          "value": "0.0506666666666667"
+          "value": "0.051"
         },
         {
           "alias": "TOOL_TIMEUSED",
-          "value": "97.3060777649152"
+          "value": "97.306"
         },
         {
           "alias": "TOOL_USED",
@@ -30758,11 +32938,11 @@ const reportDataRaw ={
         },
         {
           "alias": "TOOL_TIMEUNUSED",
-          "value": "0.107999999999999"
+          "value": "0.108"
         },
         {
           "alias": "TOOL_TIMEUSED",
-          "value": "56.4342212146586"
+          "value": "56.434"
         },
         {
           "alias": "TOOL_USED",
@@ -30881,11 +33061,11 @@ const reportDataRaw ={
         },
         {
           "alias": "TOOL_TIMEUNUSED",
-          "value": "0.107999999999999"
+          "value": "0.108"
         },
         {
           "alias": "TOOL_TIMEUSED",
-          "value": "79.0167212146586"
+          "value": "79.017"
         },
         {
           "alias": "TOOL_USED",
@@ -31008,7 +33188,7 @@ const reportDataRaw ={
         },
         {
           "alias": "TOOL_TIMEUSED",
-          "value": "94.6430561542821"
+          "value": "94.643"
         },
         {
           "alias": "TOOL_USED",
@@ -31527,7 +33707,7 @@ const reportDataRaw ={
         },
         {
           "alias": "TOOL_TIMEUSED",
-          "value": "94.7260777649152"
+          "value": "94.726"
         },
         {
           "alias": "TOOL_USED",
@@ -31646,11 +33826,11 @@ const reportDataRaw ={
         },
         {
           "alias": "TOOL_TIMEUNUSED",
-          "value": "0.0900000000000004"
+          "value": "0.09"
         },
         {
           "alias": "TOOL_TIMEUSED",
-          "value": "83.5730561542821"
+          "value": "83.573"
         },
         {
           "alias": "TOOL_USED",
@@ -31919,11 +34099,11 @@ const reportDataRaw ={
         },
         {
           "alias": "TOOL_TIMEUNUSED",
-          "value": "2.28317446507121"
+          "value": "2.283"
         },
         {
           "alias": "TOOL_TIMEUSED",
-          "value": "178.60543189548"
+          "value": "178.605"
         },
         {
           "alias": "TOOL_USED",
@@ -32042,11 +34222,11 @@ const reportDataRaw ={
         },
         {
           "alias": "TOOL_TIMEUNUSED",
-          "value": "3.36090786212843"
+          "value": "3.361"
         },
         {
           "alias": "TOOL_TIMEUSED",
-          "value": "178.605431895481"
+          "value": "178.605"
         },
         {
           "alias": "TOOL_USED",
@@ -32165,11 +34345,11 @@ const reportDataRaw ={
         },
         {
           "alias": "TOOL_TIMEUNUSED",
-          "value": "0.259359192785242"
+          "value": "0.259"
         },
         {
           "alias": "TOOL_TIMEUSED",
-          "value": "96.1164424293172"
+          "value": "96.116"
         },
         {
           "alias": "TOOL_USED",
@@ -32288,11 +34468,11 @@ const reportDataRaw ={
         },
         {
           "alias": "TOOL_TIMEUNUSED",
-          "value": "0.0900000000000001"
+          "value": "0.09"
         },
         {
           "alias": "TOOL_TIMEUSED",
-          "value": "154.163056154282"
+          "value": "154.163"
         },
         {
           "alias": "TOOL_USED",
@@ -32565,7 +34745,7 @@ const reportDataRaw ={
         },
         {
           "alias": "TOOL_TIMEUSED",
-          "value": "93.8030561542821"
+          "value": "93.803"
         },
         {
           "alias": "TOOL_USED",
@@ -32684,11 +34864,11 @@ const reportDataRaw ={
         },
         {
           "alias": "TOOL_TIMEUNUSED",
-          "value": "0.107999999999999"
+          "value": "0.108"
         },
         {
           "alias": "TOOL_TIMEUSED",
-          "value": "48.0582212146586"
+          "value": "48.058"
         },
         {
           "alias": "TOOL_USED",
@@ -32961,7 +35141,7 @@ const reportDataRaw ={
         },
         {
           "alias": "TOOL_TIMEUSED",
-          "value": "91.7444406726257"
+          "value": "91.744"
         },
         {
           "alias": "TOOL_USED",
@@ -33328,7 +35508,7 @@ const reportDataRaw ={
         },
         {
           "alias": "SPINDLE_POINTANGLE",
-          "value": "2.0943951023932"
+          "value": "2.094"
         },
         {
           "alias": "SPINDLE_REFERENCE",
@@ -33459,7 +35639,7 @@ const reportDataRaw ={
         },
         {
           "alias": "SPINDLE_POINTANGLE",
-          "value": "2.0943951023932"
+          "value": "2.094"
         },
         {
           "alias": "SPINDLE_REFERENCE",
@@ -33502,7 +35682,7 @@ const reportDataRaw ={
       "variables": [
         {
           "alias": "SPINDLE_AANGLE",
-          "value": "1.5707963267949"
+          "value": "1.571"
         },
         {
           "alias": "SPINDLE_ACTIVATION",
@@ -33514,7 +35694,7 @@ const reportDataRaw ={
         },
         {
           "alias": "SPINDLE_CANGLE",
-          "value": "1.5707963267949"
+          "value": "1.571"
         },
         {
           "alias": "SPINDLE_COR1",
@@ -35336,7 +37516,7 @@ const reportDataRaw ={
       "variables": [
         {
           "alias": "SPINDLE_AANGLE",
-          "value": "1.5707963267949"
+          "value": "1.571"
         },
         {
           "alias": "SPINDLE_ACTIVATION",
@@ -35348,7 +37528,7 @@ const reportDataRaw ={
         },
         {
           "alias": "SPINDLE_CANGLE",
-          "value": "4.71238898038469"
+          "value": "4.712"
         },
         {
           "alias": "SPINDLE_COR1",
@@ -35555,7 +37735,7 @@ const reportDataRaw ={
         },
         {
           "alias": "SPINDLE_POINTANGLE",
-          "value": "2.0943951023932"
+          "value": "2.094"
         },
         {
           "alias": "SPINDLE_REFERENCE",
@@ -35598,7 +37778,7 @@ const reportDataRaw ={
       "variables": [
         {
           "alias": "SPINDLE_AANGLE",
-          "value": "1.5707963267949"
+          "value": "1.571"
         },
         {
           "alias": "SPINDLE_ACTIVATION",
@@ -35610,7 +37790,7 @@ const reportDataRaw ={
         },
         {
           "alias": "SPINDLE_CANGLE",
-          "value": "3.14159265358979"
+          "value": "3.142"
         },
         {
           "alias": "SPINDLE_COR1",
@@ -35729,7 +37909,7 @@ const reportDataRaw ={
       "variables": [
         {
           "alias": "SPINDLE_AANGLE",
-          "value": "1.5707963267949"
+          "value": "1.571"
         },
         {
           "alias": "SPINDLE_ACTIVATION",
@@ -35991,7 +38171,7 @@ const reportDataRaw ={
       "variables": [
         {
           "alias": "SPINDLE_AANGLE",
-          "value": "1.5707963267949"
+          "value": "1.571"
         },
         {
           "alias": "SPINDLE_ACTIVATION",
@@ -36003,7 +38183,7 @@ const reportDataRaw ={
         },
         {
           "alias": "SPINDLE_CANGLE",
-          "value": "3.14159265358979"
+          "value": "3.142"
         },
         {
           "alias": "SPINDLE_COR1",
@@ -36122,7 +38302,7 @@ const reportDataRaw ={
       "variables": [
         {
           "alias": "SPINDLE_AANGLE",
-          "value": "1.5707963267949"
+          "value": "1.571"
         },
         {
           "alias": "SPINDLE_ACTIVATION",
@@ -36603,7 +38783,7 @@ const reportDataRaw ={
         },
         {
           "alias": "SPINDLE_POINTANGLE",
-          "value": "2.0943951023932"
+          "value": "2.094"
         },
         {
           "alias": "SPINDLE_REFERENCE",
@@ -36734,7 +38914,7 @@ const reportDataRaw ={
         },
         {
           "alias": "SPINDLE_POINTANGLE",
-          "value": "2.0943951023932"
+          "value": "2.094"
         },
         {
           "alias": "SPINDLE_REFERENCE",
@@ -36777,7 +38957,7 @@ const reportDataRaw ={
       "variables": [
         {
           "alias": "SPINDLE_AANGLE",
-          "value": "1.5707963267949"
+          "value": "1.571"
         },
         {
           "alias": "SPINDLE_ACTIVATION",
@@ -36789,7 +38969,7 @@ const reportDataRaw ={
         },
         {
           "alias": "SPINDLE_CANGLE",
-          "value": "1.5707963267949"
+          "value": "1.571"
         },
         {
           "alias": "SPINDLE_COR1",
@@ -38611,7 +40791,7 @@ const reportDataRaw ={
       "variables": [
         {
           "alias": "SPINDLE_AANGLE",
-          "value": "1.5707963267949"
+          "value": "1.571"
         },
         {
           "alias": "SPINDLE_ACTIVATION",
@@ -38623,7 +40803,7 @@ const reportDataRaw ={
         },
         {
           "alias": "SPINDLE_CANGLE",
-          "value": "4.71238898038469"
+          "value": "4.712"
         },
         {
           "alias": "SPINDLE_COR1",
@@ -38699,7 +40879,7 @@ const reportDataRaw ={
         },
         {
           "alias": "SPINDLE_POINTANGLE",
-          "value": "1.5707963267949"
+          "value": "1.571"
         },
         {
           "alias": "SPINDLE_REFERENCE",
@@ -38830,7 +41010,7 @@ const reportDataRaw ={
         },
         {
           "alias": "SPINDLE_POINTANGLE",
-          "value": "2.0943951023932"
+          "value": "2.094"
         },
         {
           "alias": "SPINDLE_REFERENCE",
@@ -38873,7 +41053,7 @@ const reportDataRaw ={
       "variables": [
         {
           "alias": "SPINDLE_AANGLE",
-          "value": "1.5707963267949"
+          "value": "1.571"
         },
         {
           "alias": "SPINDLE_ACTIVATION",
@@ -38885,7 +41065,7 @@ const reportDataRaw ={
         },
         {
           "alias": "SPINDLE_CANGLE",
-          "value": "3.14159265358979"
+          "value": "3.142"
         },
         {
           "alias": "SPINDLE_COR1",
@@ -39004,7 +41184,7 @@ const reportDataRaw ={
       "variables": [
         {
           "alias": "SPINDLE_AANGLE",
-          "value": "1.5707963267949"
+          "value": "1.571"
         },
         {
           "alias": "SPINDLE_ACTIVATION",
@@ -39266,7 +41446,7 @@ const reportDataRaw ={
       "variables": [
         {
           "alias": "SPINDLE_AANGLE",
-          "value": "1.5707963267949"
+          "value": "1.571"
         },
         {
           "alias": "SPINDLE_ACTIVATION",
@@ -39278,7 +41458,7 @@ const reportDataRaw ={
         },
         {
           "alias": "SPINDLE_CANGLE",
-          "value": "3.14159265358979"
+          "value": "3.142"
         },
         {
           "alias": "SPINDLE_COR1",
@@ -39397,7 +41577,7 @@ const reportDataRaw ={
       "variables": [
         {
           "alias": "SPINDLE_AANGLE",
-          "value": "1.5707963267949"
+          "value": "1.571"
         },
         {
           "alias": "SPINDLE_ACTIVATION",
@@ -39878,7 +42058,7 @@ const reportDataRaw ={
         },
         {
           "alias": "SPINDLE_POINTANGLE",
-          "value": "2.0943951023932"
+          "value": "2.094"
         },
         {
           "alias": "SPINDLE_REFERENCE",
@@ -40009,7 +42189,7 @@ const reportDataRaw ={
         },
         {
           "alias": "SPINDLE_POINTANGLE",
-          "value": "2.0943951023932"
+          "value": "2.094"
         },
         {
           "alias": "SPINDLE_REFERENCE",
@@ -40052,7 +42232,7 @@ const reportDataRaw ={
       "variables": [
         {
           "alias": "SPINDLE_AANGLE",
-          "value": "1.5707963267949"
+          "value": "1.571"
         },
         {
           "alias": "SPINDLE_ACTIVATION",
@@ -40064,7 +42244,7 @@ const reportDataRaw ={
         },
         {
           "alias": "SPINDLE_CANGLE",
-          "value": "1.5707963267949"
+          "value": "1.571"
         },
         {
           "alias": "SPINDLE_COR1",
@@ -41886,7 +44066,7 @@ const reportDataRaw ={
       "variables": [
         {
           "alias": "SPINDLE_AANGLE",
-          "value": "1.5707963267949"
+          "value": "1.571"
         },
         {
           "alias": "SPINDLE_ACTIVATION",
@@ -41898,7 +44078,7 @@ const reportDataRaw ={
         },
         {
           "alias": "SPINDLE_CANGLE",
-          "value": "4.71238898038469"
+          "value": "4.712"
         },
         {
           "alias": "SPINDLE_COR1",
@@ -41974,7 +44154,7 @@ const reportDataRaw ={
         },
         {
           "alias": "SPINDLE_POINTANGLE",
-          "value": "1.5707963267949"
+          "value": "1.571"
         },
         {
           "alias": "SPINDLE_REFERENCE",
@@ -42105,7 +44285,7 @@ const reportDataRaw ={
         },
         {
           "alias": "SPINDLE_POINTANGLE",
-          "value": "2.0943951023932"
+          "value": "2.094"
         },
         {
           "alias": "SPINDLE_REFERENCE",
@@ -42148,7 +44328,7 @@ const reportDataRaw ={
       "variables": [
         {
           "alias": "SPINDLE_AANGLE",
-          "value": "1.5707963267949"
+          "value": "1.571"
         },
         {
           "alias": "SPINDLE_ACTIVATION",
@@ -42160,7 +44340,7 @@ const reportDataRaw ={
         },
         {
           "alias": "SPINDLE_CANGLE",
-          "value": "3.14159265358979"
+          "value": "3.142"
         },
         {
           "alias": "SPINDLE_COR1",
@@ -42279,7 +44459,7 @@ const reportDataRaw ={
       "variables": [
         {
           "alias": "SPINDLE_AANGLE",
-          "value": "1.5707963267949"
+          "value": "1.571"
         },
         {
           "alias": "SPINDLE_ACTIVATION",
@@ -42541,7 +44721,7 @@ const reportDataRaw ={
       "variables": [
         {
           "alias": "SPINDLE_AANGLE",
-          "value": "1.5707963267949"
+          "value": "1.571"
         },
         {
           "alias": "SPINDLE_ACTIVATION",
@@ -42553,7 +44733,7 @@ const reportDataRaw ={
         },
         {
           "alias": "SPINDLE_CANGLE",
-          "value": "3.14159265358979"
+          "value": "3.142"
         },
         {
           "alias": "SPINDLE_COR1",
@@ -42672,7 +44852,7 @@ const reportDataRaw ={
       "variables": [
         {
           "alias": "SPINDLE_AANGLE",
-          "value": "1.5707963267949"
+          "value": "1.571"
         },
         {
           "alias": "SPINDLE_ACTIVATION",
@@ -43153,7 +45333,7 @@ const reportDataRaw ={
         },
         {
           "alias": "SPINDLE_POINTANGLE",
-          "value": "2.0943951023932"
+          "value": "2.094"
         },
         {
           "alias": "SPINDLE_REFERENCE",
@@ -43284,7 +45464,7 @@ const reportDataRaw ={
         },
         {
           "alias": "SPINDLE_POINTANGLE",
-          "value": "2.0943951023932"
+          "value": "2.094"
         },
         {
           "alias": "SPINDLE_REFERENCE",
@@ -43327,7 +45507,7 @@ const reportDataRaw ={
       "variables": [
         {
           "alias": "SPINDLE_AANGLE",
-          "value": "1.5707963267949"
+          "value": "1.571"
         },
         {
           "alias": "SPINDLE_ACTIVATION",
@@ -43339,7 +45519,7 @@ const reportDataRaw ={
         },
         {
           "alias": "SPINDLE_CANGLE",
-          "value": "1.5707963267949"
+          "value": "1.571"
         },
         {
           "alias": "SPINDLE_COR1",
@@ -45161,7 +47341,7 @@ const reportDataRaw ={
       "variables": [
         {
           "alias": "SPINDLE_AANGLE",
-          "value": "1.5707963267949"
+          "value": "1.571"
         },
         {
           "alias": "SPINDLE_ACTIVATION",
@@ -45173,7 +47353,7 @@ const reportDataRaw ={
         },
         {
           "alias": "SPINDLE_CANGLE",
-          "value": "4.71238898038469"
+          "value": "4.712"
         },
         {
           "alias": "SPINDLE_COR1",
@@ -45380,7 +47560,7 @@ const reportDataRaw ={
         },
         {
           "alias": "SPINDLE_POINTANGLE",
-          "value": "2.0943951023932"
+          "value": "2.094"
         },
         {
           "alias": "SPINDLE_REFERENCE",
@@ -45423,7 +47603,7 @@ const reportDataRaw ={
       "variables": [
         {
           "alias": "SPINDLE_AANGLE",
-          "value": "1.5707963267949"
+          "value": "1.571"
         },
         {
           "alias": "SPINDLE_ACTIVATION",
@@ -45435,7 +47615,7 @@ const reportDataRaw ={
         },
         {
           "alias": "SPINDLE_CANGLE",
-          "value": "3.14159265358979"
+          "value": "3.142"
         },
         {
           "alias": "SPINDLE_COR1",
@@ -45554,7 +47734,7 @@ const reportDataRaw ={
       "variables": [
         {
           "alias": "SPINDLE_AANGLE",
-          "value": "1.5707963267949"
+          "value": "1.571"
         },
         {
           "alias": "SPINDLE_ACTIVATION",
@@ -45816,7 +47996,7 @@ const reportDataRaw ={
       "variables": [
         {
           "alias": "SPINDLE_AANGLE",
-          "value": "1.5707963267949"
+          "value": "1.571"
         },
         {
           "alias": "SPINDLE_ACTIVATION",
@@ -45828,7 +48008,7 @@ const reportDataRaw ={
         },
         {
           "alias": "SPINDLE_CANGLE",
-          "value": "3.14159265358979"
+          "value": "3.142"
         },
         {
           "alias": "SPINDLE_COR1",
@@ -45947,7 +48127,7 @@ const reportDataRaw ={
       "variables": [
         {
           "alias": "SPINDLE_AANGLE",
-          "value": "1.5707963267949"
+          "value": "1.571"
         },
         {
           "alias": "SPINDLE_ACTIVATION",
@@ -46078,21 +48258,48 @@ const reportDataRaw ={
     "articles": [
       {
         "type": "STOCK",
-        "name": "Oak 26mm",
+        "name": "Compound Top",
         "count": 1,
-        "quantity": 0.04478499999999982,
+        "quantity": 0.058565,
         "quantityUnit": "m3",
-        "unitCost": 400,
-        "cost": 17.913999999999927
+        "unitCost": 0.5,
+        "cost": 0.03
+      },
+      {
+        "type": "STOCK",
+        "name": "Oak 2mm",
+        "count": 1,
+        "quantity": 0.003445,
+        "quantityUnit": "m3",
+        "unitCost": 100,
+        "cost": 0.34
+      },
+      {
+        "type": "STOCK",
+        "name": "MDF 16mm",
+        "count": 1,
+        "quantity": 0.02756,
+        "quantityUnit": "m3",
+        "unitCost": 70,
+        "cost": 1.93
+      },
+      {
+        "type": "STOCK",
+        "name": "MDF 16mm",
+        "count": 1,
+        "quantity": 0.02756,
+        "quantityUnit": "m3",
+        "unitCost": 70,
+        "cost": 1.93
       },
       {
         "type": "PANEL_PROCESS_ZONE",
         "name": "Sanding",
         "count": 1,
-        "quantity": 1.7224999999999988,
+        "quantity": 1.7225,
         "quantityUnit": "m2",
         "unitCost": 100,
-        "cost": 172.2499999999999
+        "cost": 172.25
       },
       {
         "type": "STOCK",
@@ -46101,25 +48308,25 @@ const reportDataRaw ={
         "quantity": 0.0022002,
         "quantityUnit": "m3",
         "unitCost": 70,
-        "cost": 0.15401399999999998
+        "cost": 0.15
       },
       {
         "type": "STOCK",
         "name": "MDF 5mm",
         "count": 1,
-        "quantity": 0.0053904899999998234,
+        "quantity": 0.00539049,
         "quantityUnit": "m3",
         "unitCost": 70,
-        "cost": 0.37733429999998763
+        "cost": 0.38
       },
       {
         "type": "PROGRAM",
         "name": "Back_Doors_SwoodDesign_1_Milling_1_Default",
         "count": 1,
-        "quantity": 2.153536495082452,
+        "quantity": 2.15354,
         "quantityUnit": "Min",
         "unitCost": 1,
-        "cost": 2.153536495082452
+        "cost": 2.15
       },
       {
         "type": "STOCK",
@@ -46128,7 +48335,7 @@ const reportDataRaw ={
         "quantity": 0.012365124,
         "quantityUnit": "m3",
         "unitCost": 300,
-        "cost": 3.7095371999999998
+        "cost": 3.71
       },
       {
         "type": "EDGEBAND",
@@ -46137,52 +48344,7 @@ const reportDataRaw ={
         "quantity": 0.593,
         "quantityUnit": "m",
         "unitCost": 3,
-        "cost": 1.779
-      },
-      {
-        "type": "EDGEBAND",
-        "name": "Edgeband2 [ Mahogany B | MA1 ]",
-        "count": 1,
-        "quantity": 0.5929999999999999,
-        "quantityUnit": "m",
-        "unitCost": 3,
-        "cost": 1.7789999999999995
-      },
-      {
-        "type": "EDGEBAND",
-        "name": "Edgeband3 [ Mahogany B | MA1 ]",
-        "count": 1,
-        "quantity": 0.817,
-        "quantityUnit": "m",
-        "unitCost": 3,
-        "cost": 2.4509999999999996
-      },
-      {
-        "type": "EDGEBAND",
-        "name": "Edgeband4 [ Mahogany B | MA1 ]",
-        "count": 1,
-        "quantity": 0.817,
-        "quantityUnit": "m",
-        "unitCost": 3,
-        "cost": 2.4509999999999996
-      },
-      {
-        "type": "STOCK",
-        "name": "Beech 19mm",
-        "count": 1,
-        "quantity": 0.009227673000000708,
-        "quantityUnit": "m3",
-        "unitCost": 300,
-        "cost": 2.7683019000002123
-      },
-      {
-        "type": "EDGEBAND",
-        "name": "Edgeband1 [ Mahogany B | MA1 ]",
-        "count": 1,
-        "quantity": 0.5929999999999999,
-        "quantityUnit": "m",
-        "unitCost": 3,
-        "cost": 1.7789999999999995
+        "cost": 1.78
       },
       {
         "type": "EDGEBAND",
@@ -46191,7 +48353,7 @@ const reportDataRaw ={
         "quantity": 0.593,
         "quantityUnit": "m",
         "unitCost": 3,
-        "cost": 1.779
+        "cost": 1.78
       },
       {
         "type": "EDGEBAND",
@@ -46200,7 +48362,7 @@ const reportDataRaw ={
         "quantity": 0.817,
         "quantityUnit": "m",
         "unitCost": 3,
-        "cost": 2.4509999999999996
+        "cost": 2.45
       },
       {
         "type": "EDGEBAND",
@@ -46209,49 +48371,94 @@ const reportDataRaw ={
         "quantity": 0.817,
         "quantityUnit": "m",
         "unitCost": 3,
-        "cost": 2.4509999999999996
+        "cost": 2.45
       },
       {
         "type": "STOCK",
         "name": "Beech 19mm",
         "count": 1,
-        "quantity": 0.009227673000000061,
+        "quantity": 0.009227673,
         "quantityUnit": "m3",
         "unitCost": 300,
-        "cost": 2.768301900000018
+        "cost": 2.77
+      },
+      {
+        "type": "EDGEBAND",
+        "name": "Edgeband1 [ Mahogany B | MA1 ]",
+        "count": 1,
+        "quantity": 0.593,
+        "quantityUnit": "m",
+        "unitCost": 3,
+        "cost": 1.78
+      },
+      {
+        "type": "EDGEBAND",
+        "name": "Edgeband2 [ Mahogany B | MA1 ]",
+        "count": 1,
+        "quantity": 0.593,
+        "quantityUnit": "m",
+        "unitCost": 3,
+        "cost": 1.78
+      },
+      {
+        "type": "EDGEBAND",
+        "name": "Edgeband3 [ Mahogany B | MA1 ]",
+        "count": 1,
+        "quantity": 0.817,
+        "quantityUnit": "m",
+        "unitCost": 3,
+        "cost": 2.45
+      },
+      {
+        "type": "EDGEBAND",
+        "name": "Edgeband4 [ Mahogany B | MA1 ]",
+        "count": 1,
+        "quantity": 0.817,
+        "quantityUnit": "m",
+        "unitCost": 3,
+        "cost": 2.45
+      },
+      {
+        "type": "STOCK",
+        "name": "Beech 19mm",
+        "count": 1,
+        "quantity": 0.009227673,
+        "quantityUnit": "m3",
+        "unitCost": 300,
+        "cost": 2.77
       },
       {
         "type": "STOCK",
         "name": "MDF 19mm",
         "count": 1,
-        "quantity": 0.002200200000000003,
+        "quantity": 0.0022002,
         "quantityUnit": "m3",
         "unitCost": 70,
-        "cost": 0.1540140000000002
+        "cost": 0.15
       },
       {
         "type": "STOCK",
         "name": "Beech 19mm",
         "count": 1,
-        "quantity": 0.0011001000000000019,
+        "quantity": 0.0011001,
         "quantityUnit": "m3",
         "unitCost": 300,
-        "cost": 0.33003000000000055
+        "cost": 0.33
       },
       {
         "type": "STOCK",
         "name": "Beech 19mm",
         "count": 1,
-        "quantity": 0.0022800000000000016,
+        "quantity": 0.00228,
         "quantityUnit": "m3",
         "unitCost": 300,
-        "cost": 0.6840000000000005
+        "cost": 0.68
       },
       {
         "type": "PROGRAM",
         "name": "Machine not Configured - Kickboard_Doors_SwoodDesign_1 - Milling",
         "count": 1,
-        "quantity": 1.37122871368248,
+        "quantity": 1.37123,
         "quantityUnit": "Min",
         "unitCost": 0,
         "cost": 0
@@ -46260,52 +48467,52 @@ const reportDataRaw ={
         "type": "STOCK",
         "name": "Beech 1mm",
         "count": 1,
-        "quantity": 0.0011399999999999997,
+        "quantity": 0.00114,
         "quantityUnit": "m3",
         "unitCost": 95,
-        "cost": 0.10829999999999998
+        "cost": 0.11
       },
       {
         "type": "STOCK",
         "name": "MDF 19mm",
         "count": 1,
-        "quantity": 0.010829999999999944,
+        "quantity": 0.01083,
         "quantityUnit": "m3",
         "unitCost": 70,
-        "cost": 0.7580999999999961
+        "cost": 0.76
       },
       {
         "type": "PROGRAM",
         "name": "Left_Doors_SwoodDesign_1_Milling_1_Default",
         "count": 1,
-        "quantity": 0.8259128746865027,
+        "quantity": 0.82591,
         "quantityUnit": "Min",
         "unitCost": 1,
-        "cost": 0.8259128746865027
+        "cost": 0.83
       },
       {
         "type": "STOCK",
         "name": "Beech 1mm",
         "count": 1,
-        "quantity": 0.0011399999999999997,
+        "quantity": 0.00114,
         "quantityUnit": "m3",
         "unitCost": 95,
-        "cost": 0.10829999999999998
+        "cost": 0.11
       },
       {
         "type": "STOCK",
         "name": "MDF 19mm",
         "count": 1,
-        "quantity": 0.010829999999999944,
+        "quantity": 0.01083,
         "quantityUnit": "m3",
         "unitCost": 70,
-        "cost": 0.7580999999999961
+        "cost": 0.76
       },
       {
         "type": "PROGRAM",
         "name": "Machine not Configured - Right_Doors_SwoodDesign_1 - Milling",
         "count": 1,
-        "quantity": 1.6226124071930303,
+        "quantity": 0.82526,
         "quantityUnit": "Min",
         "unitCost": 0,
         "cost": 0
@@ -46314,46 +48521,46 @@ const reportDataRaw ={
         "type": "STOCK",
         "name": "MDF 5mm",
         "count": 1,
-        "quantity": 0.01041930000000001,
+        "quantity": 0.0104193,
         "quantityUnit": "m3",
         "unitCost": 70,
-        "cost": 0.7293510000000006
+        "cost": 0.73
       },
       {
         "type": "EDGEBAND",
         "name": "Edge Band1 [ Mahogany B | MA1 ]",
         "count": 1,
-        "quantity": 0.9079999999999999,
+        "quantity": 0.908,
         "quantityUnit": "m",
         "unitCost": 3,
-        "cost": 2.7239999999999998
+        "cost": 2.72
       },
       {
         "type": "STOCK",
         "name": "Beech 19mm",
         "count": 1,
-        "quantity": 0.01035120000000006,
+        "quantity": 0.0103512,
         "quantityUnit": "m3",
         "unitCost": 300,
-        "cost": 3.105360000000018
+        "cost": 3.11
       },
       {
         "type": "PROGRAM",
         "name": "Bottom_High Cabinet_SwoodDesign_1_Milling_1_Default",
         "count": 1,
-        "quantity": 1.5788842692380356,
+        "quantity": 1.57888,
         "quantityUnit": "Min",
         "unitCost": 1,
-        "cost": 1.5788842692380356
+        "cost": 1.58
       },
       {
         "type": "EDGEBAND",
         "name": "Edgeband1 [ Mahogany B | MA1 ]",
         "count": 1,
-        "quantity": 0.47200000000000003,
+        "quantity": 0.472,
         "quantityUnit": "m",
         "unitCost": 3,
-        "cost": 1.4160000000000001
+        "cost": 1.42
       },
       {
         "type": "EDGEBAND",
@@ -46362,70 +48569,16 @@ const reportDataRaw ={
         "quantity": 1.1505,
         "quantityUnit": "m",
         "unitCost": 3,
-        "cost": 3.4515000000000002
+        "cost": 3.45
       },
       {
         "type": "EDGEBAND",
         "name": "Edgeband3 [ Mahogany B | MA1 ]",
         "count": 1,
-        "quantity": 0.47099999999999986,
+        "quantity": 0.471,
         "quantityUnit": "m",
         "unitCost": 3,
-        "cost": 1.4129999999999996
-      },
-      {
-        "type": "EDGEBAND",
-        "name": "Edgeband4 [ Mahogany B | MA1 ]",
-        "count": 1,
-        "quantity": 1.1495000000000002,
-        "quantityUnit": "m",
-        "unitCost": 3,
-        "cost": 3.4485000000000006
-      },
-      {
-        "type": "STOCK",
-        "name": "Beech 19mm",
-        "count": 1,
-        "quantity": 0.010326652000003506,
-        "quantityUnit": "m3",
-        "unitCost": 300,
-        "cost": 3.097995600001052
-      },
-      {
-        "type": "PROGRAM",
-        "name": "Front_Left Door_Door Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default",
-        "count": 1,
-        "quantity": 3.014810106009186,
-        "quantityUnit": "Min",
-        "unitCost": 1,
-        "cost": 3.014810106009186
-      },
-      {
-        "type": "EDGEBAND",
-        "name": "Edgeband1 [ Mahogany B | MA1 ]",
-        "count": 1,
-        "quantity": 0.4719999999999999,
-        "quantityUnit": "m",
-        "unitCost": 3,
-        "cost": 1.4159999999999997
-      },
-      {
-        "type": "EDGEBAND",
-        "name": "Edgeband2 [ Mahogany B | MA1 ]",
-        "count": 1,
-        "quantity": 1.1505,
-        "quantityUnit": "m",
-        "unitCost": 3,
-        "cost": 3.4515000000000002
-      },
-      {
-        "type": "EDGEBAND",
-        "name": "Edgeband3 [ Mahogany B | MA1 ]",
-        "count": 1,
-        "quantity": 0.4710000000000001,
-        "quantityUnit": "m",
-        "unitCost": 3,
-        "cost": 1.4130000000000003
+        "cost": 1.41
       },
       {
         "type": "EDGEBAND",
@@ -46434,79 +48587,133 @@ const reportDataRaw ={
         "quantity": 1.1495,
         "quantityUnit": "m",
         "unitCost": 3,
-        "cost": 3.4485
+        "cost": 3.45
       },
       {
         "type": "STOCK",
         "name": "Beech 19mm",
         "count": 1,
-        "quantity": 0.010326652000004004,
+        "quantity": 0.010326652,
         "quantityUnit": "m3",
         "unitCost": 300,
-        "cost": 3.097995600001201
+        "cost": 3.1
+      },
+      {
+        "type": "PROGRAM",
+        "name": "Front_Left Door_Door Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default",
+        "count": 1,
+        "quantity": 3.01481,
+        "quantityUnit": "Min",
+        "unitCost": 1,
+        "cost": 3.01
+      },
+      {
+        "type": "EDGEBAND",
+        "name": "Edgeband1 [ Mahogany B | MA1 ]",
+        "count": 1,
+        "quantity": 0.472,
+        "quantityUnit": "m",
+        "unitCost": 3,
+        "cost": 1.42
+      },
+      {
+        "type": "EDGEBAND",
+        "name": "Edgeband2 [ Mahogany B | MA1 ]",
+        "count": 1,
+        "quantity": 1.1505,
+        "quantityUnit": "m",
+        "unitCost": 3,
+        "cost": 3.45
+      },
+      {
+        "type": "EDGEBAND",
+        "name": "Edgeband3 [ Mahogany B | MA1 ]",
+        "count": 1,
+        "quantity": 0.471,
+        "quantityUnit": "m",
+        "unitCost": 3,
+        "cost": 1.41
+      },
+      {
+        "type": "EDGEBAND",
+        "name": "Edgeband4 [ Mahogany B | MA1 ]",
+        "count": 1,
+        "quantity": 1.1495,
+        "quantityUnit": "m",
+        "unitCost": 3,
+        "cost": 3.45
+      },
+      {
+        "type": "STOCK",
+        "name": "Beech 19mm",
+        "count": 1,
+        "quantity": 0.010326652,
+        "quantityUnit": "m3",
+        "unitCost": 300,
+        "cost": 3.1
       },
       {
         "type": "PROGRAM",
         "name": "Front_Right Door_Door Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default",
         "count": 1,
-        "quantity": 3.032772329293486,
+        "quantity": 3.03277,
         "quantityUnit": "Min",
         "unitCost": 1,
-        "cost": 3.032772329293486
+        "cost": 3.03
       },
       {
         "type": "STOCK",
         "name": "Glass 7mm",
         "count": 1,
-        "quantity": 0.0022573810000000027,
+        "quantity": 0.002257381,
         "quantityUnit": "m3",
         "unitCost": 50,
-        "cost": 0.11286905000000014
+        "cost": 0.11
       },
       {
         "type": "STOCK",
         "name": "Glass 7mm",
         "count": 1,
-        "quantity": 0.002257381000000004,
+        "quantity": 0.002257381,
         "quantityUnit": "m3",
         "unitCost": 50,
-        "cost": 0.1128690500000002
+        "cost": 0.11
       },
       {
         "type": "STOCK",
         "name": "Beech 16mm",
         "count": 3,
-        "quantity": 0.004429924800000001,
+        "quantity": 0.0044299248,
         "quantityUnit": "m3",
         "unitCost": 300,
-        "cost": 3.9869323200000006
+        "cost": 3.99
       },
       {
         "type": "PROGRAM",
         "name": "Back_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default",
         "count": 3,
-        "quantity": 0.6358402655155594,
+        "quantity": 0.63584,
         "quantityUnit": "Min",
         "unitCost": 1,
-        "cost": 1.9075207965466783
+        "cost": 1.91
       },
       {
         "type": "STOCK",
         "name": "Beech 16mm",
         "count": 3,
-        "quantity": 0.007403622400000079,
+        "quantity": 0.0074036224,
         "quantityUnit": "m3",
         "unitCost": 300,
-        "cost": 6.663260160000071
+        "cost": 6.66
       },
       {
         "type": "PROGRAM",
         "name": "Bottom_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default",
         "count": 3,
-        "quantity": 0.745090265515562,
+        "quantity": 0.74509,
         "quantityUnit": "Min",
         "unitCost": 1,
-        "cost": 2.2352707965466863
+        "cost": 2.24
       },
       {
         "type": "EDGEBAND",
@@ -46515,25 +48722,25 @@ const reportDataRaw ={
         "quantity": 0.946,
         "quantityUnit": "m",
         "unitCost": 3,
-        "cost": 8.514
+        "cost": 8.51
       },
       {
         "type": "EDGEBAND",
         "name": "Edgeband2 [ Mahogany B | MA1 ]",
         "count": 3,
-        "quantity": 0.37949999999999995,
+        "quantity": 0.3795,
         "quantityUnit": "m",
         "unitCost": 3,
-        "cost": 3.4154999999999998
+        "cost": 3.42
       },
       {
         "type": "EDGEBAND",
         "name": "Edgeband3 [ Mahogany B | MA1 ]",
         "count": 3,
-        "quantity": 0.37949999999999995,
+        "quantity": 0.3795,
         "quantityUnit": "m",
         "unitCost": 3,
-        "cost": 3.4154999999999998
+        "cost": 3.42
       },
       {
         "type": "EDGEBAND",
@@ -46542,106 +48749,106 @@ const reportDataRaw ={
         "quantity": 0.944,
         "quantityUnit": "m",
         "unitCost": 3,
-        "cost": 8.495999999999999
+        "cost": 8.5
       },
       {
         "type": "STOCK",
         "name": "Beech 19mm",
         "count": 3,
-        "quantity": 0.006839106999999967,
+        "quantity": 0.006839107,
         "quantityUnit": "m3",
         "unitCost": 300,
-        "cost": 6.15519629999997
+        "cost": 6.16
       },
       {
         "type": "PROGRAM",
         "name": "Front_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default",
         "count": 3,
-        "quantity": 1.3943842692380355,
+        "quantity": 1.39438,
         "quantityUnit": "Min",
         "unitCost": 1,
-        "cost": 4.183152807714107
+        "cost": 4.18
       },
       {
         "type": "STOCK",
         "name": "Beech 16mm",
         "count": 3,
-        "quantity": 0.002942520000000003,
+        "quantity": 0.00294252,
         "quantityUnit": "m3",
         "unitCost": 300,
-        "cost": 2.6482680000000025
+        "cost": 2.65
       },
       {
         "type": "PROGRAM",
         "name": "Left_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default",
         "count": 3,
-        "quantity": 0.9868031842442062,
+        "quantity": 0.9868,
         "quantityUnit": "Min",
         "unitCost": 1,
-        "cost": 2.9604095527326186
+        "cost": 2.96
       },
       {
         "type": "STOCK",
         "name": "Beech 16mm",
         "count": 3,
-        "quantity": 0.002942520000000003,
+        "quantity": 0.00294252,
         "quantityUnit": "m3",
         "unitCost": 300,
-        "cost": 2.6482680000000025
+        "cost": 2.65
       },
       {
         "type": "PROGRAM",
         "name": "Right_Drawers Overlay_High Cabinet_SwoodDesign_1_1_Milling_1_Default",
         "count": 3,
-        "quantity": 0.49304026551555946,
+        "quantity": 0.49304,
         "quantityUnit": "Min",
         "unitCost": 1,
-        "cost": 1.4791207965466784
+        "cost": 1.48
       },
       {
         "type": "EDGEBAND",
         "name": "Edgeband1 [ Mahogany B | MA1 ]",
         "count": 1,
-        "quantity": 0.9079999999999999,
+        "quantity": 0.908,
         "quantityUnit": "m",
         "unitCost": 3,
-        "cost": 2.7239999999999998
+        "cost": 2.72
       },
       {
         "type": "STOCK",
         "name": "Beech 1mm",
         "count": 1,
-        "quantity": 0.001089600000000005,
+        "quantity": 0.0010896,
         "quantityUnit": "m3",
         "unitCost": 95,
-        "cost": 0.10351200000000048
+        "cost": 0.1
       },
       {
         "type": "STOCK",
         "name": "MDF 19mm",
         "count": 1,
-        "quantity": 0.010351199999999996,
+        "quantity": 0.0103512,
         "quantityUnit": "m3",
         "unitCost": 70,
-        "cost": 0.7245839999999998
+        "cost": 0.72
       },
       {
         "type": "PROGRAM",
         "name": "Front Support_High Cabinet_SwoodDesign_1_Milling_1_Default",
         "count": 1,
-        "quantity": 7.045317962748585,
+        "quantity": 7.04532,
         "quantityUnit": "Min",
         "unitCost": 1,
-        "cost": 7.045317962748585
+        "cost": 7.05
       },
       {
         "type": "STOCK",
         "name": "Beech 19mm",
         "count": 1,
-        "quantity": 0.0018050000000000032,
+        "quantity": 0.001805,
         "quantityUnit": "m3",
         "unitCost": 300,
-        "cost": 0.541500000000001
+        "cost": 0.54
       },
       {
         "type": "EDGEBAND",
@@ -46650,97 +48857,97 @@ const reportDataRaw ={
         "quantity": 2.3,
         "quantityUnit": "m",
         "unitCost": 3,
-        "cost": 6.8999999999999995
+        "cost": 6.9
       },
       {
         "type": "STOCK",
         "name": "Beech 1mm",
         "count": 1,
-        "quantity": 0.0028799999999999993,
+        "quantity": 0.00288,
         "quantityUnit": "m3",
         "unitCost": 95,
-        "cost": 0.27359999999999995
+        "cost": 0.27
       },
       {
         "type": "STOCK",
         "name": "MDF 19mm",
         "count": 1,
-        "quantity": 0.02736000000000043,
+        "quantity": 0.02736,
         "quantityUnit": "m3",
         "unitCost": 70,
-        "cost": 1.91520000000003
+        "cost": 1.92
       },
       {
         "type": "PROGRAM",
         "name": "Left_High Cabinet_SwoodDesign_1_Milling_1_Default",
         "count": 1,
-        "quantity": 1.5504128746865027,
+        "quantity": 1.55041,
         "quantityUnit": "Min",
         "unitCost": 1,
-        "cost": 1.5504128746865027
+        "cost": 1.55
       },
       {
         "type": "STOCK",
         "name": "Beech 19mm",
         "count": 1,
-        "quantity": 0.010092420000000126,
+        "quantity": 0.01009242,
         "quantityUnit": "m3",
         "unitCost": 300,
-        "cost": 3.0277260000000377
+        "cost": 3.03
       },
       {
         "type": "PROGRAM",
         "name": "Partition_Partition Horizontal_High Cabinet_SwoodDesign_1_1_Milling_1_Default",
         "count": 1,
-        "quantity": 1.5648842692380358,
+        "quantity": 1.56488,
         "quantityUnit": "Min",
         "unitCost": 1,
-        "cost": 1.5648842692380358
+        "cost": 1.56
       },
       {
         "type": "EDGEBAND",
         "name": "Edgeband1 [ Mahogany B | MA1 ]",
         "count": 2,
-        "quantity": 0.9039999999999999,
+        "quantity": 0.904,
         "quantityUnit": "m",
         "unitCost": 3,
-        "cost": 5.4239999999999995
+        "cost": 5.42
       },
       {
         "type": "STOCK",
         "name": "Beech 1mm",
         "count": 2,
-        "quantity": 0.001003440000000007,
+        "quantity": 0.00100344,
         "quantityUnit": "m3",
         "unitCost": 95,
-        "cost": 0.1906536000000013
+        "cost": 0.19
       },
       {
         "type": "STOCK",
         "name": "Beech 1mm",
         "count": 2,
-        "quantity": 0.001003440000000007,
+        "quantity": 0.00100344,
         "quantityUnit": "m3",
         "unitCost": 95,
-        "cost": 0.1906536000000013
+        "cost": 0.19
       },
       {
         "type": "STOCK",
         "name": "MDF 16mm",
         "count": 2,
-        "quantity": 0.008027519999999953,
+        "quantity": 0.00802752,
         "quantityUnit": "m3",
         "unitCost": 70,
-        "cost": 1.1238527999999934
+        "cost": 1.12
       },
       {
         "type": "PROGRAM",
         "name": "Shelve_Removable Shelves_High Cabinet_SwoodDesign_1_1_Milling_1_Default",
         "count": 2,
-        "quantity": 1.5305740112104285,
+        "quantity": 1.53057,
         "quantityUnit": "Min",
         "unitCost": 1,
-        "cost": 3.061148022420857
+        "cost": 3.06
       },
       {
         "type": "EDGEBAND",
@@ -46749,61 +48956,79 @@ const reportDataRaw ={
         "quantity": 2.3,
         "quantityUnit": "m",
         "unitCost": 3,
-        "cost": 6.8999999999999995
+        "cost": 6.9
       },
       {
         "type": "STOCK",
         "name": "Beech 1mm",
         "count": 1,
-        "quantity": 0.002880000000000012,
+        "quantity": 0.00288,
         "quantityUnit": "m3",
         "unitCost": 95,
-        "cost": 0.2736000000000011
+        "cost": 0.27
       },
       {
         "type": "STOCK",
         "name": "MDF 19mm",
         "count": 1,
-        "quantity": 0.027360000000000138,
+        "quantity": 0.02736,
         "quantityUnit": "m3",
         "unitCost": 70,
-        "cost": 1.9152000000000096
+        "cost": 1.92
       },
       {
         "type": "PROGRAM",
         "name": "Right_High Cabinet_SwoodDesign_1_Milling_1_Default",
         "count": 1,
-        "quantity": 11.026350000000003,
+        "quantity": 11.02635,
         "quantityUnit": "Min",
         "unitCost": 1,
-        "cost": 11.026350000000003
+        "cost": 11.03
       },
       {
         "type": "STOCK",
         "name": "Steel",
         "count": 1,
-        "quantity": 0.08255000000000035,
+        "quantity": 0.08255,
         "quantityUnit": "m",
         "unitCost": 5,
-        "cost": 0.4127500000000017
+        "cost": 0.41
       },
       {
         "type": "STOCK",
         "name": "Steel",
         "count": 1,
-        "quantity": 0.08255000000000035,
+        "quantity": 0.08255,
         "quantityUnit": "m",
         "unitCost": 5,
-        "cost": 0.4127500000000017
+        "cost": 0.41
       },
       {
         "type": "STOCK",
         "name": "Steel",
         "count": 1,
-        "quantity": 0.08255000000000035,
+        "quantity": 0.0381,
         "quantityUnit": "m",
         "unitCost": 5,
-        "cost": 0.4127500000000017
+        "cost": 0.19
+      },
+      {
+        "type": "STOCK",
+        "name": "Steel",
+        "count": 1,
+        "quantity": 0.08255,
+        "quantityUnit": "m",
+        "unitCost": 5,
+        "cost": 0.41
+      },
+      {
+        "type": "STOCK",
+        "name": "Steel",
+        "count": 1,
+        "quantity": 0.08255,
+        "quantityUnit": "m",
+        "unitCost": 5,
+        "cost": 0.41
       },
       {
         "type": "STOCK",
@@ -46812,88 +49037,61 @@ const reportDataRaw ={
         "quantity": 1.2349,
         "quantityUnit": "m",
         "unitCost": 5,
-        "cost": 6.1745
+        "cost": 6.17
       },
       {
         "type": "STOCK",
         "name": "Steel",
         "count": 1,
-        "quantity": 0.0825499999999999,
+        "quantity": 0.08255,
         "quantityUnit": "m",
         "unitCost": 5,
-        "cost": 0.4127499999999995
+        "cost": 0.41
       },
       {
         "type": "STOCK",
         "name": "Steel",
         "count": 1,
-        "quantity": 0.08255000000000035,
+        "quantity": 1.2349,
         "quantityUnit": "m",
         "unitCost": 5,
-        "cost": 0.4127500000000017
+        "cost": 6.17
       },
       {
         "type": "STOCK",
         "name": "Steel",
         "count": 1,
-        "quantity": 0.08255000000000035,
+        "quantity": 0.08255,
         "quantityUnit": "m",
         "unitCost": 5,
-        "cost": 0.4127500000000017
+        "cost": 0.41
       },
       {
         "type": "STOCK",
         "name": "Steel",
         "count": 1,
-        "quantity": 0.03810000000000091,
+        "quantity": 0.08255,
         "quantityUnit": "m",
         "unitCost": 5,
-        "cost": 0.19050000000000455
+        "cost": 0.41
       },
       {
         "type": "STOCK",
         "name": "Steel",
         "count": 1,
-        "quantity": 1.2348999999999997,
+        "quantity": 0.08255,
         "quantityUnit": "m",
         "unitCost": 5,
-        "cost": 6.174499999999998
-      },
-      {
-        "type": "STOCK",
-        "name": "Steel",
-        "count": 1,
-        "quantity": 0.08255000000000035,
-        "quantityUnit": "m",
-        "unitCost": 5,
-        "cost": 0.4127500000000017
-      },
-      {
-        "type": "STOCK",
-        "name": "Steel",
-        "count": 1,
-        "quantity": 0.0825499999999999,
-        "quantityUnit": "m",
-        "unitCost": 5,
-        "cost": 0.4127499999999995
+        "cost": 0.41
       },
       {
         "type": "CUTTINGPATTERN_BOARD",
-        "name": "Beech 19mm (1500x3000)",
+        "name": "Beech 19mm (1220x2440)",
         "count": 1,
-        "quantity": 2,
+        "quantity": 3,
         "quantityUnit": "u",
-        "unitCost": 222,
-        "cost": 444
-      },
-      {
-        "type": "CUTTINGPATTERN_BOARD",
-        "name": "MDF 19mm (2000x3000)",
-        "count": 1,
-        "quantity": 2,
-        "quantityUnit": "u",
-        "unitCost": 50,
-        "cost": 100
+        "unitCost": 100,
+        "cost": 300
       },
       {
         "type": "CUTTINGPATTERN_BOARD",
@@ -46906,6 +49104,24 @@ const reportDataRaw ={
       },
       {
         "type": "CUTTINGPATTERN_BOARD",
+        "name": "MDF 19mm (2000x3000)",
+        "count": 1,
+        "quantity": 1,
+        "quantityUnit": "u",
+        "unitCost": 50,
+        "cost": 50
+      },
+      {
+        "type": "CUTTINGPATTERN_BOARD",
+        "name": "MDF 16mm (1220x2440)",
+        "count": 1,
+        "quantity": 1,
+        "quantityUnit": "u",
+        "unitCost": 20,
+        "cost": 20
+      },
+      {
+        "type": "CUTTINGPATTERN_BOARD",
         "name": "Beech 16mm (1220x2440)",
         "count": 1,
         "quantity": 2,
@@ -46914,7 +49130,7 @@ const reportDataRaw ={
         "cost": 200
       }
     ],
-    "cost": 1803.832784333493
+    "cost": 1616.15
   },
   "swcps": [
     {
@@ -46959,7 +49175,7 @@ const reportDataRaw ={
     }
   ],
   "license": {
-    "certificate": "eyJsaWNlbnNlSW5mbyI6eyJzdGF0dXMiOnRydWUsInRpZXIiOjEsInR5cGUiOiJTdGFuZGFyZCIsInJlbmV3YWxEYXRlIjoiMDEvMDEvMjEwMCIsImNvbXBhbnlJRCI6IjEwNTEiLCJjb21wYW55IjoiU29saWQgU29sdXRpb25zIiwic3RhdHVzU3VicyI6dHJ1ZSwibWVzc2FnZSI6IkxpY2Vuc2UgVmFsaWQifSwicHJvamVjdE5hbWUiOiJTd29vZERlc2lnbiIsInByb2plY3RQYXRoIjoiQzpcXFN3b29kIERhdGEgRGlyZWN0b3J5XFxTV09PRERlc2lnblxcRnJhbWVzXFxSZXBvcnQgRXhhbXBsZVxcU3dvb2REZXNpZ24uc2xkYXNtIiwiY3JlYXRlZERhdGUiOiIyMDI1LTEyLTA5VDEzOjU1OjIxLjgwNDI1NiswMDowMCIsInRpZXIiOjEsInJlbmV3YWxEYXRlIjoiMDEvMDEvMjEwMCIsImNvbXBhbnkiOiJTb2xpZCBTb2x1dGlvbnMiLCJwYW5lbHNMZW5ndGgiOjI4LCJwcm9ncmFtc0xlbmd0aCI6MTcsImFzc2VtYmxpZXNMZW5ndGgiOjExLCJwYXJ0c0xlbmd0aCI6MzZ9.n7olrRIi/0AyyJD6sVx3sAz/AIQR3N5W300EBKeEqK038baGJdMnOMEdyJZCyTeo65brW2jse/ckU16JDy6XGzuL/Wy7XiX65+DBen5M0Ltyy6U4g1BGO8ZRGEdVknce",
+    "certificate": "eyJsaWNlbnNlSW5mbyI6eyJzdGF0dXMiOnRydWUsInRpZXIiOjEsInR5cGUiOiJTdGFuZGFyZCIsInJlbmV3YWxEYXRlIjoiMDEvMDEvMjEwMCIsImNvbXBhbnlJRCI6IjEwNTEiLCJjb21wYW55IjoiU29saWQgU29sdXRpb25zIiwic3RhdHVzU3VicyI6dHJ1ZSwibWVzc2FnZSI6IkxpY2Vuc2UgVmFsaWQifSwicHJvamVjdE5hbWUiOiJTd29vZERlc2lnbiIsInByb2plY3RQYXRoIjoiQzpcXFN3b29kIERhdGEgRGlyZWN0b3J5XFxTV09PRERlc2lnblxcRnJhbWVzXFxSZXBvcnQgRXhhbXBsZVxcU3dvb2REZXNpZ24uU0xEQVNNIiwiY3JlYXRlZERhdGUiOiIyMDI2LTA1LTE4VDIwOjM0OjI4Ljk2MDE4ODMrMDE6MDAiLCJ0aWVyIjoxLCJyZW5ld2FsRGF0ZSI6IjAxLzAxLzIxMDAiLCJjb21wYW55IjoiU29saWQgU29sdXRpb25zIiwicGFuZWxzTGVuZ3RoIjoyOCwicHJvZ3JhbXNMZW5ndGgiOjE3LCJhc3NlbWJsaWVzTGVuZ3RoIjoxMSwicGFydHNMZW5ndGgiOjM2fQ==.dpl8YlGCK5wSRz4ohCAKIWPuqRX0+9iwGEs7PSGavHC3synvnc8TYEYBGJiM8o6ko9aSzb/i/Z/NRNcWopbx4467/i7i6Fhtk1SbpJ0lpOxSV2OLOOezE0kAz/lFo+Zd",
     "status": true,
     "tier": 1,
     "company": "Solid Solutions",
