@@ -266,7 +266,7 @@ const viewSettings = {
             flattenSingleChildGroups: true,
             parentValues: [
               {
-                field: "name",
+                field: "panel.name",
                 value: '"Combined Stock " + counter',
               },
               {
